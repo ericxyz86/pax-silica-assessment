@@ -44,9 +44,12 @@ Two things to respect:
 
 ## Two version tracks
 
-- **Site version** — this repository, currently **v1.3**. Any copy change bumps it, in all three
-  places it appears: the hero eyebrow, the "about this assessment" block, and the footer.
-- **Assessment version** — the underlying research, currently **v2.6**, maintained separately with
+- **Site version** — this repository, currently **v1.5**. Any copy change bumps it, in all three
+  places it appears: the hero eyebrow, the "about this assessment" block, and the page footer.
+  **All three, every time.** The footer was missed on two consecutive releases and sat at v1.3
+  while the page said v1.5; `tools/verify-live-site.sh` in the research repo now counts the
+  markers rather than merely finding one.
+- **Assessment version** — the underlying research, currently **v2.8**, maintained separately with
   its own change log.
 
 The page displays both, as `site v1.x · assessment v2.x`.
