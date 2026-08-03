@@ -101,7 +101,7 @@ input[type=range]{accent-color:#0096D6}
   <div style="position:relative;max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,40px)">
     <div style="display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:clamp(0px,calc((100vw - 940px) * 3),56px);align-items:stretch;margin-bottom:52px">
     <div>
-    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">independent research report · site v1.7 · assessment v2.8 · project facts verified to 2 august 2026</div>
+    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">independent research report · site v1.8 · assessment v2.8 · project facts verified to 2 august 2026</div>
     <h1 style="font-size:clamp(40px,7.4vw,104px);line-height:0.94;letter-spacing:-0.045em;font-weight:800;color:#FFFFFF;margin:0 0 26px"><span style="display:block;white-space:nowrap">pax silica and</span><span style="display:block;white-space:nowrap">the philippines</span></h1>
     <p style="font-size:clamp(16px,1.9vw,22px);line-height:1.5;color:rgba(255,255,255,0.72);max-width:60ch;margin:0 0 40px;font-weight:300">An independent review of the Economic Security Zone proposed at New Clark City in Tarlac, on 1,618.74 hectares. What has actually been signed, what is only being claimed, what the land and the grid can really support, and what the Philippines gains or loses either way.</p>
     <div style="display:flex;flex-wrap:wrap;gap:12px">
@@ -1176,7 +1176,7 @@ input[type=range]{accent-color:#0096D6}
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.12)">
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">about this assessment</div>
-        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.7, reflecting assessment v2.8. Maintained as a living document: project facts verified to 2 August 2026, last updated 3 August 2026, with weekly review and immediate review on trigger events. Comparator, legal and technical sources verified through 2 August 2026. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned and logged, and a correction to something previously published is stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork.</p>
+        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.8, reflecting assessment v2.8. Maintained as a living document: project facts verified to 2 August 2026, last updated 3 August 2026, with weekly review and immediate review on trigger events. Comparator, legal and technical sources verified through 2 August 2026. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned and logged, and a correction to something previously published is stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork.</p>
       </div>
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">evidence tiers</div>
@@ -1193,7 +1193,7 @@ input[type=range]{accent-color:#0096D6}
       </div>
     </div>
     <div style="padding-top:26px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center">
-      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · independent research report · site v1.7 · assessment v2.8</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · independent research report · site v1.8 · assessment v2.8</span>
       <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">project facts 26 jul · sources 27 jul 2026</span>
     </div>
   </div>
@@ -2049,7 +2049,9 @@ class Component extends DCLogic {
 
   tick() {
     const target = new Date('2026-11-01T00:00:00+08:00').getTime();
-    const now = new Date('2026-07-26T19:13:00+08:00').getTime();
+    // real clock — this was frozen at the page-generation timestamp, so the site
+    // said "97 days" from 26 July onward regardless of the actual date
+    const now = Date.now();
     this.setState({ days: Math.max(0, Math.round((target - now) / 86400000)) });
   }
 
