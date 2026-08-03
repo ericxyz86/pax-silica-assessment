@@ -25,6 +25,25 @@ input[type=range]{accent-color:#0096D6}
 #newsrail{scrollbar-width:none}#newsrail::-webkit-scrollbar{display:none}
 #newsrail a:hover{transform:translateY(-3px);box-shadow:0 6px 16px rgba(14,23,38,.06);border-color:#0096D6!important}
 button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:hover{border-color:#0096D6!important;background:#E6F4FA!important}
+/* print stylesheet — the PDF build renders index.html?pdf through this */
+@media print {
+  * { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  @page { size: letter; margin: 13mm; }
+  header, button, input[type="range"], audio, video { display: none !important; }
+  [style*="position:fixed"], [style*="position: fixed"] { display: none !important; }
+  [style*="position:sticky"] { position: static !important; }
+  #top { break-after: page; }
+  #newsrail { flex-wrap: wrap !important; overflow: visible !important; }
+  #newsrail > a { flex: 0 0 31% !important; }
+  img, svg, table, #newsrail > a { break-inside: avoid; }
+  h2, h3 { break-after: avoid; }
+  section { padding-top: 18px !important; padding-bottom: 18px !important; }
+  a { text-decoration: none; }
+  [data-reveal], [data-in], .fadeitem { opacity: 1 !important; transform: none !important; }
+  /* the capital-vs-jobs scatter: paper sits below the desktop breakpoint, where
+     overflow-x:auto clips on a medium with no scrollbar — scale to fit instead */
+  #ex-scatter [style*="grid-template-columns"] { overflow: visible !important; zoom: 0.78; }
+}
 @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
 </style>
 </helmet>
@@ -104,7 +123,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
   <div style="position:relative;max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,40px)">
     <div style="display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:clamp(0px,calc((100vw - 940px) * 3),56px);align-items:stretch;margin-bottom:52px">
     <div>
-    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">independent research report · site v1.11 · assessment v2.8 · project facts verified to 2 august 2026</div>
+    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">independent research report · site v1.12 · assessment v2.8 · project facts verified to 2 august 2026</div>
     <h1 style="font-size:clamp(40px,7.4vw,104px);line-height:0.94;letter-spacing:-0.045em;font-weight:800;color:#FFFFFF;margin:0 0 26px"><span style="display:block;white-space:nowrap">pax silica and</span><span style="display:block;white-space:nowrap">the philippines</span></h1>
     <p style="font-size:clamp(16px,1.9vw,22px);line-height:1.5;color:rgba(255,255,255,0.72);max-width:60ch;margin:0 0 40px;font-weight:300">An independent review of the Economic Security Zone proposed at New Clark City in Tarlac, on 1,618.74 hectares. What has actually been signed, what is only being claimed, what the land and the grid can really support, and what the Philippines gains or loses either way.</p>
     <div style="display:flex;flex-wrap:wrap;gap:12px">
@@ -965,7 +984,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     </div>
     <div data-reveal="1" style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-bottom:36px">
       <p style="font-size:17px;line-height:1.62;color:#475063;max-width:60ch;margin:0">Twenty-nine sections. Each opens in place; the complete report downloads as a PDF.</p>
-      <a href="Pax Silica Full Report.dc.html?print=1" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;border:1.5px solid #0B4F9C;color:#0B4F9C;padding:11px 20px;border-radius:999px;font-size:13.5px;font-weight:600" style-hover="background:#0B4F9C;color:#FFFFFF">download the full report · pdf · 26 july snapshot ↓</a>
+      <a href="Pax-Silica-Full-Report.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;border:1.5px solid #0B4F9C;color:#0B4F9C;padding:11px 20px;border-radius:999px;font-size:13.5px;font-weight:600" style-hover="background:#0B4F9C;color:#FFFFFF">download the full report · pdf ↓</a>
     </div>
     <div style="border-top:1px solid #E6E9EE">
       <sc-for list="{{ sections }}" as="s" hint-placeholder-count="12">
@@ -1262,7 +1281,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.12)">
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">about this assessment</div>
-        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.11, reflecting assessment v2.8. Maintained as a living document: project facts verified to 2 August 2026, last updated 3 August 2026, with weekly review and immediate review on trigger events. Comparator, legal and technical sources verified through 2 August 2026. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned and logged, and a correction to something previously published is stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork.</p>
+        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.12, reflecting assessment v2.8. Maintained as a living document: project facts verified to 2 August 2026, last updated 3 August 2026, with weekly review and immediate review on trigger events. Comparator, legal and technical sources verified through 2 August 2026. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned and logged, and a correction to something previously published is stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork.</p>
       </div>
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">evidence tiers</div>
@@ -1275,11 +1294,11 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">currency</div>
         <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">PHP 61.85 = US$1 throughout, the peso's record-low close of 24 July 2026. Where a source gives pesos, the figure is reported as given and converted.</p>
-        <a href="Pax Silica Full Report.dc.html?print=1" target="_blank" rel="noopener" style="display:inline-block;margin-top:16px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.08em;text-transform:uppercase;color:#00B8CC">download full report · pdf · 26 july snapshot ↓</a>
+        <a href="Pax-Silica-Full-Report.pdf" target="_blank" rel="noopener" style="display:inline-block;margin-top:16px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.08em;text-transform:uppercase;color:#00B8CC">download full report · pdf ↓</a>
       </div>
     </div>
     <div style="padding-top:26px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center">
-      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · independent research report · site v1.11 · assessment v2.8</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · independent research report · site v1.12 · assessment v2.8</span>
       <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">project facts 26 jul · sources 27 jul 2026</span>
     </div>
   </div>
@@ -2112,7 +2131,12 @@ class Component extends DCLogic {
       if (!this.state.explainerOpen) return;
     };
     document.addEventListener('keydown', this._key);
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    // ?pdf renders the page fully revealed and motionless — the entry the PDF build uses.
+    // It rides the reduced-motion path (no hide-then-reveal) and forces the one piece of
+    // state the IntersectionObserver would otherwise set on scroll, the jobs-bar widths.
+    const printing = new URLSearchParams(location.search).has('pdf');
+    const reduce = printing || window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (printing) this.setState({ jobsAnim: true });
     this._io = new IntersectionObserver((es) => {
       es.forEach((e) => {
         if (!e.isIntersecting) return;
