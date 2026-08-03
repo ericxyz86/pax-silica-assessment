@@ -22,7 +22,7 @@ Audience: policymakers, journalists, civil society, investors. The design proble
 | `Pax Silica Full Report autoprint.dc.html` | Same, fires print on load. |
 | `*(offline).html` | Self-contained bundles, ~12.3 MB each, all audio and assets inlined. |
 | `narration-script.md` / `.json` | Narration source of truth, 33 lines with timings. |
-| `audio/` | 33 ElevenLabs MP3s, one per narration line. |
+| `audio/` | 33 narration MP3s, one per line. |
 
 ---
 
