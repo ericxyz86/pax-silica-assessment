@@ -39,6 +39,25 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
      (the content-bearing ones in ex-actors/ex-scenarios carry title attributes) */
   #ex-pre button { display: flex !important; }
   #ex-actors button[title], #ex-scenarios button[title] { display: block !important; }
+  /* on paper the circles cannot be clicked, so print each actor's name (riding on
+     the button's title attribute) as a label under its dot, and keep the whole
+     chart card on one page */
+  #ex-actors button[title]::after {
+    content: attr(title); position: absolute; top: 100%; left: 50%;
+    transform: translateX(-50%); margin-top: 2px;
+    font-family: 'JetBrains Mono', monospace; font-size: 6.5px; line-height: 1.1;
+    color: #475063; white-space: nowrap;
+    background: rgba(255,255,255,0.85); padding: 0 2px; border-radius: 2px;
+  }
+  #ex-actors [style*="overflow-x"] { overflow: visible !important; }
+  #ex-actors [data-reveal] { break-inside: avoid; overflow: visible !important; }
+  /* two labels collide with neighbours below their dots — flip them above */
+  #ex-actors button[title="DENR / EMB"]::after,
+  #ex-actors button[title="SEIPI incumbents"]::after {
+    top: auto; bottom: 100%; margin-top: 0; margin-bottom: 2px;
+  }
+  /* lift DENR clear of the dashed NGCP ring that crosses it */
+  #ex-actors button[title="DENR / EMB"]::after { margin-bottom: 10px; }
   [style*="position:fixed"], [style*="position: fixed"] { display: none !important; }
   [style*="position:sticky"] { position: static !important; }
   #top { break-after: page; }
@@ -136,7 +155,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
       <svg width="34" height="30" viewBox="5 15 139 121" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agile Intelligence"><polygon fill="#00A1E4" points="51,15 28,55 74.5,55"/><polygon fill="#00B7C3" points="51,15 98,15 74.5,55"/><polygon fill="#074BA0" points="98,15 74.5,55 121,55"/><polygon fill="#1ABBDC" points="28,55 74.5,55 51,95"/><polygon fill="#00B7C3" points="28,55 51,95 5,95"/><polygon fill="#1ABBDC" points="5,95 51,95 28,136"/><polygon fill="#0069B5" points="74.5,55 121,55 98,95"/><polygon fill="#008FB5" points="121,55 98,95 144,95"/><polygon fill="#00B7C3" points="98,95 144,95 121,136"/></svg>
       <span style="font-family:Georgia,'Times New Roman',serif;font-size:17px;letter-spacing:0.3em;color:#FFFFFF">agile<span style="color:rgba(255,255,255,0.5)">intelligence</span></span>
     </div>
-    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">agile intelligence research report · site v1.18 · assessment v2.9 · project facts verified to 4 august 2026</div>
+    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">agile intelligence research report · site v1.19 · assessment v2.9 · project facts verified to 4 august 2026</div>
     <h1 style="font-size:clamp(40px,7.4vw,104px);line-height:0.94;letter-spacing:-0.045em;font-weight:800;color:#FFFFFF;margin:0 0 26px"><span style="display:block;white-space:nowrap">pax silica and</span><span style="display:block;white-space:nowrap">the philippines</span></h1>
     <p style="font-size:clamp(16px,1.9vw,22px);line-height:1.5;color:rgba(255,255,255,0.72);max-width:60ch;margin:0 0 40px;font-weight:300">An independent review of the Economic Security Zone proposed at New Clark City in Tarlac, on 1,618.74 hectares. What has actually been signed, what is only being claimed, what the land and the grid can really support, and what the Philippines gains or loses either way.</p>
     <div style="display:flex;flex-wrap:wrap;gap:12px">
@@ -1325,7 +1344,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.12)">
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">about this assessment</div>
-        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.18, reflecting assessment v2.9. Maintained as a living document: project facts verified to 4 August 2026, last updated 4 August 2026, with weekly review and immediate review on trigger events. Comparator, legal and technical sources verified through 2 August 2026. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned and logged, and a correction to something previously published is stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork.</p>
+        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.19, reflecting assessment v2.9. Maintained as a living document: project facts verified to 4 August 2026, last updated 4 August 2026, with weekly review and immediate review on trigger events. Comparator, legal and technical sources verified through 2 August 2026. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned and logged, and a correction to something previously published is stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork.</p>
       </div>
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">evidence tiers</div>
@@ -1349,7 +1368,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
       <!--email_off--><a href="mailto:eric@agileintelligence.ph" style="display:inline-flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.08em;text-transform:uppercase;color:#00B8CC"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>contact us</a><!--/email_off-->
     </div>
     <div style="padding-top:18px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center">
-      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · agile intelligence research report · site v1.18 · assessment v2.9</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · agile intelligence research report · site v1.19 · assessment v2.9</span>
       <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">project facts 26 jul · sources 27 jul 2026</span>
     </div>
   </div>
