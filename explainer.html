@@ -593,6 +593,14 @@ function render(){
   rail.setAttribute("aria-valuenow", Math.round(t));
   clock.textContent=fmt(t)+" / "+TOTAL; bclock.textContent=fmt(t);
 }
+/* Analytics lifecycle: bounded events to the parent bridge, nothing more. Fires at most
+   once per name per page load; a standalone visit posts to itself where no listener exists,
+   which is harmless. No caption text, scene text or URL ever leaves this file. */
+const AN={started:false,m25:false,m50:false,m75:false,done:false};
+function anEmit(ev,pct){ try{ window.parent.postMessage(
+  pct===undefined ? {source:"pax-silica-explainer",event:ev}
+                  : {source:"pax-silica-explainer",event:ev,percent:pct}, location.origin);
+}catch(_){} }
 function tick(now){ if(!playing) return;
   // The track is the clock whenever it is genuinely running, so captions stay locked to the
   // voice. rAF covers the muted case, and the distance guard covers the moment after a seek
@@ -600,7 +608,12 @@ function tick(now){ if(!playing) return;
   if (audioOn && audioOK && !narr.paused && !narr.seeking && Math.abs(narr.currentTime-t)<1.5) t=narr.currentTime;
   else t+=(now-last)/1000;
   last=now;
-  if (t>=DUR){ t=DUR; pause(); render(); return; }
+  if (t>=DUR){ t=DUR; pause(); render();
+    if(!AN.done){ AN.done=true; anEmit("explainer_complete"); } return; }
+  const anPc=t/DUR*100;
+  if(!AN.m25&&anPc>=25){ AN.m25=true; anEmit("explainer_progress",25); }
+  if(!AN.m50&&anPc>=50){ AN.m50=true; anEmit("explainer_progress",50); }
+  if(!AN.m75&&anPc>=75){ AN.m75=true; anEmit("explainer_progress",75); }
   render(); raf=requestAnimationFrame(tick); }
 function play(){ if (playing) return;
   const fromPoster = !poster.classList.contains("gone");
@@ -608,7 +621,8 @@ function play(){ if (playing) return;
   if (t>=DUR) { t=0; lineIdx=-1; sceneId=""; }
   // first press: the scene was revealed behind the poster, so play it for real now
   if (fromPoster && sceneId) restartScene(sceneId);
-  playing=true; last=performance.now(); pp.setAttribute("d","M3 2 h3.4 v12 H3 Z M9.6 2 h3.4 v12 H9.6 Z");
+  playing=true; last=performance.now();
+  if(!AN.started){ AN.started=true; anEmit("explainer_start"); } pp.setAttribute("d","M3 2 h3.4 v12 H3 Z M9.6 2 h3.4 v12 H9.6 Z");
   startAudio(); lineIdx=-1; raf=requestAnimationFrame(tick); }
 function pause(){ playing=false; stopAudio();
   pp.setAttribute("d","M4 2 L13 8 L4 14 Z"); if(raf) cancelAnimationFrame(raf); }

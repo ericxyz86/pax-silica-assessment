@@ -44,7 +44,7 @@ Two things to respect:
 
 ## Two version tracks
 
-- **Site version** — this repository, currently **v1.5**. Any copy change bumps it, in all three
+- **Site version** — this repository, currently **v1.24**. Any copy change bumps it, in all three
   places it appears: the hero eyebrow, the "about this assessment" block, and the page footer.
   **All three, every time.** The footer was missed on two consecutive releases and sat at v1.3
   while the page said v1.5; `tools/verify-live-site.sh` in the research repo now counts the
