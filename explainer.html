@@ -16,7 +16,7 @@
 <meta property="og:image:width" content="2400">
 <meta property="og:image:height" content="1260">
 <meta property="og:image:alt" content="Pax Silica — ang simpleng paliwanag, 2 minuto at 5 segundo, New Clark City, Tarlac">
-<meta property="og:video" content="https://pax-silica.aiailabs.net/assets/pax-silica-explainer.mp4">
+<meta property="og:video" content="https://pax-silica.aiailabs.net/assets/pax-silica-explainer.mp4?v=1.27">
 <meta property="og:video:type" content="video/mp4">
 <meta property="og:video:width" content="1920">
 <meta property="og:video:height" content="1080">
@@ -64,7 +64,7 @@
          below; the 1080p src stays in the markup so the video still works without it. -->
     <video id="vid" controls playsinline preload="none"
       poster="assets/explainer-preview.png"
-      src="assets/pax-silica-explainer.mp4"></video>
+      src="assets/pax-silica-explainer.mp4?v=1.27"></video>
     <button id="poster" aria-label="Panoorin ang explainer">
       <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"></path></svg></span>
     </button>
@@ -93,7 +93,7 @@ var poster = document.getElementById("poster");
                Math.min(window.innerWidth, window.innerHeight) <= 900);
   var use720 = q ? q === "720" : (small || slow);
   v.dataset.variant = use720 ? "720p" : "1080p";
-  if (use720) v.src = "assets/pax-silica-explainer-720p.mp4";
+  if (use720) v.src = "assets/pax-silica-explainer-720p.mp4?v=1.27";
 })();
 /* Analytics lifecycle: bounded events to the parent bridge, nothing more. Fires at most
    once per name per page load; a standalone visit posts to itself where no listener exists,
