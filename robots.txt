@@ -1,0 +1,36 @@
+# pax-silica.aiailabs.net — independent assessment of Pax Silica and the Philippines.
+# Search engines and AI answering/user-fetch agents are welcome; bulk model-training
+# crawlers are excluded. Policy: search=yes, ai-input=yes, ai-train=no.
+
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /archive/
+Disallow: /audio/
+Disallow: /*.dc.html
+Disallow: /narration-script.json
+Disallow: /narration-script.md
+Disallow: /pax-silica-narration-simple/
+
+# Training-only crawlers. The Cloudflare edge enforces the same policy.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+Sitemap: https://pax-silica.aiailabs.net/sitemap.xml
