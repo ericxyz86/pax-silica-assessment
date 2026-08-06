@@ -65,6 +65,55 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://pax-silica.aiailabs.net/#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Pax Silica?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pax Silica is a United States-led initiative — a programme of the US State Department, not an international organisation — coordinating what it calls trusted supply chains for semiconductors, AI infrastructure, critical minerals and energy. Its founding Declaration is deliberately non-binding: it creates no obligations, no financing and no enforceable benefits. Pax Silica has 25 signatories; Taiwan endorses its principles without signing." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is proposed for New Clark City?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The Philippines has publicly offered approximately 1,618.74 hectares of state land — 17.1% of New Clark City, in Capas and Bamban, Tarlac — to host the initiative's first \"Economic Security Zone\": a semiconductor, AI-infrastructure and advanced-manufacturing district with a named but uncommitted anchor tenant. No survey, technical description or map annex of the parcel has been published." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is anything signed or legally binding yet?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. What exists is a non-binding declaration signed on 16 April 2026, a four-page BCDA proposal letter, a named but uncommitted anchor tenant, and roughly thirty unnamed letters of interest. Nothing about the project is legally binding, financed, contracted or permitted at the project level, and fifteen of sixteen implementation gates are open." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this assessment for or against the project?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Neither. The assessment endorses nothing and rejects nothing. Its recommendation is that the Philippines should decline to sign in November 2026 unless seven defined preconditions — disclosures and binding conditions, all within the executive's control — are satisfied first. None is met as at the latest verification." }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the seven preconditions?",
+      "acceptedAnswer": { "@type": "Answer", "text": "(1) The parcel legally defined and Annex A published; (2) the draft framework published with a public comment period; (3) independent water-balance and grid-adequacy studies published; (4) Year-3 rent and the lease term determined against an independent land valuation; (5) DFA-OLA and OSG legal opinions published; (6) the NCIP certification precondition process formally initiated; (7) the activity mix and underlying economic studies published. If any one is unmet in November, the assessment's recommendation is not to sign." }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the biggest unresolved issues?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Water and power are the binding physical constraints: harvesting the stated 90 MLD from rainfall would need a catchment of between 90% and 193% of the entire site, and the 3 GW power figure is about a fifth of Luzon's peak demand, on a grid that ran a 373 MW deficit in May 2026. Separately, no published model reconciles US$40–70 billion of investment with 130,000–190,000 direct jobs." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does November 2026 matter?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Both governments hope to sign a framework agreement during the ASEAN Summit in November 2026. The assessment's decision rule: a genuinely non-binding framework that expressly creates no rights leaves the signature as a photograph; any instrument that grants land, fixes terms or creates entitlements before the seven preconditions are met crosses the red line — substantive rights before due diligence is complete." }
+    },
+    {
+      "@type": "Question",
+      "name": "Who publishes this, and how is it kept current?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Agile Intelligence publishes it. The site is operated by AI systems under human editorial direction: institutional sources and Philippine media are swept every morning, and nothing on this site changes until the underlying claim has passed an adversarial verification step performed by a second, independent AI model. Every change is versioned and logged; corrections are stated as corrections. Final editorial authority, and the decision to publish, rest with the human publisher." }
+    }
+  ]
+}
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-764YWZRJD1"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -117,6 +166,8 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
   * { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
   @page { size: letter; margin: 13mm; }
   header, button, input[type="range"], audio, video { display: none !important; }
+  /* the FAQ is site furniture, not part of the report record; the at-a-glance strip stays */
+  #faq { display: none !important; }
   /* the 29 accordion headers are buttons carrying the section number, title and
      summary — without this exemption the PDF prints the bodies with no titles */
   #report button { display: grid !important; break-after: avoid; break-inside: avoid; }
@@ -242,7 +293,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
       <svg width="34" height="30" viewBox="5 15 139 121" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agile Intelligence"><polygon fill="#00A1E4" points="51,15 28,55 74.5,55"/><polygon fill="#00B7C3" points="51,15 98,15 74.5,55"/><polygon fill="#074BA0" points="98,15 74.5,55 121,55"/><polygon fill="#1ABBDC" points="28,55 74.5,55 51,95"/><polygon fill="#00B7C3" points="28,55 51,95 5,95"/><polygon fill="#1ABBDC" points="5,95 51,95 28,136"/><polygon fill="#0069B5" points="74.5,55 121,55 98,95"/><polygon fill="#008FB5" points="121,55 98,95 144,95"/><polygon fill="#00B7C3" points="98,95 144,95 121,136"/></svg>
       <span style="font-family:Georgia,'Times New Roman',serif;font-size:17px;letter-spacing:0.3em;color:#FFFFFF">agile<span style="color:rgba(255,255,255,0.5)">intelligence</span></span>
     </a>
-    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">agile intelligence research report · site v1.28 · assessment v2.11 · project facts verified to 4 august 2026</div>
+    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">agile intelligence research report · site v1.29 · assessment v2.11 · project facts verified to 4 august 2026</div>
     <h1 style="font-size:clamp(40px,7.4vw,104px);line-height:0.94;letter-spacing:-0.045em;font-weight:800;color:#FFFFFF;margin:0 0 26px"><span style="display:block;white-space:nowrap">pax silica and</span><span style="display:block;white-space:nowrap">the philippines</span></h1>
     <p style="font-size:clamp(16px,1.9vw,22px);line-height:1.5;color:rgba(255,255,255,0.72);max-width:60ch;margin:0 0 40px;font-weight:300">An independent review of the Economic Security Zone proposed at New Clark City in Tarlac, on 1,618.74 hectares. What has actually been signed, what is only being claimed, what the land and the grid can really support, and what the Philippines gains or loses either way.</p>
     <div style="font-family:'JetBrains Mono',monospace;font-size:clamp(10px,1.15vw,12px);letter-spacing:0.08em;color:rgba(255,255,255,0.55);margin:-26px 0 40px;max-width:64ch;line-height:1.7">updated daily &middot; new information is adversarially verified before anything here changes &middot; maintained by AI under human editorial direction</div>
@@ -279,6 +330,46 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     <div style="font-size:13px;color:rgba(255,255,255,0.62);max-width:44ch;line-height:1.5">This report sets seven conditions that should be met before anyone signs. <strong style="color:#FFFFFF;font-weight:600">none is met</strong> as at the latest verification.</div>
   </div>
 </section>
+
+<!-- tldr:start · at-a-glance figures, each traceable to the master assessment:
+     1,618.74 ha and 17.1% — §10.1–10.2 · binding status and gates — §2, §10.3, KJ-16
+     US$40–70 billion / 130,000–190,000 jobs — §2, KJ-4 · 90 MLD and 90%–193% — §12.1.3, KJ-7
+     3 GW / fifth of Luzon peak / 373 MW deficit — §2, §12.2, KJ-8 · November window and preconditions — §2, §23.1 -->
+<section id="tldr" style="scroll-margin-top:74px;padding:34px 0 38px;background:#FFFFFF;border-bottom:1px solid #E6E9EE">
+  <div style="max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,40px)">
+    <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:14px;margin-bottom:18px">
+      <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#7B8597">the assessment at a glance</span>
+      <span style="font-size:13px;color:#475063">Neither endorsement nor rejection: seven preconditions that should be satisfied before signature.</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:14px">
+      <div style="border:1px solid #E6E9EE;border-radius:12px;padding:16px 18px;background:#FFFFFF">
+        <div style="font-size:20px;font-weight:800;letter-spacing:-0.03em;color:#0E1726;line-height:1.15;margin-bottom:8px">1,618.74 ha</div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:#7B8597;line-height:1.55">state land offered — 17.1% of new clark city, capas and bamban, tarlac</div>
+      </div>
+      <div style="border:1px solid #E6E9EE;border-radius:12px;padding:16px 18px;background:#FFFFFF">
+        <div style="font-size:20px;font-weight:800;letter-spacing:-0.03em;color:#0E1726;line-height:1.15;margin-bottom:8px">nothing binding</div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:#7B8597;line-height:1.55">not financed, contracted or permitted at project level; fifteen of sixteen gates open</div>
+      </div>
+      <div style="border:1px solid #E6E9EE;border-radius:12px;padding:16px 18px;background:#FFFFFF">
+        <div style="font-size:20px;font-weight:800;letter-spacing:-0.03em;color:#0E1726;line-height:1.15;margin-bottom:8px">US$40–70 billion · 130,000–190,000 jobs</div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:#7B8597;line-height:1.55">headline claims that no published model reconciles</div>
+      </div>
+      <div style="border:1px solid #E6E9EE;border-radius:12px;padding:16px 18px;background:#FFFFFF">
+        <div style="font-size:20px;font-weight:800;letter-spacing:-0.03em;color:#0E1726;line-height:1.15;margin-bottom:8px">90 MLD water</div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:#7B8597;line-height:1.55">rainwater capture needs 90%–193% of the entire site under plausible assumptions</div>
+      </div>
+      <div style="border:1px solid #E6E9EE;border-radius:12px;padding:16px 18px;background:#FFFFFF">
+        <div style="font-size:20px;font-weight:800;letter-spacing:-0.03em;color:#0E1726;line-height:1.15;margin-bottom:8px">3 GW power</div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:#7B8597;line-height:1.55">about a fifth of luzon peak demand; the grid ran a 373 MW deficit in may 2026</div>
+      </div>
+      <div style="border:1px solid #E6E9EE;border-radius:12px;padding:16px 18px;background:#FFFFFF">
+        <div style="font-size:20px;font-weight:800;letter-spacing:-0.03em;color:#0E1726;line-height:1.15;margin-bottom:8px">november 2026</div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.08em;text-transform:uppercase;color:#7B8597;line-height:1.55">framework signature window — seven preconditions set, none met</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- tldr:end -->
 
 <!-- news:start · generated by tools/build-news-section.py from data/news.json — do not edit by hand -->
   <section id="news" style="scroll-margin-top:74px;padding:36px 0 44px;background:#FFFFFF;border-bottom:1px solid #E6E9EE">
@@ -1437,12 +1528,62 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
   </div>
 </section>
 
+<!-- faq:start · answers condensed from the master assessment — Q1 §8.1–8.3 · Q2 §2, §10.1–10.2
+     Q3 §2, §9.1, KJ-16 · Q4 §2, §23 · Q5 §23.1 · Q6 §2, KJ-7/KJ-8, §13 · Q7 §2, §23.3
+     Q8 the site's own maintenance disclosure. Answer text is mirrored byte-for-byte in the
+     FAQPage JSON-LD in <head>; change both together. -->
+<section id="faq" style="scroll-margin-top:74px;padding:clamp(56px,7vw,96px) 0;background:#FAFBFC">
+  <div style="max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,40px)">
+    <div data-reveal="1" style="display:grid;grid-template-columns:auto 60px 1fr;align-items:center;gap:16px;margin-bottom:20px">
+      <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;color:#7B8597">10</span>
+      <span style="height:1px;background:#D6D9DC"></span>
+      <h2 style="font-size:clamp(26px,3.4vw,44px);font-weight:800;letter-spacing:-0.04em;color:#0E1726;margin:0;line-height:1">frequently asked questions</h2>
+    </div>
+    <p data-reveal="1" style="font-size:17px;line-height:1.62;color:#475063;max-width:74ch;margin:0 0 40px">Direct answers, condensed from the assessment. Every figure is traceable to the report sections on this page.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:20px">
+      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:20px;padding:clamp(18px,4.6vw,28px);background:#FFFFFF">
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-0.025em;color:#0E1726;margin:0 0 10px;line-height:1.25">What is Pax Silica?</h3>
+        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0">Pax Silica is a United States-led initiative — a programme of the US State Department, not an international organisation — coordinating what it calls trusted supply chains for semiconductors, AI infrastructure, critical minerals and energy. Its founding Declaration is deliberately non-binding: it creates no obligations, no financing and no enforceable benefits. Pax Silica has 25 signatories; Taiwan endorses its principles without signing.</p>
+      </div>
+      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:20px;padding:clamp(18px,4.6vw,28px);background:#FFFFFF">
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-0.025em;color:#0E1726;margin:0 0 10px;line-height:1.25">What is proposed for New Clark City?</h3>
+        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0">The Philippines has publicly offered approximately 1,618.74 hectares of state land — 17.1% of New Clark City, in Capas and Bamban, Tarlac — to host the initiative's first "Economic Security Zone": a semiconductor, AI-infrastructure and advanced-manufacturing district with a named but uncommitted anchor tenant. No survey, technical description or map annex of the parcel has been published.</p>
+      </div>
+      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:20px;padding:clamp(18px,4.6vw,28px);background:#FFFFFF">
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-0.025em;color:#0E1726;margin:0 0 10px;line-height:1.25">Is anything signed or legally binding yet?</h3>
+        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0">No. What exists is a non-binding declaration signed on 16 April 2026, a four-page BCDA proposal letter, a named but uncommitted anchor tenant, and roughly thirty unnamed letters of interest. Nothing about the project is legally binding, financed, contracted or permitted at the project level, and fifteen of sixteen implementation gates are open.</p>
+      </div>
+      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:20px;padding:clamp(18px,4.6vw,28px);background:#FFFFFF">
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-0.025em;color:#0E1726;margin:0 0 10px;line-height:1.25">Is this assessment for or against the project?</h3>
+        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0">Neither. The assessment endorses nothing and rejects nothing. Its recommendation is that the Philippines should decline to sign in November 2026 unless seven defined preconditions — disclosures and binding conditions, all within the executive's control — are satisfied first. None is met as at the latest verification.</p>
+      </div>
+      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:20px;padding:clamp(18px,4.6vw,28px);background:#FFFFFF">
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-0.025em;color:#0E1726;margin:0 0 10px;line-height:1.25">What are the seven preconditions?</h3>
+        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0">(1) The parcel legally defined and Annex A published; (2) the draft framework published with a public comment period; (3) independent water-balance and grid-adequacy studies published; (4) Year-3 rent and the lease term determined against an independent land valuation; (5) DFA-OLA and OSG legal opinions published; (6) the NCIP certification precondition process formally initiated; (7) the activity mix and underlying economic studies published. If any one is unmet in November, the assessment's recommendation is not to sign.</p>
+      </div>
+      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:20px;padding:clamp(18px,4.6vw,28px);background:#FFFFFF">
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-0.025em;color:#0E1726;margin:0 0 10px;line-height:1.25">What are the biggest unresolved issues?</h3>
+        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0">Water and power are the binding physical constraints: harvesting the stated 90 MLD from rainfall would need a catchment of between 90% and 193% of the entire site, and the 3 GW power figure is about a fifth of Luzon's peak demand, on a grid that ran a 373 MW deficit in May 2026. Separately, no published model reconciles US$40–70 billion of investment with 130,000–190,000 direct jobs.</p>
+      </div>
+      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:20px;padding:clamp(18px,4.6vw,28px);background:#FFFFFF">
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-0.025em;color:#0E1726;margin:0 0 10px;line-height:1.25">Why does November 2026 matter?</h3>
+        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0">Both governments hope to sign a framework agreement during the ASEAN Summit in November 2026. The assessment's decision rule: a genuinely non-binding framework that expressly creates no rights leaves the signature as a photograph; any instrument that grants land, fixes terms or creates entitlements before the seven preconditions are met crosses the red line — substantive rights before due diligence is complete.</p>
+      </div>
+      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:20px;padding:clamp(18px,4.6vw,28px);background:#FFFFFF">
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-0.025em;color:#0E1726;margin:0 0 10px;line-height:1.25">Who publishes this, and how is it kept current?</h3>
+        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0">Agile Intelligence publishes it. The site is operated by AI systems under human editorial direction: institutional sources and Philippine media are swept every morning, and nothing on this site changes until the underlying claim has passed an adversarial verification step performed by a second, independent AI model. Every change is versioned and logged; corrections are stated as corrections. Final editorial authority, and the decision to publish, rest with the human publisher.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- faq:end -->
+
 <footer style="background:#000000;padding:clamp(48px,6vw,80px) 0 40px">
   <div style="max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,40px)">
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.12)">
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">about this assessment</div>
-        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.28, reflecting assessment v2.11. Maintained as a living document: project facts verified to 4 August 2026, last updated 6 August 2026, reviewed daily, with immediate review on trigger events. Comparator, legal and technical sources verified through 2 August 2026. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned and logged, and a correction to something previously published is stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork. Maintenance disclosure: this site is operated by AI systems under human editorial direction. Institutional sources and Philippine media are swept every morning; social-media data is collected and classified daily. Nothing on this site changes until the underlying claim has passed an adversarial verification step performed by a second, independent AI model attempting to refute it, and no Key Judgment moves on a single source. Every change is versioned and logged; corrections are stated as corrections. Final editorial authority, and the decision to publish, rest with the human publisher.</p>
+        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.29, reflecting assessment v2.11. Maintained as a living document: project facts verified to 4 August 2026, last updated 6 August 2026, reviewed daily, with immediate review on trigger events. Comparator, legal and technical sources verified through 2 August 2026. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned and logged, and a correction to something previously published is stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork. Maintenance disclosure: this site is operated by AI systems under human editorial direction. Institutional sources and Philippine media are swept every morning; social-media data is collected and classified daily. Nothing on this site changes until the underlying claim has passed an adversarial verification step performed by a second, independent AI model attempting to refute it, and no Key Judgment moves on a single source. Every change is versioned and logged; corrections are stated as corrections. Final editorial authority, and the decision to publish, rest with the human publisher.</p>
       </div>
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">evidence tiers</div>
@@ -1467,7 +1608,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     </div>
     <div style="padding-top:16px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.04em;line-height:1.7;color:rgba(255,255,255,0.35);max-width:88ch">Usage analytics: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.45);text-decoration:underline">Google Analytics</a> measures aggregate site use&mdash;including page views, report downloads, outbound links and explainer playback. Advertising signals and ad personalization are disabled; no form content is sent.</div>
       <div style="padding-top:18px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center">
-      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · agile intelligence research report · site v1.28 · assessment v2.11</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · agile intelligence research report · site v1.29 · assessment v2.11</span>
       <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">project facts 4 aug · sources 27 jul 2026</span>
     </div>
   </div>
