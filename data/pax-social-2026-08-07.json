@@ -2,39 +2,43 @@
   "asOfDate": "2026-08-07",
   "frames": {
     "economic": {
-      "count": 693,
-      "share": 0.312303
+      "count": 1958,
+      "share": 0.310794
     },
     "environmental": {
-      "count": 422,
-      "share": 0.190176
+      "count": 1394,
+      "share": 0.22127
     },
     "ethical": {
-      "count": 63,
-      "share": 0.028391
+      "count": 128,
+      "share": 0.020317
     },
     "geopolitical": {
-      "count": 424,
-      "share": 0.191077
+      "count": 1204,
+      "share": 0.191111
     },
     "moral": {
-      "count": 177,
-      "share": 0.079766
+      "count": 520,
+      "share": 0.08254
     },
     "other": {
-      "count": 1150,
-      "share": 0.518251
+      "count": 3019,
+      "share": 0.479206
+    },
+    "religious": {
+      "count": 9,
+      "share": 0.001429
     },
     "rights_based": {
-      "count": 365,
-      "share": 0.164489
+      "count": 1286,
+      "share": 0.204127
     },
     "security": {
-      "count": 87,
-      "share": 0.039207
+      "count": 227,
+      "share": 0.036032
     }
   },
-  "generatedAt": "2026-08-07T03:12:31.060Z",
+  "generatedAt": "2026-08-07T12:09:29.902Z",
   "methodology": {
     "languages": [
       "en",
@@ -42,164 +46,168 @@
     ],
     "location": "worldwide",
     "note": "Every post in the window was labelled by software; none was reviewed by a person. Topic shares are multi-label and can sum past 100%.",
-    "query": "\"pax silica\" OR hashtags:paxsilica",
+    "query": "(\"pax silica\" OR hashtags:paxsilica) NOT engagementType:RETWEET",
     "repostsExcluded": true
   },
   "platformMix": {
     "blog": {
-      "count": 1,
-      "share": 0.000411
+      "count": 4,
+      "share": 0.00059
     },
     "bluesky": {
-      "count": 10,
-      "share": 0.004105
+      "count": 27,
+      "share": 0.003986
     },
     "facebook": {
-      "count": 1754,
-      "share": 0.720033
+      "count": 5497,
+      "share": 0.811485
     },
     "forum": {
-      "count": 8,
-      "share": 0.0032849999999999997
+      "count": 27,
+      "share": 0.003986
     },
     "instagram": {
-      "count": 10,
-      "share": 0.004105
+      "count": 26,
+      "share": 0.003838
     },
     "news": {
-      "count": 136,
-      "share": 0.055829
+      "count": 256,
+      "share": 0.037792
     },
     "reddit": {
-      "count": 187,
-      "share": 0.076765
+      "count": 331,
+      "share": 0.048863
     },
     "review": {
       "count": 1,
-      "share": 0.000411
+      "share": 0.000148
     },
     "tumblr": {
       "count": 2,
-      "share": 0.000821
+      "share": 0.000295
     },
     "x": {
-      "count": 163,
-      "share": 0.066913
+      "count": 282,
+      "share": 0.04163
     },
     "youtube": {
-      "count": 164,
-      "share": 0.067323
+      "count": 321,
+      "share": 0.047387
     }
   },
   "schemaVersion": "pax-social-public-v1",
   "sentiment": {
     "mixed": {
-      "count": 36,
-      "share": 0.016224
+      "count": 109,
+      "share": 0.017302
     },
     "negative": {
-      "count": 1189,
-      "share": 0.535827
+      "count": 3601,
+      "share": 0.571587
     },
     "neutral": {
-      "count": 542,
-      "share": 0.244254
+      "count": 1217,
+      "share": 0.193175
     },
     "positive": {
-      "count": 423,
-      "share": 0.190626
+      "count": 1311,
+      "share": 0.208095
     },
     "unclear": {
-      "count": 29,
-      "share": 0.013069
+      "count": 62,
+      "share": 0.009841
     }
   },
   "stakeholderTypes": {
     "business": {
-      "count": 23,
-      "share": 0.010365
+      "count": 70,
+      "share": 0.011111
     },
     "civil_society": {
-      "count": 103,
-      "share": 0.046417
+      "count": 412,
+      "share": 0.065397
     },
     "faith_based_org": {
-      "count": 17,
-      "share": 0.007661
+      "count": 19,
+      "share": 0.003016
     },
     "government": {
-      "count": 131,
-      "share": 0.059036
+      "count": 258,
+      "share": 0.040952
     },
     "individual": {
-      "count": 1789,
-      "share": 0.806219
+      "count": 5162,
+      "share": 0.819365
     },
     "media": {
-      "count": 156,
-      "share": 0.070302
+      "count": 378,
+      "share": 0.06
+    },
+    "unknown": {
+      "count": 1,
+      "share": 0.000159
     }
   },
   "topicShares": {
     "ai_infrastructure": {
-      "count": 174,
-      "share": 0.078414
+      "count": 565,
+      "share": 0.089683
     },
     "energy": {
-      "count": 153,
-      "share": 0.06895
+      "count": 393,
+      "share": 0.062381
     },
     "environment": {
-      "count": 528,
-      "share": 0.237945
+      "count": 1694,
+      "share": 0.268889
     },
     "foreign_policy": {
-      "count": 106,
-      "share": 0.047769
+      "count": 296,
+      "share": 0.046984
     },
     "governance": {
-      "count": 933,
-      "share": 0.42046
+      "count": 2442,
+      "share": 0.387619
     },
     "implementation": {
-      "count": 77,
-      "share": 0.0347
+      "count": 154,
+      "share": 0.024444
     },
     "indigenous_rights": {
-      "count": 374,
-      "share": 0.168544
+      "count": 1366,
+      "share": 0.216825
     },
     "investment": {
-      "count": 328,
-      "share": 0.147814
+      "count": 908,
+      "share": 0.144127
     },
     "jobs": {
-      "count": 201,
-      "share": 0.090581
+      "count": 564,
+      "share": 0.089524
     },
     "other": {
-      "count": 755,
-      "share": 0.340243
+      "count": 1988,
+      "share": 0.315556
     },
     "security": {
-      "count": 128,
-      "share": 0.057684
+      "count": 360,
+      "share": 0.057143
     },
     "semiconductors": {
-      "count": 181,
-      "share": 0.081568
+      "count": 623,
+      "share": 0.098889
     },
     "sovereignty": {
-      "count": 238,
-      "share": 0.107256
+      "count": 787,
+      "share": 0.124921
     },
     "trade": {
-      "count": 97,
-      "share": 0.043713
+      "count": 266,
+      "share": 0.042222
     },
     "water": {
-      "count": 201,
-      "share": 0.090581
+      "count": 552,
+      "share": 0.087619
     }
   },
   "window": {
