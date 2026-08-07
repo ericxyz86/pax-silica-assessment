@@ -61,6 +61,12 @@
   /* capped by height as well as width so the 16:9 stage always fits the
      1100x660 modal frame the parent page opens it in */
   #frame { width:min(1120px, 100%, calc((100vh - clamp(24px,6vw,48px)) * 16 / 9)); }
+  /* Embedded in the site's modal the page chrome is the modal's job, so the document
+     becomes exactly the 16:9 stage. That lets the parent size the iframe by aspect-ratio
+     alone and hug the video, instead of leaving dead navy above and below it. */
+  html.embedded body { padding:0; }
+  html.embedded #frame { width:100%; }
+  html.embedded #stage { border-radius:0; border:0; }
   #stage { position:relative; width:100%; aspect-ratio:16/9;
     background:var(--navy);
     border-radius:12px; overflow:hidden; border:1px solid var(--line);
@@ -95,6 +101,7 @@
 (function(){
 "use strict";
 var v = document.getElementById("vid");
+if (window.self !== window.top) document.documentElement.classList.add("embedded");
 var poster = document.getElementById("poster");
 
 /* Variant choice: 4.5 MB 720p or 33.5 MB 1080p. On a phone the two are indistinguishable --
