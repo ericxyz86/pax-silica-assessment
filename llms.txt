@@ -10,6 +10,7 @@
 ## Core
 
 - [The assessment](https://pax-silica.aiailabs.net/): six findings, ten interactive exhibits, a claim checker, and the full 29-section report
+- [Full text (plain text)](https://pax-silica.aiailabs.net/llms-full.txt): the findings, all 29 sections, the claim checker and the sources register in one file
 - [Full report (PDF)](https://pax-silica.aiailabs.net/Pax-Silica-Full-Report.pdf)
 - [Two-minute explainer (video, Filipino)](https://pax-silica.aiailabs.net/explainer)
 
