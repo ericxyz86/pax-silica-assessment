@@ -15,6 +15,13 @@
     {
       "date": "2026-08-09",
       "type": "process",
+      "title": "Change log rendering bounded",
+      "site_version": "1.43",
+      "summary": "The page now shows the five most recent entries; older entries sit in a collapsed block that opens in place, and the page will render at most 35 in total as the log grows. Presentation only: this JSON remains the complete, append-only record, and nothing is ever dropped from it."
+    },
+    {
+      "date": "2026-08-09",
+      "type": "process",
       "title": "Public change log published",
       "site_version": "1.42",
       "assessment_version": "2.14",
