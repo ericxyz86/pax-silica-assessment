@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "BCDA sets 30-year development plan for Pax Silica AI hub",
+      "source": "Philstar",
+      "date": "2026-08-09",
+      "url": "https://www.philstar.com/business/2026/08/09/2547911/bcda-sets-30-year-development-plan-pax-silica-ai-hub",
+      "image": "https://media.philstar.com/photos/2026/08/08/11_2026-08-08_17-50-23.jpg"
+    },
+    {
       "title": "Fearing for ancestral land, Aetas from Capas urge Pax Silica cancellation",
       "source": "GMA News",
       "date": "2026-08-06",
@@ -63,13 +70,6 @@
       "date": "2026-07-28",
       "url": "https://mb.com.ph/2026/07/28/doe-eyes-nuclear-to-power-pax-silica-ai-hub-in-new-clark-city",
       "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/07/28/119326.webp"
-    },
-    {
-      "title": "Filipino churches hit Marcos over US-planned AI hub in the Philippines",
-      "source": "Crux",
-      "date": "2026-07-28",
-      "url": "https://cruxnow.com/church-in-asia/2026/07/filipino-churches-hit-marcos-over-us-planned-ai-hub-in-philippines",
-      "image": "https://wp.cruxnow.com/wp-content/uploads/2026/07/photo-sona-protest-2026-1.jpeg?w=1200"
     }
   ]
 }
