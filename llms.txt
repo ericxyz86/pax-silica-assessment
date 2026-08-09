@@ -13,6 +13,7 @@
 - [Full text (plain text)](https://pax-silica.aiailabs.net/llms-full.txt): the findings, all 29 sections, the claim checker and the sources register in one file
 - [Full report (PDF)](https://pax-silica.aiailabs.net/Pax-Silica-Full-Report.pdf)
 - [Two-minute explainer (video, Filipino)](https://pax-silica.aiailabs.net/explainer)
+- [Change log (JSON)](https://pax-silica.aiailabs.net/changelog.json): substantive changes, newest first; corrections quote the superseded text verbatim
 
 ## Publisher
 

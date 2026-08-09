@@ -1,0 +1,71 @@
+{
+  "title": "Pax Silica assessment — change log",
+  "url": "https://pax-silica.aiailabs.net/changelog.json",
+  "rendered_at": "https://pax-silica.aiailabs.net/#changelog",
+  "policy": "Nothing is silently revised. Substantive changes to the site or the assessment are recorded here, newest first. An entry of type correction or removal must quote the superseded text verbatim in 'supersedes', so the maintenance disclosure's claim can be checked against the record rather than taken on trust. Automated daily data refreshes (the news rail, the listening exhibit) are recorded in the repository history, not here, unless they move a finding.",
+  "types": {
+    "addition": "new content or evidence published; no prior text displaced",
+    "update": "existing content moved forward by new information; the prior text was not wrong when written",
+    "correction": "previously published text was wrong and is corrected; the superseded text is quoted verbatim",
+    "removal": "previously published text is withdrawn; the withdrawn text is quoted verbatim",
+    "process": "a change to how the site or the assessment is maintained, not to findings"
+  },
+  "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
+  "entries": [
+    {
+      "date": "2026-08-09",
+      "type": "process",
+      "title": "Public change log published",
+      "site_version": "1.42",
+      "assessment_version": "2.14",
+      "summary": "The site now publishes this machine-readable change log at /changelog.json, rendered on the page as 'what has changed'. Corrections and removals must quote the superseded text verbatim, so the claim that nothing is silently revised is checkable rather than asserted. The log opens with the substantive changes of 7–9 August 2026; earlier changes are in Appendix H of the assessment and in the repository history."
+    },
+    {
+      "date": "2026-08-09",
+      "type": "update",
+      "title": "Hero gains a last-updated date",
+      "site_version": "1.41",
+      "commits": ["a74543f", "9c21d4a"],
+      "summary": "The hero eyebrow now carries a last-updated date after the facts-verified date. Last updated means the date of the most recent substantive site change from any lane, automated or editorial; facts verified continues to mean the date to which project facts have been re-verified."
+    },
+    {
+      "date": "2026-08-09",
+      "type": "addition",
+      "title": "News rail: BCDA sets a 30-year development plan",
+      "commits": ["7822f90"],
+      "summary": "Added to the news rail after passing the adversarial gate: Philstar reports (9 August) that BCDA has set a 30-year development plan for the Pax Silica hub. A news-rail headline is the publisher's claim, not this report's finding; no finding moves."
+    },
+    {
+      "date": "2026-08-08",
+      "type": "correction",
+      "title": "Footer verification date corrected",
+      "site_version": "1.40",
+      "commits": ["0bf22fb"],
+      "supersedes": "Comparator, legal and technical sources verified through 2 August 2026.",
+      "summary": "The footer stated that comparator, legal and technical sources were verified through 2 August 2026. No re-verification of those sources had been performed after 27 July 2026. The footer now reads 'verified through 27 July 2026; these move only when re-verified.'"
+    },
+    {
+      "date": "2026-08-08",
+      "type": "update",
+      "title": "Aeta opposition moves on the record (§17)",
+      "assessment_version": "2.14",
+      "supersedes": "Opposed through allied organisations",
+      "summary": "The Aeta communities row's stance had become outdated: on 6 August, leaders of Sitio Sapang Kawayan urged cancellation in a media forum, on the record and by name (GMA, corroborated by ABS-CBN). §17 also gains the reported petition scale — 'half a million signatures', explicitly not established as unique signatories — and Malacañang's same-day response, kept separate so it cannot read as verifying the total. Strengthening only; no key judgment, confidence level or scenario weight moves. Detail at Appendix H.12."
+    },
+    {
+      "date": "2026-08-07",
+      "type": "update",
+      "title": "A methodological assurance weakened, against interest (§17A)",
+      "assessment_version": "2.13",
+      "supersedes": "supports the comparisons made here — shares, trends and rankings",
+      "summary": "The §17A method note claimed the 10% social-listening sample supported the comparisons drawn from it. That confidence was never independently validated, and moving the live query to near-census moved platform shares by up to nine points. Because a repost exclusion changed in the same step, the movement cannot be attributed to sampling — so the historical figures are not claimed to be wrong, only that their sampling uncertainty is wider than the old note implied. Detail at Appendix H.11."
+    },
+    {
+      "date": "2026-08-07",
+      "type": "addition",
+      "title": "BCDA's own words on data centres enter §5.1",
+      "assessment_version": "2.12",
+      "summary": "§5.1 already held that BCDA's descriptions of the site's activity are inconsistent; it now holds the sharpest evidence for that claim, which is BCDA's own words: 'may invite data centers, but it's not all about data centers' (23 July, Malacañang briefing) and 'ang proyekto na ito ay hindi data centers' (6 August, Clark). A well-evidenced finding strengthened by a primary government source; no finding moves. Detail at Appendix H.10."
+    }
+  ]
+}
