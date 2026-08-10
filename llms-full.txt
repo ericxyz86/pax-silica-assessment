@@ -36,7 +36,7 @@ Key figure: 7.4% (of gdp: the bpo exposure that makes an alternative engine urge
 ### 01. Prefatory note on timing and currency
 Why the timing matters, and the conventions used throughout.
 
-This report was completed one day before President Marcos’ fifth State of the Nation Address of 27 July 2026, which Malacañang trailed as containing an "earth-shaking" announcement. Anything said at SONA postdates this cutoff.
+This report’s first edition was completed one day before President Marcos’ fifth State of the Nation Address of 27 July 2026, which Malacañang trailed as containing an "earth-shaking" announcement. As of v2.8 the SONA is incorporated from the Official Gazette transcript and no longer sits outside the evidence base; project facts move forward as developments are verified.
 
 Four developments in the fortnight before cutoff are material enough to drive specific conclusions. The anchor tenant has been named: Foxconn, the same company whose Wisconsin project delivered a fraction of its announced investment, which converts the "announced versus delivered" comparison from an analogy into a direct precedent involving the same counterparty. Official job claims have escalated to five mutually inconsistent figures issued by four arms of government within a fortnight. The United States imposed a forced-labour tariff on Philippine exports on 24 July 2026. And a signed ACWA Power lease provides a hard land-per-megawatt benchmark that permits a rigorous test of the renewable-power claim, a test the claim fails by a wide margin.
 

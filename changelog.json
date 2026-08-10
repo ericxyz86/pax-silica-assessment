@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-08-10",
+      "type": "correction",
+      "title": "Scenario indicators canonicalised; lease and sampling exhibits corrected (§19, Exh. 10, 17A)",
+      "site_version": "1.46",
+      "assessment_version": "2.17",
+      "commits": [],
+      "supersedes": "The master lease runs 99 years over 1,618.74 hectares, held by a foreign government.",
+      "summary": "Three site statements are corrected toward the assessment: the lease exhibit stated a hypothetical 99-year US master lease as fact (the structure remains undisclosed; now conditional); the prefatory note had regressed to a withdrawn fixed-cutoff framing; the sentiment exhibit's 64,000-post universe extrapolation is replaced by the stated sampling limitation. The scenario exhibit's B/D/E early-warning indicators, previously site-authored, are adversarially reviewed, reworded, and adopted into the assessment (v2.17) as structured judgments without base-rate calibration."
+    },
+    {
+      "date": "2026-08-10",
       "type": "update",
       "title": "BCDA's dedicated-power-plant statement added (§12.2)",
       "site_version": "1.45",
