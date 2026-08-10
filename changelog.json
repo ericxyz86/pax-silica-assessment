@@ -14,11 +14,22 @@
   "entries": [
     {
       "date": "2026-08-10",
+      "type": "update",
+      "title": "BCDA's dedicated-power-plant statement added (§12.2)",
+      "site_version": "1.45",
+      "assessment_version": "2.16",
+      "commits": [],
+      "summary": "BCDA's president said on 9 August that proponents are studying a dedicated power plant so the facility would not jeopardise residential electricity supply. Recorded in §12.2 and the claim checker as directionally consistent with the Energy Secretary's own-generation requirement; a study establishes neither a stand-alone configuration nor capacity, so no finding, figure or verdict moves."
+    },
+    {
+      "date": "2026-08-10",
       "type": "correction",
       "title": "Export projection's 'annual' withdrawn (§13.5)",
       "site_version": "1.44",
       "assessment_version": "2.15",
-      "commits": ["eb6bf18"],
+      "commits": [
+        "eb6bf18"
+      ],
       "supersedes": "US$200 billion in annual exports at full build-out",
       "summary": "Versions through v2.14 described BCDA's US$200 billion export projection as annual. The reporting of 7–9 August instead links the figure to full development over an approximately 30-year horizon and does not establish whether it is annual, cumulative over that horizon, or measured on another basis. §13.5 and the claim checker now state that the temporal basis is unestablished without the underlying study; the 2.37× comparison with 2025 merchandise exports is retained only as a non-period-equivalent comparison of nominal magnitudes. Detail at Appendix H.13."
     },
@@ -28,7 +39,9 @@
       "title": "NCIP enters the record; Subic designation formalised (§15.2, §16)",
       "site_version": "1.44",
       "assessment_version": "2.15",
-      "commits": ["eb6bf18"],
+      "commits": [
+        "eb6bf18"
+      ],
       "supersedes": "conspicuously absent from the public debate",
       "summary": "NCIP Secretary Nancy Catamco and the Region III Ethnographic Commissioner held a dialogue with Aeta communities in Sitio Binyayan, Capas — NCIP's own statement, reported 8 August — undertaking to relay concerns on homes, livelihoods and the ancestral domain claim to BCDA. This supersedes the finding that the NCIP was conspicuously absent from the public debate; the process finding is preserved, as nothing indicates a Section 59 certification, field-based investigation or FPIC proceeding, and precondition 6 stands unchanged. Separately, an official SBMA account records a BCDA–SBMA MOU signed 20 July designating Subic as the preferred maritime gateway — 'preferred' is the operative term and the agreement's text is unpublished. Four items joined the news rail after passing the adversarial gate. Detail at Appendix H.13."
     },
@@ -52,14 +65,19 @@
       "type": "update",
       "title": "Hero gains a last-updated date",
       "site_version": "1.41",
-      "commits": ["a74543f", "9c21d4a"],
+      "commits": [
+        "a74543f",
+        "9c21d4a"
+      ],
       "summary": "The hero eyebrow now carries a last-updated date after the facts-verified date. Last updated means the date of the most recent substantive site change from any lane, automated or editorial; facts verified continues to mean the date to which project facts have been re-verified."
     },
     {
       "date": "2026-08-09",
       "type": "addition",
       "title": "News rail: BCDA sets a 30-year development plan",
-      "commits": ["7822f90"],
+      "commits": [
+        "7822f90"
+      ],
       "summary": "Added to the news rail after passing the adversarial gate: Philstar reports (9 August) that BCDA has set a 30-year development plan for the Pax Silica hub. A news-rail headline is the publisher's claim, not this report's finding; no finding moves."
     },
     {
@@ -67,7 +85,9 @@
       "type": "correction",
       "title": "Footer verification date corrected",
       "site_version": "1.40",
-      "commits": ["0bf22fb"],
+      "commits": [
+        "0bf22fb"
+      ],
       "supersedes": "Comparator, legal and technical sources verified through 2 August 2026.",
       "summary": "The footer stated that comparator, legal and technical sources were verified through 2 August 2026. No re-verification of those sources had been performed after 27 July 2026. The footer now reads 'verified through 27 July 2026; these move only when re-verified.'"
     },
