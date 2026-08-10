@@ -42,7 +42,7 @@ Four developments in the fortnight before cutoff are material enough to drive sp
 
 All conversions use PHP 61.85 per US$1, from US$1 = PHP 61.847, the peso’s record-low close of 24 July 2026. Where a source gives a peso figure it is reported as given and converted; where a source gives dollars, the peso equivalent is calculated.
 
-This is a living document. Project facts are verified to 6 August 2026 and move forward as material developments are verified. Comparator, legal and technical sources were verified through 27 July 2026 and move only when those are re-verified.
+This is a living document. Project facts are verified to 10 August 2026 and move forward as material developments are verified. Comparator, legal and technical sources were verified through 27 July 2026 and move only when those are re-verified.
 
 [sources drawn on: T3-21 · T1-05]
 
@@ -204,9 +204,9 @@ On 27 July 2026 this finding stopped resting on this report’s arithmetic alone
 
 The DFC has funded a feasibility study for a ≥1,200 MW LNG terminal and plant. A US development finance institution does not fund a gas feasibility study for a project it expects to run on sunshine. Stated precisely: the LNG study is the only near-term firm-generation option on the record, not a committed plan. Three consequences go unacknowledged: BCDA’s "avoid fossil fuels" framing should be corrected; a 1,200 MW combined-cycle plant at high load factor emits on the order of 3–4 million tonnes of CO₂ a year with no published carbon accounting; and LNG is imported and dollar-denominated, creating a structural currency exposure for Philippine industrial power costs.
 
-Positive factors, fairly stated: Clark International Airport is adjacent and handles the air freight by which semiconductors actually move; Subic Bay provides deep-water port capacity; the Subic–Clark–Manila–Batangas rail corridor is progressing; New Clark City has existing trunk infrastructure. This is a genuinely well-located site. But Philippine industrial electricity at roughly 15 US cents per kWh, about 50% above Indonesia and Vietnam, and logistics at about a quarter of sales are national competitiveness problems. A zone designation does not solve them; it concentrates their consequences.
+Positive factors, fairly stated: Clark International Airport is adjacent and handles the air freight by which semiconductors actually move. Subic Bay provides deep-water port capacity and now holds a formal, qualified role: an MOU signed on 20 July and described in BCDA’s 4 August release designates it as Pax Silica’s preferred maritime gateway, with joint studies and assessments still to follow. The agreement text is unpublished and the designation is not operational capacity. The Subic–Clark–Manila–Batangas rail corridor is progressing; New Clark City has existing trunk infrastructure. This is a genuinely well-located site. But Philippine industrial electricity at roughly 15 US cents per kWh, about 50% above Indonesia and Vietnam, and logistics at about a quarter of sales are national competitiveness problems. A zone designation does not solve them; it concentrates their consequences.
 
-[sources drawn on: T3-12 · T3-17 · T2-04 · T3-06 · A-05 · A-06 · A-08]
+[sources drawn on: T3-12 · T3-17 · T3-26 · T2-04 · T3-06 · T1-22 · T1-23 · T3-27 · A-05 · A-06 · A-08]
 
 ### 14. Economic, employment, fiscal and industrial-policy assessment
 Announced: US$40–70bn and up to a million jobs. Legally committed: zero.
@@ -217,11 +217,13 @@ BCDA’s low-end figure for one 1,618.74-hectare parcel would consume DTI-BOI’
 
 On the fiscal side, PHP 60bn of lease income over 25 years equals PHP 148.26 per square metre per year, with a present value of about PHP 25.6bn, 0.59% to 1.03% of the capital it is meant to host. No independent land valuation has been published, which is a governance failure independent of whether the rent is adequate. The PHP 68–75bn withholding tax claim implies average compensation of about PHP 2.13m per worker: 2.4 times a Philippine semiconductor engineer’s salary and 8.1 times an operator’s, and the implausibility increases as the assumed tax rate falls, so the finding is robust. BCDA closed the one remaining escape route itself on 23 July 2026, describing the figure as the tax contributed by the workers, with other shares bringing the total to PHP 180bn. On that stated composition the conclusion is no longer that the fiscal case cannot be assessed, but that one of the two headline figures is materially overstated.
 
+Correction, 10 August 2026: earlier versions described BCDA’s US$200bn export projection as annual. New reporting places full development on an approximately 30-year horizon but does not consistently establish whether the figure is annual, cumulative over that horizon, or measured on another basis. The 2.37× comparison with one year of Philippine merchandise exports survives only as a non-period-equivalent comparison of nominal magnitudes; the projection and its temporal basis remain unsupported without the underlying study.
+
 No published estimate exists of the cost of fiscal incentives. Under CREATE MORE, registered enterprises may take 5% SCIT or 20% CIT with enhanced deductions including a 100% additional deduction on power expenses, for up to 17 or 27 years. For a project defined by extreme electricity intensity, that is a very large tax expenditure. A project that leads with gross tax revenue while omitting tax expenditure is presenting half a ledger. Public cost per permanent job cannot presently be computed, and that it cannot be computed is itself the finding.
 
 The genuine industrial-policy case should not be caricatured. The manufacturing gap is real and widening. The allied advantage, comparative non-entanglement with Chinese capital, is genuine and time-limited. BPO vulnerability at 7.4% of GDP makes an alternative growth engine urgent. And the country’s back-end semiconductor base is a real asset, with electronics at US$45.89bn, or 54.3%, of a US$84.48bn export book in 2025, growing 16.11% year on year. But this case argues for negotiating hard, not for accepting the current terms.
 
-[sources drawn on: T3-09 · T3-19 · T3-23 · T1-17 · T1-19 · T2-03 · A-04 · A-07]
+[sources drawn on: T3-09 · T3-19 · T3-23 · T3-28 · T3-29 · T1-17 · T1-19 · T2-03 · A-04 · A-07]
 
 ### 15. Legal and regulatory assessment
 Executive agreement or treaty? The question has not been answered.
@@ -265,11 +267,11 @@ Gains concentrate; risks distribute.
 
 Gains concentrate in foreign investors, the national government and the construction sector. Risks concentrate in Tarlac’s water users, Luzon’s electricity consumers, Philippine taxpayers funding enabling infrastructure and incentives, and Aeta and farming households whose numbers remain unpublished.
 
-BCDA and the executive speak frequently and are extensively documented. Affected communities are represented mainly through advocacy intermediaries. Three sets of actors with decisive power are conspicuously silent: NGCP and the ERC, who would bear the blame for reserve shortfalls and price effects; the NCIP, which holds high legal-veto potential over FPIC; and local government units, the Tarlac provincial government and the municipalities of Capas and Bamban, which are almost entirely absent from the record. That absence is the largest gap in the evidence base and a governance failure in its own right.
+BCDA and the executive speak frequently and are extensively documented. Affected communities are represented mainly through advocacy intermediaries. Two sets of actors with decisive power remain conspicuously silent: NGCP and the ERC, who would bear the blame for reserve shortfalls and price effects, and local government units, the Tarlac provincial government and the municipalities of Capas and Bamban, which are almost entirely absent from the record. NCIP has entered this assessment’s public record through a community dialogue reported on 8 August, but nothing in that record indicates initiation of the certification-precondition process. The local-government absence remains the largest gap in the evidence base and a governance failure in its own right.
 
 On the critical side, the Makabayan bloc has the agenda-setting role but Akbayan’s is the more consequential critique, transparency, ownership structure, monopoly safeguards, undue foreign influence and critical-infrastructure risk. Church organisations, historically decisive in Philippine politics, are critical and have now mobilised: Caritas Philippines formally opposed the hub "in its present form" on 4 August; the Conference of Major Superiors in the Philippines wrote to the President ahead of the SONA, and religious groups joined SONA-day protests police put at around 6,000. Domestic big business, Ayala, the Makati Business Club, AmCham, is the swing constituency, interested and currently unaligned. Existing Philippine electronics firms are a stakeholder rarely named in the debate. A new zone with preferential terms competes with them for talent and for investment, which is why a competitive-neutrality review by the Philippine Competition Commission belongs in the process.
 
-[sources drawn on: T4-01 · T4-03 · T4-04 · T4-05 · T4-07 · T3-18 · T3-11]
+[sources drawn on: T4-01 · T4-03 · T4-04 · T4-05 · T4-07 · T3-18 · T3-11 · T3-25]
 
 ### 19. The public conversation: a social-listening analysis
 6,437 mentions, December 2025 to SONA eve. The conversation turned, and it is still turning.
@@ -517,7 +519,7 @@ Foxconn specifically: given the Wisconsin experience, will you accept performanc
 - [PROJECTION] (fiscal) PHP 180bn/yr in total government income at full operation — claimed by BCDA. Composition unpublished.
 - [MISLEADING] (fiscal) PHP 68–75bn/yr in withholding tax — claimed by BCDA. BCDA specified the composition at the Palace briefing of 23 July 2026: tax contributed by the workers, i.e. payroll withholding. That forecloses the non-payroll explanation. It implies average worker compensation of about PHP 2.13m, 2.4× a Philippine semiconductor engineer (PHP 870,938) and 8.1× an operator (PHP 263,118). One of the two headline figures, the tax or the employment, is therefore materially overstated.
 - [PROJECTION] (fiscal) PHP 60bn in lease income over 25 years — claimed by BCDA. Equals PHP 148.26/m²/yr. Present value at 8% real is about PHP 25.6bn, or 0.59%–1.03% of the projected investment. No independent land valuation has been published.
-- [PROJECTION] (fiscal) US$200bn of exports at full build-out — claimed by BCDA. 2.37× the Philippines' entire 2025 merchandise exports of US$84.48bn, 4.36× total electronics exports and 5.78× total semiconductor exports of US$34.62bn.
+- [PROJECTION] (fiscal) US$200bn of exports associated with full build-out — claimed by BCDA. CORRECTION, 10 Aug 2026 — earlier versions described this as annual. New reporting places full development on an approximately 30-year horizon but does not consistently establish whether the figure is annual, cumulative over that horizon, or measured on another basis. The 2.37× comparison with the Philippines' US$84.48bn of 2025 merchandise exports is therefore a non-period-equivalent comparison of nominal magnitudes, not like-for-like annual flows.
 - [PROJECTION] (fiscal) "About 10% of GDP" — claimed by BCDA. The domestic value-added assumption reconciling this with US$200bn of gross exports is unpublished, and it is the single most important number in any value-chain argument. Philippine electronics has historically captured a modest slice of gross flows because it imports most inputs and performs a narrow part of the process. JC Punongbayan of the UP School of Economics warns of exactly that outcome: the Philippines supplying "the land, minerals, power, water, and low-cost labor" while technology, patents, profits and strategic control remain abroad.
 - [UNKNOWN] (fiscal) The cost of the fiscal incentive package — claimed by no claimant, assessed finding. No published estimate. CREATE MORE provides 5% SCIT or 20% CIT with enhanced deductions including a 100% additional deduction on power expenses, for up to 17–27 years. A material omission.
 - [PROJECTION] (water & power) Water demand 65–90 MLD; design capacity 120 MLD, expandable to as much as 300 MLD — claimed by BCDA. Technically unsubstantiated. No water balance has been published. The 300 MLD expansion path, described at the 23 July Palace briefing, scales the required catchment to roughly 4,900–10,400 hectares, which is three to six times the entire parcel.
@@ -548,7 +550,7 @@ Foxconn specifically: given the Wisconsin experience, will you accept performanc
 
 ## Sources register
 
-### tier 1 · primary and authoritative (21 entries)
+### tier 1 · primary and authoritative (24 entries)
 Official texts, published documents, statutes, statistical releases and FOI responses. Treated as evidence of what was said or recorded, not of whether it is true.
 - T1-01 (Dec 2025 to present): Pax Silica Declaration, full text and signatory list — US Department of State — The founding instrument and its 25 signatories. — www.state.gov
 - T1-02 (16 Apr 2026): Media Note: US and Philippines launch plans for a 4,000-acre Economic Security Zone — US Department of State — Origin of the 4,000-acre figure and the "first AI-native industrial acceleration hub" designation. — www.state.gov
@@ -570,13 +572,16 @@ Official texts, published documents, statutes, statistical releases and FOI resp
 - T1-18 (Jacob Helberg biography): US Department of State — www.state.gov
 - T1-19 (Feb 2026): 2025 Philippine Trade in Goods — Congressional Policy and Budget Research Department — cpbrd.congress.gov.ph
 - T1-20 (2022 edition): The Mineral Industry of the Philippines — USGS Minerals Yearbook — Used to test the resource-plunder critique against production data. — pubs.usgs.gov
-- T1-21 (20 Apr 2021): Renegotiated Foxconn contract announcement — Office of the Governor of Wisconsin — Primary record of the announced-versus-delivered gap with the same counterparty. — content.govdelivery.com — tier 2 · high-quality analytical — 6 entries — Named specialists and research institutions with disclosed method. Used for benchmarks and interpretation.
+- T1-21 (20 Apr 2021): Renegotiated Foxconn contract announcement — Office of the Governor of Wisconsin — Primary record of the announced-versus-delivered gap with the same counterparty. — content.govdelivery.com
+- T1-22 (21 Jul 2026; agreement signed 20 Jul 2026): SBMA and BCDA agree to use the Port of Subic Bay as Pax Silica maritime gateway — Subic Bay Metropolitan Authority — Primary account of the preferred-gateway designation; studies and capacity development remain prospective. — www.mysubicbay.com.ph
+- T1-23 (4 Aug 2026): BCDA and SBMA seal Port of Subic Bay role in Pax Silica supply chains — BCDA — Later official release describing the signed agreement and qualified gateway role. — bcda.gov.ph
+- T1-24 (7 Aug 2026): Secretary Marco Rubio at the American Mining Roundtable — US Department of State — Primary transcript. The roughly US$3bn discussed is aggregate US domestic mining investment, not Pax Silica funding or a Philippine commitment. — www.state.gov — tier 2 · high-quality analytical — 6 entries — Named specialists and research institutions with disclosed method. Used for benchmarks and interpretation.
 - T2-01 (12 Jun 2026): The Philippines has a golden chance to get Pax Silica right — Lowy Institute, Alvin Camba — www.lowyinstitute.org
 - T2-02 (2026): In this economy: risks of Pax Silica — JC Punongbayan, UP School of Economics, in Rappler — www.rappler.com
 - T2-03 (2025 to 2026): Philippine electronics export performance — SEIPI — Industry baseline for export and value-added comparisons. — seipi.org.ph
 - T2-04 (2026): Philippine power supply for Q2 2026 remains sufficient but thin reserves leave the grid at risk — Institute for Climate and Sustainable Cities — Grid adequacy baseline. — icsc.ngo
 - T2-05 (25 Jul 2026): Glass house: evaluating criticisms over PH participation in Pax Silica — Pierre Tito Galla, Newsbytes.ph — Source of the "human first, machine last" safeguard proposal. — newsbytes.ph
-- T2-06 (13 Dec 2019): The New Clark City: a government sell-out of IP and peasant land for private interests — IBON International — Prior record of New Clark City land conflict. — iboninternational.org — tier 3 · credible journalism — 24 entries — Established Philippine and international outlets. Used for statements attributed to officials and for dated events.
+- T2-06 (13 Dec 2019): The New Clark City: a government sell-out of IP and peasant land for private interests — IBON International — Prior record of New Clark City land conflict. — iboninternational.org — tier 3 · credible journalism — 29 entries — Established Philippine and international outlets. Used for statements attributed to officials and for dated events.
 - T3-01 (26 May 2026): US official says immunity for the Clark hub was taken out of context — Philstar — www.philstar.com
 - T3-02 (19 May 2026): Philippines rejects US request for diplomatic immunity at the planned AI hub — Philstar — www.philstar.com
 - T3-03 (24 Jul 2026): Pax Silica investors may lease New Clark land for 99 years — Philstar — Primary reporting on lease term, rent and the PHP 60bn projection. — www.philstar.com
@@ -600,7 +605,12 @@ Official texts, published documents, statutes, statistical releases and FOI resp
 - T3-21 (24 Jul 2026): Peso hits an all-time low of 61.84 per US dollar — Manila Bulletin — The exchange rate used throughout this report. — mb.com.ph
 - T3-22 (25 Jul 2026): Inside Pax Silica: the project that could reshape the Philippines — Daily Tribune — tribune.net.ph
 - T3-23 (26 Jul 2026): Pax Silica could generate up to 300,000 jobs, PH envoy to the US — Daily Tribune — tribune.net.ph
-- T3-24 (Jul 2026): iPhone maker Foxconn to anchor tech city in the Philippines — Gulf News — gulfnews.com — tier 4 · stakeholder claims — 8 entries — Government, embassy, corporate and advocacy positions. Used only as evidence of position.
+- T3-24 (Jul 2026): iPhone maker Foxconn to anchor tech city in the Philippines — Gulf News — gulfnews.com
+- T3-25 (8 Aug 2026): NCIP holds dialogue with Aeta community in Tarlac over Pax Silica — GMA News — Reports an NCIP statement and community dialogue; does not evidence initiation of a Section 59 certification or FPIC proceeding. — www.gmanetwork.com
+- T3-26 (9 Aug 2026): Pax Silica eyes dedicated power plant to meet energy needs — GMA News — Reports BCDA planning concepts; no approval, financing or construction commitment is established. — www.gmanetwork.com
+- T3-27 (8 Aug 2026): Subic port tapped as preferred gateway for Pax Silica — Bilyonaryo News Channel — Reporting on the BCDA-SBMA agreement, checked against the two official accounts. — bnc.bilyonaryo.com
+- T3-28 (7 Aug 2026): Pax Silica AI hub expected to yield US$200bn in exports in 30 years — BusinessWorld — Newer reporting links the projection to full development on an approximately 30-year horizon; the underlying study and the projection's precise periodicity remain unpublished. — bworldonline.com
+- T3-29 (9 Aug 2026): BCDA sets 30-year development plan for Pax Silica AI hub — Philstar — Corroborates the long-horizon full-development framing, not that US$200bn is an annual flow. — www.philstar.com — tier 4 · stakeholder claims — 8 entries — Government, embassy, corporate and advocacy positions. Used only as evidence of position.
 - T4-01 (Apr to Jul 2026): BCDA, DOF, DOLE, Malacanang and embassy statements — Philippine government and US Embassy — Used only as evidence of position, never as evidence of fact.
 - T4-02 (2026): Under Secretary Jacob Helberg posts on X — US Department of State official, personal account — Used only as evidence of the US framing.
 - T4-03 (2026): Akbayan to Congress: probe Pax Silica, protect national interest — Akbayan Party — www.akbayan.org.ph

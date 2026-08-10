@@ -2,11 +2,39 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Pax Silica eyes dedicated power plant to meet energy needs—BCDA",
+      "source": "GMA News",
+      "date": "2026-08-09",
+      "url": "https://www.gmanetwork.com/news/money/companies/997917/pax-silica-eyes-dedicated-power-plant-to-meet-energy-needs-bcda/story",
+      "image": "https://images.gmanews.tv/webpics/2026/08/joshua_bingcang_bcda_2026_08_06_15_54_09.jpg"
+    },
+    {
       "title": "BCDA sets 30-year development plan for Pax Silica AI hub",
       "source": "Philstar",
       "date": "2026-08-09",
       "url": "https://www.philstar.com/business/2026/08/09/2547911/bcda-sets-30-year-development-plan-pax-silica-ai-hub",
       "image": "https://media.philstar.com/photos/2026/08/08/11_2026-08-08_17-50-23.jpg"
+    },
+    {
+      "title": "NCIP holds dialogue with Aeta community in Tarlac over Pax Silica",
+      "source": "GMA News",
+      "date": "2026-08-08",
+      "url": "https://www.gmanetwork.com/news/topstories/regions/997839/ncip-holds-dialogue-with-aeta-community-in-tarlac-over-pax-silica/story",
+      "image": "https://images.gmanews.tv/webpics/2026/08/ncip_dialogue_pax_silica_2026_08_08_18_43_32.jpg"
+    },
+    {
+      "title": "Subic port tapped as preferred gateway for Pax Silica",
+      "source": "Bilyonaryo News Channel",
+      "date": "2026-08-08",
+      "url": "https://bnc.bilyonaryo.com/subic-port-tapped-as-preferred-gateway-for-pax-silica/business",
+      "image": "https://bnc.bilyonaryo.com/wp-content/uploads/2026/08/bcda.jpg"
+    },
+    {
+      "title": "Secretary of State Marco Rubio at President Trump’s Roundtable on American Mining",
+      "source": "US State Department",
+      "date": "2026-08-07",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/secretary-of-state-marco-rubio-at-president-trumps-roundtable-on-american-mining",
+      "image": ""
     },
     {
       "title": "Fearing for ancestral land, Aetas from Capas urge Pax Silica cancellation",
@@ -42,34 +70,6 @@
       "date": "2026-08-04",
       "url": "https://www.manilatimes.net/2026/08/04/regions/church-leaders-slam-pax-silica-project/2397227",
       "image": "https://manilatimes.net/manilatimes/uploads/images/2026/08/03/1161950.jpg"
-    },
-    {
-      "title": "World Bank sees promise in Pax Silica. Can PH build more than another assembly hub?",
-      "source": "Rappler",
-      "date": "2026-08-03",
-      "url": "https://www.rappler.com/business/world-bank-sees-promise-pax-silica-can-philippines-build-more-than-assembly-hub/",
-      "image": "https://www.rappler.com/tachyon/2026/05/PAX-SILICA.jpg"
-    },
-    {
-      "title": "The Wide Shot: Why Pax Silica concerns people of faith",
-      "source": "Rappler",
-      "date": "2026-08-02",
-      "url": "https://www.rappler.com/voices/thought-leaders/the-wide-shot-pax-silica-concerns-faith/",
-      "image": "https://www.rappler.com/tachyon/2026/08/PAX-SILICA-FAITH.jpg"
-    },
-    {
-      "title": "US welcomes Italy into Pax Silica as the 25th signatory",
-      "source": "US State Department",
-      "date": "2026-07-31",
-      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/07/us-welcomes-italy-into-pax-silica-initiative/",
-      "image": "https://www.state.gov/wp-content/uploads/2025/01/Press_Release_Alabaster.png"
-    },
-    {
-      "title": "DOE eyes nuclear to power Pax Silica AI hub in New Clark City",
-      "source": "Manila Bulletin",
-      "date": "2026-07-28",
-      "url": "https://mb.com.ph/2026/07/28/doe-eyes-nuclear-to-power-pax-silica-ai-hub-in-new-clark-city",
-      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/07/28/119326.webp"
     }
   ]
 }
