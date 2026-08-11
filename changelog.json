@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-08-11",
+      "type": "update",
+      "title": "Reported SEIPI position enters the stakeholder map (§17)",
+      "site_version": "1.47",
+      "assessment_version": "2.18",
+      "commits": [],
+      "supersedes": "Not prominent in the debate despite the largest direct commercial exposure",
+      "summary": "The Manila Times reported a detailed SEIPI position paper backing Pax Silica and proposing that the hub become the Luzon Economic Corridor's flagship manufacturing ecosystem, with infrastructure, workforce, supplier-development, incentive and environmental measures. The paper itself was not independently retrieved, so the assessment attributes the position to the report and treats every prescription as advocacy rather than adopted policy or technical evidence. The stakeholder stance moves from unaligned to supportive; the competitive-neutrality and talent-competition risks remain. No Key Judgment, figure, claim-checker verdict or scenario weight changes. Detail at Appendix H.16."
+    },
+    {
       "date": "2026-08-10",
       "type": "correction",
       "title": "Scenario indicators canonicalised; lease and sampling exhibits corrected (§19, Exh. 10, 17A)",
