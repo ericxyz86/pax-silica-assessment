@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-08-12",
+      "type": "correction",
+      "title": "Senate row corrected: at least four reported inquiry pushes, not one instrument (§17)",
+      "site_version": "1.48",
+      "assessment_version": "2.19",
+      "commits": [],
+      "supersedes": "Potentially decisive on concurrence. First instrument on record, 4 Aug 2026: a resolution by Sen. Imee Marcos seeking an inquiry into the Capas farmers' complaints; no committee action, and the institution has taken no position",
+      "summary": "The 4 August \"first instrument on record\" characterisation was incomplete when written: Sen. Risa Hontiveros's Proposed Senate Resolution No. 563 — an investigation in aid of legislation into the initiative's community, regional and national economic impact — was reported the same day and was missed by that monitoring cycle. The Senate row now records at least four reported inquiry or hearing pushes: the Marcos resolution (4 Aug), Hontiveros PSR 563 (4–5 Aug, DZRH and the Filipino Times), Sen. Kiko Pangilinan's commitment to scrutinise the project in a Senate hearing (6 Aug, Inquirer), and Sen. Raffy Tulfo's privilege speech seeking an inquiry into environmental and community impacts (11 Aug, GMA, DZRH, ABS-CBN; DZRH reported an accompanying resolution was filed). None is yet verified against an official Senate record — the legislative-information system was unreachable at verification time. The undercount was caught by the adversarial gate itself, which rejected three drafts before clearing the published wording. The impact judgment does not move; no Key Judgment, figure, claim-checker verdict or scenario weight changes. Detail at Appendix H.17."
+    },
+    {
       "date": "2026-08-11",
       "type": "update",
       "title": "Reported SEIPI position enters the stakeholder map (§17)",

@@ -2,11 +2,25 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Raffy Tulfo raises concerns over proposed Pax Silica site in Tarlac",
+      "source": "GMA News",
+      "date": "2026-08-11",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/998183/pax-silica-raffy-tulfo-tarlac/story",
+      "image": "https://images.gmanews.tv/webpics/2026/07/pax_silica_gma_image_2026_07_30_17_13_02.jpg"
+    },
+    {
       "title": "Seipi: Pax Silica could turn PH into manufacturing hub",
       "source": "Manila Times",
       "date": "2026-08-11",
       "url": "https://www.manilatimes.net/2026/08/11/business/top-business/seipi-pax-silica-could-turn-ph-into-manufacturing-hub/2402276",
       "image": "https://manilatimes.net/manilatimes/uploads/images/2026/08/10/1171201.jpeg"
+    },
+    {
+      "title": "PH could lose Pax Silica if it ‘drops the ball’ — Ambassador Romualdez",
+      "source": "ABS-CBN News",
+      "date": "2026-08-10",
+      "url": "https://www.abs-cbn.com/news/nation/2026/8/10/ph-could-lose-pax-silica-if-it-drops-the-ball-ambassador-romualdez-1837",
+      "image": "https://od2-image-api.abs-cbn.com/prod/20260810110828/43e489253fe54a048668711b86f85a4176128e06e90658f1266a73dfe2e43777.jpg"
     },
     {
       "title": "Pax Silica eyes dedicated power plant to meet energy needs—BCDA",
@@ -56,20 +70,6 @@
       "date": "2026-08-06",
       "url": "https://www.gmanetwork.com/news/topstories/nation/997586/palace-to-signees-of-petition-vs-pax-silica-know-its-benefits-too/story/",
       "image": "https://images.gmanews.tv/webpics/2026/07/pax_silica_gma_image_2026_07_30_17_13_02.jpg"
-    },
-    {
-      "title": "Pax Silica: BCDA’s claims and the counterarguments",
-      "source": "Rappler",
-      "date": "2026-08-05",
-      "url": "https://www.rappler.com/technology/features/pax-silica-bcda-claim-opposition-counterarguments/",
-      "image": "https://www.rappler.com/tachyon/2026/07/joshua-bingcang-pax-silica-july-31-2026-1.jpg"
-    },
-    {
-      "title": "Palace: Imee Marcos can proceed with Pax Silica inquiry",
-      "source": "Manila Times",
-      "date": "2026-08-04",
-      "url": "https://www.manilatimes.net/2026/08/04/news/palace-imee-marcos-can-proceed-with-pax-silica-inquiry/2397476",
-      "image": "https://manilatimes.net/manilatimes/uploads/images/2026/08/04/1162391.jpg"
     }
   ]
 }
