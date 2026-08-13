@@ -1,0 +1,217 @@
+{
+  "asOfDate": "2026-08-13",
+  "frames": {
+    "economic": {
+      "count": 4951,
+      "share": 0.367749
+    },
+    "environmental": {
+      "count": 2708,
+      "share": 0.201144
+    },
+    "ethical": {
+      "count": 224,
+      "share": 0.016638
+    },
+    "geopolitical": {
+      "count": 3333,
+      "share": 0.247567
+    },
+    "moral": {
+      "count": 893,
+      "share": 0.06633
+    },
+    "other": {
+      "count": 5991,
+      "share": 0.444997
+    },
+    "religious": {
+      "count": 17,
+      "share": 0.001263
+    },
+    "rights_based": {
+      "count": 1931,
+      "share": 0.14343
+    },
+    "security": {
+      "count": 694,
+      "share": 0.051549
+    }
+  },
+  "generatedAt": "2026-08-13T01:37:49.180Z",
+  "methodology": {
+    "languages": [
+      "en",
+      "tl"
+    ],
+    "location": "worldwide",
+    "note": "Every post in the window was labelled by software; none was reviewed by a person. Topic shares are multi-label and can sum past 100%.",
+    "query": "(\"pax silica\" OR hashtags:paxsilica) NOT engagementType:RETWEET",
+    "repostsExcluded": true
+  },
+  "platformMix": {
+    "blog": {
+      "count": 18,
+      "share": 0.001246
+    },
+    "bluesky": {
+      "count": 62,
+      "share": 0.004293
+    },
+    "facebook": {
+      "count": 10969,
+      "share": 0.759573
+    },
+    "forum": {
+      "count": 50,
+      "share": 0.003462
+    },
+    "instagram": {
+      "count": 64,
+      "share": 0.004432
+    },
+    "news": {
+      "count": 1084,
+      "share": 0.075064
+    },
+    "reddit": {
+      "count": 795,
+      "share": 0.055052
+    },
+    "review": {
+      "count": 1,
+      "share": 6.9e-05
+    },
+    "tumblr": {
+      "count": 9,
+      "share": 0.000623
+    },
+    "x": {
+      "count": 580,
+      "share": 0.040163
+    },
+    "youtube": {
+      "count": 809,
+      "share": 0.056021
+    }
+  },
+  "schemaVersion": "pax-social-public-v1",
+  "sentiment": {
+    "mixed": {
+      "count": 216,
+      "share": 0.016044
+    },
+    "negative": {
+      "count": 6721,
+      "share": 0.49922
+    },
+    "neutral": {
+      "count": 2937,
+      "share": 0.218153
+    },
+    "positive": {
+      "count": 3470,
+      "share": 0.257743
+    },
+    "unclear": {
+      "count": 119,
+      "share": 0.008839
+    }
+  },
+  "stakeholderTypes": {
+    "business": {
+      "count": 167,
+      "share": 0.012404
+    },
+    "civil_society": {
+      "count": 597,
+      "share": 0.044344
+    },
+    "faith_based_org": {
+      "count": 28,
+      "share": 0.00208
+    },
+    "government": {
+      "count": 796,
+      "share": 0.059125
+    },
+    "individual": {
+      "count": 10751,
+      "share": 0.798559
+    },
+    "media": {
+      "count": 1122,
+      "share": 0.08334
+    },
+    "unknown": {
+      "count": 2,
+      "share": 0.000149
+    }
+  },
+  "topicShares": {
+    "ai_infrastructure": {
+      "count": 1311,
+      "share": 0.097378
+    },
+    "energy": {
+      "count": 857,
+      "share": 0.063656
+    },
+    "environment": {
+      "count": 3371,
+      "share": 0.25039
+    },
+    "foreign_policy": {
+      "count": 979,
+      "share": 0.072718
+    },
+    "governance": {
+      "count": 4615,
+      "share": 0.342791
+    },
+    "implementation": {
+      "count": 301,
+      "share": 0.022358
+    },
+    "indigenous_rights": {
+      "count": 2022,
+      "share": 0.150189
+    },
+    "investment": {
+      "count": 2474,
+      "share": 0.183763
+    },
+    "jobs": {
+      "count": 1076,
+      "share": 0.079923
+    },
+    "other": {
+      "count": 3903,
+      "share": 0.289906
+    },
+    "security": {
+      "count": 1187,
+      "share": 0.088168
+    },
+    "semiconductors": {
+      "count": 2037,
+      "share": 0.151304
+    },
+    "sovereignty": {
+      "count": 1611,
+      "share": 0.119661
+    },
+    "trade": {
+      "count": 1234,
+      "share": 0.091659
+    },
+    "water": {
+      "count": 1510,
+      "share": 0.112159
+    }
+  },
+  "window": {
+    "end": "2026-08-13",
+    "start": "2026-08-01"
+  }
+}
