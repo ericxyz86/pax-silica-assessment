@@ -15,6 +15,16 @@
     {
       "date": "2026-08-14",
       "type": "correction",
+      "title": "Correction: the stakeholder exhibit still showed the old LGU finding, and miscounted the silent actors",
+      "site_version": "1.52",
+      "assessment_version": "2.22",
+      "commits": [],
+      "supersedes": "Almost entirely absent from the public record: the largest gap in the evidence base — and, in the exhibit's introduction: “four actors central to whether this project can proceed have taken no institutional position on the record. One of them moved on 4 August: a first Senate resolution seeking an inquiry was filed, though the chamber itself has not acted.”",
+      "summary": "Two errors in exhibit 09, “who is loud, who is silent”. First, the correction published earlier today reached the report's text but not this chart: the Tarlac LGUs marker still described them as almost entirely absent from the public record, the exact sentence the correction retired. It now records what the record supports — Capas entered procedurally on 31 July with an information request and a subsequently reported meeting, no LGU has stated a position on the merits, and no independently verified Bamban or provincial position was found. The marker stays dashed, because a request for information is not a position. Second, and older: the introduction said four actors had taken no institutional position while the chart showed three. The NCIP left that group on 8 August, when a community dialogue was reported and its marker was un-dashed, but this sentence was not updated at the time. It now says three, names them, and says where the fourth went. No new claims were introduced: each fact here was verified when first published — the Capas entry earlier today, the Senate pushes on 12 and 13 August, the NCIP dialogue on 8 August."
+    },
+    {
+      "date": "2026-08-14",
+      "type": "correction",
       "title": "Correction: Tarlac local governments were not absent from the record",
       "site_version": "1.51",
       "assessment_version": "2.22",
