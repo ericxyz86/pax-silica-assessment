@@ -2,6 +2,27 @@
  "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
  "items": [
   {
+   "title": "Building a 'Silicon Valley in Tarlac'? Manny Pangilinan wants in.",
+   "source": "Rappler",
+   "date": "2026-08-14",
+   "url": "https://www.rappler.com/business/building-silicon-valley-tarlac-pax-silica-manny-pangilinan/",
+   "image": "https://www.rappler.com/tachyon/2026/08/mvp-manny-pangilinan-1-scaled.jpeg"
+  },
+  {
+   "title": "Philippines to host inaugural Luzon corridor forum in push for allied AI, tech capital",
+   "source": "Manila Bulletin",
+   "date": "2026-08-13",
+   "url": "https://mb.com.ph/2026/08/13/philippines-to-host-inaugural-luzon-corridor-forum-in-push-for-allied-ai-tech-capital",
+   "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/08/13/123371.webp"
+  },
+  {
+   "title": "Groups protest vs Pax Silica",
+   "source": "ABS-CBN News",
+   "date": "2026-08-13",
+   "url": "https://www.abs-cbn.com/news/2026/8/13/groups-protest-vs-pax-silica-1344",
+   "image": "https://od2-image-api.abs-cbn.com/prod/20260813060840/e7d94a71fe1291eba137a9493ff4def02c84a6af09a36bbeba1dbaccace821d3.jpg"
+  },
+  {
    "title": "Imee Marcos urges swift probe into 'Pax Silica' deal over land control",
    "source": "Manila Bulletin",
    "date": "2026-08-12",
