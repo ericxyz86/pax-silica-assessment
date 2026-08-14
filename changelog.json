@@ -13,6 +13,15 @@
  "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
  "entries": [
   {
+   "date": "2026-08-14",
+   "type": "update",
+   "title": "Explainer video recut with the parcel's satellite imagery",
+   "site_version": "1.50",
+   "assessment_version": "2.21",
+   "commits": [],
+   "summary": "The two-minute Taglish explainer has been replaced with a new cut. The substantive change is in the power section: the 3,000 MW figure and DOE Secretary Garin's 27 July remark are now shown over satellite imagery of the site, with the 1,618.74-hectare parcel outlined against the roughly 15,000 hectares that 3,000 MW of solar would require, so the scale comparison the assessment makes in text is visible rather than asserted. Nothing in the narration's claims changed and no finding moved; the running time is unchanged at 2:05. The video auto-opens once for every visitor, returning visitors included, as it did when the explainer first became a video on 6 August."
+  },
+  {
    "date": "2026-08-13",
    "type": "correction",
    "title": "Layer-2 lease rights conditioned on RA 12252's actual terms (§11.3 exhibit)",
