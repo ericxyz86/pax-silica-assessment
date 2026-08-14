@@ -1,186 +1,196 @@
 {
- "title": "Pax Silica assessment — change log",
- "url": "https://pax-silica.aiailabs.net/changelog.json",
- "rendered_at": "https://pax-silica.aiailabs.net/#changelog",
- "policy": "Nothing is silently revised. Substantive changes to the site or the assessment are recorded here, newest first. An entry of type correction or removal must quote the superseded text verbatim in 'supersedes', so the maintenance disclosure's claim can be checked against the record rather than taken on trust. Automated daily data refreshes (the news rail, the listening exhibit) are recorded in the repository history, not here, unless they move a finding.",
- "types": {
-  "addition": "new content or evidence published; no prior text displaced",
-  "update": "existing content moved forward by new information; the prior text was not wrong when written",
-  "correction": "previously published text was wrong and is corrected; the superseded text is quoted verbatim",
-  "removal": "previously published text is withdrawn; the withdrawn text is quoted verbatim",
-  "process": "a change to how the site or the assessment is maintained, not to findings"
- },
- "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
- "entries": [
-  {
-   "date": "2026-08-14",
-   "type": "update",
-   "title": "Explainer video recut with the parcel's satellite imagery",
-   "site_version": "1.50",
-   "assessment_version": "2.21",
-   "commits": [],
-   "summary": "The two-minute Taglish explainer has been replaced with a new cut. The substantive change is in the power section: the 3,000 MW figure and DOE Secretary Garin's 27 July remark are now shown over satellite imagery of the site, with the 1,618.74-hectare parcel outlined against the roughly 15,000 hectares that 3,000 MW of solar would require, so the scale comparison the assessment makes in text is visible rather than asserted. Nothing in the narration's claims changed and no finding moved; the running time is unchanged at 2:05. The video auto-opens once for every visitor, returning visitors included, as it did when the explainer first became a video on 6 August."
+  "title": "Pax Silica assessment — change log",
+  "url": "https://pax-silica.aiailabs.net/changelog.json",
+  "rendered_at": "https://pax-silica.aiailabs.net/#changelog",
+  "policy": "Nothing is silently revised. Substantive changes to the site or the assessment are recorded here, newest first. An entry of type correction or removal must quote the superseded text verbatim in 'supersedes', so the maintenance disclosure's claim can be checked against the record rather than taken on trust. Automated daily data refreshes (the news rail, the listening exhibit) are recorded in the repository history, not here, unless they move a finding.",
+  "types": {
+    "addition": "new content or evidence published; no prior text displaced",
+    "update": "existing content moved forward by new information; the prior text was not wrong when written",
+    "correction": "previously published text was wrong and is corrected; the superseded text is quoted verbatim",
+    "removal": "previously published text is withdrawn; the withdrawn text is quoted verbatim",
+    "process": "a change to how the site or the assessment is maintained, not to findings"
   },
-  {
-   "date": "2026-08-13",
-   "type": "correction",
-   "title": "Layer-2 lease rights conditioned on RA 12252's actual terms (§11.3 exhibit)",
-   "site_version": "1.49",
-   "assessment_version": "2.21",
-   "commits": [],
-   "supersedes": "Not executed. Up to 99 years, with rights to transfer, sublease, and use the lease as collateral",
-   "summary": "The lease exhibit's layer-2 row stated transfer, sublease and collateral rights as unconditional features of a 99-year investor lease. RA 12252 permits a qualifying leasehold to be sold, transferred, assigned or used as loan security, but subleasing requires the lessor's consent and all such rights remain subject to the contract and statutory conditions; nor is it established that RA 12252 (which governs qualified foreign investors' leases of private lands) is the instrument that would govern this parcel and counterparty. The row now reads: instrument \"RA 7652 as amended by RA 12252, if applicable; otherwise the relevant BCDA authority and final lease terms remain to be established\"; status \"Not executed. Up to 99 years for a qualifying lease under RA 12252; such a leasehold may be sold, transferred, assigned or used as loan security, while subleasing requires the lessor's consent and remains subject to the contract and statutory conditions.\" Raised by the publishing session's adversarial re-verification, citing the statute; the md master's §11.3 table row is corrected to match."
-  },
-  {
-   "date": "2026-08-13",
-   "type": "correction",
-   "title": "Lease-structure passage corrected: BCDA's April master-lessee account was on the record (§11.3)",
-   "site_version": "1.49",
-   "assessment_version": "2.21",
-   "commits": [],
-   "supersedes": "The published documents address only layer 1, and no Philippine official has been asked publicly which of the two is intended.",
-   "summary": "The claim that no Philippine official had been asked publicly which lease architecture is intended was incomplete when written: on 24 April 2026 the Manila Bulletin reported BCDA President Joshua Bingcang describing \"a commercial structure, with BCDA retaining ownership of the land while a master lessee — the US — will be responsible for developing infrastructure and utilities within the hub.\" The adversarial gate surfaced the report while refuting this cycle's first draft; the monitor fetched and confirmed it full-text. The passage now records the unreconciled public accounts — the April master-lessee description, BCDA's later remarks referring only to foreign-investor leases of up to 99 years, and Sen. Imee Marcos's 12 August press-conference challenge to a joint-venture vehicle holding rights over the land, which rests on an alleged, unverified draft framework. The gate also required the hypothesised master lease's sublease and collateral consequences to be stated conditionally (dependent on lease terms, applicable law and approvals, transferring no ownership or sovereignty) rather than as automatic. The structural question itself remains open; no published contractual instrument establishes the final structure, term, counterparty or legal basis. Four gate passes on the originating cycle; the publishing session ran an independent re-verification (three further passes) that required additional statute-grounded qualifications, implemented before release, and rejected two gate demands that were contradicted by the BCDA letter's documented reversion clause (§II.1.c) and by Art. XII §3's lease-only rule for corporate holding of public-domain land."
-  },
-  {
-   "date": "2026-08-13",
-   "type": "update",
-   "title": "Senate row: four separately reported pushes, four senators; at least five publicly backing scrutiny; PSR 571 corroborated (§17)",
-   "site_version": "1.49",
-   "assessment_version": "2.21",
-   "commits": [],
-   "summary": "The Senate row now records at least four separately reported Senate inquiry or hearing pushes attributable to four senators (Marcos, Hontiveros, Pangilinan, R. Tulfo); Sen. Erwin Tulfo's endorsement of his brother's resolution brings the senators publicly supporting an inquiry or hearing to at least five. The row's impact reading is conditioned: potentially decisive if the final instrument requires Senate concurrence, a legal classification not yet established. New since v2.19: Sen. Raffy Tulfo's Proposed Senate Resolution No. 571 — seeking an inquiry into the hub's economic, environmental, social, technological and national-security implications — is reported by four organisationally separate outlets (Manila Times, BusinessWorld, Philstar, Newsbytes.PH) carrying the same purported resolution excerpt; the official docket remains unreachable, so the filing is carried as corroborated across those outlets, not docket-verified. Sen. Imee Marcos reiterated and expanded her probe demand at a 12 August press conference over an alleged draft framework (unverified; her account), while clarifying she does not oppose the project. Sen. Erwin Tulfo endorsed his brother's resolution and demanded water- and power-sourcing explanations; the gate refuted counting that endorsement as a fifth initiative. No committee action or institutional Senate position identified; the impact judgment does not move."
-  },
-  {
-   "date": "2026-08-12",
-   "type": "correction",
-   "title": "Senate row corrected: at least four reported inquiry pushes, not one instrument (§17)",
-   "site_version": "1.48",
-   "assessment_version": "2.19",
-   "commits": [],
-   "supersedes": "Potentially decisive on concurrence. First instrument on record, 4 Aug 2026: a resolution by Sen. Imee Marcos seeking an inquiry into the Capas farmers' complaints; no committee action, and the institution has taken no position",
-   "summary": "The 4 August \"first instrument on record\" characterisation was incomplete when written: Sen. Risa Hontiveros's Proposed Senate Resolution No. 563 — an investigation in aid of legislation into the initiative's community, regional and national economic impact — was reported the same day and was missed by that monitoring cycle. The Senate row now records at least four reported inquiry or hearing pushes: the Marcos resolution (4 Aug), Hontiveros PSR 563 (4–5 Aug, DZRH and the Filipino Times), Sen. Kiko Pangilinan's commitment to scrutinise the project in a Senate hearing (6 Aug, Inquirer), and Sen. Raffy Tulfo's privilege speech seeking an inquiry into environmental and community impacts (11 Aug, GMA, DZRH, ABS-CBN; DZRH reported an accompanying resolution was filed). None is yet verified against an official Senate record — the legislative-information system was unreachable at verification time. The undercount was caught by the adversarial gate itself, which rejected three drafts before clearing the published wording. The impact judgment does not move; no Key Judgment, figure, claim-checker verdict or scenario weight changes. Detail at Appendix H.17."
-  },
-  {
-   "date": "2026-08-11",
-   "type": "update",
-   "title": "Reported SEIPI position enters the stakeholder map (§17)",
-   "site_version": "1.47",
-   "assessment_version": "2.18",
-   "commits": [],
-   "supersedes": "Not prominent in the debate despite the largest direct commercial exposure",
-   "summary": "The Manila Times reported a detailed SEIPI position paper backing Pax Silica and proposing that the hub become the Luzon Economic Corridor's flagship manufacturing ecosystem, with infrastructure, workforce, supplier-development, incentive and environmental measures. The paper itself was not independently retrieved, so the assessment attributes the position to the report and treats every prescription as advocacy rather than adopted policy or technical evidence. The stakeholder stance moves from unaligned to supportive; the competitive-neutrality and talent-competition risks remain. No Key Judgment, figure, claim-checker verdict or scenario weight changes. Detail at Appendix H.16."
-  },
-  {
-   "date": "2026-08-10",
-   "type": "correction",
-   "title": "Scenario indicators canonicalised; lease and sampling exhibits corrected (§19, Exh. 10, 17A)",
-   "site_version": "1.46",
-   "assessment_version": "2.17",
-   "commits": [],
-   "supersedes": "The master lease runs 99 years over 1,618.74 hectares, held by a foreign government.",
-   "summary": "Three site statements are corrected toward the assessment: the lease exhibit stated a hypothetical 99-year US master lease as fact (the structure remains undisclosed; now conditional); the prefatory note had regressed to a withdrawn fixed-cutoff framing; the sentiment exhibit's 64,000-post universe extrapolation is replaced by the stated sampling limitation. The scenario exhibit's B/D/E early-warning indicators, previously site-authored, are adversarially reviewed, reworded, and adopted into the assessment (v2.17) as structured judgments without base-rate calibration."
-  },
-  {
-   "date": "2026-08-10",
-   "type": "update",
-   "title": "BCDA's dedicated-power-plant statement added (§12.2)",
-   "site_version": "1.45",
-   "assessment_version": "2.16",
-   "commits": [],
-   "summary": "BCDA's president said on 9 August that proponents are studying a dedicated power plant so the facility would not jeopardise residential electricity supply. Recorded in §12.2 and the claim checker as directionally consistent with the Energy Secretary's own-generation requirement; a study establishes neither a stand-alone configuration nor capacity, so no finding, figure or verdict moves."
-  },
-  {
-   "date": "2026-08-10",
-   "type": "correction",
-   "title": "Export projection's 'annual' withdrawn (§13.5)",
-   "site_version": "1.44",
-   "assessment_version": "2.15",
-   "commits": [
-    "eb6bf18"
-   ],
-   "supersedes": "US$200 billion in annual exports at full build-out",
-   "summary": "Versions through v2.14 described BCDA's US$200 billion export projection as annual. The reporting of 7–9 August instead links the figure to full development over an approximately 30-year horizon and does not establish whether it is annual, cumulative over that horizon, or measured on another basis. §13.5 and the claim checker now state that the temporal basis is unestablished without the underlying study; the 2.37× comparison with 2025 merchandise exports is retained only as a non-period-equivalent comparison of nominal magnitudes. Detail at Appendix H.13."
-  },
-  {
-   "date": "2026-08-10",
-   "type": "update",
-   "title": "NCIP enters the record; Subic designation formalised (§15.2, §16)",
-   "site_version": "1.44",
-   "assessment_version": "2.15",
-   "commits": [
-    "eb6bf18"
-   ],
-   "supersedes": "conspicuously absent from the public debate",
-   "summary": "NCIP Secretary Nancy Catamco and the Region III Ethnographic Commissioner held a dialogue with Aeta communities in Sitio Binyayan, Capas — NCIP's own statement, reported 8 August — undertaking to relay concerns on homes, livelihoods and the ancestral domain claim to BCDA. This supersedes the finding that the NCIP was conspicuously absent from the public debate; the process finding is preserved, as nothing indicates a Section 59 certification, field-based investigation or FPIC proceeding, and precondition 6 stands unchanged. Separately, an official SBMA account records a BCDA–SBMA MOU signed 20 July designating Subic as the preferred maritime gateway — 'preferred' is the operative term and the agreement's text is unpublished. Four items joined the news rail after passing the adversarial gate. Detail at Appendix H.13."
-  },
-  {
-   "date": "2026-08-09",
-   "type": "process",
-   "title": "Change log rendering bounded",
-   "site_version": "1.43",
-   "summary": "The page now shows the five most recent entries; older entries sit in a collapsed block that opens in place, and the page will render at most 35 in total as the log grows. Presentation only: this JSON remains the complete, append-only record, and nothing is ever dropped from it."
-  },
-  {
-   "date": "2026-08-09",
-   "type": "process",
-   "title": "Public change log published",
-   "site_version": "1.42",
-   "assessment_version": "2.14",
-   "summary": "The site now publishes this machine-readable change log at /changelog.json, rendered on the page as 'what has changed'. Corrections and removals must quote the superseded text verbatim, so the claim that nothing is silently revised is checkable rather than asserted. The log opens with the substantive changes of 7–9 August 2026; earlier changes are in Appendix H of the assessment and in the repository history."
-  },
-  {
-   "date": "2026-08-09",
-   "type": "update",
-   "title": "Hero gains a last-updated date",
-   "site_version": "1.41",
-   "commits": [
-    "a74543f",
-    "9c21d4a"
-   ],
-   "summary": "The hero eyebrow now carries a last-updated date after the facts-verified date. Last updated means the date of the most recent substantive site change from any lane, automated or editorial; facts verified continues to mean the date to which project facts have been re-verified."
-  },
-  {
-   "date": "2026-08-09",
-   "type": "addition",
-   "title": "News rail: BCDA sets a 30-year development plan",
-   "commits": [
-    "7822f90"
-   ],
-   "summary": "Added to the news rail after passing the adversarial gate: Philstar reports (9 August) that BCDA has set a 30-year development plan for the Pax Silica hub. A news-rail headline is the publisher's claim, not this report's finding; no finding moves."
-  },
-  {
-   "date": "2026-08-08",
-   "type": "correction",
-   "title": "Footer verification date corrected",
-   "site_version": "1.40",
-   "commits": [
-    "0bf22fb"
-   ],
-   "supersedes": "Comparator, legal and technical sources verified through 2 August 2026.",
-   "summary": "The footer stated that comparator, legal and technical sources were verified through 2 August 2026. No re-verification of those sources had been performed after 27 July 2026. The footer now reads 'verified through 27 July 2026; these move only when re-verified.'"
-  },
-  {
-   "date": "2026-08-08",
-   "type": "update",
-   "title": "Aeta opposition moves on the record (§17)",
-   "assessment_version": "2.14",
-   "supersedes": "Opposed through allied organisations",
-   "summary": "The Aeta communities row's stance had become outdated: on 6 August, leaders of Sitio Sapang Kawayan urged cancellation in a media forum, on the record and by name (GMA, corroborated by ABS-CBN). §17 also gains the reported petition scale — 'half a million signatures', explicitly not established as unique signatories — and Malacañang's same-day response, kept separate so it cannot read as verifying the total. Strengthening only; no key judgment, confidence level or scenario weight moves. Detail at Appendix H.12."
-  },
-  {
-   "date": "2026-08-07",
-   "type": "update",
-   "title": "A methodological assurance weakened, against interest (§17A)",
-   "assessment_version": "2.13",
-   "supersedes": "supports the comparisons made here — shares, trends and rankings",
-   "summary": "The §17A method note claimed the 10% social-listening sample supported the comparisons drawn from it. That confidence was never independently validated, and moving the live query to near-census moved platform shares by up to nine points. Because a repost exclusion changed in the same step, the movement cannot be attributed to sampling — so the historical figures are not claimed to be wrong, only that their sampling uncertainty is wider than the old note implied. Detail at Appendix H.11."
-  },
-  {
-   "date": "2026-08-07",
-   "type": "addition",
-   "title": "BCDA's own words on data centres enter §5.1",
-   "assessment_version": "2.12",
-   "summary": "§5.1 already held that BCDA's descriptions of the site's activity are inconsistent; it now holds the sharpest evidence for that claim, which is BCDA's own words: 'may invite data centers, but it's not all about data centers' (23 July, Malacañang briefing) and 'ang proyekto na ito ay hindi data centers' (6 August, Clark). A well-evidenced finding strengthened by a primary government source; no finding moves. Detail at Appendix H.10."
-  }
- ]
+  "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
+  "entries": [
+    {
+      "date": "2026-08-14",
+      "type": "correction",
+      "title": "Correction: Tarlac local governments were not absent from the record",
+      "site_version": "1.51",
+      "assessment_version": "2.22",
+      "commits": [],
+      "supersedes": "Almost entirely absent from the public record",
+      "summary": "This report said Tarlac's local governments were almost entirely absent from the public record, and called that the largest gap in the evidence. That was wrong, and had been since 31 July 2026. On that date the Inquirer reported that Capas Mayor Roseller “Boots” Rodriguez had written to the BCDA asking it to explain the project to the municipal government — its objectives, scope, timeline, environmental and social safeguards, expected benefits, regulatory compliance and local impacts. The Manila Times reported on 4 August that the BCDA would meet the mayor and gather other local governments; the Daily Tribune and the Inquirer reported on 6 August that the two sides had begun discussions, which the BCDA described as a step toward further consultation. Four reports in Tier-1 outlets, over eight days, and this report carried the stale finding through five releases. The cause was collection, not judgement: none of the four reached the monitoring ledger, because the daily sweep reads publishers’ homepages and these ran on regional and section pages. That gap is being fixed alongside this correction. The corrected text says only what the retrieved record supports: Capas has entered the record procedurally — an information request and a reported meeting — and no Capas resolution, meeting record, consultation plan or position on the project’s merits was found; no independently verified position from Bamban or the provincial government was found either. A claimed provincial endorsement circulating on a single obscure website was checked and excluded: no credible outlet, provincial resolution or official release corroborates it. The adversarial verification pass refuted four of the five wordings drafted for this correction and supplied the published text, mainly to stop the report claiming that something does not exist when what it can honestly say is that it looked and did not find it."
+    },
+    {
+      "date": "2026-08-14",
+      "type": "update",
+      "title": "Explainer video recut with the parcel's satellite imagery",
+      "site_version": "1.50",
+      "assessment_version": "2.21",
+      "commits": [],
+      "summary": "The two-minute Taglish explainer has been replaced with a new cut. The substantive change is in the power section: the 3,000 MW figure and DOE Secretary Garin's 27 July remark are now shown over satellite imagery of the site, with the 1,618.74-hectare parcel outlined against the roughly 15,000 hectares that 3,000 MW of solar would require, so the scale comparison the assessment makes in text is visible rather than asserted. Nothing in the narration's claims changed and no finding moved; the running time is unchanged at 2:05. The video auto-opens once for every visitor, returning visitors included, as it did when the explainer first became a video on 6 August."
+    },
+    {
+      "date": "2026-08-13",
+      "type": "correction",
+      "title": "Layer-2 lease rights conditioned on RA 12252's actual terms (§11.3 exhibit)",
+      "site_version": "1.49",
+      "assessment_version": "2.21",
+      "commits": [],
+      "supersedes": "Not executed. Up to 99 years, with rights to transfer, sublease, and use the lease as collateral",
+      "summary": "The lease exhibit's layer-2 row stated transfer, sublease and collateral rights as unconditional features of a 99-year investor lease. RA 12252 permits a qualifying leasehold to be sold, transferred, assigned or used as loan security, but subleasing requires the lessor's consent and all such rights remain subject to the contract and statutory conditions; nor is it established that RA 12252 (which governs qualified foreign investors' leases of private lands) is the instrument that would govern this parcel and counterparty. The row now reads: instrument \"RA 7652 as amended by RA 12252, if applicable; otherwise the relevant BCDA authority and final lease terms remain to be established\"; status \"Not executed. Up to 99 years for a qualifying lease under RA 12252; such a leasehold may be sold, transferred, assigned or used as loan security, while subleasing requires the lessor's consent and remains subject to the contract and statutory conditions.\" Raised by the publishing session's adversarial re-verification, citing the statute; the md master's §11.3 table row is corrected to match."
+    },
+    {
+      "date": "2026-08-13",
+      "type": "correction",
+      "title": "Lease-structure passage corrected: BCDA's April master-lessee account was on the record (§11.3)",
+      "site_version": "1.49",
+      "assessment_version": "2.21",
+      "commits": [],
+      "supersedes": "The published documents address only layer 1, and no Philippine official has been asked publicly which of the two is intended.",
+      "summary": "The claim that no Philippine official had been asked publicly which lease architecture is intended was incomplete when written: on 24 April 2026 the Manila Bulletin reported BCDA President Joshua Bingcang describing \"a commercial structure, with BCDA retaining ownership of the land while a master lessee — the US — will be responsible for developing infrastructure and utilities within the hub.\" The adversarial gate surfaced the report while refuting this cycle's first draft; the monitor fetched and confirmed it full-text. The passage now records the unreconciled public accounts — the April master-lessee description, BCDA's later remarks referring only to foreign-investor leases of up to 99 years, and Sen. Imee Marcos's 12 August press-conference challenge to a joint-venture vehicle holding rights over the land, which rests on an alleged, unverified draft framework. The gate also required the hypothesised master lease's sublease and collateral consequences to be stated conditionally (dependent on lease terms, applicable law and approvals, transferring no ownership or sovereignty) rather than as automatic. The structural question itself remains open; no published contractual instrument establishes the final structure, term, counterparty or legal basis. Four gate passes on the originating cycle; the publishing session ran an independent re-verification (three further passes) that required additional statute-grounded qualifications, implemented before release, and rejected two gate demands that were contradicted by the BCDA letter's documented reversion clause (§II.1.c) and by Art. XII §3's lease-only rule for corporate holding of public-domain land."
+    },
+    {
+      "date": "2026-08-13",
+      "type": "update",
+      "title": "Senate row: four separately reported pushes, four senators; at least five publicly backing scrutiny; PSR 571 corroborated (§17)",
+      "site_version": "1.49",
+      "assessment_version": "2.21",
+      "commits": [],
+      "summary": "The Senate row now records at least four separately reported Senate inquiry or hearing pushes attributable to four senators (Marcos, Hontiveros, Pangilinan, R. Tulfo); Sen. Erwin Tulfo's endorsement of his brother's resolution brings the senators publicly supporting an inquiry or hearing to at least five. The row's impact reading is conditioned: potentially decisive if the final instrument requires Senate concurrence, a legal classification not yet established. New since v2.19: Sen. Raffy Tulfo's Proposed Senate Resolution No. 571 — seeking an inquiry into the hub's economic, environmental, social, technological and national-security implications — is reported by four organisationally separate outlets (Manila Times, BusinessWorld, Philstar, Newsbytes.PH) carrying the same purported resolution excerpt; the official docket remains unreachable, so the filing is carried as corroborated across those outlets, not docket-verified. Sen. Imee Marcos reiterated and expanded her probe demand at a 12 August press conference over an alleged draft framework (unverified; her account), while clarifying she does not oppose the project. Sen. Erwin Tulfo endorsed his brother's resolution and demanded water- and power-sourcing explanations; the gate refuted counting that endorsement as a fifth initiative. No committee action or institutional Senate position identified; the impact judgment does not move."
+    },
+    {
+      "date": "2026-08-12",
+      "type": "correction",
+      "title": "Senate row corrected: at least four reported inquiry pushes, not one instrument (§17)",
+      "site_version": "1.48",
+      "assessment_version": "2.19",
+      "commits": [],
+      "supersedes": "Potentially decisive on concurrence. First instrument on record, 4 Aug 2026: a resolution by Sen. Imee Marcos seeking an inquiry into the Capas farmers' complaints; no committee action, and the institution has taken no position",
+      "summary": "The 4 August \"first instrument on record\" characterisation was incomplete when written: Sen. Risa Hontiveros's Proposed Senate Resolution No. 563 — an investigation in aid of legislation into the initiative's community, regional and national economic impact — was reported the same day and was missed by that monitoring cycle. The Senate row now records at least four reported inquiry or hearing pushes: the Marcos resolution (4 Aug), Hontiveros PSR 563 (4–5 Aug, DZRH and the Filipino Times), Sen. Kiko Pangilinan's commitment to scrutinise the project in a Senate hearing (6 Aug, Inquirer), and Sen. Raffy Tulfo's privilege speech seeking an inquiry into environmental and community impacts (11 Aug, GMA, DZRH, ABS-CBN; DZRH reported an accompanying resolution was filed). None is yet verified against an official Senate record — the legislative-information system was unreachable at verification time. The undercount was caught by the adversarial gate itself, which rejected three drafts before clearing the published wording. The impact judgment does not move; no Key Judgment, figure, claim-checker verdict or scenario weight changes. Detail at Appendix H.17."
+    },
+    {
+      "date": "2026-08-11",
+      "type": "update",
+      "title": "Reported SEIPI position enters the stakeholder map (§17)",
+      "site_version": "1.47",
+      "assessment_version": "2.18",
+      "commits": [],
+      "supersedes": "Not prominent in the debate despite the largest direct commercial exposure",
+      "summary": "The Manila Times reported a detailed SEIPI position paper backing Pax Silica and proposing that the hub become the Luzon Economic Corridor's flagship manufacturing ecosystem, with infrastructure, workforce, supplier-development, incentive and environmental measures. The paper itself was not independently retrieved, so the assessment attributes the position to the report and treats every prescription as advocacy rather than adopted policy or technical evidence. The stakeholder stance moves from unaligned to supportive; the competitive-neutrality and talent-competition risks remain. No Key Judgment, figure, claim-checker verdict or scenario weight changes. Detail at Appendix H.16."
+    },
+    {
+      "date": "2026-08-10",
+      "type": "correction",
+      "title": "Scenario indicators canonicalised; lease and sampling exhibits corrected (§19, Exh. 10, 17A)",
+      "site_version": "1.46",
+      "assessment_version": "2.17",
+      "commits": [],
+      "supersedes": "The master lease runs 99 years over 1,618.74 hectares, held by a foreign government.",
+      "summary": "Three site statements are corrected toward the assessment: the lease exhibit stated a hypothetical 99-year US master lease as fact (the structure remains undisclosed; now conditional); the prefatory note had regressed to a withdrawn fixed-cutoff framing; the sentiment exhibit's 64,000-post universe extrapolation is replaced by the stated sampling limitation. The scenario exhibit's B/D/E early-warning indicators, previously site-authored, are adversarially reviewed, reworded, and adopted into the assessment (v2.17) as structured judgments without base-rate calibration."
+    },
+    {
+      "date": "2026-08-10",
+      "type": "update",
+      "title": "BCDA's dedicated-power-plant statement added (§12.2)",
+      "site_version": "1.45",
+      "assessment_version": "2.16",
+      "commits": [],
+      "summary": "BCDA's president said on 9 August that proponents are studying a dedicated power plant so the facility would not jeopardise residential electricity supply. Recorded in §12.2 and the claim checker as directionally consistent with the Energy Secretary's own-generation requirement; a study establishes neither a stand-alone configuration nor capacity, so no finding, figure or verdict moves."
+    },
+    {
+      "date": "2026-08-10",
+      "type": "correction",
+      "title": "Export projection's 'annual' withdrawn (§13.5)",
+      "site_version": "1.44",
+      "assessment_version": "2.15",
+      "commits": [
+        "eb6bf18"
+      ],
+      "supersedes": "US$200 billion in annual exports at full build-out",
+      "summary": "Versions through v2.14 described BCDA's US$200 billion export projection as annual. The reporting of 7–9 August instead links the figure to full development over an approximately 30-year horizon and does not establish whether it is annual, cumulative over that horizon, or measured on another basis. §13.5 and the claim checker now state that the temporal basis is unestablished without the underlying study; the 2.37× comparison with 2025 merchandise exports is retained only as a non-period-equivalent comparison of nominal magnitudes. Detail at Appendix H.13."
+    },
+    {
+      "date": "2026-08-10",
+      "type": "update",
+      "title": "NCIP enters the record; Subic designation formalised (§15.2, §16)",
+      "site_version": "1.44",
+      "assessment_version": "2.15",
+      "commits": [
+        "eb6bf18"
+      ],
+      "supersedes": "conspicuously absent from the public debate",
+      "summary": "NCIP Secretary Nancy Catamco and the Region III Ethnographic Commissioner held a dialogue with Aeta communities in Sitio Binyayan, Capas — NCIP's own statement, reported 8 August — undertaking to relay concerns on homes, livelihoods and the ancestral domain claim to BCDA. This supersedes the finding that the NCIP was conspicuously absent from the public debate; the process finding is preserved, as nothing indicates a Section 59 certification, field-based investigation or FPIC proceeding, and precondition 6 stands unchanged. Separately, an official SBMA account records a BCDA–SBMA MOU signed 20 July designating Subic as the preferred maritime gateway — 'preferred' is the operative term and the agreement's text is unpublished. Four items joined the news rail after passing the adversarial gate. Detail at Appendix H.13."
+    },
+    {
+      "date": "2026-08-09",
+      "type": "process",
+      "title": "Change log rendering bounded",
+      "site_version": "1.43",
+      "summary": "The page now shows the five most recent entries; older entries sit in a collapsed block that opens in place, and the page will render at most 35 in total as the log grows. Presentation only: this JSON remains the complete, append-only record, and nothing is ever dropped from it."
+    },
+    {
+      "date": "2026-08-09",
+      "type": "process",
+      "title": "Public change log published",
+      "site_version": "1.42",
+      "assessment_version": "2.14",
+      "summary": "The site now publishes this machine-readable change log at /changelog.json, rendered on the page as 'what has changed'. Corrections and removals must quote the superseded text verbatim, so the claim that nothing is silently revised is checkable rather than asserted. The log opens with the substantive changes of 7–9 August 2026; earlier changes are in Appendix H of the assessment and in the repository history."
+    },
+    {
+      "date": "2026-08-09",
+      "type": "update",
+      "title": "Hero gains a last-updated date",
+      "site_version": "1.41",
+      "commits": [
+        "a74543f",
+        "9c21d4a"
+      ],
+      "summary": "The hero eyebrow now carries a last-updated date after the facts-verified date. Last updated means the date of the most recent substantive site change from any lane, automated or editorial; facts verified continues to mean the date to which project facts have been re-verified."
+    },
+    {
+      "date": "2026-08-09",
+      "type": "addition",
+      "title": "News rail: BCDA sets a 30-year development plan",
+      "commits": [
+        "7822f90"
+      ],
+      "summary": "Added to the news rail after passing the adversarial gate: Philstar reports (9 August) that BCDA has set a 30-year development plan for the Pax Silica hub. A news-rail headline is the publisher's claim, not this report's finding; no finding moves."
+    },
+    {
+      "date": "2026-08-08",
+      "type": "correction",
+      "title": "Footer verification date corrected",
+      "site_version": "1.40",
+      "commits": [
+        "0bf22fb"
+      ],
+      "supersedes": "Comparator, legal and technical sources verified through 2 August 2026.",
+      "summary": "The footer stated that comparator, legal and technical sources were verified through 2 August 2026. No re-verification of those sources had been performed after 27 July 2026. The footer now reads 'verified through 27 July 2026; these move only when re-verified.'"
+    },
+    {
+      "date": "2026-08-08",
+      "type": "update",
+      "title": "Aeta opposition moves on the record (§17)",
+      "assessment_version": "2.14",
+      "supersedes": "Opposed through allied organisations",
+      "summary": "The Aeta communities row's stance had become outdated: on 6 August, leaders of Sitio Sapang Kawayan urged cancellation in a media forum, on the record and by name (GMA, corroborated by ABS-CBN). §17 also gains the reported petition scale — 'half a million signatures', explicitly not established as unique signatories — and Malacañang's same-day response, kept separate so it cannot read as verifying the total. Strengthening only; no key judgment, confidence level or scenario weight moves. Detail at Appendix H.12."
+    },
+    {
+      "date": "2026-08-07",
+      "type": "update",
+      "title": "A methodological assurance weakened, against interest (§17A)",
+      "assessment_version": "2.13",
+      "supersedes": "supports the comparisons made here — shares, trends and rankings",
+      "summary": "The §17A method note claimed the 10% social-listening sample supported the comparisons drawn from it. That confidence was never independently validated, and moving the live query to near-census moved platform shares by up to nine points. Because a repost exclusion changed in the same step, the movement cannot be attributed to sampling — so the historical figures are not claimed to be wrong, only that their sampling uncertainty is wider than the old note implied. Detail at Appendix H.11."
+    },
+    {
+      "date": "2026-08-07",
+      "type": "addition",
+      "title": "BCDA's own words on data centres enter §5.1",
+      "assessment_version": "2.12",
+      "summary": "§5.1 already held that BCDA's descriptions of the site's activity are inconsistent; it now holds the sharpest evidence for that claim, which is BCDA's own words: 'may invite data centers, but it's not all about data centers' (23 July, Malacañang briefing) and 'ang proyekto na ito ay hindi data centers' (6 August, Clark). A well-evidenced finding strengthened by a primary government source; no finding moves. Detail at Appendix H.10."
+    }
+  ]
 }
