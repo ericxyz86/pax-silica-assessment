@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-08-15",
+      "type": "correction",
+      "title": "The hearing's own record: who said what about the population, and a peso figure we nearly got wrong",
+      "site_version": "1.56",
+      "assessment_version": "2.26",
+      "commits": [],
+      "supersedes": "about 1,000 people associated with the Sitio Sapang Kawayan chieftain",
+      "summary": "Eric supplied the auto-generated transcript of the 14 August Senate hearing, which is the first time this report has had the proceeding itself rather than reporting about it. It changes two things we published this morning and adds a third. First, a correction: we attributed the figure of about 1,000 people to the chieftain of Sitio Sapang Kawayan. The recording does not establish who was speaking at that moment, so it is now attributed to a community witness describing the community's own census. Second, the 2013 date attached to BCDA's low count is restated as what a community witness said, not as established provenance — BCDA described its figure as houses seen on an earlier visit, not a census. Third, the transcript supplies the chain the news reports could not: NCIP told the committee it has no exact validated count, its 75-household figure came through a community source, and that figure covers one sitio inside the proposed area. A second affected group also surfaced — farmers, with two preliminary lists for a first phase of about 580 hectares, 182 in a figure associated with BCDA and 266 in the municipality's records, neither published. The verification pass refused all three of our drafts. Its most useful catch was arithmetic we had passed through without checking: the transcript rendered the assistance package as ₱300 per square metre and ₱300,000 per hectare, which cannot both be true, since a hectare is ten thousand square metres. Earlier records put it at ₱30 per square metre. We publish the ₱30 figure and not the other. Nothing here moves a key judgement; the question of displacement remains disputed, now on better evidence. And the transcript is machine speech recognition, not the official Senate record, which is why every figure above is qualified."
+    },
+    {
+      "date": "2026-08-15",
       "type": "addition",
       "title": "How many indigenous people live on the site: three figures, no verified count",
       "site_version": "1.55",
