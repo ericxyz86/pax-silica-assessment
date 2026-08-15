@@ -42,7 +42,7 @@ Four developments in the fortnight before cutoff are material enough to drive sp
 
 All conversions use PHP 61.85 per US$1, from US$1 = PHP 61.847, the peso’s record-low close of 24 July 2026. Where a source gives a peso figure it is reported as given and converted; where a source gives dollars, the peso equivalent is calculated.
 
-This is a living document. Project facts are verified to 13 August 2026 and move forward as material developments are verified. Comparator, legal and technical sources were verified through 27 July 2026 and move only when those are re-verified.
+This is a living document. Project facts are verified to 15 August 2026 and move forward as material developments are verified. Comparator, legal and technical sources were verified through 27 July 2026 and move only when those are re-verified.
 
 [sources drawn on: T3-21 · T1-05]
 

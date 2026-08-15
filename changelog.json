@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-08-15",
+      "type": "update",
+      "title": "The Senate held its first committee hearing on the project",
+      "site_version": "1.53",
+      "assessment_version": "2.23",
+      "commits": [],
+      "supersedes": "No committee action or institutional Senate position identified; the impact judgment does not move.",
+      "summary": "On 14 August 2026 the Senate Committee on Environment, Natural Resources and Climate Change, chaired by Sen. Raffy Tulfo, held a hearing on Pax Silica — the first committee hearing this monitor has identified. The stakeholder map's Senate row previously closed by recording that no committee action had been found. That is now superseded on its first limb and kept on its second: a hearing was held, and it canvassed the project's environmental, water, energy, displacement, land, sovereignty and mineral-processing issues, with Senate President Gatchalian calling it a \"once-in-a-lifetime\" opportunity while expressing conditional personal support — but no resolution, committee report or other institutional Senate position was identified as emerging from it. No key judgment, confidence level or scenario weight moves. Three adversarial gate passes refused successively narrower drafts before the published wording, which is the gate's own: it struck a claim that this was the first committee action outright (unprovable), and a list of conditions attributed to Gatchalian personally that the record placed with the hearing at large. A separate revision proposed for the same hearing — BCDA's testimony naming the Bangot/Bangat–O'Donnell and Abacan rivers as water sources — was refused twice and is not published, pending a transcript."
+    },
+    {
       "date": "2026-08-14",
       "type": "correction",
       "title": "Correction: the stakeholder exhibit still showed the old LGU finding, and miscounted the silent actors",
