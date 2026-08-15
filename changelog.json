@@ -14,6 +14,15 @@
   "entries": [
     {
       "date": "2026-08-15",
+      "type": "addition",
+      "title": "How many indigenous people live on the site: three figures, no verified count",
+      "site_version": "1.55",
+      "assessment_version": "2.25",
+      "commits": [],
+      "summary": "At the Senate hearing on 14 August, three different figures for the indigenous population of the proposed site were reportedly given in the same room: BCDA's, expressed in households; the National Commission on Indigenous Peoples' 75 households; and about 1,000 people, from the chieftain of Sitio Sapang Kawayan. It is tempting to report that as a three-way contradiction, and the first draft of this entry did. The adversarial verification pass refused it, for a reason worth stating plainly: the figures are not in the same units. Two count households, one counts people. Converted roughly, 75 households is about 285 people and 1,000 people is about 263 households — so the two larger figures are closer to each other than to BCDA's, and the real gap is between BCDA's estimate and NCIP's. The pass also refused to let this report say the chieftain's number is a count of the parcel, because nothing published establishes whether it describes the parcel, a community, or a wider claim area. What survives is narrower and, we think, more useful: no current, published, count of the site exists that reports households and people on the same date for a mapped area. Until one does, none of these numbers is a verified count of who lives there — and a categorical assurance that nobody will be displaced rests on the same missing document. The report's judgement on displacement is unchanged; a single hearing carried by one news organisation is not grounds to move it. Also corrected in the drafting: BCDA did not simply leave burial grounds undiscussed. It promised to respect them if affected, said the matter had not been discussed in detail, and proposed an inventory with NCIP."
+    },
+    {
+      "date": "2026-08-15",
       "type": "update",
       "title": "The United States' reply of 16 April enters the record",
       "site_version": "1.54",
