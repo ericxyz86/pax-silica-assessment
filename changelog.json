@@ -15,6 +15,16 @@
     {
       "date": "2026-08-16",
       "type": "correction",
+      "title": "The implementation checklist: fourteen gates open, not fifteen",
+      "site_version": "1.58",
+      "assessment_version": "2.28",
+      "commits": [],
+      "supersedes": "Fifteen of sixteen gates are open.",
+      "summary": "This report has said, since its first edition on 27 July, that fifteen of the sixteen implementation gates are open. Its own checklist has said otherwise the whole time. The scorecard in section 10 closes two gates — the political declaration signed on 16 April, and the land offer made on 9 April — and the section's own heading counts both: one political declaration, one unilateral offer. Two closed means fourteen open. The sentence under the table, and Key Judgment 16, said fifteen: an arithmetic slip at authoring that propagated to the site's checklist heading, its section text, its machine-readable metadata, and the narration of the explainer video, and survived twenty-seven releases because nothing compared the claim to the checklist it describes. A reader prompted the check that found it. Nothing about the project has changed: no gate opened or closed this week, the judgment that the project is pre-decisional stands at unchanged confidence, and BCDA's own FOI denial — which confirmed the planning-stage status, not any particular count — is unaffected. The checklist's note on the land offer now also records what version 2.24 established: the United States accepted the offer conditionally in principle on 16 April, and nothing is executed. One surface is knowingly left as recorded: the explainer video's narration says fifteen, because that is what was recorded on 14 August; it will be corrected the next time the video is recut, and until then this entry is the notice of the discrepancy. From this release, the count shown is checked mechanically against the checklist itself on every publication."
+    },
+    {
+      "date": "2026-08-16",
+      "type": "correction",
       "title": "We put the funding notice on the news rail on 13 August and left the report saying it was still planned",
       "site_version": "1.57",
       "assessment_version": "2.27",
