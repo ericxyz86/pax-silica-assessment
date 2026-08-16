@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Israel envoys back Pax Silica investments",
+      "source": "Daily Tribune",
+      "date": "2026-08-16",
+      "url": "https://tribune.net.ph/2026/08/16/israel-envoys-back-pax-silica-investments",
+      "image": "https://images.assettype.com/tribune/2026-08-16/7kt1lzr6/viberimage2026-08-1612-09-45-731.jpg?w=1200&auto=format"
+    },
+    {
+      "title": "Pax Silica plans still unclear as BCDA admits lack of local consultation",
+      "source": "Newsbytes.PH",
+      "date": "2026-08-15",
+      "url": "https://newsbytes.ph/2026/08/15/pax-silica-plans-still-unclear-as-bcda-admits-lack-of-local-consultation",
+      "image": "https://newsbytes.ph/wp-content/uploads/2026/08/Bam.jpg"
+    },
+    {
       "title": "Senate presses safeguards for proposed Pax Silica hub",
       "source": "The Manila Times",
       "date": "2026-08-15",
@@ -56,20 +70,6 @@
       "date": "2026-08-13",
       "url": "https://mb.com.ph/2026/08/13/philippines-to-host-inaugural-luzon-corridor-forum-in-push-for-allied-ai-tech-capital",
       "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/08/13/123371.webp"
-    },
-    {
-      "title": "Groups protest vs Pax Silica",
-      "source": "ABS-CBN News",
-      "date": "2026-08-13",
-      "url": "https://www.abs-cbn.com/news/2026/8/13/groups-protest-vs-pax-silica-1344",
-      "image": "https://od2-image-api.abs-cbn.com/prod/20260813060840/e7d94a71fe1291eba137a9493ff4def02c84a6af09a36bbeba1dbaccace821d3.jpg"
-    },
-    {
-      "title": "Imee Marcos urges swift probe into 'Pax Silica' deal over land control",
-      "source": "Manila Bulletin",
-      "date": "2026-08-12",
-      "url": "https://mb.com.ph/2026/08/12/imee-marcos-urges-swift-probe-into-pax-silica-deal-over-land-control",
-      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/08/12/123014.webp"
     }
   ]
 }
