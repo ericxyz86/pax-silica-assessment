@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-08-17",
+      "type": "update",
+      "title": "The hero's sentiment figure now tracks the daily listening data",
+      "site_version": "1.63",
+      "assessment_version": "2.29",
+      "commits": [],
+      "supersedes": "−34.8 · net public sentiment in july, from −1.0 pre-accession",
+      "summary": "The page hero carried a July figure, net −34.8, drawn from the sampled listening export that section 19 analyses. It was typed by hand, so it did not move when the daily listening data moved. It now reports the same measurement the listening exhibit below it shows — net −21.6 across the 19,819 mentions the classifier labelled in the window ending 17 August — and it is generated from that snapshot by the script that renders the exhibit, inside a marked region nobody edits by hand. Two things follow. The two figures are not interchangeable: the retired one is July, on a sampled export carrying the data provider's own labels; the new one is the current window on this site's classifier, which is the only sentiment this site publishes. And the July finding does not change — finding 05 and section 19 still report net −34.8 for July, −24.8 after accession and −1.0 before it, because those remain accurate for the period and the method they describe. What the tile drops is the pre-accession comparison, which was only meaningful inside the export it came from. The new caption names its own denominator and does not describe the figure as a trend: the window is 249 days, but the mentions in it are not evenly spread across those days."
+    },
+    {
+      "date": "2026-08-17",
       "type": "removal",
       "title": "The retired player's audio and scripts leave the server",
       "site_version": "1.62",
