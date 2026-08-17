@@ -14,6 +14,15 @@
   "entries": [
     {
       "date": "2026-08-17",
+      "type": "update",
+      "title": "The retired player's code leaves the page",
+      "site_version": "1.61",
+      "assessment_version": "2.29",
+      "commits": [],
+      "summary": "Housekeeping that follows this morning's correction. The page source still carried the whole engine of the pre-video explainer player — the caption and audio machinery retired when the video moved into its own frame — and one line of its leftover data is what yesterday's false disclosure was built on. The data was removed this morning; this release removes the rest: the player's methods, its scene table, its clip list, and the control wiring nothing references. About seven kilobytes of dead code, verified dead by reference analysis before removal — every removed piece had no path from anything the page renders. What the reader sees does not change. The explainer modal — auto-open, the watch button, fullscreen, close — was exercised in a browser against the trimmed page before publication, and behaves identically. The audio files the old player once played remain on the server unreferenced for now; removing served files is a separate decision because archived copies of old page versions may still point at them. No text, figure or finding changes."
+    },
+    {
+      "date": "2026-08-17",
       "type": "correction",
       "title": "We said the deployed Taglish video still said fifteen. It did not.",
       "site_version": "1.60",
