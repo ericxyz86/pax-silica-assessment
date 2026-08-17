@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-08-17",
+      "type": "correction",
+      "title": "The hero still said 15 of 16 — a fourth copy of the corrected count",
+      "site_version": "1.59",
+      "assessment_version": "2.28",
+      "commits": [],
+      "supersedes": "{ v: '15 / 16', k: 'implementation gates still open' }",
+      "summary": "Yesterday's correction of the implementation-gate count — fourteen open, not fifteen — reached the checklist, the section text, the metadata and the report, and was then checked mechanically. It missed one more copy: the large statistic on the front of the site, which kept saying 15 / 16 because it stores the number in a different shape — a tile with a numeral, not a sentence with a word — and the new mechanical check only knew how to read sentences. A reader caught it within a day. The tile now says 14 / 16, and the check has been taught the numeric form, with a test that plants the old tile and confirms publication would be refused. The lesson is the same one this changelog keeps recording, one surface later each time: a fact published in four formats is four chances to miss one, and every format needs its own guard. The explainer video's narration remains the one knowingly dated copy, as disclosed yesterday, pending its next recut."
+    },
+    {
       "date": "2026-08-16",
       "type": "correction",
       "title": "The implementation checklist: fourteen gates open, not fifteen",
