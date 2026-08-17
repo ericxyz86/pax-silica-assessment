@@ -5,11 +5,6 @@
 User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /archive/
-Disallow: /audio/
-Disallow: /*.dc.html
-Disallow: /narration-script.json
-Disallow: /narration-script.md
-Disallow: /pax-silica-narration-simple/
 
 # Training-only crawlers. The Cloudflare edge enforces the same policy.
 User-agent: GPTBot

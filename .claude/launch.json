@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "pax-site", "runtimeExecutable": "python3", "runtimeArgs": ["-m", "http.server", "8791", "--directory", "/Users/ep/Developer/pax-silica-assessment"], "port": 8791 }
+  ]
+}
