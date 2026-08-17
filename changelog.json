@@ -15,6 +15,16 @@
     {
       "date": "2026-08-17",
       "type": "correction",
+      "title": "We said the deployed Taglish video still said fifteen. It did not.",
+      "site_version": "1.60",
+      "assessment_version": "2.29",
+      "commits": [],
+      "supersedes": "\"The explainer video's narration remains the one knowingly dated copy, as disclosed yesterday, pending its next recut.\" — and, from the entry of 16 August: \"One surface is knowingly left as recorded: the explainer video's narration says fifteen, because that is what was recorded on 14 August; it will be corrected the next time the video is recut, and until then this entry is the notice of the discrepancy.\"",
+      "summary": "When this site corrected the gate count on 16 August, it disclosed one surface as knowingly left dated: the explainer video's narration, said to still say fifteen until the next recut. The publisher watched the video and pointed out that it says no such thing. He is right. The fifteen-line was recorded for the original English explainer, replaced on this site on 3 August; every later explainer narration identified in the deployment history — including the current 2:05 cut and its 14 August recut — states no gate count, in English or Filipino. A full machine transcription of the deployed video found no gate-count wording, corroborating the script and direct review of the video. There was nothing for a recut to fix. What still said fifteen was leftover data in the page's source code: the caption table of the retired player, which had no bound caption node, no playable audio source, and no markup control capable of activating it — and which we misread as the live narration when writing the disclosure. The video was right and the footnote about it was wrong — in the report's version note, in its appendix, and in both prior entries here. This release removes the stale caption data, removes the check exemption that treated captions as faithful copies of recorded audio — that assumption is precisely what failed — and extends the mechanical check to read the count in Filipino as well as English, with planted regressions; each change was verified against the release diff and test output before this entry was published. The correction does not change the master scorecard's tally of fourteen open gates of sixteen. The deployed narration states no count."
+    },
+    {
+      "date": "2026-08-17",
+      "type": "correction",
       "title": "The hero still said 15 of 16 — a fourth copy of the corrected count",
       "site_version": "1.59",
       "assessment_version": "2.28",
