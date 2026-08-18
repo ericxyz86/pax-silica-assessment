@@ -24,8 +24,8 @@ On 24 July 2026 a US 12.5% forced-labour tariff on Philippine goods took effect.
 Key figure: +2.5pp (net tariff increment, four months before the philippines is asked to sign)
 
 ### 05 — the public has already turned, and on the unanswered questions
-Across 6,437 mentions from December to SONA eve, net sentiment fell from −1.0 before accession to −24.8 after, and to −34.8 in July alone. The economics are argued both ways. Water, land and governance are not debated at all; they run at net −44, −50 and −54. The best sentiment month on record was May, when the government publicly refused a US request.
-Key figure: −34.8 (net sentiment in july, the month of most claims and fewest documents)
+Relabelled on one scheme from January to late July — by the same software that labels the daily collection — the arc is steeper than first measured: the conversation ran clearly positive toward the project in its early months, between +25 and +51 net, fell to +5.3 in June, and collapsed to −35.6 in July. The economics are argued both ways. Water, land and governance are not debated at all: in the sampled export analysis they run at net −44, −50 and −54. The running exhibit above tracks the conversation daily.
+Key figure: −35.6 (net sentiment in july, the month of most claims and fewest documents)
 
 ### 06 — the strategic case is genuine, and some criticism is wrong
 Comparative non-entanglement with Chinese capital is a real and time-limited asset. BPO at 7.4% of GDP faces AI displacement. And some of the most widely circulated environmental critiques do not survive scrutiny: silicon rather than nickel is the semiconductor input, and the light-pollution claim, while a legitimate and mitigable screening item, is substantially overstated as popularly framed.

@@ -15,6 +15,16 @@
     {
       "date": "2026-08-18",
       "type": "update",
+      "title": "Finding 05 restated on the one-scheme relabelled series",
+      "site_version": "1.69",
+      "assessment_version": "2.30",
+      "commits": [],
+      "supersedes": "Across 6,437 mentions from December to SONA eve, net sentiment fell from −1.0 before accession to −24.8 after, and to −34.8 in July alone. The economics are argued both ways. Water, land and governance are not debated at all; they run at net −44, −50 and −54. The best sentiment month on record was May, when the government publicly refused a US request.",
+      "summary": "The finding card still summarised the public conversation in the sampled export's vendor labels — including a May best-month observation that does not survive the v2.30 relabelling — while the exhibit beside it showed the one-scheme series. The card now states the relabelled arc (clearly positive early months between +25 and +51 net, +5.3 in June, −35.6 in July), its key figure moves from −34.8 to the relabelled July value −35.6, and the topic figures are explicitly framed as the sampled export analysis. The finding itself — the public has already turned, and on the unanswered questions — is unchanged and is larger under the relabelled series. The vendor-labelled record remains in section 19 and §17A as the export analysis, per the v2.30 relabelling note; the superseded card text is quoted here verbatim."
+    },
+    {
+      "date": "2026-08-18",
+      "type": "update",
       "title": "Volume estimate markers move from bar labels to tooltips and the chart note",
       "site_version": "1.68",
       "assessment_version": "2.30",
