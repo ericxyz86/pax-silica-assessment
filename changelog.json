@@ -15,6 +15,15 @@
     {
       "date": "2026-08-18",
       "type": "update",
+      "title": "Volume estimate markers move from bar labels to tooltips and the chart note",
+      "site_version": "1.68",
+      "assessment_version": "2.30",
+      "commits": [],
+      "summary": "The approximation signs on the sampled-period volume bars and the per-month ×10 tags on the axis are removed for readability, at the publisher's direction. The figures are unchanged and remain estimates: the chart note still states that bars before the seam are the sampled counts multiplied by ten, each bar's tooltip still names itself an estimate, and the day view's peak label says so when the peak is an estimated day."
+    },
+    {
+      "date": "2026-08-18",
+      "type": "update",
       "title": "Sampled-period volumes now shown as ×10 universe estimates",
       "site_version": "1.67",
       "assessment_version": "2.30",
