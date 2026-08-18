@@ -15,6 +15,15 @@
     {
       "date": "2026-08-18",
       "type": "update",
+      "title": "Sampled-period volumes now shown as ×10 universe estimates",
+      "site_version": "1.67",
+      "assessment_version": "2.30",
+      "commits": [],
+      "summary": "The volume views previously charted the January–July period at its raw sample counts beside the near-complete August collection, which made the earlier conversation look a tenth of its real size. Those bars now multiply the sampled counts by ten — the provider's stated sampling rate, and the same universe-estimate framing section 19 has always used — marked with ≈ on every figure and named as estimates in the chart note and tooltips. A platform check this evening found the true monthly multiple ranges from about nine to about twelve, so these are deliberately rough estimates, not counts; the near-complete period remains actual collected counts, and sentiment shares are unaffected because shares never depended on the sampling rate. No basis or method changes elsewhere."
+    },
+    {
+      "date": "2026-08-18",
+      "type": "update",
       "title": "The daily sentiment view is now a bar chart",
       "site_version": "1.66",
       "assessment_version": "2.30",
