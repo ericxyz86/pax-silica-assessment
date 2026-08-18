@@ -15,6 +15,15 @@
     {
       "date": "2026-08-18",
       "type": "update",
+      "title": "The daily sentiment view is now a bar chart",
+      "site_version": "1.66",
+      "assessment_version": "2.30",
+      "commits": [],
+      "summary": "The daily net-sentiment view drew a line that the honesty mask repeatedly broke — sparse weeks are deliberately blanked rather than guessed, and a line full of breaks read as fragments. It is now a bar chart: each bar is the same trailing seven-day average, diverging from the zero line and coloured like the monthly view, and masked days are simply blank. No figure or method changes."
+    },
+    {
+      "date": "2026-08-18",
+      "type": "update",
       "title": "Day-view sentiment scale now fits the relabelled history; the exhibit's charts animate",
       "site_version": "1.65",
       "assessment_version": "2.30",
