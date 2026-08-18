@@ -2,43 +2,43 @@
   "asOfDate": "2026-08-17",
   "frames": {
     "economic": {
-      "count": 7333,
-      "share": 0.369998
+      "count": 7581,
+      "share": 0.366267
     },
     "environmental": {
-      "count": 4151,
-      "share": 0.209445
+      "count": 4479,
+      "share": 0.216398
     },
     "ethical": {
-      "count": 320,
-      "share": 0.016146
+      "count": 350,
+      "share": 0.01691
     },
     "geopolitical": {
-      "count": 5313,
-      "share": 0.268076
+      "count": 5539,
+      "share": 0.26761
     },
     "moral": {
-      "count": 1236,
-      "share": 0.062364
+      "count": 1317,
+      "share": 0.063629
     },
     "other": {
-      "count": 8326,
-      "share": 0.420102
+      "count": 8620,
+      "share": 0.416465
     },
     "religious": {
-      "count": 26,
-      "share": 0.001312
+      "count": 29,
+      "share": 0.001401
     },
     "rights_based": {
-      "count": 2728,
-      "share": 0.137646
+      "count": 2803,
+      "share": 0.135424
     },
     "security": {
-      "count": 1321,
-      "share": 0.066653
+      "count": 1401,
+      "share": 0.067688
     }
   },
-  "generatedAt": "2026-08-17T03:00:52.071Z",
+  "generatedAt": "2026-08-18T00:22:51.320Z",
   "methodology": {
     "languages": [
       "en",
@@ -51,163 +51,163 @@
   },
   "platformMix": {
     "blog": {
-      "count": 29,
-      "share": 0.001385
+      "count": 33,
+      "share": 0.001511
     },
     "bluesky": {
-      "count": 124,
-      "share": 0.005923
+      "count": 135,
+      "share": 0.006181
     },
     "facebook": {
-      "count": 15713,
-      "share": 0.750561
+      "count": 16387,
+      "share": 0.750252
     },
     "forum": {
-      "count": 79,
-      "share": 0.003774
+      "count": 85,
+      "share": 0.003892
     },
     "instagram": {
-      "count": 112,
-      "share": 0.00535
+      "count": 118,
+      "share": 0.005402
     },
     "news": {
-      "count": 1653,
-      "share": 0.078959
+      "count": 1787,
+      "share": 0.081815
     },
     "reddit": {
       "count": 853,
-      "share": 0.040745
+      "share": 0.039053
     },
     "review": {
       "count": 1,
-      "share": 4.8e-05
+      "share": 4.6e-05
     },
     "tumblr": {
-      "count": 11,
-      "share": 0.000525
+      "count": 12,
+      "share": 0.000549
     },
     "x": {
-      "count": 1073,
-      "share": 0.051254
+      "count": 1075,
+      "share": 0.049217
     },
     "youtube": {
-      "count": 1287,
-      "share": 0.061476
+      "count": 1356,
+      "share": 0.062082
     }
   },
   "schemaVersion": "pax-social-public-v1",
   "sentiment": {
     "mixed": {
-      "count": 370,
-      "share": 0.018669
+      "count": 384,
+      "share": 0.018553
     },
     "negative": {
-      "count": 9537,
-      "share": 0.481205
+      "count": 9981,
+      "share": 0.482221
     },
     "neutral": {
-      "count": 4503,
-      "share": 0.227206
+      "count": 4750,
+      "share": 0.229491
     },
     "positive": {
-      "count": 5259,
-      "share": 0.265351
+      "count": 5426,
+      "share": 0.262151
     },
     "unclear": {
-      "count": 150,
-      "share": 0.007568
+      "count": 157,
+      "share": 0.007585
     }
   },
   "stakeholderTypes": {
     "business": {
-      "count": 200,
-      "share": 0.010091
+      "count": 206,
+      "share": 0.009953
     },
     "civil_society": {
-      "count": 1108,
-      "share": 0.055906
+      "count": 1111,
+      "share": 0.053677
     },
     "faith_based_org": {
-      "count": 31,
-      "share": 0.001564
+      "count": 32,
+      "share": 0.001546
     },
     "government": {
-      "count": 1331,
-      "share": 0.067158
+      "count": 1354,
+      "share": 0.065417
     },
     "individual": {
-      "count": 15125,
-      "share": 0.763157
+      "count": 15818,
+      "share": 0.764228
     },
     "media": {
-      "count": 2020,
-      "share": 0.101922
+      "count": 2173,
+      "share": 0.104986
     },
     "unknown": {
       "count": 4,
-      "share": 0.000202
+      "share": 0.000193
     }
   },
   "topicShares": {
     "ai_infrastructure": {
-      "count": 2359,
-      "share": 0.119027
+      "count": 2526,
+      "share": 0.122041
     },
     "energy": {
-      "count": 1255,
-      "share": 0.063323
+      "count": 1292,
+      "share": 0.062421
     },
     "environment": {
-      "count": 5070,
-      "share": 0.255815
+      "count": 5487,
+      "share": 0.265098
     },
     "foreign_policy": {
-      "count": 1807,
-      "share": 0.091175
+      "count": 1939,
+      "share": 0.093681
     },
     "governance": {
-      "count": 6781,
-      "share": 0.342146
+      "count": 7052,
+      "share": 0.340709
     },
     "implementation": {
-      "count": 438,
-      "share": 0.0221
+      "count": 448,
+      "share": 0.021645
     },
     "indigenous_rights": {
-      "count": 2805,
-      "share": 0.141531
+      "count": 2883,
+      "share": 0.139289
     },
     "investment": {
-      "count": 3798,
-      "share": 0.191634
+      "count": 3910,
+      "share": 0.188907
     },
     "jobs": {
-      "count": 1780,
-      "share": 0.089813
+      "count": 1829,
+      "share": 0.088366
     },
     "other": {
-      "count": 5230,
-      "share": 0.263888
+      "count": 5379,
+      "share": 0.25988
     },
     "security": {
-      "count": 2076,
-      "share": 0.104748
+      "count": 2211,
+      "share": 0.106822
     },
     "semiconductors": {
-      "count": 3201,
-      "share": 0.161512
+      "count": 3323,
+      "share": 0.160547
     },
     "sovereignty": {
-      "count": 2466,
-      "share": 0.124426
+      "count": 2512,
+      "share": 0.121364
     },
     "trade": {
-      "count": 1695,
-      "share": 0.085524
+      "count": 1756,
+      "share": 0.084839
     },
     "water": {
-      "count": 2207,
-      "share": 0.111358
+      "count": 2371,
+      "share": 0.114552
     }
   },
   "window": {
