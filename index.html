@@ -293,7 +293,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
       <svg width="34" height="30" viewBox="5 15 139 121" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agile Intelligence"><polygon fill="#00A1E4" points="51,15 28,55 74.5,55"/><polygon fill="#00B7C3" points="51,15 98,15 74.5,55"/><polygon fill="#074BA0" points="98,15 74.5,55 121,55"/><polygon fill="#1ABBDC" points="28,55 74.5,55 51,95"/><polygon fill="#00B7C3" points="28,55 51,95 5,95"/><polygon fill="#1ABBDC" points="5,95 51,95 28,136"/><polygon fill="#0069B5" points="74.5,55 121,55 98,95"/><polygon fill="#008FB5" points="121,55 98,95 144,95"/><polygon fill="#00B7C3" points="98,95 144,95 121,136"/></svg>
       <span style="font-family:Georgia,'Times New Roman',serif;font-size:17px;letter-spacing:0.3em;color:#FFFFFF">agile<span style="color:rgba(255,255,255,0.5)">intelligence</span></span>
     </a>
-    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">agile intelligence research report · site v1.63 · assessment v2.29 · project facts verified to 16 august 2026 · last updated 18 august 2026</div>
+    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">agile intelligence research report · site v1.64 · assessment v2.30 · project facts verified to 16 august 2026 · last updated 18 august 2026</div>
     <h1 style="font-size:clamp(40px,7.4vw,104px);line-height:0.94;letter-spacing:-0.045em;font-weight:800;color:#FFFFFF;margin:0 0 26px"><span style="display:block;white-space:nowrap">pax silica and</span><span style="display:block;white-space:nowrap">the philippines</span></h1>
     <p style="font-size:clamp(16px,1.9vw,22px);line-height:1.5;color:rgba(255,255,255,0.72);max-width:60ch;margin:0 0 40px;font-weight:300">An independent review of the Economic Security Zone proposed at New Clark City in Tarlac, on 1,618.74 hectares. What has actually been signed, what is only being claimed, what the land and the grid can really support, and what the Philippines gains or loses either way.</p>
     <div style="font-family:'JetBrains Mono',monospace;font-size:clamp(10px,1.15vw,12px);letter-spacing:0.08em;color:rgba(255,255,255,0.55);margin:-26px 0 40px;max-width:64ch;line-height:1.7">updated daily &middot; new information is adversarially verified before anything here changes &middot; maintained by AI under human editorial direction</div>
@@ -999,174 +999,176 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
 </section>
 
 <section id="sentiment" style="scroll-margin-top:74px;padding:36px 0 80px;background:#FAFBFC;border-bottom:1px solid #E6E9EE">
+  <span id="listening" style="scroll-margin-top:74px"></span>
   <div style="max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,40px)">
     <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:20px;overflow:hidden">
       <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px);border-bottom:1px solid #E6E9EE">
         <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.14em;text-transform:uppercase;color:#00B8CC;margin-bottom:8px">exhibit 12 · the public conversation</div>
-        <h3 style="font-size:26px;font-weight:700;letter-spacing:-0.03em;color:#0E1726;margin:0 0 10px;line-height:1.15">6,437 mentions, december to sona eve</h3>
-        <p style="font-size:14.5px;line-height:1.6;color:#475063;margin:0;max-width:80ch">A social listening export covering 6 December 2025 to 27 July 2026: a stated 10% sample of global public mentions, excluding reshares. The rate is the provider’s statement, not independently benchmarked, so shares here are sample-dependent estimates. Section 17 mapped who the stakeholders are; this measures what they are actually saying.</p>
+        <h3 style="font-size:26px;font-weight:700;letter-spacing:-0.03em;color:#0E1726;margin:0 0 10px;line-height:1.15">{{ socTitle }}</h3>
+        <p style="font-size:14.5px;line-height:1.6;color:#475063;margin:0;max-width:80ch">One running analysis, two collections behind it: a sampled social-listening export to late July, relabelled by the same software that labels the current near-complete collection, which counts from early August with reposts excluded. Volumes are not comparable across that seam; shares are. Section 17 mapped who the stakeholders are; this measures what they are actually saying, refreshed daily.</p>
       </div>
       <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px);border-bottom:1px solid #E6E9EE">
-        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px">
-          <sc-for list="{{ metricBtns }}" as="m" hint-placeholder-count="2">
-            <button onClick="{{ m.pick }}" style="flex:0 0 auto;white-space:nowrap;border-radius:999px;padding:7px 15px;font-size:12px;font-weight:600;cursor:pointer;transition:all .2s;background:{{ m.bg }};color:{{ m.fg }};border:{{ m.bd }}">{{ m.label }}</button>
-          </sc-for>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:16px">sentiment toward the project · {{ socCensusLabel }}</div>
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:clamp(20px,4vw,56px);margin-bottom:20px">
+          <div><div style="font-size:clamp(34px,5.2vw,62px);font-weight:800;letter-spacing:-0.045em;color:#B03A3A;font-variant-numeric:tabular-nums;line-height:1">{{ socNeg }}<span style="font-size:.45em">%</span></div><div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-top:6px">negative</div></div>
+          <div><div style="font-size:clamp(24px,3.4vw,40px);font-weight:700;letter-spacing:-0.035em;font-variant-numeric:tabular-nums;line-height:1;color:#475063">{{ socNeu }}<span style="font-size:.5em">%</span></div><div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-top:6px">neutral</div></div>
+          <div><div style="font-size:clamp(24px,3.4vw,40px);font-weight:700;letter-spacing:-0.035em;font-variant-numeric:tabular-nums;line-height:1;color:#1F7A4C">{{ socPos }}<span style="font-size:.5em">%</span></div><div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-top:6px">positive</div></div>
+          <div><div style="font-size:clamp(24px,3.4vw,40px);font-weight:700;letter-spacing:-0.035em;font-variant-numeric:tabular-nums;line-height:1;color:#9A6B10">{{ socMix }}<span style="font-size:.5em">%</span></div><div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-top:6px">mixed or unclear</div></div>
         </div>
-        <div style="display:flex;align-items:stretch;gap:clamp(5px,1.4vw,14px);height:270px">
-          <sc-for list="{{ socBars }}" as="b" hint-placeholder-count="5">
-            <div style="flex:1 1 0;min-width:0;display:flex;flex-direction:column;height:100%">
-              <div style="flex:{{ topFlex }} 1 0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px;min-height:0">
-                <span style="font-family:'JetBrains Mono',monospace;font-size:13.5px;font-weight:500;color:{{ b.fg }}">{{ b.upLabel }}</span>
-                <div style="width:100%;border-radius:8px 8px 0 0;transition:height .55s cubic-bezier(.2,.7,.2,1),background .3s;background:{{ b.bg }};height:{{ b.upH }}%"></div>
-              </div>
-              <div style="height:1px;background:#D6D9DC;flex:0 0 auto"></div>
-              <div style="flex:{{ botFlex }} 1 0;display:flex;flex-direction:column;align-items:center;gap:6px;min-height:0">
-                <div style="width:100%;border-radius:0 0 8px 8px;transition:height .55s cubic-bezier(.2,.7,.2,1),background .3s;background:{{ b.bg }};height:{{ b.downH }}%"></div>
-                <span style="font-family:'JetBrains Mono',monospace;font-size:13.5px;font-weight:500;color:{{ b.fg }}">{{ b.downLabel }}</span>
-              </div>
-            </div>
-          </sc-for>
+        <div style="display:flex;height:26px;border-radius:6px;overflow:hidden;border:1px solid #E6E9EE">
+          <span style="width:{{ socNegPct }};background:#D04A4A"></span><span style="width:{{ socNeuPct }};background:#D6D9DC"></span><span style="width:{{ socPosPct }};background:#2EA86A"></span><span style="width:{{ socMixPct }};background:#E4A11B"></span>
         </div>
-        <div style="display:flex;gap:clamp(5px,1.4vw,14px);border-top:1px solid #E6E9EE;padding-top:10px;margin-top:8px">
-          <sc-for list="{{ socBars }}" as="b" hint-placeholder-count="5">
-            <div style="flex:1 1 0;min-width:0;text-align:center;overflow-wrap:break-word">
-              <div style="font-size:12.5px;font-weight:600;color:#0E1726">{{ b.label }}</div>
-              <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:0.08em;text-transform:uppercase;color:#A7A9AC;margin-top:3px">{{ b.sub }}</div>
-            </div>
-          </sc-for>
-        </div>
-        <p style="font-size:13.5px;line-height:1.62;color:#475063;margin:20px 0 0;max-width:82ch">May's positive spike is the instructive one. It coincides with the government's most defensive month, the public rejection of the US jurisdiction-and-immunity request on 18 May. The Philippine public rewarded the government for saying no. The slide that follows tracks the disclosure vacuum: as official claims escalated through June and July without documents, sentiment worsened in step. July produced 2,927 mentions, 45% of the entire eight-month record, and the final eight days alone carry 36.4% of everything ever said.</p>
+        <div style="border-top:1px solid #E6E9EE;margin-top:18px;padding-top:16px;font-size:12.5px;color:#7B8597;line-height:1.6">{{ socProseSentiment }}</div>
       </div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:0">
-        <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px);border-right:1px solid #E6E9EE">
-          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:baseline;margin-bottom:18px">
-            <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597">where the conversation happens</div>
-            <div style="display:flex;gap:6px">
-              <sc-for list="{{ socPhaseBtns }}" as="p" hint-placeholder-count="2">
-                <button onClick="{{ p.pick }}" style="flex:0 0 auto;white-space:nowrap;border-radius:999px;padding:5px 12px;font-size:11px;font-weight:600;cursor:pointer;transition:all .2s;background:{{ p.bg }};color:{{ p.fg }};border:{{ p.bd }}">{{ p.label }}</button>
-              </sc-for>
-            </div>
+      <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px);border-bottom:1px solid #E6E9EE">
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-bottom:22px">
+          <div style="display:flex;flex-wrap:wrap;gap:8px">
+            <sc-for list="{{ metricBtns }}" as="m" hint-placeholder-count="2">
+              <button onClick="{{ m.pick }}" style="flex:0 0 auto;white-space:nowrap;border-radius:999px;padding:7px 15px;font-size:12px;font-weight:600;cursor:pointer;transition:all .2s;background:{{ m.bg }};color:{{ m.fg }};border:{{ m.bd }}">{{ m.label }}</button>
+            </sc-for>
           </div>
-          <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:18px">
-            <sc-for list="{{ socChannels }}" as="c" hint-placeholder-count="5">
-              <div style="display:grid;grid-template-columns:96px 1fr 42px;gap:12px;align-items:center">
-                <span style="font-size:13px;color:#0E1726;font-weight:500">{{ c.n }}</span>
-                <span style="height:10px;background:#F8FAFB;border-radius:5px;overflow:hidden;display:block"><span style="display:block;height:100%;border-radius:5px;transition:width .5s cubic-bezier(.2,.7,.2,1);background:{{ c.bg }};width:{{ c.w }}%"></span></span>
-                <span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7B8597;text-align:right">{{ c.pct }}</span>
+          <div style="display:flex;gap:6px">
+            <sc-for list="{{ viewBtns }}" as="p" hint-placeholder-count="2">
+              <button onClick="{{ p.pick }}" style="flex:0 0 auto;white-space:nowrap;border-radius:999px;padding:5px 12px;font-size:11px;font-weight:600;cursor:pointer;transition:all .2s;background:{{ p.bg }};color:{{ p.fg }};border:{{ p.bd }}">{{ p.label }}</button>
+            </sc-for>
+          </div>
+        </div>
+        <div style="display:{{ socMonthDisplay }}">
+          <div style="display:flex;align-items:stretch;gap:clamp(4px,1.1vw,12px);height:270px">
+            <sc-for list="{{ socBars }}" as="b" hint-placeholder-count="8">
+              <div style="flex:1 1 0;min-width:0;display:flex;flex-direction:column;height:100%;{{ b.sepCss }}">
+                <div style="flex:{{ topFlex }} 1 0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px;min-height:0">
+                  <span style="font-family:'JetBrains Mono',monospace;font-size:clamp(10px,1.1vw,13px);font-weight:500;color:{{ b.fg }};white-space:nowrap">{{ b.upLabel }}</span>
+                  <div style="width:100%;border-radius:8px 8px 0 0;transition:height .55s cubic-bezier(.2,.7,.2,1),background .3s;background:{{ b.bg }};height:{{ b.upH }}%"></div>
+                </div>
+                <div style="height:1px;background:#D6D9DC;flex:0 0 auto"></div>
+                <div style="flex:{{ botFlex }} 1 0;display:flex;flex-direction:column;align-items:center;gap:6px;min-height:0">
+                  <div style="width:100%;border-radius:0 0 8px 8px;transition:height .55s cubic-bezier(.2,.7,.2,1),background .3s;background:{{ b.bg }};height:{{ b.downH }}%"></div>
+                  <span style="font-family:'JetBrains Mono',monospace;font-size:clamp(10px,1.1vw,13px);font-weight:500;color:{{ b.fg }};white-space:nowrap">{{ b.downLabel }}</span>
+                </div>
               </div>
             </sc-for>
           </div>
-          <p style="font-size:13px;line-height:1.62;color:#475063;margin:0">{{ socPhaseNote }}</p>
+          <div style="display:flex;gap:clamp(4px,1.1vw,12px);border-top:1px solid #E6E9EE;padding-top:10px;margin-top:8px">
+            <sc-for list="{{ socBars }}" as="b" hint-placeholder-count="8">
+              <div style="flex:1 1 0;min-width:0;text-align:center;overflow-wrap:break-word;{{ b.sepCss }}">
+                <div style="font-size:12.5px;font-weight:600;color:#0E1726">{{ b.label }}</div>
+                <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:0.06em;text-transform:uppercase;color:#A7A9AC;margin-top:3px">{{ b.sub }}</div>
+              </div>
+            </sc-for>
+          </div>
         </div>
-        <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px)">
-          <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:18px">the five biggest days: all in the last eight</div>
-          <sc-for list="{{ socDays }}" as="d" hint-placeholder-count="5">
-            <div style="display:grid;grid-template-columns:56px 1fr auto;gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px solid #F8FAFB">
-              <span style="font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;color:#0E1726">{{ d.d }}</span>
-              <span style="font-size:12.5px;color:#475063;line-height:1.5">{{ d.why }}</span>
-              <span style="font-family:'JetBrains Mono',monospace;font-size:11.5px;color:#B03A3A;white-space:nowrap">{{ d.m }} · {{ d.net }}</span>
+        <div style="display:{{ socDayDisplay }}">
+          <div style="position:relative">
+            <svg viewBox="0 0 1000 240" preserveAspectRatio="none" style="display:{{ socDayNetDisplay }};width:100%;height:260px">
+              <rect x="{{ socGapX }}" y="0" width="{{ socGapW }}" height="240" fill="#EEF2F5"><title>{{ socGapTip }}</title></rect>
+              <line x1="0" x2="1000" y1="{{ socDayZeroY }}" y2="{{ socDayZeroY }}" stroke="#D6D9DC" stroke-width="1" vector-effect="non-scaling-stroke"></line>
+              <line x1="{{ socSeamX }}" x2="{{ socSeamX }}" y1="0" y2="240" stroke="#A7A9AC" stroke-width="1" stroke-dasharray="4 4" vector-effect="non-scaling-stroke"></line>
+              <sc-for list="{{ socDayMarks }}" as="a" hint-placeholder-count="3">
+                <line x1="{{ a.x }}" x2="{{ a.x }}" y1="0" y2="240" stroke="#00B8CC" stroke-width="1" stroke-dasharray="2 5" opacity="0.7" vector-effect="non-scaling-stroke"><title>{{ a.tip }}</title></line>
+              </sc-for>
+              <sc-for list="{{ socNetSegs }}" as="g" hint-placeholder-count="2">
+                <polyline points="{{ g.pts }}" fill="none" stroke="#0B4F9C" stroke-width="2" stroke-linejoin="round" vector-effect="non-scaling-stroke"></polyline>
+              </sc-for>
+            </svg>
+            <svg viewBox="0 0 1000 240" preserveAspectRatio="none" style="display:{{ socDayVolDisplay }};width:100%;height:260px">
+              <rect x="{{ socGapX }}" y="0" width="{{ socGapW }}" height="240" fill="#EEF2F5"><title>{{ socGapTip }}</title></rect>
+              <line x1="{{ socSeamX }}" x2="{{ socSeamX }}" y1="0" y2="240" stroke="#A7A9AC" stroke-width="1" stroke-dasharray="4 4" vector-effect="non-scaling-stroke"></line>
+              <sc-for list="{{ socDayMarks }}" as="a" hint-placeholder-count="3">
+                <line x1="{{ a.x }}" x2="{{ a.x }}" y1="0" y2="240" stroke="#00B8CC" stroke-width="1" stroke-dasharray="2 5" opacity="0.7" vector-effect="non-scaling-stroke"><title>{{ a.tip }}</title></line>
+              </sc-for>
+              <sc-for list="{{ socDayRects }}" as="r" hint-placeholder-count="30">
+                <rect x="{{ r.x }}" y="{{ r.y }}" width="{{ r.w }}" height="{{ r.h }}" fill="{{ r.fill }}"><title>{{ r.tip }}</title></rect>
+              </sc-for>
+            </svg>
+            <span style="position:absolute;top:2px;left:8px;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#A7A9AC">{{ socDayTopLabel }}</span>
+            <span style="position:absolute;bottom:26px;left:8px;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#A7A9AC">{{ socDayBottomLabel }}</span>
+            <div style="position:relative;height:18px;margin-top:4px">
+              <sc-for list="{{ socDayTicks }}" as="t" hint-placeholder-count="8">
+                <span style="position:absolute;left:{{ t.left }};font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:0.08em;text-transform:uppercase;color:#A7A9AC">{{ t.label }}</span>
+              </sc-for>
             </div>
-          </sc-for>
-          <div style="margin-top:18px;padding:16px 18px;border:1px solid #E6E9EE;border-radius:12px;background:#F8FAFB">
-            <div style="font-size:13.5px;color:#475063;line-height:1.6">The opposition has minted its own hashtag. <strong style="color:#0E1726;font-weight:600">#NoToPaxSilica appears 50 times against #PaxSilica's 105</strong>, for every two branded mentions, one carries the counter-brand.</div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:6px;margin-top:14px">
+            <sc-for list="{{ socAnnotations }}" as="a" hint-placeholder-count="3">
+              <div style="display:grid;grid-template-columns:64px 1fr;gap:12px;align-items:baseline">
+                <span style="font-family:'JetBrains Mono',monospace;font-size:11.5px;font-weight:500;color:#00B8CC">{{ a.d }}</span>
+                <span style="font-size:12.5px;color:#475063;line-height:1.5">{{ a.label }}</span>
+              </div>
+            </sc-for>
           </div>
         </div>
+        <div style="border-top:1px solid #E6E9EE;margin-top:18px;padding-top:14px;font-size:12.5px;color:#7B8597;line-height:1.6">{{ socSeriesNote }}</div>
       </div>
-      <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px);border-top:1px solid #E6E9EE">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:6px">what the conversation is about: volume against net sentiment</div>
-        <div style="font-size:12.5px;color:#A7A9AC;margin-bottom:18px;line-height:1.5">The structure is the finding: the big topics are contested but balanced. The small ones are one-sided grievances.</div>
-        <sc-for list="{{ socTopics }}" as="t" hint-placeholder-count="8">
-          <div style="display:grid;grid-template-columns:{{ colsTopics }};gap:clamp(7px,1.8vw,10px);align-items:center;padding:10px 12px;border-bottom:1px solid #F8FAFB;background:{{ t.rowBg }}">
-            <span style="font-size:13.5px;font-weight:600;color:#0E1726;line-height:1.3">{{ t.n }}</span>
-            <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7B8597">{{ t.mentions }} · {{ t.share }}</span>
-            <span style="position:relative;display:block;height:16px;background:#F8FAFB;border-radius:4px">
-              <span style="position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:#D6D9DC"></span>
-              <span style="position:absolute;top:3px;bottom:3px;border-radius:3px;background:{{ t.bg }};left:{{ t.left }};width:{{ t.w }}%"></span>
-            </span>
-            <span style="font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:500;text-align:right;color:{{ t.fg }}">{{ t.net }}</span>
+      <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px);border-bottom:1px solid #E6E9EE">
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:baseline;margin-bottom:20px">
+          <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597">where it happens, what it is about, who is speaking</div>
+          <div style="display:flex;gap:6px">
+            <sc-for list="{{ segBtns }}" as="p" hint-placeholder-count="2">
+              <button onClick="{{ p.pick }}" style="flex:0 0 auto;white-space:nowrap;border-radius:999px;padding:5px 12px;font-size:11px;font-weight:600;cursor:pointer;transition:all .2s;background:{{ p.bg }};color:{{ p.fg }};border:{{ p.bd }}">{{ p.label }}</button>
+            </sc-for>
           </div>
-        </sc-for>
-        <div style="border-top:1px solid #E6E9EE;margin-top:18px;padding-top:16px;font-size:12.5px;color:#7B8597;line-height:1.6">Software struggles with irony in Filipino and Taglish. In this data it labelled a plainly critical Taglish post as positive. So treat the levels as rough, and read the month-to-month movement instead, as long as the method behind it stays the same. 33.3% of mentions match no topic category and are excluded from topic shares. No TikTok in this export; Facebook is limited to public content. One further note: the single most prolific named author in the dataset is Grok, X's AI assistant, at 50 mentions. AI intermediaries are now answering the Filipino public's questions about Pax Silica in-feed, a channel no government communication plan currently addresses.</div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:clamp(18px,3vw,34px)">
+          <div>
+            <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:14px">where the conversation happens</div>
+            <div style="display:flex;flex-direction:column;gap:11px">
+              <sc-for list="{{ socChannels }}" as="c" hint-placeholder-count="6">
+                <div style="display:grid;grid-template-columns:96px 1fr 42px;gap:12px;align-items:center">
+                  <span style="font-size:13px;color:#0E1726;font-weight:500">{{ c.n }}</span>
+                  <span style="height:10px;background:#F8FAFB;border-radius:5px;overflow:hidden;display:block"><span style="display:block;height:100%;border-radius:5px;transition:width .5s cubic-bezier(.2,.7,.2,1);background:{{ c.bg }};width:{{ c.w }}%"></span></span>
+                  <span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7B8597;text-align:right">{{ c.pct }}</span>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+          <div>
+            <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:14px">what it is about · share and net sentiment</div>
+            <div style="display:flex;flex-direction:column">
+              <sc-for list="{{ socTopics }}" as="t" hint-placeholder-count="8">
+                <div style="display:grid;grid-template-columns:{{ colsTopicsMerged }};gap:clamp(7px,1.8vw,10px);align-items:center;padding:7px 8px;border-bottom:1px solid #F8FAFB;background:{{ t.rowBg }}">
+                  <span style="font-size:13px;font-weight:600;color:#0E1726;line-height:1.3">{{ t.n }}</span>
+                  <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7B8597;text-align:right">{{ t.share }}</span>
+                  <span style="position:relative;display:block;height:14px;background:#F8FAFB;border-radius:4px">
+                    <span style="position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:#D6D9DC"></span>
+                    <span style="position:absolute;top:3px;bottom:3px;border-radius:3px;background:{{ t.bg }};left:{{ t.left }};width:{{ t.w }}%"></span>
+                  </span>
+                  <span style="font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;text-align:right;color:{{ t.fg }}">{{ t.net }}</span>
+                </div>
+              </sc-for>
+              <div style="display:grid;grid-template-columns:1fr auto;gap:10px;padding:7px 8px">
+                <span style="font-size:12.5px;color:#7B8597">no category matched</span>
+                <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7B8597;text-align:right">{{ socTopicsTail }}</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:14px">who is speaking</div>
+            <div style="display:flex;flex-direction:column;gap:11px">
+              <sc-for list="{{ socStake }}" as="c" hint-placeholder-count="6">
+                <div style="display:grid;grid-template-columns:120px 1fr 42px;gap:12px;align-items:center">
+                  <span style="font-size:13px;color:#0E1726;font-weight:500">{{ c.n }}</span>
+                  <span style="height:10px;background:#F8FAFB;border-radius:5px;overflow:hidden;display:block"><span style="display:block;height:100%;border-radius:5px;transition:width .5s cubic-bezier(.2,.7,.2,1);background:{{ c.bg }};width:{{ c.w }}%"></span></span>
+                  <span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7B8597;text-align:right">{{ c.pct }}</span>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+        </div>
+        <div style="border-top:1px solid #E6E9EE;margin-top:18px;padding-top:16px;font-size:12.5px;color:#7B8597;line-height:1.6">{{ socProseBreakdown }}</div>
+      </div>
+      <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px)">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#7B8597;letter-spacing:0.05em;line-height:1.75">
+          source · social listening, query <span style="color:#475063">{{ socQuery }}</span>, English and Tagalog, worldwide · {{ socUpdatedLine }}<br>
+          method · every post was labelled by software and <span style="color:#475063">none of it was reviewed by a person</span> · a post can fall under more than one topic, so topic figures add to more than 100%<br>
+          basis · {{ socBasisLine }}<br>
+          {{ socProseCaveat }}
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-  <!-- listening:start · generated by tools/build-listening-section.py — do not edit by hand -->
-  <section id="listening" style="scroll-margin-top:74px;padding:36px 0 80px;background:#FFFFFF;border-bottom:1px solid #E6E9EE">
-    <div style="max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,40px)">
-      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:20px;overflow:hidden">
-
-        <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px);border-bottom:1px solid #E6E9EE">
-          <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.14em;text-transform:uppercase;color:#00B8CC;margin-bottom:8px">current listening &middot; 12 december 2025&ndash;17 august 2026</div>
-          <h3 style="font-size:26px;font-weight:700;letter-spacing:-0.03em;color:#0E1726;margin:0;line-height:1.15">the conversation right now</h3>
-        </div>
-
-        <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px);border-bottom:1px solid #E6E9EE">
-          <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:16px">sentiment toward the project</div>
-          <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:clamp(20px,4vw,56px);margin-bottom:20px">
-            <div><div style="font-size:clamp(34px,5.2vw,62px);font-weight:800;letter-spacing:-0.045em;color:#B03A3A;font-variant-numeric:tabular-nums;line-height:1">48.2<span style="font-size:.45em">%</span></div><div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-top:6px">negative</div></div>
-            <div><div style="font-size:clamp(24px,3.4vw,40px);font-weight:700;letter-spacing:-0.035em;font-variant-numeric:tabular-nums;line-height:1;color:#475063">22.9<span style="font-size:.5em">%</span></div><div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-top:6px">neutral</div></div>
-            <div><div style="font-size:clamp(24px,3.4vw,40px);font-weight:700;letter-spacing:-0.035em;font-variant-numeric:tabular-nums;line-height:1;color:#1F7A4C">26.2<span style="font-size:.5em">%</span></div><div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-top:6px">positive</div></div>
-            <div><div style="font-size:clamp(24px,3.4vw,40px);font-weight:700;letter-spacing:-0.035em;font-variant-numeric:tabular-nums;line-height:1;color:#9A6B10">2.6<span style="font-size:.5em">%</span></div><div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-top:6px">mixed or unclear</div></div>
-          </div>
-          <div style="display:flex;height:26px;border-radius:6px;overflow:hidden;border:1px solid #E6E9EE">
-            <span style="width:48.2%;background:#D04A4A"></span><span style="width:22.9%;background:#D6D9DC"></span><span style="width:26.2%;background:#2EA86A"></span><span style="width:2.6%;background:#E4A11B"></span>
-          </div>
-          <div style="border-top:1px solid #E6E9EE;margin-top:18px;padding-top:16px;font-size:12.5px;color:#7B8597;line-height:1.6">These labels are applied by software, not by people. 249 days is a starting point, not a trend. The percentages cover the posts the software judged to be about this project.</div>
-        </div>
-
-        <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px);border-bottom:1px solid #E6E9EE">
-          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:clamp(16px,3vw,32px)">
-            <div>
-              <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:12px">where the conversation happens</div>
-              <table style="width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums">
-                <tr><td style="padding:5px 0;color:#475063">Facebook</td><td style="text-align:right;color:#0E1726;font-weight:600">75.0%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">News</td><td style="text-align:right;color:#0E1726;font-weight:600">8.2%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">YouTube</td><td style="text-align:right;color:#0E1726;font-weight:600">6.2%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">X</td><td style="text-align:right;color:#0E1726;font-weight:600">4.9%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">Reddit</td><td style="text-align:right;color:#0E1726;font-weight:600">3.9%</td></tr>
-                <tr><td style="padding:5px 0;color:#7B8597">everything else</td><td style="text-align:right;color:#7B8597;font-weight:600">1.8%</td></tr>
-              </table>
-            </div>
-            <div>
-              <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:12px">what it is about</div>
-              <table style="width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums">
-                <tr><td style="padding:5px 0;color:#475063">Governance</td><td style="text-align:right;color:#0E1726;font-weight:600">34.1%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">Environment</td><td style="text-align:right;color:#0E1726;font-weight:600">26.5%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">Investment</td><td style="text-align:right;color:#0E1726;font-weight:600">18.9%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">Semiconductors</td><td style="text-align:right;color:#0E1726;font-weight:600">16.1%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">Indigenous rights</td><td style="text-align:right;color:#0E1726;font-weight:600">13.9%</td></tr>
-                <tr><td style="padding:5px 0;color:#7B8597">no category matched</td><td style="text-align:right;color:#7B8597;font-weight:600">26.0%</td></tr>
-              </table>
-            </div>
-            <div>
-              <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:12px">who is speaking</div>
-              <table style="width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums">
-                <tr><td style="padding:5px 0;color:#475063">Private individuals</td><td style="text-align:right;color:#0E1726;font-weight:600">76.4%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">Media</td><td style="text-align:right;color:#0E1726;font-weight:600">10.5%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">Government</td><td style="text-align:right;color:#0E1726;font-weight:600">6.5%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">Civil society</td><td style="text-align:right;color:#0E1726;font-weight:600">5.4%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">Business</td><td style="text-align:right;color:#0E1726;font-weight:600">1.0%</td></tr>
-                <tr><td style="padding:5px 0;color:#475063">Faith&#8209;based</td><td style="text-align:right;color:#0E1726;font-weight:600">0.2%</td></tr>
-              </table>
-            </div>
-          </div>
-          <div style="border-top:1px solid #E6E9EE;margin-top:18px;padding-top:16px;font-size:12.5px;color:#7B8597;line-height:1.6">Government accounts for 6.5% of the conversation and business for 1.0%. The central open question is what the Philippine state has actually committed to. Yet almost all the public discussion is coming from private individuals, not from the institutions that would have to sign.</div>
-        </div>
-
-        <div style="padding:clamp(14px,4.2vw,26px) clamp(14px,4.4vw,30px)">
-          <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#7B8597;letter-spacing:0.05em;line-height:1.75">
-            source &middot; social listening export, query <span style="color:#475063">("pax silica" OR hashtags:paxsilica) NOT engagementType:RETWEET</span>, English and Tagalog, worldwide, reposts excluded &middot; window 12 December 2025&ndash;17 August 2026<br>
-            method &middot; every post in the window was labelled by software and <span style="color:#475063">none of it was reviewed by a person</span> &middot; a post can fall under more than one topic, so those figures add to more than 100%<br>
-            Software struggles with irony in Filipino and Taglish. In this data it labelled a plainly critical Taglish post as positive, so treat the levels as rough. The way this is measured changed on 7 August: the sample became near-complete and reposts are now excluded. Figures from before that date are not directly comparable with these, and the shares did move when the basis changed — Facebook rose and every other platform fell — so the earlier sampled figures understated how much of this conversation happens on Facebook. 26.0% of mentions match no topic category and are excluded from topic shares. No TikTok in this export; Facebook is limited to public content.
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-<!-- listening:end -->
 
 <section id="claims" style="scroll-margin-top:74px;padding:clamp(56px,7vw,96px) 0;background:#FAFBFC;border-top:1px solid #E6E9EE;border-bottom:1px solid #E6E9EE">
   <div style="max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,40px)">
@@ -1543,6 +1545,18 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
       <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
         <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
           <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#0B4F9C;background:#E6F4FA;border-radius:999px;padding:4px 11px">update</span>
+          <h3 style="font-size:17px;font-weight:700;letter-spacing:-0.02em;color:#0E1726;margin:0;line-height:1.3">One running listening exhibit replaces the two social-listening sections</h3>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.06em;color:#7B8597;margin-left:auto">18 August 2026 &middot; v1.64 &middot; assessment v2.30</span>
+        </div>
+        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0;max-width:88ch">Exhibit 12 and the daily &#x27;current listening&#x27; block were two views of one conversation, one frozen in late July and one moving, measured on different bases. They are now a single exhibit running from 1 January 2026 to the current date, refreshed daily by the same gated pipeline, with month and day views and the measurement seam drawn on the chart. Two changes are substance, not layout. First, the historical mentions from the sampled export were relabelled by the same local software that labels the current collection, so sentiment, topics and speaker types use one scheme across the whole series; the vendor&#x27;s labels remain unpublished. The relabelling confirms July&#x27;s collapse almost exactly (net −35.6 against the export analysis&#x27;s −34.8) but reads January–May as clearly positive toward the project where the earlier labels read near-neutral wire coverage — and the May recovery the report&#x27;s section 19 describes does not appear under the new labels, which is stated in the assessment&#x27;s v2.30 note rather than smoothed over. Second, the exhibit&#x27;s headline figures and the hero tile now cover the near-complete collection that began 7 August 2026 rather than the mixed whole window, moving the displayed negative share from 48.2% to 46.0% and the hero net from −22.0 to −18.2 at the time of this release — a declared basis choice, not a data revision. Counts are still shown per basis, the uncollected 28 July–6 August days render as a gap, and finding 05 and section 19 keep the frozen July figures as the historical record of the sampled export. Assessment v2.30 documents the relabelling, its concordance with the vendor labels, and the review status of the decision in Appendix H.27.</p>
+          <div style="margin-top:12px;border-left:2px solid #0B4F9C;padding:2px 0 2px 14px">
+            <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:4px">superseded text &middot; verbatim</div>
+            <div style="font-size:13.5px;line-height:1.6;color:#475063">&ldquo;A social listening export covering 6 December 2025 to 27 July 2026: a stated 10% sample of global public mentions, excluding reshares. The rate is the provider’s statement, not independently benchmarked, so shares here are sample-dependent estimates.&rdquo;</div>
+          </div>
+      </div>
+      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
+          <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#0B4F9C;background:#E6F4FA;border-radius:999px;padding:4px 11px">update</span>
           <h3 style="font-size:17px;font-weight:700;letter-spacing:-0.02em;color:#0E1726;margin:0;line-height:1.3">The hero&#x27;s sentiment figure now tracks the daily listening data</h3>
           <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.06em;color:#7B8597;margin-left:auto">17 August 2026 &middot; v1.63 &middot; assessment v2.29</span>
         </div>
@@ -1584,7 +1598,10 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
             <div style="font-size:13.5px;line-height:1.6;color:#475063">&ldquo;&quot;The explainer video&#x27;s narration remains the one knowingly dated copy, as disclosed yesterday, pending its next recut.&quot; — and, from the entry of 16 August: &quot;One surface is knowingly left as recorded: the explainer video&#x27;s narration says fifteen, because that is what was recorded on 14 August; it will be corrected the next time the video is recut, and until then this entry is the notice of the discrepancy.&quot;&rdquo;</div>
           </div>
       </div>
-      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
+      <details style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF">
+        <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:15px clamp(15px,4.4vw,26px);font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6 L8 11 L13 6"/></svg>earlier entries &middot; 28 &middot; back to 7 august 2026</summary>
+        <div style="display:flex;flex-direction:column;gap:14px;padding:2px clamp(10px,2.6vw,14px) clamp(10px,2.6vw,14px)">
+      <div style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
         <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
           <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#9A6B10;background:#FDF3E0;border-radius:999px;padding:4px 11px">correction</span>
           <h3 style="font-size:17px;font-weight:700;letter-spacing:-0.02em;color:#0E1726;margin:0;line-height:1.3">The hero still said 15 of 16 — a fourth copy of the corrected count</h3>
@@ -1596,9 +1613,6 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
             <div style="font-size:13.5px;line-height:1.6;color:#475063">&ldquo;{ v: &#x27;15 / 16&#x27;, k: &#x27;implementation gates still open&#x27; }&rdquo;</div>
           </div>
       </div>
-      <details style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF">
-        <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:15px clamp(15px,4.4vw,26px);font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6 L8 11 L13 6"/></svg>earlier entries &middot; 27 &middot; back to 7 august 2026</summary>
-        <div style="display:flex;flex-direction:column;gap:14px;padding:2px clamp(10px,2.6vw,14px) clamp(10px,2.6vw,14px)">
       <div style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
         <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
           <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#9A6B10;background:#FDF3E0;border-radius:999px;padding:4px 11px">correction</span>
@@ -1946,7 +1960,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.12)">
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">about this assessment</div>
-        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.63, reflecting assessment v2.29. Maintained as a living document: project facts verified to 16 August 2026, last updated 18 August 2026, reviewed daily, with immediate review on trigger events. Comparator, legal and technical sources verified through 27 July 2026; these move only when re-verified. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned, logged and, where it corrects something previously published, stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork. Maintenance disclosure: this site is operated by AI systems under human editorial direction. Institutional sources and Philippine media are swept every morning; social-media data is collected and classified daily. Nothing on this site changes until the underlying claim has passed an adversarial verification step performed by a second, independent AI model attempting to refute it, and no Key Judgment moves on a single source. Every change is versioned and logged; corrections are stated as corrections. Final editorial authority, and the decision to publish, rest with the human publisher.</p>
+        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.64, reflecting assessment v2.30. Maintained as a living document: project facts verified to 16 August 2026, last updated 18 August 2026, reviewed daily, with immediate review on trigger events. Comparator, legal and technical sources verified through 27 July 2026; these move only when re-verified. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned, logged and, where it corrects something previously published, stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork. Maintenance disclosure: this site is operated by AI systems under human editorial direction. Institutional sources and Philippine media are swept every morning; social-media data is collected and classified daily. Nothing on this site changes until the underlying claim has passed an adversarial verification step performed by a second, independent AI model attempting to refute it, and no Key Judgment moves on a single source. Every change is versioned and logged; corrections are stated as corrections. Final editorial authority, and the decision to publish, rest with the human publisher.</p>
       </div>
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">evidence tiers</div>
@@ -1971,7 +1985,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     </div>
     <div style="padding-top:16px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.04em;line-height:1.7;color:rgba(255,255,255,0.35);max-width:88ch">Usage analytics: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.45);text-decoration:underline">Google Analytics</a> measures aggregate site use&mdash;including page views, report downloads, outbound links and explainer playback. Advertising signals and ad personalization are disabled; no form content is sent.</div>
       <div style="padding-top:18px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center">
-      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · agile intelligence research report · site v1.63 · assessment v2.29</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · agile intelligence research report · site v1.64 · assessment v2.30</span>
       <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">project facts 6 aug · sources 27 jul 2026</span>
     </div>
   </div>
@@ -2033,7 +2047,7 @@ class Component extends DCLogic {
     q: '', cs: 'all', cc: 'all', cw: 'all', appx: 'B',
     demand: 90, rain: 1900, runoff: 55, renew: 20,
     scen: 'B', open: {}, pre: [false, false, false, false, false, false, false],
-    socMetric: 'net', socPhase: 'post', lens: 'stance', actor: null, lease: 'a',
+    socMetric: 'net', socView: 'month', socSeg: 'current', lens: 'stance', actor: null, lease: 'a',
     note: null, toast: '', days: 0, jobsAnim: false,
     w: typeof window !== 'undefined' ? window.innerWidth : 1440,
     vh: typeof window !== 'undefined' ? window.innerHeight : 900,
@@ -2218,37 +2232,18 @@ class Component extends DCLogic {
     ['layer 3', 'locator operations', 'RA 7916 ecozone registration plus CREATE MORE incentives', 'PEZA or BCDA to registered business enterprises', 'Not executed', 0]
   ];
 
-  SOC_MONTHS = [
-    ['dec 6 – 15 apr', 'pre-accession', 2286, -1.0, 12.9, 11.9],
-    ['16–30 apr', 'post', 181, -3.3, 17.1, 13.8],
-    ['may', 'post', 495, 12.1, 19.4, 31.5],
-    ['jun', 'post', 548, -11.7, 29.2, 17.5],
-    ['jul', 'post', 2927, -34.8, 52.8, 17.9]
-  ];
+  // Merged listening exhibit data. LISTENING_HISTORY is the reclassified 10%-sample
+  // export (fixed window), placed once from data/pax-social-history-v1.json and never
+  // rewritten. LISTENING is the live census-basis segment: everything between the
+  // listening-data markers is rewritten daily by tools/build-listening-section.py in the
+  // research repo — do not edit it by hand.
+  SOC_TOPIC_LABELS = { governance: 'Governance', sovereignty: 'Sovereignty', security: 'Security', investment: 'Investment', jobs: 'Jobs', semiconductors: 'Semiconductors', ai_infrastructure: 'AI infrastructure', energy: 'Energy', water: 'Water', environment: 'Environment', indigenous_rights: 'Indigenous rights', trade: 'Trade', foreign_policy: 'Foreign policy', implementation: 'Implementation', other: 'Other' };
+  SOC_PLATFORM_LABELS = { facebook: 'Facebook', x: 'X', reddit: 'Reddit', news: 'News', youtube: 'YouTube', instagram: 'Instagram', bluesky: 'Bluesky', tumblr: 'Tumblr', forum: 'Forums', blogs: 'Blogs' };
+  SOC_STAKE_LABELS = { individual: 'Private individuals', media: 'Media', government: 'Government', civil_society: 'Civil society', faith_based_org: 'Faith-based', business: 'Business', unknown: 'Unknown' };
 
-  SOC_TOPICS = [
-    ['AI & technology', 2688, 41.8, -1.5],
-    ['Geopolitics & security', 1294, 20.1, 0.0],
-    ['Jobs & economy', 1111, 17.3, 2.6],
-    ['Minerals & mining', 793, 12.3, 2.3],
-    ['Water & environment', 568, 8.8, -43.8],
-    ['Sovereignty & legality', 201, 3.1, -27.9],
-    ['Land & indigenous', 165, 2.6, -50.3],
-    ['Governance & corruption', 79, 1.2, -54.4]
-  ];
+  LISTENING_HISTORY = {"basis":{"kind":"sample10","note":"A stated 10% sample of global public mentions, reposts included, 6 December 2025 to 27 July 2026, relabelled by the same software that labels the current data. Volumes are sample counts and are not comparable with the near-complete collection that starts 7 August 2026; shares are."},"generatedAt":"2026-08-18T10:46:08.994Z","schemaVersion":"pax-social-history-public-v1","series":{"daily":[["2026-01-01",4,0,2,2,0,0],["2026-01-02",2,0,2,0,0,0],["2026-01-04",2,0,2,0,0,0],["2026-01-05",2,0,2,0,0,0],["2026-01-06",6,0,5,1,0,0],["2026-01-07",4,0,2,2,0,0],["2026-01-08",2,1,1,0,0,0],["2026-01-10",1,0,1,0,0,0],["2026-01-11",3,0,3,0,0,0],["2026-01-12",108,3,50,47,1,0],["2026-01-13",139,4,48,79,0,1],["2026-01-14",40,1,16,21,0,0],["2026-01-15",35,2,18,13,0,0],["2026-01-16",47,5,39,3,0,0],["2026-01-17",28,2,17,8,0,0],["2026-01-18",5,2,2,0,0,0],["2026-01-19",9,1,4,2,0,0],["2026-01-20",6,0,5,1,0,0],["2026-01-21",11,0,7,4,0,0],["2026-01-22",16,0,9,2,0,0],["2026-01-23",10,0,4,6,0,0],["2026-01-24",5,0,3,1,0,0],["2026-01-25",8,1,3,4,0,0],["2026-01-26",4,0,3,1,0,0],["2026-01-27",18,1,7,10,0,0],["2026-01-28",11,1,6,3,0,0],["2026-01-29",7,0,5,2,0,0],["2026-01-30",29,2,3,21,0,0],["2026-01-31",8,0,5,2,0,0],["2026-02-01",5,0,2,3,0,0],["2026-02-02",7,2,5,0,0,0],["2026-02-03",35,0,16,16,0,0],["2026-02-04",29,1,22,6,0,0],["2026-02-05",71,0,42,26,0,0],["2026-02-06",24,1,5,17,0,0],["2026-02-07",3,0,2,1,0,0],["2026-02-08",6,0,2,4,0,0],["2026-02-09",6,0,2,3,0,0],["2026-02-10",9,1,1,7,0,0],["2026-02-11",5,1,4,0,0,0],["2026-02-12",5,0,4,0,0,0],["2026-02-13",3,0,3,0,0,0],["2026-02-15",2,1,1,0,0,0],["2026-02-16",12,0,12,0,0,0],["2026-02-17",5,0,4,0,0,0],["2026-02-18",5,0,2,3,0,0],["2026-02-19",13,0,7,6,0,0],["2026-02-20",419,7,140,260,0,1],["2026-02-21",90,5,36,47,0,0],["2026-02-22",82,5,11,65,0,0],["2026-02-23",45,3,18,23,1,0],["2026-02-24",46,5,16,24,0,0],["2026-02-25",17,1,9,5,0,0],["2026-02-26",42,0,39,3,0,0],["2026-02-27",9,0,9,0,0,0],["2026-02-28",19,2,1,16,0,0],["2026-03-01",6,0,3,1,0,0],["2026-03-02",7,0,5,2,0,0],["2026-03-03",5,0,4,1,0,0],["2026-03-04",3,0,3,0,0,0],["2026-03-05",23,0,19,3,0,0],["2026-03-06",4,0,3,1,0,0],["2026-03-07",3,2,1,0,0,0],["2026-03-08",3,2,1,0,0,0],["2026-03-09",10,0,1,9,0,0],["2026-03-10",2,0,0,1,0,0],["2026-03-11",6,0,2,0,0,0],["2026-03-12",5,0,5,0,0,0],["2026-03-13",27,4,5,17,0,1],["2026-03-14",7,4,1,1,0,0],["2026-03-15",3,3,0,0,0,0],["2026-03-16",3,0,1,1,0,0],["2026-03-17",3,1,0,1,0,0],["2026-03-18",9,2,2,5,0,0],["2026-03-19",7,1,2,3,0,0],["2026-03-20",2,0,2,0,0,0],["2026-03-21",1,1,0,0,0,0],["2026-03-22",2,1,1,0,0,0],["2026-03-23",13,10,2,0,1,0],["2026-03-24",11,0,10,1,0,0],["2026-03-25",14,0,11,3,0,0],["2026-03-26",15,1,6,8,0,0],["2026-03-27",16,1,6,9,0,0],["2026-03-28",7,1,2,3,0,0],["2026-03-29",4,0,2,2,0,0],["2026-03-30",4,0,3,1,0,0],["2026-03-31",23,0,4,19,0,0],["2026-04-01",33,0,7,25,0,0],["2026-04-02",8,0,3,5,0,0],["2026-04-05",2,0,1,1,0,0],["2026-04-07",1,0,0,1,0,0],["2026-04-08",6,1,5,0,0,0],["2026-04-09",5,1,3,1,0,0],["2026-04-10",19,0,8,11,0,0],["2026-04-11",19,0,1,18,0,0],["2026-04-12",3,0,0,2,0,0],["2026-04-13",3,0,2,1,0,0],["2026-04-14",5,0,0,1,0,0],["2026-04-15",5,0,3,2,0,0],["2026-04-16",5,0,2,3,0,0],["2026-04-17",46,1,27,15,1,0],["2026-04-18",18,0,10,5,0,0],["2026-04-19",12,2,6,2,0,0],["2026-04-20",17,5,4,6,0,0],["2026-04-21",18,2,6,9,0,0],["2026-04-22",7,1,3,0,0,0],["2026-04-23",13,2,4,5,0,0],["2026-04-24",13,4,4,5,0,0],["2026-04-25",3,0,1,1,1,0],["2026-04-26",6,1,1,2,0,0],["2026-04-27",2,1,0,0,0,0],["2026-04-28",5,0,1,4,0,0],["2026-04-29",6,1,3,1,0,0],["2026-04-30",10,1,7,1,0,0],["2026-05-01",3,2,1,0,0,0],["2026-05-02",6,1,2,1,0,1],["2026-05-03",1,0,1,0,0,0],["2026-05-04",1,0,1,0,0,0],["2026-05-05",10,0,8,2,0,0],["2026-05-06",23,1,6,15,0,0],["2026-05-07",16,0,5,7,0,0],["2026-05-08",4,0,2,2,0,0],["2026-05-09",4,0,3,1,0,0],["2026-05-10",2,1,0,1,0,0],["2026-05-11",31,5,5,21,0,0],["2026-05-12",9,2,2,5,0,0],["2026-05-13",8,0,4,2,0,1],["2026-05-14",7,1,4,1,0,0],["2026-05-15",7,0,4,2,0,0],["2026-05-16",11,1,5,1,0,0],["2026-05-17",14,2,9,1,0,1],["2026-05-18",15,3,8,4,0,0],["2026-05-19",26,1,18,6,0,0],["2026-05-20",27,2,7,15,0,0],["2026-05-21",20,4,11,5,0,0],["2026-05-22",8,1,2,3,1,0],["2026-05-23",8,2,2,4,0,0],["2026-05-24",38,0,30,6,0,0],["2026-05-25",22,8,7,7,0,0],["2026-05-26",46,5,14,24,0,0],["2026-05-27",30,8,8,14,0,0],["2026-05-28",20,2,8,8,0,0],["2026-05-29",35,2,11,18,0,0],["2026-05-30",28,4,4,15,1,0],["2026-05-31",15,6,3,4,0,0],["2026-06-01",9,1,4,3,0,0],["2026-06-02",20,2,4,2,0,0],["2026-06-03",35,7,5,16,0,0],["2026-06-04",16,4,8,3,0,0],["2026-06-05",5,0,0,1,0,0],["2026-06-06",5,1,2,2,0,0],["2026-06-07",5,2,2,0,0,0],["2026-06-08",1,0,1,0,0,0],["2026-06-09",5,1,2,2,0,0],["2026-06-10",8,1,4,1,0,0],["2026-06-11",7,1,3,2,0,0],["2026-06-12",13,9,2,2,0,0],["2026-06-13",7,3,3,0,0,0],["2026-06-14",6,2,3,1,0,0],["2026-06-15",5,1,1,2,0,0],["2026-06-16",5,1,3,0,0,0],["2026-06-17",4,1,2,1,0,0],["2026-06-18",7,3,4,0,0,0],["2026-06-19",5,0,4,1,0,0],["2026-06-20",5,1,1,2,0,0],["2026-06-21",1,1,0,0,0,0],["2026-06-22",7,1,2,1,0,1],["2026-06-23",26,2,16,6,0,0],["2026-06-24",43,10,17,15,0,0],["2026-06-25",73,5,53,12,0,0],["2026-06-26",70,9,33,24,0,0],["2026-06-27",76,22,32,19,0,0],["2026-06-28",40,19,13,8,0,0],["2026-06-29",18,1,9,4,0,0],["2026-06-30",21,0,12,7,0,0],["2026-07-01",14,2,7,4,0,0],["2026-07-02",10,3,5,2,0,0],["2026-07-03",8,0,6,2,0,0],["2026-07-04",7,3,1,2,0,0],["2026-07-05",8,3,2,2,0,0],["2026-07-06",13,8,3,1,0,0],["2026-07-07",26,6,6,4,1,0],["2026-07-08",29,6,14,4,0,0],["2026-07-09",6,4,0,1,0,0],["2026-07-10",17,2,10,4,0,1],["2026-07-11",13,7,3,0,0,0],["2026-07-12",12,5,4,1,1,0],["2026-07-13",15,6,5,4,0,0],["2026-07-14",26,12,7,4,0,0],["2026-07-15",32,11,12,3,0,1],["2026-07-16",72,26,16,13,0,1],["2026-07-17",105,21,44,6,0,3],["2026-07-18",63,26,20,9,1,0],["2026-07-19",106,33,38,9,3,0],["2026-07-20",145,55,32,20,3,1],["2026-07-21",179,77,49,16,3,4],["2026-07-22",229,133,37,23,5,2],["2026-07-23",343,173,69,54,4,1],["2026-07-24",621,319,104,85,6,7],["2026-07-25",335,144,72,59,5,6],["2026-07-26",402,195,68,97,7,2],["2026-07-27",91,42,16,9,2,3]],"dailyColumns":["date","volume","negative","neutral","positive","mixed","unclear"],"monthly":[["2026-01",{"platforms":{"blogs":2,"bluesky":9,"facebook":10,"forum":2,"instagram":4,"news":337,"reddit":7,"tumblr":1,"x":171,"youtube":27},"sentiment":{"mixed":1,"negative":26,"neutral":274,"positive":235,"unclear":1},"stakeholders":{"business":6,"government":80,"individual":130,"media":320,"unknown":1},"topics":{"ai_infrastructure":148,"energy":18,"environment":2,"foreign_policy":319,"governance":11,"investment":53,"jobs":1,"other":50,"security":277,"semiconductors":324,"sovereignty":3,"trade":284},"volume":570}],["2026-02",{"platforms":{"blogs":2,"bluesky":10,"facebook":37,"forum":3,"instagram":9,"news":653,"reddit":6,"tumblr":1,"x":236,"youtube":57},"sentiment":{"mixed":1,"negative":35,"neutral":415,"positive":535,"unclear":1},"stakeholders":{"business":40,"government":210,"individual":145,"media":589,"unknown":3},"topics":{"ai_infrastructure":492,"energy":11,"environment":2,"foreign_policy":654,"governance":25,"investment":86,"jobs":6,"other":65,"security":451,"semiconductors":597,"sovereignty":17,"trade":584,"water":1},"volume":1014}],["2026-03",{"platforms":{"blogs":1,"bluesky":3,"facebook":4,"forum":1,"news":157,"reddit":4,"x":64,"youtube":14},"sentiment":{"mixed":1,"negative":34,"neutral":107,"positive":92,"unclear":1},"stakeholders":{"business":15,"government":50,"individual":60,"media":109,"unknown":1},"topics":{"ai_infrastructure":60,"energy":17,"foreign_policy":103,"governance":23,"investment":50,"jobs":1,"other":30,"security":124,"semiconductors":149,"sovereignty":5,"trade":81},"volume":248}],["2026-04",{"platforms":{"blogs":4,"bluesky":2,"facebook":21,"forum":2,"instagram":2,"news":152,"reddit":30,"x":67,"youtube":10},"sentiment":{"mixed":2,"negative":23,"neutral":112,"positive":127,"unclear":0},"stakeholders":{"business":5,"civil_society":1,"government":53,"individual":70,"media":134,"unknown":1},"topics":{"ai_infrastructure":89,"energy":33,"environment":3,"foreign_policy":107,"governance":33,"implementation":6,"investment":87,"jobs":2,"other":31,"security":134,"semiconductors":153,"sovereignty":16,"trade":122,"water":1},"volume":290}],["2026-05",{"platforms":{"blogs":6,"bluesky":10,"facebook":24,"forum":4,"instagram":2,"news":266,"reddit":31,"x":135,"youtube":17},"sentiment":{"mixed":2,"negative":64,"neutral":195,"positive":195,"unclear":3},"stakeholders":{"business":17,"civil_society":2,"government":77,"individual":138,"media":222,"unknown":3},"topics":{"ai_infrastructure":122,"energy":18,"environment":8,"foreign_policy":224,"governance":70,"implementation":1,"indigenous_rights":1,"investment":114,"jobs":3,"other":54,"security":199,"semiconductors":214,"sovereignty":36,"trade":185,"water":2},"volume":495}],["2026-06",{"platforms":{"blogs":10,"bluesky":18,"facebook":28,"forum":6,"instagram":3,"news":259,"reddit":39,"x":169,"youtube":16},"sentiment":{"mixed":0,"negative":111,"neutral":245,"positive":137,"unclear":1},"stakeholders":{"business":9,"civil_society":14,"government":60,"individual":125,"media":283,"unknown":3},"topics":{"ai_infrastructure":273,"energy":13,"environment":8,"foreign_policy":250,"governance":42,"implementation":3,"indigenous_rights":1,"investment":58,"jobs":5,"other":53,"security":187,"semiconductors":235,"sovereignty":46,"trade":202,"water":1},"volume":548}],["2026-07",{"platforms":{"blogs":5,"bluesky":29,"facebook":1215,"forum":6,"instagram":9,"news":157,"reddit":845,"tumblr":3,"x":590,"youtube":68},"sentiment":{"mixed":41,"negative":1322,"neutral":650,"positive":438,"unclear":32},"stakeholders":{"business":11,"civil_society":37,"faith_based_org":4,"government":60,"individual":2166,"media":205},"topics":{"ai_infrastructure":365,"energy":213,"environment":548,"foreign_policy":277,"governance":676,"implementation":36,"indigenous_rights":65,"investment":380,"jobs":166,"other":807,"security":219,"semiconductors":334,"sovereignty":344,"trade":206,"water":402},"volume":2927}]]},"totals":{"platformMix":{"blogs":{"count":30,"share":0.004924},"bluesky":{"count":81,"share":0.013296},"facebook":{"count":1339,"share":0.219796},"forum":{"count":24,"share":0.00394},"instagram":{"count":29,"share":0.00476},"news":{"count":1981,"share":0.325181},"reddit":{"count":962,"share":0.157912},"tumblr":{"count":5,"share":0.000821},"x":{"count":1432,"share":0.235062},"youtube":{"count":209,"share":0.034307}},"sentiment":{"mixed":{"count":48,"share":0.008793},"negative":{"count":1615,"share":0.295842},"neutral":{"count":1998,"share":0.366001},"positive":{"count":1759,"share":0.32222},"unclear":{"count":39,"share":0.007144}},"stakeholderTypes":{"business":{"count":103,"share":0.018868},"civil_society":{"count":54,"share":0.009892},"faith_based_org":{"count":4,"share":0.000733},"government":{"count":590,"share":0.108078},"individual":{"count":2834,"share":0.519143},"media":{"count":1862,"share":0.341088},"unknown":{"count":12,"share":0.002198}},"topicSentiment":{"ai_infrastructure":{"mixed":5,"negative":189,"neutral":758,"positive":595,"unclear":2},"energy":{"mixed":12,"negative":118,"neutral":113,"positive":74,"unclear":6},"environment":{"mixed":19,"negative":429,"neutral":82,"positive":36,"unclear":5},"foreign_policy":{"mixed":4,"negative":194,"neutral":961,"positive":769,"unclear":6},"governance":{"mixed":23,"negative":437,"neutral":261,"positive":147,"unclear":12},"implementation":{"mixed":1,"negative":5,"neutral":32,"positive":7,"unclear":1},"indigenous_rights":{"mixed":4,"negative":50,"neutral":9,"positive":2,"unclear":2},"investment":{"mixed":12,"negative":58,"neutral":285,"positive":469,"unclear":4},"jobs":{"mixed":9,"negative":54,"neutral":20,"positive":100,"unclear":1},"other":{"mixed":8,"negative":589,"neutral":314,"positive":164,"unclear":15},"security":{"mixed":5,"negative":196,"neutral":754,"positive":631,"unclear":5},"semiconductors":{"mixed":9,"negative":71,"neutral":900,"positive":1026},"sovereignty":{"mixed":3,"negative":343,"neutral":70,"positive":48,"unclear":3},"trade":{"mixed":4,"negative":96,"neutral":691,"positive":871,"unclear":2},"water":{"mixed":18,"negative":259,"neutral":88,"positive":40,"unclear":2}},"topicShares":{"ai_infrastructure":{"count":1549,"share":0.283752},"energy":{"count":323,"share":0.059168},"environment":{"count":571,"share":0.104598},"foreign_policy":{"count":1934,"share":0.354277},"governance":{"count":880,"share":0.161202},"implementation":{"count":46,"share":0.008426},"indigenous_rights":{"count":67,"share":0.012273},"investment":{"count":828,"share":0.151676},"jobs":{"count":184,"share":0.033706},"other":{"count":1090,"share":0.19967},"security":{"count":1591,"share":0.291445},"semiconductors":{"count":2006,"share":0.367467},"sovereignty":{"count":467,"share":0.085547},"trade":{"count":1664,"share":0.304818},"water":{"count":407,"share":0.074556}}},"window":{"end":"2026-07-27","start":"2026-01-01"}};
 
-  SOC_CHANNELS = {
-    pre: [['online news', 60], ['X', 28], ['Facebook', 6], ['Reddit', 2], ['other', 4]],
-    post: [['Facebook', 31], ['X', 23], ['Reddit', 23], ['online news', 18], ['other', 5]]
-  };
-
-  SOC_DAYS = [
-    ['24 jul', 621, -43, 'the BCDA figures blitz, the 99-year-lease disclosure and the US 12.5% tariff land on one news day'],
-    ['26 jul', 402, -25, 'SONA eve'],
-    ['23 jul', 343, -37, 'the US$40–70bn and 190,000-jobs claims'],
-    ['25 jul', 335, -30, 'peso closes at a record low'],
-    ['22 jul', 229, -50, 'Secretary Rubio’s Manila visit, amid protests']
-  ];
+  LISTENING = /* listening-data:start */{"annotations":[{"date":"2026-04-16","label":"the Philippines accedes to Pax Silica"},{"date":"2026-05-18","label":"public rejection of the US jurisdiction-and-immunity request"},{"date":"2026-07-22","label":"Secretary Rubio's Manila visit, amid protests"},{"date":"2026-07-24","label":"the BCDA figures blitz, the 99-year-lease disclosure and the US tariff land on one news day"},{"date":"2026-07-26","label":"SONA eve"}],"asOfDate":"2026-08-17","basis":{"cutoverDate":"2026-08-07","note":"Counted from a near-complete collection with reposts excluded; earlier figures on this page come from a smaller sample and are comparable in shares, not counts."},"prose":{"breakdown_note":"Government accounts for 6.7% of the conversation and business for 0.9%. The central open question is what the Philippine state has actually committed to. Yet almost all the public discussion is coming from private individuals, not from the institutions that would have to sign.","caveat_note":"Software struggles with irony in Filipino and Taglish. In this data it labelled a plainly critical Taglish post as positive, so treat the levels as rough. The way this is measured changed on 7 August: the sample became near-complete and reposts are now excluded. Figures from before that date are not directly comparable with these, and the shares did move when the basis changed \u2014 Facebook rose and every other platform fell \u2014 so the earlier sampled figures understated how much of this conversation happens on Facebook. 24.9% of mentions match no topic category and are excluded from topic shares. No TikTok in this export; Facebook is limited to public content.","sentiment_note":"These labels are applied by software, not by people. 11 days is a starting point, not a trend. The percentages cover the posts the software judged to be about this project."},"query":"(\"pax silica\" OR hashtags:paxsilica) NOT engagementType:RETWEET","segmentTotals":{"platformMix":{"blog":{"count":29,"share":0.001773},"bluesky":{"count":115,"share":0.007032},"facebook":{"count":12168,"share":0.744084},"forum":{"count":64,"share":0.003914},"instagram":{"count":81,"share":0.004953},"news":{"count":1535,"share":0.093867},"reddit":{"count":704,"share":0.04305},"tumblr":{"count":10,"share":0.000612},"x":{"count":621,"share":0.037975},"youtube":{"count":1026,"share":0.062741}},"sentiment":{"mixed":{"count":305,"share":0.0196},"negative":{"count":7155,"share":0.459803},"neutral":{"count":3664,"share":0.23546},"positive":{"count":4328,"share":0.278131},"unclear":{"count":109,"share":0.007005}},"stakeholderTypes":{"business":{"count":133,"share":0.008547},"civil_society":{"count":721,"share":0.046334},"faith_based_org":{"count":13,"share":0.000835},"government":{"count":1035,"share":0.066512},"individual":{"count":11927,"share":0.766467},"media":{"count":1730,"share":0.111175},"unknown":{"count":2,"share":0.000129}},"topicSentiment":{"ai_infrastructure":{"mixed":34,"negative":427,"neutral":953,"positive":508,"unclear":8},"energy":{"mixed":39,"negative":487,"neutral":228,"positive":226,"unclear":2},"environment":{"mixed":149,"negative":3060,"neutral":465,"positive":436,"unclear":9},"foreign_policy":{"mixed":21,"negative":374,"neutral":728,"positive":432,"unclear":8},"governance":{"mixed":136,"negative":2669,"neutral":1315,"positive":855,"unclear":27},"implementation":{"mixed":19,"negative":47,"neutral":200,"positive":56,"unclear":5},"indigenous_rights":{"mixed":75,"negative":1504,"neutral":155,"positive":111,"unclear":4},"investment":{"mixed":84,"negative":271,"neutral":682,"positive":2114,"unclear":6},"jobs":{"mixed":74,"negative":322,"neutral":133,"positive":833,"unclear":1},"other":{"mixed":41,"negative":2070,"neutral":968,"positive":725,"unclear":67},"security":{"mixed":29,"negative":573,"neutral":683,"positive":536,"unclear":3},"semiconductors":{"mixed":58,"negative":196,"neutral":871,"positive":1571,"unclear":3},"sovereignty":{"mixed":35,"negative":1179,"neutral":193,"positive":416,"unclear":6},"trade":{"mixed":30,"negative":186,"neutral":533,"positive":726,"unclear":2},"water":{"mixed":58,"negative":1063,"neutral":400,"positive":400,"unclear":1}},"topicShares":{"ai_infrastructure":{"count":1930,"share":0.124028},"energy":{"count":982,"share":0.063106},"environment":{"count":4119,"share":0.2647},"foreign_policy":{"count":1563,"share":0.100443},"governance":{"count":5002,"share":0.321445},"implementation":{"count":327,"share":0.021014},"indigenous_rights":{"count":1849,"share":0.118823},"investment":{"count":3157,"share":0.202879},"jobs":{"count":1363,"share":0.087591},"other":{"count":3871,"share":0.248763},"security":{"count":1824,"share":0.117216},"semiconductors":{"count":2699,"share":0.173446},"sovereignty":{"count":1829,"share":0.117537},"trade":{"count":1477,"share":0.094917},"water":{"count":1922,"share":0.123514}},"window":{"end":"2026-08-17","start":"2026-08-07"}},"series":{"daily":[["2026-08-07",2706,1389,487,587,51,29],["2026-08-08",1249,511,222,421,9,6],["2026-08-09",916,401,229,191,14,2],["2026-08-10",2086,825,523,660,27,9],["2026-08-11",1642,641,311,433,32,16],["2026-08-12",808,318,239,181,11,12],["2026-08-13",1525,684,238,522,28,10],["2026-08-14",2231,973,537,614,64,8],["2026-08-15",1213,485,326,319,23,9],["2026-08-16",1079,480,311,238,33,1],["2026-08-17",898,448,241,162,13,7]],"dailyColumns":["date","volume","negative","neutral","positive","mixed","unclear"],"monthly":[["2026-08",{"platforms":{"blog":29,"bluesky":115,"facebook":12168,"forum":64,"instagram":81,"news":1535,"reddit":704,"tumblr":10,"x":621,"youtube":1026},"sentiment":{"mixed":305,"negative":7155,"neutral":3664,"positive":4328,"unclear":109},"stakeholders":{"business":133,"civil_society":721,"faith_based_org":13,"government":1035,"individual":11927,"media":1730,"unknown":2},"topics":{"ai_infrastructure":1930,"energy":982,"environment":4119,"foreign_policy":1563,"governance":5002,"implementation":327,"indigenous_rights":1849,"investment":3157,"jobs":1363,"other":3871,"security":1824,"semiconductors":2699,"sovereignty":1829,"trade":1477,"water":1922},"volume":16353}]]}}/* listening-data:end */;
 
   // [claimants, source, tier], index-aligned to CLAIMS
   CLAIM_META = [
@@ -2395,7 +2390,7 @@ class Component extends DCLogic {
     ['Environmental and social assessment', 'No project-specific EIS, water balance, energy plan, biodiversity survey or social baseline exists.', ['The threshold finding is an absence. No project-specific Environmental Impact Statement, water balance study, energy plan, biodiversity survey, cumulative impact assessment or social impact assessment for the Pax Silica parcel is on the public record. DENR has stated that an EIS and Environmental Management Plan will be required, with Multipartite Monitoring Teams. None has been produced.', 'The cumulative dimension is the one most likely to be missed. An assessment scoped to the parcel boundary would exclude the ACWA solar site, the LEC rail corridor, the LNG terminal and plant, the proposed Subic–Clark jet-fuel pipeline, and any upstream mining expansion, which together are the actual footprint.', 'On indigenous rights, BCDA’s position that no ancestral domain is affected rests on the absence of a titled domain, not the absence of a claim. Aeta Hungey CADT applications over Capas were filed in 1999, 2014 and May 2019, and displacement disputes at New Clark City have run since 2018. The dispute over affected households, BCDA’s "about 10 farmers" against campaigners’ ~20,000 Aeta and farmers, is unresolvable without Annex A; the two figures are almost certainly describing different footprints.', 'On hazardous materials, semiconductor and refining chemistry generates acids, solvents, fluorinated gases, tailings and residues. No treatment, storage and disposal plan has been published, and the former base lands at Subic and Clark have a documented contamination history. Financial assurance bonds and environmental liability insurance sized to remediation cost are the standard response and are absent.']],
     ['Geopolitical, sovereignty and national-security implications', 'A strategy of displacement, stated by its author, hosted physically by the Philippines.', ['The US fact sheet is unusually explicit: the Luzon hub is intended as the first Zone in a broader industrial network, and that network is described as capable of competing with, and ultimately displacing, the concentrated supply chains on which the world currently depends. That is the mission statement of the enterprise the Philippines has agreed to host first. It is a source of both leverage and exposure.', 'A reported instance, and its limits. Reuters, in a wire carried by CNBC on 15 August 2026 and by GMA News in Manila on 16 August, reported that the State Department has prepared a draft letter to the 35 signatories of the Joint Statement on AI Opportunity, the Philippines among them, warning that they will be excluded from Pax Silica if they also sign up for a competing framework. The draft states that signature of the Declaration "is not merely a membership subscription, but a commitment" and "cannot be held alongside membership in duplicative initiatives whose expectations conflict with our own." Reuters reports the letter does not specifically mention China; the competing framework it identifies is the World Artificial Intelligence Cooperation Organization, whose establishing agreement China’s foreign ministry records as signed by representatives of 29 countries on 16 July 2026. The caveats are load-bearing and are why this moves no judgment here: the draft is undated and unsent, Reuters could not determine when or whether it would go out or in what form, the State Department declined to comment on "purportedly leaked internal documents", and the account rests on one news organisation, one anonymous official and a document this report has not seen; the many republications are the same wire copy, not corroboration. As reported it is an internal draft, not announced United States policy. No express exclusivity or incompatibility clause appears in either instrument the Philippines has signed. The narrow question this raises is answerable in the framework text: whether participation is stated to impose any restriction on the Philippines joining other countries’ AI or supply-chain initiatives.', 'The counterparty relationship is asymmetric in a way the framing obscures. The Philippines is being asked to grant durable, specific, physical concessions, land, water, power, rent forgone, in exchange for a non-binding declaration and feasibility studies, by a partner that imposed an additional 12.5% tariff on Philippine exports on 24 July 2026.', 'The claim that the project is purely commercial is not sustainable as stated. The Philippine Ambassador to the United States has publicly linked Pax Silica revenue to the country becoming "more militarily equipped." No dual-use exclusion clause is published, and no national security assessment of concentrating strategic assets near Clark and existing EDCA sites has been published either.', 'China has twice demonstrated willingness to use rare-earth export controls as leverage, and Philippine agricultural exports are a soft and historically used pressure point. Keeping the Zone genuinely multilateral, with Japanese, Korean and European participation, is both a commercial and a geopolitical hedge.']],
     ['Stakeholder and distributional analysis', 'Gains concentrate; risks distribute.', ['Gains concentrate in foreign investors, the national government and the construction sector. Risks concentrate in Tarlac’s water users, Luzon’s electricity consumers, Philippine taxpayers funding enabling infrastructure and incentives, and Aeta and farming households whose numbers remain unpublished.', 'BCDA and the executive speak frequently and are extensively documented. Affected communities are represented mainly through advocacy intermediaries. Two sets of actors with decisive power remain conspicuously silent: NGCP and the ERC, who would bear the blame for reserve shortfalls and price effects, and local government, where no independently verified position from the Tarlac provincial government or the municipality of Bamban was located. The host municipality of Capas has entered the record procedurally — Mayor Roseller “Boots” Rodriguez wrote to BCDA on 31 July seeking project information, and reporting on 4–6 August described an announced and then a held meeting, which BCDA characterised as a step toward further consultation — but no Capas resolution, meeting record, consultation plan or position on the merits was found. NCIP has entered this assessment’s public record through a community dialogue reported on 8 August, but nothing in that record indicates initiation of the certification-precondition process. No local government has stated a position on the merits, which remains the largest gap in the evidence base and a governance failure in its own right.', 'On the critical side, the Makabayan bloc has the agenda-setting role but Akbayan’s is the more consequential critique, transparency, ownership structure, monopoly safeguards, undue foreign influence and critical-infrastructure risk. Church organisations, historically decisive in Philippine politics, are critical and have now mobilised: Caritas Philippines formally opposed the hub "in its present form" on 4 August; the Conference of Major Superiors in the Philippines wrote to the President ahead of the SONA, and religious groups joined SONA-day protests police put at around 6,000. Domestic big business, Ayala, the Makati Business Club, AmCham, is the swing constituency, interested and currently unaligned. The Manila Times reported on 11 August that SEIPI now backs the initiative and proposes a higher-value manufacturing ecosystem with infrastructure, workforce, supplier-development, incentive and environmental measures; the reported position paper was not independently retrieved, and none of its prescriptions is treated here as adopted policy or technical evidence. A new zone with preferential terms still competes with existing firms for talent and investment, which is why a competitive-neutrality review by the Philippine Competition Commission belongs in the process.']],
-    ['The public conversation: a social-listening analysis', '6,437 mentions, December 2025 to SONA eve. The conversation turned, and it is still turning.', ['Section 17 mapped who the stakeholders are; this section measures what they are actually saying. The source is a social listening export of 6,437 public mentions of "Pax Silica" worldwide from 6 December 2025 to 27 July 2026, stated by the provider to be a 10% sample excluding reshares, implying a universe on the order of 64,000 original posts, and measuring original speech rather than reach. The 10% rate is the provider’s statement, not independently verified, so the shares here are sample-dependent estimates; movements within this export on its one constant method are the reliable signal, not comparisons against figures collected differently. An authenticated inspection on 2 August put the gap at roughly 4.7 times: originals are about 21% of all matched activity, so those 64,000 originals sit inside something on the order of 300,000 pieces of total activity.', 'Before the Philippines joined, Pax Silica was covered, not discussed. The 2,286 pre-accession mentions were 60% online news and 28% X, with 75.2% neutral and a net of −1.0, the signature of wire-service copy. Volume moved only when a country signed, and India’s accession on 20 February was the single largest day of the whole record outside July, and net positive. Philippine-related content was 0.7% of that phase.', 'Accession did not just add the Philippines to the conversation; the Philippines took it over. Post-accession, 46.3% of mentions are Philippine-related and a third are in Filipino. The top channels became Facebook at 31%, X at 23% and Reddit at 23%, while news fell from 60% to 18%. Reddit went from 39 mentions to 943, a 24-fold increase. Net sentiment moved from −1.0 to −24.8.', 'The monthly trajectory is a structured deterioration punctuated by one recovery. April from the 16th: 181 mentions, net −3.3. May: 495, net +12.1. June: 548, net −11.7. July: 2,927, net −34.8. May’s positive spike coincides with the government’s most defensive month, the public rejection of the US jurisdiction-and-immunity request on 18 May. The Philippine public rewarded the government for saying no. The subsequent slide tracks the disclosure vacuum.', 'July was an eruption: 45% of the entire eight-month record, with the final eight days carrying 36.4% of everything ever said. All five of the record’s biggest days fall in that window and all are sharply negative, 24 July at 621 mentions and net −43 as the BCDA figures blitz, the 99-year-lease disclosure and the US tariff landed together; 22 July at net −50 during Secretary Rubio’s Manila visit amid protests. The opposition has minted its own hashtag: #NoToPaxSilica appears 50 times against #PaxSilica’s 105.', 'The topic structure is the finding. The high-volume topics are contested but balanced, AI and technology at 41.8% of mentions sits at net −1.5, geopolitics at 20.1% sits at 0.0, jobs at 17.3% is net +2.6 and minerals at 12.3% is net +2.3. The public genuinely argues both sides of the economics. The low-volume topics are one-sided: water and environment at net −43.8, land and indigenous rights at −50.3, governance and corruption at −54.4. These are one-sided grievances. BCDA’s July "myths vs facts" campaign was aimed precisely at the water and displacement claims, and the July data show no rehabilitation of those categories. The corruption category is the smallest and the most negative of all, the theme officials have addressed least.', 'Four implications. The political-risk register is measurably live, and the negative surge is accelerating into the November signing window rather than fading. Assertion is failing as a communications strategy and disclosure is untested, the two best sentiment months are February and May, and the worst is July, the month of the largest volume of official claims and the smallest volume of official documents. The conversation has moved to venues the government does not brief: Facebook, Reddit and X carry 77% of post-accession discussion, a third of it in Filipino, while Palace briefings remain optimised for a news channel that has fallen to 18%. And four new monitoring indicators follow: monthly net sentiment on a constant method, the #NoToPaxSilica-to-#PaxSilica ratio, the channel mix, and the water and land topic share.', 'Caveats applied throughout: machine sentiment is unreliable on Filipino and Taglish irony, so levels are directional and month-to-month changes on a constant method are the reliable signal; topic categories are keyword-based and 33.3% of mentions match none; channel coverage reflects the listening platform’s access, with no TikTok and only public Facebook content; and Philippine-related and Filipino-language classifications are this report’s, not the platform’s.']],
+    ['The public conversation: a social-listening analysis', '6,437 mentions, December 2025 to SONA eve. The conversation turned, and it is still turning.', ['Section 17 mapped who the stakeholders are; this section measures what they are actually saying. The source is a social listening export of 6,437 public mentions of "Pax Silica" worldwide from 6 December 2025 to 27 July 2026, stated by the provider to be a 10% sample excluding reshares, implying a universe on the order of 64,000 original posts, and measuring original speech rather than reach. The 10% rate is the provider’s statement, not independently verified, so the shares here are sample-dependent estimates; movements within this export on its one constant method are the reliable signal, not comparisons against figures collected differently. An authenticated inspection on 2 August put the gap at roughly 4.7 times: originals are about 21% of all matched activity, so those 64,000 originals sit inside something on the order of 300,000 pieces of total activity.', 'Before the Philippines joined, Pax Silica was covered, not discussed. The 2,286 pre-accession mentions were 60% online news and 28% X, with 75.2% neutral and a net of −1.0, the signature of wire-service copy. Volume moved only when a country signed, and India’s accession on 20 February was the single largest day of the whole record outside July, and net positive. Philippine-related content was 0.7% of that phase.', 'Accession did not just add the Philippines to the conversation; the Philippines took it over. Post-accession, 46.3% of mentions are Philippine-related and a third are in Filipino. The top channels became Facebook at 31%, X at 23% and Reddit at 23%, while news fell from 60% to 18%. Reddit went from 39 mentions to 943, a 24-fold increase. Net sentiment moved from −1.0 to −24.8.', 'The monthly trajectory is a structured deterioration punctuated by one recovery. April from the 16th: 181 mentions, net −3.3. May: 495, net +12.1. June: 548, net −11.7. July: 2,927, net −34.8. May’s positive spike coincides with the government’s most defensive month, the public rejection of the US jurisdiction-and-immunity request on 18 May. The Philippine public rewarded the government for saying no. The subsequent slide tracks the disclosure vacuum.', 'July was an eruption: 45% of the entire eight-month record, with the final eight days carrying 36.4% of everything ever said. All five of the record’s biggest days fall in that window and all are sharply negative, 24 July at 621 mentions and net −43 as the BCDA figures blitz, the 99-year-lease disclosure and the US tariff landed together; 22 July at net −50 during Secretary Rubio’s Manila visit amid protests. The opposition has minted its own hashtag: #NoToPaxSilica appears 50 times against #PaxSilica’s 105.', 'The topic structure is the finding. The high-volume topics are contested but balanced, AI and technology at 41.8% of mentions sits at net −1.5, geopolitics at 20.1% sits at 0.0, jobs at 17.3% is net +2.6 and minerals at 12.3% is net +2.3. The public genuinely argues both sides of the economics. The low-volume topics are one-sided: water and environment at net −43.8, land and indigenous rights at −50.3, governance and corruption at −54.4. These are one-sided grievances. BCDA’s July "myths vs facts" campaign was aimed precisely at the water and displacement claims, and the July data show no rehabilitation of those categories. The corruption category is the smallest and the most negative of all, the theme officials have addressed least.', 'Four implications. The political-risk register is measurably live, and the negative surge is accelerating into the November signing window rather than fading. Assertion is failing as a communications strategy and disclosure is untested, the two best sentiment months are February and May, and the worst is July, the month of the largest volume of official claims and the smallest volume of official documents. The conversation has moved to venues the government does not brief: Facebook, Reddit and X carry 77% of post-accession discussion, a third of it in Filipino, while Palace briefings remain optimised for a news channel that has fallen to 18%. And four new monitoring indicators follow: monthly net sentiment on a constant method, the #NoToPaxSilica-to-#PaxSilica ratio, the channel mix, and the water and land topic share.', 'Caveats applied throughout: machine sentiment is unreliable on Filipino and Taglish irony, so levels are directional and month-to-month changes on a constant method are the reliable signal; topic categories are keyword-based and 33.3% of mentions match none; channel coverage reflects the listening platform’s access, with no TikTok and only public Facebook content; and Philippine-related and Filipino-language classifications are this report’s, not the platform’s.', 'Relabelling note, added v2.30. The figures in this section use the listening provider’s sentiment labels and are preserved unchanged as the record of that analysis. For the site’s running exhibit, the same 6,437 mentions were relabelled by the software that labels the daily collection, which measures sentiment toward the project among relevant mentions rather than general tone. Under that scheme the early months read strongly positive, at +24.7 to +50.7 net, where this section reads them as near-neutral wire coverage; May shows no recovery relative to April, at +39.4 falling to +28.5, so the reading that the public rewarded the May refusal stands only within this section’s own constant method; and July’s collapse replicates almost exactly, at −35.6 against the −34.8 here. The divergences and their concordance are documented in the assessment’s v2.30 version note and Appendix H.27.']],
     ['International comparisons and lessons', 'Six comparable cases. Silicon Valley is not one of them.', ['Foxconn in Wisconsin is not an analogy but a precedent involving the same counterparty. Announced in 2017 as US$10bn and 13,000 jobs with up to US$2.85bn in state credits; renegotiated in 2021 to US$672m and 1,454 jobs with credits cut to US$80m, but those 2021 figures are renegotiated contractual targets for tax-credit eligibility, not delivery. WEDC-verified actual delivery through 31 December 2024 is approximately US$717m invested cumulatively, 1,242 jobs and US$62.9m of credits earned. Against the original announcement that is ~7.2% of investment and ~9.6% of jobs. A November 2025 WEDC-Foxconn amendment plans a further US$569m and 1,374 jobs by 2029. The lesson is not that Foxconn is uniquely unreliable, it is that a wealthy, institutionally strong government with sophisticated counsel could not hold a large manufacturer to a headline announcement, and the only thing that protected its taxpayers was the performance-linked clawback in the contract. The Philippines has no such structure, no contract, and no clawback.', 'Penang shows that value-chain ascent is real but generational, driven by skills investment and supplier development rather than by zone designations or land concessions. The Philippine binding constraint is skills depth and supplier capability, not land, and a country that responds to that constraint by offering land is answering a question nobody asked.', 'Indonesian nickel downstreaming is the most directly transferable case: a host state that controls a scarce input can dictate terms. Indonesia used regulatory leverage over its resource, not land concessions. The Philippines holds the world’s fourth-largest copper and fifth-largest nickel and cobalt reserves, and is currently leading with the concession rather than with the lever. The counter-lesson matters too, Indonesia’s approach imposed real environmental and social costs.', 'India shows that even a large domestic market with deep engineering talent could not skip the back-end-first sequence. Vietnam shows that export volume without enforced local content produces thin value capture. And Intel in the Philippines, 1996–2009, is the domestic precedent: the country already hosted a marquee American semiconductor anchor for thirteen years, and neither retained it nor built a domestic chip industry from it. The capital went to Vietnam. The variable that determines whether this time differs is not the size of the announcement but whether binding technology-transfer and supplier-development obligations are written into the contract.']],
     ['Scenario analysis', 'Five futures, each with a probability band of roughly ±10 points, explicit triggers and early-warning indicators.', ['Scenario A: proceeds substantially as announced, ~10%. Scenario B: proceeds but narrower, slower and less capital-intensive, ~35%, the most likely single outcome. Scenario C: delayed or stalled, ~30%. Scenario D: external geopolitical or trade shock, ~15%. Scenario E: no project, and an alternative industrial policy counterfactual, ~10%.', 'Scenario B deserves particular attention because it is both the most likely and politically damaging. What gets built is a conventional advanced-electronics park with an ATP core, genuinely positive for the Philippines, and certain to be reported as a failure because the gap will be measured against 190,000 jobs and US$70bn. This is the strongest argument for the government to reset expectations now, before the numbers become the benchmark.', 'The outcome is most sensitive, in order, to: whether a named anchor reaches financial close with disclosed capital; whether firm power is delivered, when, and at what price; whether water storage is built and abstraction capped; whether the framework survives legal challenge; the global AI capex cycle; and US trade policy toward the Philippines. Three of the six are within Philippine control, and all three are currently unresolved. That is where policy effort should concentrate, because it is where effort changes outcomes.']],
     ['Risk register', 'Twenty-one risks, with likelihood, impact, exposed parties and early-warning indicators.', ['The highest-likelihood risks are that investment does not materialise at announced scale; that job numbers are over-delivered on paper and under-delivered in fact; that fossil lock-in contradicts climate commitments; that terms are fixed at a disadvantage because the Year-3 rent and term remain undetermined at signature; that value capture remains thin in an enclave outcome; and that a good outcome is read as a failure.', 'The highest-impact risks are that water demand cannot be met without taking community or irrigation water; that a constitutional challenge under Article XVIII, Section 25 succeeds; and that concentrating strategic assets near Clark creates a physical targeting exposure.', 'One risk has already materialised. On 24 July 2026 the USTR imposed a 12.5% forced-labour tariff on Philippine exports, a deterioration in the economic relationship despite alignment. The Philippines was one of 60 economies investigated and has formed a response panel; its exports to the United States had grown 23.8% to US$6.68bn over January–May. The mitigation is to link framework concessions explicitly to trade-treatment commitments, and not to concede while penalties stand.', 'Two risks are worth naming because they are absent from official discussion. Corruption and rent-seeking in a large land-and-incentive programme is rated medium-high, against a record that includes 421 ghost projects among 8,000 inspected in flood control, and an unsolicited-proposal route already in use for the fuel pipeline. And data governance and IP leakage is rated medium-high, because no published provision addresses data localisation, lawful access, cross-border transfer, sovereign compute access or IP ownership for work done on Philippine soil. Across the register, the mitigations that recur are the same handful: milestone-based land release in tranches; performance-linked clawbacks; conditions precedent on firm power and financed water storage; published tax-expenditure estimates; NCIP engagement before signature; and a shorter initial term with performance-linked renewal rather than 99 years granted upfront.']],
@@ -2725,6 +2720,210 @@ class Component extends DCLogic {
     return { searchOpen: !st.searchOpen, moreOpen: false };
   });
 
+  // ------- merged listening exhibit (exhibit 12) -------
+  // All figures here derive from LISTENING (daily, census basis) and LISTENING_HISTORY
+  // (fixed, sampled basis, reclassified). Nothing is hand-typed: scales, labels, seam and
+  // gap positions are computed so the daily refresh can never strand a constant.
+  SOC_SENT_KEYS = ['negative', 'neutral', 'positive', 'mixed', 'unclear'];
+  SOC_MON = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+  SOC_MASK_MIN = 30; // trailing-week labelled mentions below this: the net line breaks rather than guesses
+
+  socDayNum(iso) { return Date.UTC(+iso.slice(0, 4), +iso.slice(5, 7) - 1, +iso.slice(8, 10)) / 86400000; }
+  socNice(iso, year) { return +iso.slice(8, 10) + ' ' + this.SOC_MON[+iso.slice(5, 7) - 1] + (year ? ' ' + iso.slice(0, 4) : ''); }
+  socNet(sent) {
+    const total = this.SOC_SENT_KEYS.reduce((a, k) => a + (sent[k] || 0), 0);
+    return total ? ((sent.positive || 0) - (sent.negative || 0)) / total * 100 : null;
+  }
+
+  socVals(s, narrow) {
+    const H = this.LISTENING_HISTORY, L = this.LISTENING;
+    const KEYS = this.SOC_SENT_KEYS;
+    const chip = (active, big) => ({
+      bg: active ? (big ? '#0B4F9C' : '#00B8CC') : '#FFFFFF',
+      fg: active ? (big ? '#FFFFFF' : '#061B3A') : (big ? '#475063' : '#7B8597'),
+      bd: active ? '1px solid ' + (big ? '#0B4F9C' : '#00B8CC') : '1px solid #E6E9EE'
+    });
+    const cutover = L.basis.cutoverDate;
+    const asOf = L.asOfDate;
+    const seg = L.segmentTotals;
+
+    // --- current-basis sentiment topline ---
+    const pct1 = (x) => (x * 100).toFixed(1);
+    const segSent = seg.sentiment || {};
+    const share = (k) => (segSent[k] || {}).share || 0;
+    const mixShare = share('mixed') + share('unclear');
+    const segTotal = KEYS.reduce((a, k) => a + ((segSent[k] || {}).count || 0), 0);
+
+    // --- monthly bars across both bases ---
+    const months = [
+      ...H.series.monthly.map((x) => ({ m: x[0], b: x[1], basis: 'sampled' })),
+      ...L.series.monthly.map((x) => ({ m: x[0], b: x[1], basis: 'census' }))
+    ];
+    const isNet = s.socMetric === 'net';
+    const nets = months.map((x) => this.socNet(x.b.sentiment) ?? 0);
+    const maxUp = Math.max(1, ...(isNet ? nets.map((n) => Math.max(0, n)) : months.map((x) => x.b.volume)));
+    const maxDown = isNet ? Math.max(1, ...nets.map((n) => Math.max(0, -n))) : 0;
+    const socBars = months.map((x, i) => {
+      const net = nets[i];
+      const up = isNet ? (net > 0 ? net / maxUp * 100 : 0) : x.b.volume / maxUp * 100;
+      const down = isNet && net < 0 ? -net / maxDown * 100 : 0;
+      const txt = isNet ? (net > 0 ? '+' : '−') + Math.abs(net).toFixed(1) : this.fmt(x.b.volume);
+      let sub = x.basis === 'sampled' ? (narrow ? 'sample' : '10% sample') : (narrow ? 'census' : 'near-census');
+      if (!narrow) {
+        if (x.m === H.window.end.slice(0, 7) && x.basis === 'sampled') sub = 'sample · to ' + this.socNice(H.window.end);
+        if (x.m === cutover.slice(0, 7) && x.basis === 'census') sub = 'census · from ' + this.socNice(cutover);
+        else if (x.m === asOf.slice(0, 7) && x.basis === 'census') sub = 'census · to ' + this.socNice(asOf);
+      }
+      return {
+        label: this.SOC_MON[+x.m.slice(5) - 1], sub,
+        sepCss: x.basis === 'census' && months[i - 1] && months[i - 1].basis === 'sampled'
+          ? 'border-left:1px dashed #A7A9AC;padding-left:clamp(4px,1.1vw,12px)' : '',
+        upH: Math.max(up > 0 ? 2 : 0, up), downH: Math.max(down > 0 ? 2 : 0, down),
+        upLabel: (!isNet || net > 0) ? txt : '', downLabel: (isNet && net <= 0) ? txt : '',
+        bg: isNet ? (net > 0 ? '#2EA86A' : (net < -20 ? '#D04A4A' : '#E4A11B'))
+          : (x.basis === 'sampled' ? '#A7A9AC' : '#0B4F9C'),
+        fg: isNet ? (net > 0 ? '#1F7A4C' : (net < -20 ? '#B03A3A' : '#9A6B10')) : '#0E1726'
+      };
+    });
+
+    // --- daily series: one calendar axis, both bases, rolling net with honesty mask ---
+    const byDay = {};
+    for (const r of H.series.daily) byDay[r[0]] = r;
+    for (const r of L.series.daily) byDay[r[0]] = r;
+    const start = H.window.start, first = this.socDayNum(start), last = this.socDayNum(asOf);
+    const nDays = last - first + 1;
+    const X = (i) => nDays > 1 ? i / (nDays - 1) * 1000 : 0;
+    const days = [];
+    for (let i = 0; i < nDays; i += 1) {
+      const iso = new Date((first + i) * 86400000).toISOString().slice(0, 10);
+      const r = byDay[iso];
+      days.push({ iso, vol: r ? r[1] : 0, sent: r ? { negative: r[2], neutral: r[3], positive: r[4], mixed: r[5], unclear: r[6] } : null });
+    }
+    const gapStartIso = new Date((this.socDayNum(H.window.end) + 1) * 86400000).toISOString().slice(0, 10);
+    const maxVol = Math.max(1, ...days.map((d) => d.vol));
+    const socDayRects = days.filter((d) => d.vol > 0).map((d) => {
+      const h = Math.max(1.5, d.vol / maxVol * 232);
+      const i = this.socDayNum(d.iso) - first;
+      return {
+        x: (X(i) - Math.max(1.2, 900 / nDays / 2)).toFixed(2), w: (Math.max(2.4, 900 / nDays)).toFixed(2),
+        y: (240 - h).toFixed(2), h: h.toFixed(2),
+        fill: d.iso < cutover ? '#A7A9AC' : '#0B4F9C',
+        tip: this.socNice(d.iso, true) + ' · ' + this.fmt(d.vol) + ' mentions · ' + (d.iso < cutover ? '10% sample' : 'near-census')
+      };
+    });
+    // trailing 7-day net, masked where the labelled base is too thin to mean anything
+    const NET_TOP = 30, NET_SPAN = 90; // y domain +30 .. −60
+    const netY = (net) => (NET_TOP - net) / NET_SPAN * 240;
+    const socNetSegs = [];
+    let run = [];
+    for (let i = 0; i < nDays; i += 1) {
+      const w = days.slice(Math.max(0, i - 6), i + 1);
+      const acc = { negative: 0, positive: 0, labelled: 0 };
+      for (const d of w) if (d.sent) {
+        acc.negative += d.sent.negative || 0; acc.positive += d.sent.positive || 0;
+        acc.labelled += KEYS.reduce((a, k) => a + (d.sent[k] || 0), 0);
+      }
+      if (acc.labelled >= this.SOC_MASK_MIN) {
+        run.push(X(i).toFixed(2) + ',' + netY((acc.positive - acc.negative) / acc.labelled * 100).toFixed(2));
+      } else if (run.length) { socNetSegs.push({ pts: run.join(' ') }); run = []; }
+    }
+    if (run.length) socNetSegs.push({ pts: run.join(' ') });
+    const socDayTicks = [];
+    for (let i = 0; i < nDays; i += 1) {
+      const iso = days[i].iso;
+      if (iso.slice(8) === '01' || i === 0) socDayTicks.push({ left: (X(i) / 10).toFixed(2) + '%', label: this.SOC_MON[+iso.slice(5, 7) - 1] });
+    }
+    const annotations = (L.annotations || []).filter((a) => a.date >= start && a.date <= asOf);
+
+    // --- segment-switched breakdowns ---
+    const sampled = s.socSeg === 'sampled';
+    const src = sampled
+      ? { sent: H.totals.sentiment, plat: H.totals.platformMix, topics: H.totals.topicShares, topicSent: H.totals.topicSentiment, stake: H.totals.stakeholderTypes }
+      : { sent: seg.sentiment, plat: seg.platformMix, topics: seg.topicShares, topicSent: seg.topicSentiment, stake: seg.stakeholderTypes };
+    const topN = (obj, n, skip) => Object.entries(obj || {})
+      .filter(([k]) => k !== skip).sort((a, b) => b[1].share - a[1].share).slice(0, n);
+    const plats = topN(src.plat, 5);
+    const platRest = Math.max(0, 1 - plats.reduce((a, [, v]) => a + v.share, 0));
+    const socChannels = [
+      ...plats.map(([k, v]) => ({
+        n: this.SOC_PLATFORM_LABELS[k] || (k.charAt(0).toUpperCase() + k.slice(1)),
+        pct: pct1(v.share) + '%', w: v.share * 100,
+        bg: k === 'news' ? '#A7A9AC' : '#0096D6'
+      })),
+      { n: 'everything else', pct: pct1(platRest) + '%', w: platRest * 100, bg: '#D6D9DC' }
+    ];
+    const topicRows = topN(src.topics, 8, 'other');
+    const halfScale = Math.max(30, ...topicRows.map(([k]) => Math.abs(this.socNet((src.topicSent || {})[k] || {}) ?? 0)));
+    const socTopics = topicRows.map(([k, v]) => {
+      const net = this.socNet((src.topicSent || {})[k] || {}) ?? 0;
+      return {
+        n: this.SOC_TOPIC_LABELS[k] || (k.charAt(0).toUpperCase() + k.slice(1)),
+        share: pct1(v.share) + '%',
+        net: (net > 0 ? '+' : '−') + Math.abs(net).toFixed(1),
+        w: Math.abs(net) / halfScale * 50,
+        left: net < 0 ? (50 - Math.abs(net) / halfScale * 50) + '%' : '50%',
+        bg: net < -30 ? '#D04A4A' : (net < 0 ? '#E4A11B' : '#2EA86A'),
+        fg: net < -30 ? '#B03A3A' : (net < 0 ? '#9A6B10' : '#1F7A4C'),
+        rowBg: Math.abs(net) > 25 ? '#FDFAFA' : 'transparent'
+      };
+    });
+    const stakes = topN(src.stake, 6, 'unknown');
+    const socStake = stakes.map(([k, v]) => ({
+      n: this.SOC_STAKE_LABELS[k] || (k.charAt(0).toUpperCase() + k.slice(1)),
+      pct: pct1(v.share) + '%', w: v.share * 100, bg: '#0B4F9C'
+    }));
+
+    return {
+      socTitle: 'the conversation, ' + this.socNice(start, true) + ' to ' + this.socNice(asOf, true),
+      socCensusLabel: 'since ' + this.socNice(cutover, true) + ' · ' + this.fmt(segTotal) + ' labelled mentions',
+      socNeg: pct1(share('negative')), socNeu: pct1(share('neutral')),
+      socPos: pct1(share('positive')), socMix: pct1(mixShare),
+      socNegPct: pct1(share('negative')) + '%', socNeuPct: pct1(share('neutral')) + '%',
+      socPosPct: pct1(share('positive')) + '%', socMixPct: pct1(mixShare) + '%',
+      socProseSentiment: L.prose.sentiment_note,
+      metricBtns: [['net', 'net sentiment'], ['vol', 'mention volume']].map((m) => ({
+        label: m[1], ...chip(s.socMetric === m[0], true), pick: () => this.setState({ socMetric: m[0] })
+      })),
+      viewBtns: [['month', 'by month'], ['day', 'by day']].map((m) => ({
+        label: m[1], ...chip(s.socView === m[0], false), pick: () => this.setState({ socView: m[0] })
+      })),
+      segBtns: [['sampled', this.socNice(start) + ' – ' + this.socNice(H.window.end) + ' · sampled'],
+                ['current', 'since ' + this.socNice(cutover) + ' · census']].map((m) => ({
+        label: m[1], ...chip(s.socSeg === m[0], false), pick: () => this.setState({ socSeg: m[0] })
+      })),
+      socMonthDisplay: s.socView === 'month' ? 'block' : 'none',
+      socDayDisplay: s.socView === 'day' ? 'block' : 'none',
+      socDayNetDisplay: isNet ? 'block' : 'none',
+      socDayVolDisplay: isNet ? 'none' : 'block',
+      topFlex: isNet ? maxUp : 1,
+      botFlex: isNet ? maxDown : 0,
+      socBars,
+      socDayRects, socNetSegs, socDayTicks,
+      socDayZeroY: isNet ? netY(0).toFixed(2) : -10,
+      socDayTopLabel: isNet ? '+' + NET_TOP + ' net' : this.fmt(maxVol) + ' / day peak',
+      socDayBottomLabel: isNet ? '−' + (NET_SPAN - NET_TOP) + ' net' : '',
+      socGapX: X(this.socDayNum(gapStartIso) - first).toFixed(2),
+      socGapW: (X(this.socDayNum(cutover) - first) - X(this.socDayNum(gapStartIso) - first)).toFixed(2),
+      socGapTip: 'no comparable collection ' + this.socNice(gapStartIso) + ' – ' + this.socNice(new Date((this.socDayNum(cutover) - 1) * 86400000).toISOString().slice(0, 10)),
+      socSeamX: X(this.socDayNum(cutover) - first).toFixed(2),
+      socDayMarks: annotations.map((a) => ({ x: X(this.socDayNum(a.date) - first).toFixed(2), tip: this.socNice(a.date, true) + ' · ' + a.label })),
+      socAnnotations: annotations.map((a) => ({ d: this.socNice(a.date), label: a.label })),
+      socSeriesNote: 'The counting basis changes at the dashed seam: to ' + this.socNice(H.window.end, true) +
+        ' a one-in-ten sample including reposts; from ' + this.socNice(cutover, true) +
+        ' a near-complete collection excluding them. The days between were not collected on either basis. ' +
+        'Counts are not comparable across the seam; shares and net sentiment are.' +
+        (isNet && s.socView === 'day' ? ' The line is a trailing seven-day average and breaks where fewer than ' + this.SOC_MASK_MIN + ' labelled mentions fall in that week.' : ''),
+      colsTopicsMerged: narrow ? 'minmax(0,1fr) minmax(0,auto)' : 'minmax(84px,150px) minmax(40px,56px) minmax(0,1fr) minmax(0,auto)',
+      socChannels, socTopics, socStake,
+      socTopicsTail: pct1(((src.topics || {}).other || {}).share || 0) + '%',
+      socProseBreakdown: L.prose.breakdown_note,
+      socProseCaveat: L.prose.caveat_note,
+      socQuery: L.query,
+      socUpdatedLine: 'window ' + this.socNice(start, true) + ' – ' + this.socNice(asOf, true) + ' · refreshed daily',
+      socBasisLine: L.basis.note + ' ' + H.basis.note
+    };
+  }
+
   renderVals() {
     const s = this.state;
     const nSlots = this.navSlots();
@@ -2873,7 +3072,7 @@ class Component extends DCLogic {
       heroStats: [
         { v: 'US$0', k: 'investment legally committed at the cutoff' },
         { v: '14 / 16', k: 'implementation gates still open' },
-        /* hero-net:start */{ v: '−22.0', k: 'net public sentiment across 20,698 mentions to 17 august 2026' }/* hero-net:end */,
+        /* hero-net:start */{ v: '−18.2', k: 'net public sentiment across 15,561 mentions to 17 august 2026' }/* hero-net:end */,
         { v: '+2.5pp', k: 'net new tariff on philippine goods from the counterparty, 24 jul 2026' }
       ],
 
@@ -3134,54 +3333,7 @@ class Component extends DCLogic {
       })),
       stages: this.STAGES.map((x) => ({ t: x[0], date: x[1], role: x[2], d: x[3] })),
 
-      socMetric: s.socMetric,
-      metricBtns: [['net', 'net sentiment'], ['vol', 'mention volume']].map((m) => ({
-        label: m[1],
-        bg: s.socMetric === m[0] ? '#0B4F9C' : '#FFFFFF',
-        fg: s.socMetric === m[0] ? '#FFFFFF' : '#475063',
-        bd: s.socMetric === m[0] ? '1px solid #0B4F9C' : '1px solid #E6E9EE',
-        pick: () => this.setState({ socMetric: m[0] })
-      })),
-      topFlex: s.socMetric === 'net' ? 12.1 : 1,
-      botFlex: s.socMetric === 'net' ? 34.8 : 0,
-      socBars: this.SOC_MONTHS.map((m) => {
-        const net = m[3], vol = m[2];
-        const isNet = s.socMetric === 'net';
-        const up = isNet ? (net > 0 ? (net / 12.1) * 100 : 0) : (vol / 2927) * 100;
-        const down = isNet && net < 0 ? (Math.abs(net) / 34.8) * 100 : 0;
-        const txt = isNet ? (net > 0 ? '+' : '') + net.toFixed(1) : this.fmt(vol);
-        return {
-          label: m[0], sub: m[1] === 'pre-accession' ? 'pre-accession' : 'post-accession',
-          upH: Math.max(up > 0 ? 2 : 0, up), downH: Math.max(down > 0 ? 2 : 0, down),
-          upLabel: (!isNet || net > 0) ? txt : '', downLabel: (isNet && net <= 0) ? txt : '',
-          bg: isNet ? (net > 0 ? '#2EA86A' : (net < -20 ? '#D04A4A' : '#E4A11B')) : (m[1] === 'pre-accession' ? '#A7A9AC' : '#0B4F9C'),
-          fg: isNet ? (net > 0 ? '#1F7A4C' : (net < -20 ? '#B03A3A' : '#9A6B10')) : '#0E1726'
-        };
-      }),
-      socPhaseBtns: [['pre', 'before 16 apr'], ['post', 'after 16 apr']].map((p) => ({
-        label: p[1],
-        bg: s.socPhase === p[0] ? '#00B8CC' : '#FFFFFF',
-        fg: s.socPhase === p[0] ? '#061B3A' : '#7B8597',
-        bd: s.socPhase === p[0] ? '1px solid #00B8CC' : '1px solid #E6E9EE',
-        pick: () => this.setState({ socPhase: p[0] })
-      })),
-      socChannels: this.SOC_CHANNELS[s.socPhase].map((c) => ({
-        n: c[0], pct: c[1] + '%', w: c[1],
-        bg: c[0] === 'online news' ? '#A7A9AC' : (c[0] === 'other' ? '#D6D9DC' : '#0096D6')
-      })),
-      socPhaseNote: s.socPhase === 'pre'
-        ? 'Before the Philippines joined, Pax Silica was covered, not discussed. 2,286 mentions, 75.2% of them neutral, net −1.0, the signature of wire-service copy. Philippine-related content was 0.7% of it.'
-        : 'After 16 April the conversation moved from newsrooms to Filipino social media. 4,151 mentions, of which 46.3% are Philippine-related, a third of it in Filipino. Reddit went from 39 mentions to 943, a 24-fold increase.',
-      socTopics: this.SOC_TOPICS.map((t) => ({
-        n: t[0], mentions: this.fmt(t[1]), share: t[2].toFixed(1) + '%',
-        net: (t[3] > 0 ? '+' : '') + t[3].toFixed(1),
-        w: Math.abs(t[3]) / 55 * 50,
-        left: t[3] < 0 ? (50 - Math.abs(t[3]) / 55 * 50) + '%' : '50%',
-        bg: t[3] < -30 ? '#D04A4A' : (t[3] < 0 ? '#E4A11B' : '#2EA86A'),
-        fg: t[3] < -30 ? '#B03A3A' : (t[3] < 0 ? '#9A6B10' : '#1F7A4C'),
-        rowBg: Math.abs(t[3]) > 25 ? '#FDFAFA' : '#FFFFFF'
-      })),
-      socDays: this.SOC_DAYS.map((d) => ({ d: d[0], m: this.fmt(d[1]), net: d[2], why: d[3] })),
+      ...this.socVals(s, narrow),
 
       questionGroups: this.QGROUPS,
       horizons: this.HORIZONS

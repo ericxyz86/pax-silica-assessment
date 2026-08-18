@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-08-18",
+      "type": "update",
+      "title": "One running listening exhibit replaces the two social-listening sections",
+      "site_version": "1.64",
+      "assessment_version": "2.30",
+      "commits": [],
+      "supersedes": "A social listening export covering 6 December 2025 to 27 July 2026: a stated 10% sample of global public mentions, excluding reshares. The rate is the provider’s statement, not independently benchmarked, so shares here are sample-dependent estimates.",
+      "summary": "Exhibit 12 and the daily 'current listening' block were two views of one conversation, one frozen in late July and one moving, measured on different bases. They are now a single exhibit running from 1 January 2026 to the current date, refreshed daily by the same gated pipeline, with month and day views and the measurement seam drawn on the chart. Two changes are substance, not layout. First, the historical mentions from the sampled export were relabelled by the same local software that labels the current collection, so sentiment, topics and speaker types use one scheme across the whole series; the vendor's labels remain unpublished. The relabelling confirms July's collapse almost exactly (net −35.6 against the export analysis's −34.8) but reads January–May as clearly positive toward the project where the earlier labels read near-neutral wire coverage — and the May recovery the report's section 19 describes does not appear under the new labels, which is stated in the assessment's v2.30 note rather than smoothed over. Second, the exhibit's headline figures and the hero tile now cover the near-complete collection that began 7 August 2026 rather than the mixed whole window, moving the displayed negative share from 48.2% to 46.0% and the hero net from −22.0 to −18.2 at the time of this release — a declared basis choice, not a data revision. Counts are still shown per basis, the uncollected 28 July–6 August days render as a gap, and finding 05 and section 19 keep the frozen July figures as the historical record of the sampled export. Assessment v2.30 documents the relabelling, its concordance with the vendor labels, and the review status of the decision in Appendix H.27."
+    },
+    {
       "date": "2026-08-17",
       "type": "update",
       "title": "The hero's sentiment figure now tracks the daily listening data",

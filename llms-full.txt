@@ -302,6 +302,8 @@ Four implications. The political-risk register is measurably live, and the negat
 
 Caveats applied throughout: machine sentiment is unreliable on Filipino and Taglish irony, so levels are directional and month-to-month changes on a constant method are the reliable signal; topic categories are keyword-based and 33.3% of mentions match none; channel coverage reflects the listening platform’s access, with no TikTok and only public Facebook content; and Philippine-related and Filipino-language classifications are this report’s, not the platform’s.
 
+Relabelling note, added v2.30. The figures in this section use the listening provider’s sentiment labels and are preserved unchanged as the record of that analysis. For the site’s running exhibit, the same 6,437 mentions were relabelled by the software that labels the daily collection, which measures sentiment toward the project among relevant mentions rather than general tone. Under that scheme the early months read strongly positive, at +24.7 to +50.7 net, where this section reads them as near-neutral wire coverage; May shows no recovery relative to April, at +39.4 falling to +28.5, so the reading that the public rewarded the May refusal stands only within this section’s own constant method; and July’s collapse replicates almost exactly, at −35.6 against the −34.8 here. The divergences and their concordance are documented in the assessment’s v2.30 version note and Appendix H.27.
+
 [sources drawn on: T3-13 · T3-14 · T3-15 · T4-02 · T4-08]
 
 ### 20. International comparisons and lessons
