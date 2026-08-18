@@ -15,6 +15,15 @@
     {
       "date": "2026-08-18",
       "type": "update",
+      "title": "Day-view sentiment scale now fits the relabelled history; the exhibit's charts animate",
+      "site_version": "1.65",
+      "assessment_version": "2.30",
+      "commits": [],
+      "summary": "A presentation defect, hours old: the daily net-sentiment line used a fixed vertical scale chosen before the relabelled history existed, and the strongly positive January–May weeks ran off the top of the chart. The scale is now computed from the data itself, padded and always including zero, so nothing can clip as the series grows. No figure changes. The exhibit's charts also gain motion — bars grow in, the daily line draws on, fills stagger — with animation disabled for readers who prefer reduced motion and in print, so the downloadable PDF always shows finished charts."
+    },
+    {
+      "date": "2026-08-18",
+      "type": "update",
       "title": "One running listening exhibit replaces the two social-listening sections",
       "site_version": "1.64",
       "assessment_version": "2.30",

@@ -293,7 +293,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
       <svg width="34" height="30" viewBox="5 15 139 121" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agile Intelligence"><polygon fill="#00A1E4" points="51,15 28,55 74.5,55"/><polygon fill="#00B7C3" points="51,15 98,15 74.5,55"/><polygon fill="#074BA0" points="98,15 74.5,55 121,55"/><polygon fill="#1ABBDC" points="28,55 74.5,55 51,95"/><polygon fill="#00B7C3" points="28,55 51,95 5,95"/><polygon fill="#1ABBDC" points="5,95 51,95 28,136"/><polygon fill="#0069B5" points="74.5,55 121,55 98,95"/><polygon fill="#008FB5" points="121,55 98,95 144,95"/><polygon fill="#00B7C3" points="98,95 144,95 121,136"/></svg>
       <span style="font-family:Georgia,'Times New Roman',serif;font-size:17px;letter-spacing:0.3em;color:#FFFFFF">agile<span style="color:rgba(255,255,255,0.5)">intelligence</span></span>
     </a>
-    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">agile intelligence research report · site v1.64 · assessment v2.30 · project facts verified to 16 august 2026 · last updated 18 august 2026</div>
+    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">agile intelligence research report · site v1.65 · assessment v2.30 · project facts verified to 16 august 2026 · last updated 18 august 2026</div>
     <h1 style="font-size:clamp(40px,7.4vw,104px);line-height:0.94;letter-spacing:-0.045em;font-weight:800;color:#FFFFFF;margin:0 0 26px"><span style="display:block;white-space:nowrap">pax silica and</span><span style="display:block;white-space:nowrap">the philippines</span></h1>
     <p style="font-size:clamp(16px,1.9vw,22px);line-height:1.5;color:rgba(255,255,255,0.72);max-width:60ch;margin:0 0 40px;font-weight:300">An independent review of the Economic Security Zone proposed at New Clark City in Tarlac, on 1,618.74 hectares. What has actually been signed, what is only being claimed, what the land and the grid can really support, and what the Philippines gains or loses either way.</p>
     <div style="font-family:'JetBrains Mono',monospace;font-size:clamp(10px,1.15vw,12px);letter-spacing:0.08em;color:rgba(255,255,255,0.55);margin:-26px 0 40px;max-width:64ch;line-height:1.7">updated daily &middot; new information is adversarially verified before anything here changes &middot; maintained by AI under human editorial direction</div>
@@ -999,6 +999,18 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
 </section>
 
 <section id="sentiment" style="scroll-margin-top:74px;padding:36px 0 80px;background:#FAFBFC;border-bottom:1px solid #E6E9EE">
+  <style>
+    @keyframes socGrowH { from { height: 0 } }
+    @keyframes socGrowW { from { width: 0 } }
+    @keyframes socGrowY { from { transform: scaleY(0) } }
+    @keyframes socGrowX { from { transform: scaleX(0) } }
+    @keyframes socDraw { from { stroke-dashoffset: 1 } }
+    /* Print (the PDF renders this page) and reduced-motion must see finished charts,
+       never a mid-animation frame. */
+    @media (prefers-reduced-motion: reduce), print {
+      #sentiment * { animation: none !important; transition: none !important }
+    }
+  </style>
   <span id="listening" style="scroll-margin-top:74px"></span>
   <div style="max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,40px)">
     <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:20px;overflow:hidden">
@@ -1016,7 +1028,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
           <div><div style="font-size:clamp(24px,3.4vw,40px);font-weight:700;letter-spacing:-0.035em;font-variant-numeric:tabular-nums;line-height:1;color:#9A6B10">{{ socMix }}<span style="font-size:.5em">%</span></div><div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-top:6px">mixed or unclear</div></div>
         </div>
         <div style="display:flex;height:26px;border-radius:6px;overflow:hidden;border:1px solid #E6E9EE">
-          <span style="width:{{ socNegPct }};background:#D04A4A"></span><span style="width:{{ socNeuPct }};background:#D6D9DC"></span><span style="width:{{ socPosPct }};background:#2EA86A"></span><span style="width:{{ socMixPct }};background:#E4A11B"></span>
+          <span style="width:{{ socNegPct }};background:#D04A4A;transition:width .5s;animation:socGrowW .7s cubic-bezier(.2,.7,.2,1) both"></span><span style="width:{{ socNeuPct }};background:#D6D9DC;transition:width .5s;animation:socGrowW .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:.08s"></span><span style="width:{{ socPosPct }};background:#2EA86A;transition:width .5s;animation:socGrowW .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:.16s"></span><span style="width:{{ socMixPct }};background:#E4A11B;transition:width .5s;animation:socGrowW .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:.24s"></span>
         </div>
         <div style="border-top:1px solid #E6E9EE;margin-top:18px;padding-top:16px;font-size:12.5px;color:#7B8597;line-height:1.6">{{ socProseSentiment }}</div>
       </div>
@@ -1039,11 +1051,11 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
               <div style="flex:1 1 0;min-width:0;display:flex;flex-direction:column;height:100%;{{ b.sepCss }}">
                 <div style="flex:{{ topFlex }} 1 0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px;min-height:0">
                   <span style="font-family:'JetBrains Mono',monospace;font-size:clamp(10px,1.1vw,13px);font-weight:500;color:{{ b.fg }};white-space:nowrap">{{ b.upLabel }}</span>
-                  <div style="width:100%;border-radius:8px 8px 0 0;transition:height .55s cubic-bezier(.2,.7,.2,1),background .3s;background:{{ b.bg }};height:{{ b.upH }}%"></div>
+                  <div style="width:100%;border-radius:8px 8px 0 0;transition:height .55s cubic-bezier(.2,.7,.2,1),background .3s;background:{{ b.bg }};height:{{ b.upH }}%;animation:socGrowH .55s cubic-bezier(.2,.7,.2,1) both;animation-delay:{{ b.delay }}"></div>
                 </div>
                 <div style="height:1px;background:#D6D9DC;flex:0 0 auto"></div>
                 <div style="flex:{{ botFlex }} 1 0;display:flex;flex-direction:column;align-items:center;gap:6px;min-height:0">
-                  <div style="width:100%;border-radius:0 0 8px 8px;transition:height .55s cubic-bezier(.2,.7,.2,1),background .3s;background:{{ b.bg }};height:{{ b.downH }}%"></div>
+                  <div style="width:100%;border-radius:0 0 8px 8px;transition:height .55s cubic-bezier(.2,.7,.2,1),background .3s;background:{{ b.bg }};height:{{ b.downH }}%;animation:socGrowH .55s cubic-bezier(.2,.7,.2,1) both;animation-delay:{{ b.delay }}"></div>
                   <span style="font-family:'JetBrains Mono',monospace;font-size:clamp(10px,1.1vw,13px);font-weight:500;color:{{ b.fg }};white-space:nowrap">{{ b.downLabel }}</span>
                 </div>
               </div>
@@ -1068,7 +1080,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
                 <line x1="{{ a.x }}" x2="{{ a.x }}" y1="0" y2="240" stroke="#00B8CC" stroke-width="1" stroke-dasharray="2 5" opacity="0.7" vector-effect="non-scaling-stroke"><title>{{ a.tip }}</title></line>
               </sc-for>
               <sc-for list="{{ socNetSegs }}" as="g" hint-placeholder-count="2">
-                <polyline points="{{ g.pts }}" fill="none" stroke="#0B4F9C" stroke-width="2" stroke-linejoin="round" vector-effect="non-scaling-stroke"></polyline>
+                <polyline points="{{ g.pts }}" pathLength="1" fill="none" stroke="#0B4F9C" stroke-width="2" stroke-linejoin="round" vector-effect="non-scaling-stroke" style="stroke-dasharray:1;animation:socDraw .9s ease both;animation-delay:{{ g.delay }}"></polyline>
               </sc-for>
             </svg>
             <svg viewBox="0 0 1000 240" preserveAspectRatio="none" style="display:{{ socDayVolDisplay }};width:100%;height:260px">
@@ -1078,7 +1090,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
                 <line x1="{{ a.x }}" x2="{{ a.x }}" y1="0" y2="240" stroke="#00B8CC" stroke-width="1" stroke-dasharray="2 5" opacity="0.7" vector-effect="non-scaling-stroke"><title>{{ a.tip }}</title></line>
               </sc-for>
               <sc-for list="{{ socDayRects }}" as="r" hint-placeholder-count="30">
-                <rect x="{{ r.x }}" y="{{ r.y }}" width="{{ r.w }}" height="{{ r.h }}" fill="{{ r.fill }}"><title>{{ r.tip }}</title></rect>
+                <rect x="{{ r.x }}" y="{{ r.y }}" width="{{ r.w }}" height="{{ r.h }}" fill="{{ r.fill }}" style="transform-box:fill-box;transform-origin:center bottom;animation:socGrowY .45s ease both;animation-delay:{{ r.delay }}"><title>{{ r.tip }}</title></rect>
               </sc-for>
             </svg>
             <span style="position:absolute;top:2px;left:8px;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#A7A9AC">{{ socDayTopLabel }}</span>
@@ -1116,7 +1128,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
               <sc-for list="{{ socChannels }}" as="c" hint-placeholder-count="6">
                 <div style="display:grid;grid-template-columns:96px 1fr 42px;gap:12px;align-items:center">
                   <span style="font-size:13px;color:#0E1726;font-weight:500">{{ c.n }}</span>
-                  <span style="height:10px;background:#F8FAFB;border-radius:5px;overflow:hidden;display:block"><span style="display:block;height:100%;border-radius:5px;transition:width .5s cubic-bezier(.2,.7,.2,1);background:{{ c.bg }};width:{{ c.w }}%"></span></span>
+                  <span style="height:10px;background:#F8FAFB;border-radius:5px;overflow:hidden;display:block"><span style="display:block;height:100%;border-radius:5px;transition:width .5s cubic-bezier(.2,.7,.2,1);background:{{ c.bg }};width:{{ c.w }}%;animation:socGrowW .6s cubic-bezier(.2,.7,.2,1) both;animation-delay:{{ c.delay }}"></span></span>
                   <span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7B8597;text-align:right">{{ c.pct }}</span>
                 </div>
               </sc-for>
@@ -1131,7 +1143,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
                   <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7B8597;text-align:right">{{ t.share }}</span>
                   <span style="position:relative;display:block;height:14px;background:#F8FAFB;border-radius:4px">
                     <span style="position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:#D6D9DC"></span>
-                    <span style="position:absolute;top:3px;bottom:3px;border-radius:3px;background:{{ t.bg }};left:{{ t.left }};width:{{ t.w }}%"></span>
+                    <span style="position:absolute;top:3px;bottom:3px;border-radius:3px;background:{{ t.bg }};left:{{ t.left }};width:{{ t.w }}%;transition:width .5s cubic-bezier(.2,.7,.2,1),left .5s cubic-bezier(.2,.7,.2,1);transform-origin:{{ t.origin }};animation:socGrowX .55s cubic-bezier(.2,.7,.2,1) both;animation-delay:{{ t.delay }}"></span>
                   </span>
                   <span style="font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;text-align:right;color:{{ t.fg }}">{{ t.net }}</span>
                 </div>
@@ -1148,7 +1160,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
               <sc-for list="{{ socStake }}" as="c" hint-placeholder-count="6">
                 <div style="display:grid;grid-template-columns:120px 1fr 42px;gap:12px;align-items:center">
                   <span style="font-size:13px;color:#0E1726;font-weight:500">{{ c.n }}</span>
-                  <span style="height:10px;background:#F8FAFB;border-radius:5px;overflow:hidden;display:block"><span style="display:block;height:100%;border-radius:5px;transition:width .5s cubic-bezier(.2,.7,.2,1);background:{{ c.bg }};width:{{ c.w }}%"></span></span>
+                  <span style="height:10px;background:#F8FAFB;border-radius:5px;overflow:hidden;display:block"><span style="display:block;height:100%;border-radius:5px;transition:width .5s cubic-bezier(.2,.7,.2,1);background:{{ c.bg }};width:{{ c.w }}%;animation:socGrowW .6s cubic-bezier(.2,.7,.2,1) both;animation-delay:{{ c.delay }}"></span></span>
                   <span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#7B8597;text-align:right">{{ c.pct }}</span>
                 </div>
               </sc-for>
@@ -1545,6 +1557,14 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
       <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
         <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
           <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#0B4F9C;background:#E6F4FA;border-radius:999px;padding:4px 11px">update</span>
+          <h3 style="font-size:17px;font-weight:700;letter-spacing:-0.02em;color:#0E1726;margin:0;line-height:1.3">Day-view sentiment scale now fits the relabelled history; the exhibit&#x27;s charts animate</h3>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.06em;color:#7B8597;margin-left:auto">18 August 2026 &middot; v1.65 &middot; assessment v2.30</span>
+        </div>
+        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0;max-width:88ch">A presentation defect, hours old: the daily net-sentiment line used a fixed vertical scale chosen before the relabelled history existed, and the strongly positive January–May weeks ran off the top of the chart. The scale is now computed from the data itself, padded and always including zero, so nothing can clip as the series grows. No figure changes. The exhibit&#x27;s charts also gain motion — bars grow in, the daily line draws on, fills stagger — with animation disabled for readers who prefer reduced motion and in print, so the downloadable PDF always shows finished charts.</p>
+      </div>
+      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
+          <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#0B4F9C;background:#E6F4FA;border-radius:999px;padding:4px 11px">update</span>
           <h3 style="font-size:17px;font-weight:700;letter-spacing:-0.02em;color:#0E1726;margin:0;line-height:1.3">One running listening exhibit replaces the two social-listening sections</h3>
           <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.06em;color:#7B8597;margin-left:auto">18 August 2026 &middot; v1.64 &middot; assessment v2.30</span>
         </div>
@@ -1586,7 +1606,10 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
         </div>
         <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0;max-width:88ch">Housekeeping that follows this morning&#x27;s correction. The page source still carried the whole engine of the pre-video explainer player — the caption and audio machinery retired when the video moved into its own frame — and one line of its leftover data is what yesterday&#x27;s false disclosure was built on. The data was removed this morning; this release removes the rest: the player&#x27;s methods, its scene table, its clip list, and the control wiring nothing references. About seven kilobytes of dead code, verified dead by reference analysis before removal — every removed piece had no path from anything the page renders. What the reader sees does not change. The explainer modal — auto-open, the watch button, fullscreen, close — was exercised in a browser against the trimmed page before publication, and behaves identically. The audio files the old player once played remain on the server unreferenced for now; removing served files is a separate decision because archived copies of old page versions may still point at them. No text, figure or finding changes.</p>
       </div>
-      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
+      <details style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF">
+        <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:15px clamp(15px,4.4vw,26px);font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6 L8 11 L13 6"/></svg>earlier entries &middot; 29 &middot; back to 7 august 2026</summary>
+        <div style="display:flex;flex-direction:column;gap:14px;padding:2px clamp(10px,2.6vw,14px) clamp(10px,2.6vw,14px)">
+      <div style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
         <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
           <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#9A6B10;background:#FDF3E0;border-radius:999px;padding:4px 11px">correction</span>
           <h3 style="font-size:17px;font-weight:700;letter-spacing:-0.02em;color:#0E1726;margin:0;line-height:1.3">We said the deployed Taglish video still said fifteen. It did not.</h3>
@@ -1598,9 +1621,6 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
             <div style="font-size:13.5px;line-height:1.6;color:#475063">&ldquo;&quot;The explainer video&#x27;s narration remains the one knowingly dated copy, as disclosed yesterday, pending its next recut.&quot; — and, from the entry of 16 August: &quot;One surface is knowingly left as recorded: the explainer video&#x27;s narration says fifteen, because that is what was recorded on 14 August; it will be corrected the next time the video is recut, and until then this entry is the notice of the discrepancy.&quot;&rdquo;</div>
           </div>
       </div>
-      <details style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF">
-        <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:15px clamp(15px,4.4vw,26px);font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6 L8 11 L13 6"/></svg>earlier entries &middot; 28 &middot; back to 7 august 2026</summary>
-        <div style="display:flex;flex-direction:column;gap:14px;padding:2px clamp(10px,2.6vw,14px) clamp(10px,2.6vw,14px)">
       <div style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
         <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
           <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#9A6B10;background:#FDF3E0;border-radius:999px;padding:4px 11px">correction</span>
@@ -1960,7 +1980,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.12)">
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">about this assessment</div>
-        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.64, reflecting assessment v2.30. Maintained as a living document: project facts verified to 16 August 2026, last updated 18 August 2026, reviewed daily, with immediate review on trigger events. Comparator, legal and technical sources verified through 27 July 2026; these move only when re-verified. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned, logged and, where it corrects something previously published, stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork. Maintenance disclosure: this site is operated by AI systems under human editorial direction. Institutional sources and Philippine media are swept every morning; social-media data is collected and classified daily. Nothing on this site changes until the underlying claim has passed an adversarial verification step performed by a second, independent AI model attempting to refute it, and no Key Judgment moves on a single source. Every change is versioned and logged; corrections are stated as corrections. Final editorial authority, and the decision to publish, rest with the human publisher.</p>
+        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign in November. It is not engineering-grade or transaction due-diligence grade. Site v1.65, reflecting assessment v2.30. Maintained as a living document: project facts verified to 16 August 2026, last updated 18 August 2026, reviewed daily, with immediate review on trigger events. Comparator, legal and technical sources verified through 27 July 2026; these move only when re-verified. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned, logged and, where it corrects something previously published, stated as a correction rather than edited away. The version current when the November framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork. Maintenance disclosure: this site is operated by AI systems under human editorial direction. Institutional sources and Philippine media are swept every morning; social-media data is collected and classified daily. Nothing on this site changes until the underlying claim has passed an adversarial verification step performed by a second, independent AI model attempting to refute it, and no Key Judgment moves on a single source. Every change is versioned and logged; corrections are stated as corrections. Final editorial authority, and the decision to publish, rest with the human publisher.</p>
       </div>
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">evidence tiers</div>
@@ -1985,7 +2005,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     </div>
     <div style="padding-top:16px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.04em;line-height:1.7;color:rgba(255,255,255,0.35);max-width:88ch">Usage analytics: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.45);text-decoration:underline">Google Analytics</a> measures aggregate site use&mdash;including page views, report downloads, outbound links and explainer playback. Advertising signals and ad personalization are disabled; no form content is sent.</div>
       <div style="padding-top:18px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center">
-      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · agile intelligence research report · site v1.64 · assessment v2.30</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · agile intelligence research report · site v1.65 · assessment v2.30</span>
       <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">project facts 6 aug · sources 27 jul 2026</span>
     </div>
   </div>
@@ -2776,6 +2796,7 @@ class Component extends DCLogic {
       }
       return {
         label: this.SOC_MON[+x.m.slice(5) - 1], sub,
+        delay: (i * 55) + 'ms',
         sepCss: x.basis === 'census' && months[i - 1] && months[i - 1].basis === 'sampled'
           ? 'border-left:1px dashed #A7A9AC;padding-left:clamp(4px,1.1vw,12px)' : '',
         upH: Math.max(up > 0 ? 2 : 0, up), downH: Math.max(down > 0 ? 2 : 0, down),
@@ -2807,15 +2828,15 @@ class Component extends DCLogic {
       return {
         x: (X(i) - Math.max(1.2, 900 / nDays / 2)).toFixed(2), w: (Math.max(2.4, 900 / nDays)).toFixed(2),
         y: (240 - h).toFixed(2), h: h.toFixed(2),
+        delay: (X(i) / 1000 * 350).toFixed(0) + 'ms',
         fill: d.iso < cutover ? '#A7A9AC' : '#0B4F9C',
         tip: this.socNice(d.iso, true) + ' · ' + this.fmt(d.vol) + ' mentions · ' + (d.iso < cutover ? '10% sample' : 'near-census')
       };
     });
-    // trailing 7-day net, masked where the labelled base is too thin to mean anything
-    const NET_TOP = 30, NET_SPAN = 90; // y domain +30 .. −60
-    const netY = (net) => (NET_TOP - net) / NET_SPAN * 240;
-    const socNetSegs = [];
-    let run = [];
+    // trailing 7-day net, masked where the labelled base is too thin to mean anything.
+    // The y-domain is computed from the data — padded, rounded to tens, zero always inside.
+    // A fixed +30..−60 domain clipped the relabelled history's +40..+60 weeks off the top.
+    const rolling = [];
     for (let i = 0; i < nDays; i += 1) {
       const w = days.slice(Math.max(0, i - 6), i + 1);
       const acc = { negative: 0, positive: 0, labelled: 0 };
@@ -2823,11 +2844,24 @@ class Component extends DCLogic {
         acc.negative += d.sent.negative || 0; acc.positive += d.sent.positive || 0;
         acc.labelled += KEYS.reduce((a, k) => a + (d.sent[k] || 0), 0);
       }
-      if (acc.labelled >= this.SOC_MASK_MIN) {
-        run.push(X(i).toFixed(2) + ',' + netY((acc.positive - acc.negative) / acc.labelled * 100).toFixed(2));
-      } else if (run.length) { socNetSegs.push({ pts: run.join(' ') }); run = []; }
+      rolling.push(acc.labelled >= this.SOC_MASK_MIN
+        ? (acc.positive - acc.negative) / acc.labelled * 100 : null);
     }
-    if (run.length) socNetSegs.push({ pts: run.join(' ') });
+    const present = rolling.filter((v) => v !== null);
+    const netHi = Math.max(10, Math.ceil((Math.max(0, ...present) + 5) / 10) * 10);
+    const netLo = Math.min(-10, Math.floor((Math.min(0, ...present) - 5) / 10) * 10);
+    const netY = (net) => (netHi - net) / (netHi - netLo) * 240;
+    const socNetSegs = [];
+    let run = [];
+    for (let i = 0; i < nDays; i += 1) {
+      if (rolling[i] !== null) {
+        run.push(X(i).toFixed(2) + ',' + netY(rolling[i]).toFixed(2));
+      } else if (run.length) {
+        socNetSegs.push({ pts: run.join(' '), delay: (150 + socNetSegs.length * 180) + 'ms' });
+        run = [];
+      }
+    }
+    if (run.length) socNetSegs.push({ pts: run.join(' '), delay: (150 + socNetSegs.length * 180) + 'ms' });
     const socDayTicks = [];
     for (let i = 0; i < nDays; i += 1) {
       const iso = days[i].iso;
@@ -2851,16 +2885,18 @@ class Component extends DCLogic {
         bg: k === 'news' ? '#A7A9AC' : '#0096D6'
       })),
       { n: 'everything else', pct: pct1(platRest) + '%', w: platRest * 100, bg: '#D6D9DC' }
-    ];
+    ].map((c, i) => ({ ...c, delay: (i * 60) + 'ms' }));
     const topicRows = topN(src.topics, 8, 'other');
     const halfScale = Math.max(30, ...topicRows.map(([k]) => Math.abs(this.socNet((src.topicSent || {})[k] || {}) ?? 0)));
-    const socTopics = topicRows.map(([k, v]) => {
+    const socTopics = topicRows.map(([k, v], i) => {
       const net = this.socNet((src.topicSent || {})[k] || {}) ?? 0;
       return {
         n: this.SOC_TOPIC_LABELS[k] || (k.charAt(0).toUpperCase() + k.slice(1)),
         share: pct1(v.share) + '%',
         net: (net > 0 ? '+' : '−') + Math.abs(net).toFixed(1),
         w: Math.abs(net) / halfScale * 50,
+        delay: (i * 50) + 'ms',
+        origin: net < 0 ? '100% 50%' : '0% 50%',
         left: net < 0 ? (50 - Math.abs(net) / halfScale * 50) + '%' : '50%',
         bg: net < -30 ? '#D04A4A' : (net < 0 ? '#E4A11B' : '#2EA86A'),
         fg: net < -30 ? '#B03A3A' : (net < 0 ? '#9A6B10' : '#1F7A4C'),
@@ -2868,9 +2904,10 @@ class Component extends DCLogic {
       };
     });
     const stakes = topN(src.stake, 6, 'unknown');
-    const socStake = stakes.map(([k, v]) => ({
+    const socStake = stakes.map(([k, v], i) => ({
       n: this.SOC_STAKE_LABELS[k] || (k.charAt(0).toUpperCase() + k.slice(1)),
-      pct: pct1(v.share) + '%', w: v.share * 100, bg: '#0B4F9C'
+      pct: pct1(v.share) + '%', w: v.share * 100, bg: '#0B4F9C',
+      delay: (i * 60) + 'ms'
     }));
 
     return {
@@ -2900,8 +2937,8 @@ class Component extends DCLogic {
       socBars,
       socDayRects, socNetSegs, socDayTicks,
       socDayZeroY: isNet ? netY(0).toFixed(2) : -10,
-      socDayTopLabel: isNet ? '+' + NET_TOP + ' net' : this.fmt(maxVol) + ' / day peak',
-      socDayBottomLabel: isNet ? '−' + (NET_SPAN - NET_TOP) + ' net' : '',
+      socDayTopLabel: isNet ? '+' + netHi + ' net' : this.fmt(maxVol) + ' / day peak',
+      socDayBottomLabel: isNet ? '−' + Math.abs(netLo) + ' net' : '',
       socGapX: X(this.socDayNum(gapStartIso) - first).toFixed(2),
       socGapW: (X(this.socDayNum(cutover) - first) - X(this.socDayNum(gapStartIso) - first)).toFixed(2),
       socGapTip: 'no comparable collection ' + this.socNice(gapStartIso) + ' – ' + this.socNice(new Date((this.socDayNum(cutover) - 1) * 86400000).toISOString().slice(0, 10)),
