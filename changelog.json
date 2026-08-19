@@ -13,6 +13,35 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-08-19",
+      "type": "addition",
+      "title": "A departure date reported to residents at Sitio Sapang Kawayan, and the budget's silence on Pax Silica",
+      "site_version": "1.70",
+      "assessment_version": "2.31",
+      "commits": [],
+      "summary": "Two additions from the Philippine domestic record. §15.2.1 gains the residents' own account, gathered on site by ABS-CBN and published 18 August 2026: Ralph Gelmar Lozano said he and other residents were told their houses would be affected and that they could be required to leave by December, and Antero Capiz separately recalled being told they had only until Christmas; residents said they had not been told where they would be relocated or what assistance would be provided, and that payment would cover their houses but apparently not the land; and Capiz said graves of relatives in Sitio Binyayan had already been bulldozed. That last point is in tension with BCDA's hearing statement that Binyayan would not be disturbed, and the report says so without resolving it — the reporting establishes neither when the earlier bulldozing occurred nor who carried it out, and Capiz described the graves nearer the present community as not yet disturbed. None of it is an agency record: no BCDA notice, valuation schedule, relocation plan or demolition order corresponding to a December date has been published, and none was located. Separately, the timeline gains 17 August 2026: at the House committee on appropriations hearing on the ₱7.2-trillion 2027 National Expenditure Program, DBM Secretary Kim Robert de Leon said the proposed NEP contains no allocation intended for Pax Silica, and DOF Secretary Frederick Go said the hub is \"still under very preliminary discussion\" and that \"there's nothing in the budget that will spend for this proposed industrial hub because nothing has been signed\" — recorded as limited fiscal corroboration of the pre-decisional finding, since hearing testimony is not a line-by-line examination of the NEP schedules. The claim checker gains one row: Go's statement that if a hub is built there is \"no budget requirement from us\" and \"they will pay us rent\", graded Projection, because the published instrument setting out the proposed land terms provides a two-year rent-free period and quantifies neither the Year-3 rent nor the lease term. The adversarial gate refused all three texts three times across four rounds before clearing them; its sharpest catch was that the drafter's note double-counted the Philippine concession, since the proposal identifies the rent-free period itself as the in-kind contribution rather than the land separately. No key judgment, confidence level or scenario weight moves: displacement stays Disputed."
+    },
+    {
+      "date": "2026-08-19",
+      "type": "correction",
+      "title": "The claim-verification matrix holds fifty-two claims, not forty-nine",
+      "site_version": "1.70",
+      "assessment_version": "2.31",
+      "commits": [],
+      "supersedes": "The claim-verification matrix: forty-nine claims adjudicated.",
+      "summary": "The section's own subtitle undercounted the matrix it introduces. The claim checker rendered fifty-one claims before today and fifty-two after the row added above; the subtitle had said forty-nine, a count left behind by earlier additions rather than an error at the time it was written. Found by the post-verification review while adding a claim, not by the day's candidates. Corrected on the site; the noscript digest carries the corrected figure through the crawler-text rebuild. Stated as a correction rather than edited away, on a page that grades other parties' arithmetic. The assessment's own §4 tables in the master document hold more rows than the site's curated matrix; that difference is by design and the two counts are not interchangeable."
+    },
+    {
+      "date": "2026-08-19",
+      "type": "correction",
+      "title": "The no-displacement claim row still carried the attribution corrected in v2.26",
+      "site_version": "1.70",
+      "assessment_version": "2.31",
+      "commits": [],
+      "supersedes": "~1,000 people associated with the Sitio Sapang Kawayan chieftain",
+      "summary": "v2.26 established that the 14 August hearing recording does not identify who gave the figure of about 1,000 people, and restated it as reported by a community witness describing Sitio Sapang Kawayan's own census. That correction reached §15.2.1 of the master document and the site's claim note, but not the summary row in §4.1, which carried the withdrawn attribution for four days. The row is aligned here and the miss is stated rather than edited away. Separately noted and deliberately not acted on: the 18 August ABS-CBN report attributes the census figure to the chieftain, Petronila Capiz-Munoz, by name. Restoring an attribution this report deliberately withdrew is a finding-level change and was not put to the adversarial gate today, so it stands unchanged pending one."
+    },
+    {
       "date": "2026-08-18",
       "type": "update",
       "title": "Finding 05 restated on the one-scheme relabelled series",

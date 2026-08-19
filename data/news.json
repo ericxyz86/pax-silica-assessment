@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "'Mga ninuno namin 'yon': Aetas fear ancestral graves could be destroyed by Pax Silica",
+      "source": "ABS-CBN News",
+      "date": "2026-08-18",
+      "url": "https://www.abs-cbn.com/news/business/2026/8/18/aetas-fear-ancestral-graves-could-be-destroyed-by-pax-silica-1712",
+      "image": "https://od2-image-api.abs-cbn.com/prod/2026081810084/62f96fd72f88f4cabd57ca032a7963f57d4016c69293b37fc30e1597acbe7171.png?w=1200&h=800"
+    },
+    {
+      "title": "Pax Silica bokya sa 2027 NEP",
+      "source": "Abante",
+      "date": "2026-08-18",
+      "url": "https://www.abante.com.ph/2026/08/18/pax-silica-bokya-sa-2027-nep",
+      "image": "https://www.abante.com.ph/wp-content/uploads/2026/08/xbcbcxbcxbxc.jpg"
+    },
+    {
       "title": "Senators see Pax Silica potential, but call for consultations, transparency",
       "source": "Rappler",
       "date": "2026-08-17",
@@ -56,20 +70,6 @@
       "date": "2026-08-14",
       "url": "https://www.gmanetwork.com/news/topstories/nation/998538/sen-gatchalian-backs-pax-silica-hub-but-with-caveats-and-conditions/story/",
       "image": "https://images.gmanews.tv/webpics/2026/06/Senateflix_over_Gatchalian_says_Senate_now_back-to-work_20260618_2026_06_18_14_14_16.jpg"
-    },
-    {
-      "title": "Pax Silica hub may run afoul of Constitution, Imee warns",
-      "source": "Bilyonaryo",
-      "date": "2026-08-14",
-      "url": "https://bnc.bilyonaryo.com/pax-silica-hub-may-run-afoul-of-constitution-imee-warns/news",
-      "image": "https://bnc.bilyonaryo.com/wp-content/uploads/2026/08/a-87.jpg"
-    },
-    {
-      "title": "Building a 'Silicon Valley in Tarlac'? Manny Pangilinan wants in.",
-      "source": "Rappler",
-      "date": "2026-08-14",
-      "url": "https://www.rappler.com/business/building-silicon-valley-tarlac-pax-silica-manny-pangilinan/",
-      "image": "https://www.rappler.com/tachyon/2026/08/mvp-manny-pangilinan-1-scaled.jpeg"
     }
   ]
 }
