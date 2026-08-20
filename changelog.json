@@ -13,6 +13,45 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-08-20",
+      "type": "update",
+      "title": "BCDA publicly qualifies its own November signing target, and rules out hyperscale data centres",
+      "site_version": "1.71",
+      "assessment_version": "2.32",
+      "commits": [],
+      "summary": "On 19 August 2026 BusinessWorld and GMA News reported BCDA President and CEO Joshua M. Bingcang saying the agency was still aiming to sign the framework agreement by November but that \"negotiations can always take longer\" — BusinessWorld rendering his description of the target as \"not set in stone\", GMA News as \"not cast in stone\". The claim checker's framework row is rewritten around that qualification, and its verdict moves from an official projection to an official target that the proponent has publicly described as subject to negotiation and possible delay. The two reports carry the same remarks by the same official on the same day and are recorded on the page as not independent corroboration; the outlets name the forum differently, so this report asserts no venue, and no transcript or recording was located to resolve the wording. A new §12.2.6 in the assessment records that BusinessWorld reported Bingcang saying the hub is \"purely commercial\", will have no defence-related activities, and that no hyperscale data centres would be built for it, and that the Inquirer separately reported him linking this to New Clark City's current power infrastructure. Those reports are consistent with a material existing-infrastructure constraint but establish none of KJ-8's separate conclusions about the approximately 3 GW estimate, on-site or near-site solar, or the absence of a published supply plan; the accompanying assurance of an \"embedded, independent power supply\" is the same conditional assurance already graded, and a goal is not commissioned capacity. Also recorded: the Philippine News Agency's published description changed between 19 June, when hyperscale data centres appeared among the facilities expected at the development in the agency's own descriptive wording, and 7 August, when it reported Bingcang excluding hyperscalers. The report records the change in the published description and does not assert that the underlying official position changed. No key judgment, confidence level, scenario weight or precondition moves."
+    },
+    {
+      "date": "2026-08-20",
+      "type": "removal",
+      "title": "The reading that the clearest population discrepancy lies between BCDA and NCIP is withdrawn",
+      "site_version": "1.71",
+      "assessment_version": "2.32",
+      "commits": [],
+      "supersedes": "The clearest reported discrepancy is therefore between BCDA's lower household estimate and NCIP's 75-household figure",
+      "summary": "ABS-CBN reported on 18 August 2026 that NCIP Chairperson Nancy Catamco said at the 14 August Senate hearing that the chieftain had initially reported the 75 households or families. If that is accurate, the 75-household figure may not be independent of the community evidence behind the figure of about 1,000 people, and this report's framing — which treated it as an independent NCIP estimate against BCDA's lower count — does not hold. The sentence is withdrawn from the running text; it is quoted verbatim above, which is where this project keeps retired text. The report does not conclude the opposite: it does not treat the two community-associated figures as comparable, because the available reporting establishes no common reference date, geographic scope, population definition or counting unit, and \"households or families\" is itself ambiguous. The operative finding is unchanged and restated with its limits: as at 20 August 2026 no current, published, parcel-specific enumeration reporting households and persons on a common reference date has been identified, and until one is, none of the reported figures can be treated as independently verified. The adversarial gate deleted the drafter's supporting arithmetic entirely — 75 households against about 1,000 people implies roughly thirteen people per household — as analytically unsound without a shared denominator, scope and reference date, and as insinuating exaggeration by a community from an invalid comparison. It is not published. Displacement stays disputed."
+    },
+    {
+      "date": "2026-08-20",
+      "type": "correction",
+      "title": "The 2027 date in the framework-signature row referred to planning, not framework finalisation",
+      "site_version": "1.71",
+      "assessment_version": "2.32",
+      "commits": [],
+      "supersedes": "Other statements point to 2027 finalisation; Finance Sec. Go says \"within the year\".",
+      "summary": "The claim checker's framework row carried 2027 as a competing framework-finalisation date. It was mis-scoped. The Presidential Communications Office release of 23 July 2026 places contract negotiations during 2026, planning in 2027 and construction beginning in early 2028 — an implementation schedule, not an alternative signing date. The sequence is not lost: it moves to the assessment's timeline at 23 July 2026 with its \"expected\" modality preserved. Finance Secretary Go's \"I hope we can get something signed within the year\" is retained and now carries its full attribution — 7 July 2026, reported by Manila Bulletin, which scopes the remark to the framework agreement for the hub, with Foxconn described separately as a possible anchor locator; no transcript was located, so the scope rests on the outlet's framing. That attribution was itself the subject of a refusal: the drafter proposed correcting the quote as mis-scoped to Foxconn, and the adversarial gate established from the source that it is not, so the drafter's proposed correction was withdrawn in full and nothing in the Foxconn row was touched."
+    },
+    {
+      "date": "2026-08-20",
+      "type": "correction",
+      "title": "A water figure withdrawn as unsourceable has been located; it is still not adopted",
+      "site_version": "1.71",
+      "assessment_version": "2.32",
+      "commits": [],
+      "supersedes": "a \"130 MLD water figure\" carried in the monitoring ledger since 29 July could not be sourced anywhere",
+      "summary": "Version 2.8 withdrew a 130 MLD water figure on the ground that it could not be sourced. The corpus-specific part of that finding stands — the figure was absent from this report and from the 6,437-row social-listening export examined — but the broader statement was too categorical. An Inquirer article bylined Dr. Teodoro Mendoza PhD, published 30 July 2026, states that the project \"is expected to require about 130 million liters of water a day and 3 gigawatts of electricity, equivalent to 16% of Luzon's current grid capacity.\" Separately, Bilyonaryo News Channel reported on 19 August 2026 that Dr. Guillermo Q. Tabios III of the UP Institute of Civil Engineering and the UP National Hydraulic Research Center said \"they were talking about 180 million liters per day that they would require\" — the outlet's own paraphrase says the development \"would require\" it, but the direct quotation leaves the antecedent of \"they\" and the figure's origin unresolved, so this report does not treat it as Tabios's independent estimate. Neither figure is adopted: the sources examined provide no underlying calculation and do not specify project scope, development stage, process mix, recycling assumption or water-balance methodology. The assessment's water arithmetic continues to test BCDA's claim against BCDA's own disclosed 65 to 90 million litres per day, and does not change. Tabios's grid-share comparison is deliberately not reproduced, because it uses a denominator different from the peak-demand figures this report works from and the percentages are not comparable. The historical change-log entry is left unedited; this entry supersedes it."
+    },
+    {
       "date": "2026-08-19",
       "type": "addition",
       "title": "A departure date reported to residents at Sitio Sapang Kawayan, and the budget's silence on Pax Silica",
