@@ -13,6 +13,25 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-08-21",
+      "type": "correction",
+      "site_version": "1.72",
+      "assessment_version": "2.33",
+      "title": "The State Department's signatory roster has been updated, and our description of it is corrected",
+      "commits": [],
+      "supersedes": "the State Department’s own Pax Silica page lists 23 signatories and omits the United States from its own roster, so counting the page yields 23",
+      "summary": "This site described the State Department's Pax Silica page in the present tense as listing 23 signatories, and used that to explain why President Marcos called the initiative \"23-member strong\" in the State of the Nation Address of 27 July 2026. Fetched directly on 21 August 2026, the page's Signatories section now lists 24 entries — Italy among them, added after its accession to the Declaration at Brindisi on 31 July — and still omits the United States from its own roster. Counting the page therefore now yields 24 against a standing signatory count of 25. The superseded sentence is quoted above and rewritten in the past tense, anchored to 27 July, which remains accurate for that date. The substance of the finding is unchanged and is not weakened: the defect it identifies is the omission of the United States from the initiative's own published roster, and that omission survives the update. We claim only that the page read as described on the date we fetched it; a current page cannot establish its own former contents, and the earlier roster rests on our dated enumeration of 26 June 2026. The standing count remains 25."
+    },
+    {
+      "date": "2026-08-21",
+      "type": "update",
+      "site_version": "1.72",
+      "assessment_version": "2.33",
+      "title": "BCDA's president puts the first phase at around 500 hectares on a three-to-five-year horizon",
+      "commits": [],
+      "summary": "At a New Clark City briefing on 7 August 2026, BCDA President and CEO Joshua Bingcang said: \"We see this as a long-term (investment). The first phase will be around 500 hectares. We see that in three to five years.\" The Philippine News Agency headlined and led on this as site development \"eyed to start\" within three to five years, and PTV News carried the report the following day. We record the quotation and the agency's interpretation of it as separate things, because the quoted words do not specify whether the period runs to the commencement or the delivery of the first phase, and because \"site development\" is not established to be the same milestone as the \"construction\" of BCDA's indicative schedule of 23 July 2026. It is therefore recorded as an official statement that introduces ambiguity, not as a schedule that displaces the early-2028 construction indication against which this report tests other claims. A drafted reading that the horizon showed the schedule slipping to 2029–2031 was refused by the verification gate and is not published. No official reconciliation of the two formulations was identified in the sources searched to 21 August 2026. Separately, the first phase's extent is now stated inconsistently: the Senate record of 14 August describes an approximately 580-hectare first phase, against Bingcang's \"around 500 hectares\". Both are approximate and the record does not establish a shared boundary, scope or reference date, so the variation is recorded and not resolved."
+    },
+    {
       "date": "2026-08-20",
       "type": "update",
       "title": "BCDA publicly qualifies its own November signing target, and rules out hyperscale data centres",
