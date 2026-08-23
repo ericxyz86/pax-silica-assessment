@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "NCIP counts Aeta households amid Pax Silica concerns",
+      "source": "Daily Tribune",
+      "date": "2026-08-21",
+      "url": "https://tribune.net.ph/2026/08/21/ncip-counts-aeta-households-amid-pax-silica-concerns",
+      "image": "https://images.assettype.com/tribune/2026-08-21/ir3anqy1/7829056769689901428998008818968856727693146n.png.jpeg?w=1200&auto=format"
+    },
+    {
       "title": "US-led Philippine tech hub faces opposition from indigenous people",
       "source": "Nikkei Asia",
       "date": "2026-08-21",
@@ -63,13 +70,6 @@
       "date": "2026-08-18",
       "url": "https://www.abs-cbn.com/news/business/2026/8/18/aetas-fear-ancestral-graves-could-be-destroyed-by-pax-silica-1712",
       "image": "https://od2-image-api.abs-cbn.com/prod/2026081810084/62f96fd72f88f4cabd57ca032a7963f57d4016c69293b37fc30e1597acbe7171.png?w=1200&h=800"
-    },
-    {
-      "title": "Pax Silica bokya sa 2027 NEP",
-      "source": "Abante",
-      "date": "2026-08-18",
-      "url": "https://www.abante.com.ph/2026/08/18/pax-silica-bokya-sa-2027-nep",
-      "image": "https://www.abante.com.ph/wp-content/uploads/2026/08/xbcbcxbcxbxc.jpg"
     }
   ]
 }
