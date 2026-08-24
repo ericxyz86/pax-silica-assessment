@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Marcos EO puts focus on PH critical minerals",
+      "source": "Philippine Daily Inquirer",
+      "date": "2026-08-23",
+      "url": "https://newsinfo.inquirer.net/2289994/marcos-eo-puts-focus-on-ph-critical-minerals",
+      "image": "https://newsinfo.inquirer.net/files/2026/08/News1280485-scaled.jpg"
+    },
+    {
+      "title": "Marcos’ EO 122 a ‘wholesale surrender’ of PH mineral wealth to foreign, big mining firms - Tinio",
+      "source": "Politiko",
+      "date": "2026-08-23",
+      "url": "https://politiko.com.ph/2026/08/23/marcos-eo-122-a-wholesale-surrender-of-ph-mineral-wealth-to-foreign-big-mining-firms-tinio/headlines/",
+      "image": "https://politiko.com.ph/wp-content/uploads/2026/08/Antonio-Tinio.jpg"
+    },
+    {
       "title": "NCIP counts Aeta households amid Pax Silica concerns",
       "source": "Daily Tribune",
       "date": "2026-08-21",
@@ -56,20 +70,6 @@
       "date": "2026-08-19",
       "url": "https://pampanganewsnow.com/pcci-north-luzon-backs-pax-silica-calls-for-strict-transparency-and-filipino-participation",
       "image": "https://pampanganewsnow.com/wp-content/uploads/2026/08/1000010192.jpg"
-    },
-    {
-      "title": "BCDA nilinaw ang epekto ng Pax Silica sa mga katutubo sa New Clark City",
-      "source": "SMNI News Channel",
-      "date": "2026-08-19",
-      "url": "https://smninewschannel.com/bcda-nilinaw-ang-epekto-ng-pax-silica-sa-mga-katutubo-sa-new-clark-city",
-      "image": "https://smninewschannel.com/wp-content/uploads/2026/08/7-1-5.jpg"
-    },
-    {
-      "title": "'Mga ninuno namin 'yon': Aetas fear ancestral graves could be destroyed by Pax Silica",
-      "source": "ABS-CBN News",
-      "date": "2026-08-18",
-      "url": "https://www.abs-cbn.com/news/business/2026/8/18/aetas-fear-ancestral-graves-could-be-destroyed-by-pax-silica-1712",
-      "image": "https://od2-image-api.abs-cbn.com/prod/2026081810084/62f96fd72f88f4cabd57ca032a7963f57d4016c69293b37fc30e1597acbe7171.png?w=1200&h=800"
     }
   ]
 }

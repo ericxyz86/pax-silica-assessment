@@ -13,6 +13,25 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-08-24",
+      "type": "addition",
+      "site_version": "1.75",
+      "assessment_version": "2.36",
+      "title": "A reported critical-minerals executive order enters the record — as reporting, not as an instrument — and the site's own hearing-era name enters the entity list",
+      "commits": [],
+      "summary": "Two additions today, and both were rewritten by the adversarial gate before publication. First, Executive Order No. 122, series of 2026, reported as signed on 21 August 2026, establishing what the government broadcaster PTV describes as a Unified National Policy Framework for Developing the Critical Minerals Industry and reorganising the Mining Industry Coordinating Council under the environment and finance secretaries as co-chairs. We did not locate or authenticate the order's operative text: it was not in the Official Gazette index, which ended at Executive Order 121 of 29 July 2026, nor in the Lawphil index, nor on any Presidential Communications Office, environment department or Mines and Geosciences Bureau page we could reach, as checked on 24 August 2026. That records the limits of our searches and is not proof of non-publication. The timeline and section 15.1.1 therefore describe reporting about the order rather than verified provisions of it. The gate refused both of our drafts outright, holding that they turned descriptions of an unavailable instrument into findings about what it contains or omits. It struck our line that the order imposes no restriction on mineral ore export, because a report that exports remain permitted does not exclude a qualification, an exception, a delegation or a later implementing rule. It struck our conclusion that this was the regulatory lever our Indonesia comparator identified, pulled short of the notch that mattered, because that converts silence in incomplete summaries into a finding that the government affirmatively declined an export restriction; the Indonesia comparison is published conditionally instead. It required that criticism from Representative Antonio Tinio and from AGHAM's Giovanni Tapang be carried as attributed reaction with its reporting chain named, because no primary statement from either was located. No source we reviewed reports that the order mentions Pax Silica, the United States or New Clark City; the connection is drawn by the reporting and by critics, not by the order. Second, the entity list gains the name Clark Advanced Manufacturing Park, which the proponents used at the Senate committee hearing of 14 August 2026 and which this assessment had not carried for ten days. That gate also refused our draft, striking the categorical claim that the proponents' own name for the Philippine site is therefore not Pax Silica: the Filipino sentence carrying it is the reporter's narrative voice rather than a quotation of Undersecretary Ceferino Rodolfo, its pronoun has no stated antecedent, and the same article's headline calls the project Pax Silica. The name is published as reported, hearing-era and provisional, distinguished from the designations that appear in instruments. A separate report that officials were considering dropping the Pax Silica label was gated and refused as an unattributed inference no other account supports, and is not published. No Key Judgment, confidence level, scenario weight or precondition moves. Key Judgment 12 gains an evidence pointer only, on the gate's express instruction that its judgment and confidence be retained and revisited when an authenticated text and implementing rules become available."
+    },
+    {
+      "date": "2026-08-24",
+      "type": "correction",
+      "site_version": "1.75",
+      "assessment_version": "2.36",
+      "title": "A stale verification date in the prefatory note is corrected",
+      "commits": [],
+      "supersedes": "This is a living document. Project facts are verified to 15 August 2026 and move forward as material developments are verified.",
+      "summary": "The prefatory note on timing and currency carried 15 August 2026 as the date to which project facts are verified, while the page header and footer carried 23 August. The header and footer were right and the prefatory note had not been moved forward with them, so for nine days the page asserted two different verification dates. The note now reads 24 August 2026, in step with every other surface. This is a surface-drift correction: no finding, date of verification or conclusion changes because of it, and the superseded sentence is quoted above so the drift can be checked rather than taken on trust."
+    },
+    {
       "date": "2026-08-23",
       "type": "addition",
       "site_version": "1.74",
