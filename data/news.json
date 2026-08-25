@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "DTI: Pax Silica tech hub won’t just be in New Clark City",
+      "source": "Manila Bulletin",
+      "date": "2026-08-24",
+      "url": "https://mb.com.ph/2026/08/24/dti-pax-silica-tech-hub-wont-just-be-in-new-clark-city",
+      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/08/24/126006.webp"
+    },
+    {
       "title": "Marcos EO puts focus on PH critical minerals",
       "source": "Philippine Daily Inquirer",
       "date": "2026-08-23",
@@ -63,13 +70,6 @@
       "date": "2026-08-19",
       "url": "https://www.dzrh.com.ph/post/protest-vs-pax-silica-tensions-flare-as-marshals-move-to-disperse-rallyists-in-taguig",
       "image": "https://dzrh-bucket.s3.ap-southeast-1.amazonaws.com/featuredimage/2026/8/lpRwaeAG7FnFsghUHVxRl.jpeg"
-    },
-    {
-      "title": "PCCI-North Luzon backs Pax Silica, calls for strict transparency and Filipino participation",
-      "source": "Pampanga News Now",
-      "date": "2026-08-19",
-      "url": "https://pampanganewsnow.com/pcci-north-luzon-backs-pax-silica-calls-for-strict-transparency-and-filipino-participation",
-      "image": "https://pampanganewsnow.com/wp-content/uploads/2026/08/1000010192.jpg"
     }
   ]
 }
