@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "DENR: No environmental impact assessment yet for Pax Silica hub in Tarlac",
+      "source": "GMA News Online",
+      "date": "2026-08-26",
+      "url": "https://www.gmanetwork.com/news/money/economy/999955/denr-no-environmental-impact-assessment-yet-for-pax-silica-hub-in-tarlac/story/",
+      "image": "https://images.gmanews.tv/webpics/2026/07/pax_silica_gma_image_2026_07_30_17_13_02.jpg"
+    },
+    {
       "title": "DTI: Pax Silica tech hub won’t just be in New Clark City",
       "source": "Manila Bulletin",
       "date": "2026-08-24",
@@ -63,13 +70,6 @@
       "date": "2026-08-19",
       "url": "https://www.newswatchplus.ph/2026/08/19/taiwan-looks-to-ph-pax-silica-hub-for-semiconductor-ai-cooperation",
       "image": "https://nwpproduct146b913ef7.blob.core.windows.net/blobnwpproduct146b913ef7/2026/08/Bongbong-MarcosRamon-Ang-Facebook-32.webp"
-    },
-    {
-      "title": "Protest vs Pax Silica: Tensions flare as marshals move to disperse rallyists in Taguig",
-      "source": "DZRH",
-      "date": "2026-08-19",
-      "url": "https://www.dzrh.com.ph/post/protest-vs-pax-silica-tensions-flare-as-marshals-move-to-disperse-rallyists-in-taguig",
-      "image": "https://dzrh-bucket.s3.ap-southeast-1.amazonaws.com/featuredimage/2026/8/lpRwaeAG7FnFsghUHVxRl.jpeg"
     }
   ]
 }
