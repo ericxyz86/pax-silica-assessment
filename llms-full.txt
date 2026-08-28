@@ -42,7 +42,7 @@ Four developments in the fortnight before cutoff are material enough to drive sp
 
 All conversions use PHP 61.85 per US$1, from US$1 = PHP 61.847, the peso’s record-low close of 24 July 2026. Where a source gives a peso figure it is reported as given and converted; where a source gives dollars, the peso equivalent is calculated.
 
-This is a living document. Project facts are verified to 28 August 2026 and move forward as material developments are verified. Comparator, legal and technical sources were verified through 27 July 2026 and move only when those are re-verified.
+This is a living document. Project facts are verified to 29 August 2026 and move forward as material developments are verified. Comparator, legal and technical sources were verified through 27 July 2026 and move only when those are re-verified.
 
 [sources drawn on: T3-21 · T1-05]
 
@@ -142,6 +142,8 @@ The initiative itself moved quickly. The inaugural Pax Silica Summit was held in
 Then contestation. On 18 May 2026 Bingcang stated the Philippines had refused a US request to place the zone under American law; on 25 May Helberg called that "patently untrue"; on 26 May the State Department declined to say what governing law would apply. On 19 June the Makabayan bloc filed House Resolution 1128, and on 28 July Akbayan filed House Resolution 1227, read on 3 August and pending with the Committee on Economic Affairs since 11 August. At the Second Summit in late June, the Under Secretary’s opening remarks of 25 June previewed the Zone in a dedicated section, and the outcomes document published the following day did not mention it.
 
 The final fortnight compressed everything. Foxconn was named on 7 July. The DFC approved LNG feasibility funding on 16 July. Scientists and farmers marched to the US Embassy on 13 July. Job claims escalated across four agencies between 22 and 26 July. And on 24 July the USTR imposed a 12.5% tariff and the peso closed at a record low. The only legally binding instruments in the whole record are Philippine enabling statutes, a separate ACWA Power solar lease, and, on the US side, a tariff against Philippine exports.
+
+What comes next is dated. The inaugural Luzon Economic Corridor Investment Forum is scheduled for Manila on 10 and 11 September 2026, co-hosted by the governments of the United States, the Philippines and Japan and sponsored by USTDA, convening a stated 600 investors, industry leaders and senior officials, with site visits to prospective projects at Subic Bay, Clark and Batangas. Neither USTDA page mentions Pax Silica, semiconductors or New Clark City, so this is a corridor event and not, on its face, a hub event. The framework signature remains targeted at the ASEAN Summit in November.
 
 [sources drawn on: T1-10 · T1-11 · T1-02 · T1-05 · T1-07 · T1-06 · T3-06 · T3-03]
 
@@ -569,7 +571,7 @@ Foxconn specifically: given the Wisconsin experience, will you accept performanc
 
 ## Sources register
 
-### tier 1 · primary and authoritative (25 entries)
+### tier 1 · primary and authoritative (26 entries)
 Official texts, published documents, statutes, statistical releases and FOI responses. Treated as evidence of what was said or recorded, not of whether it is true.
 - T1-01 (Dec 2025 to present): Pax Silica Declaration, full text and signatory list — US Department of State — The founding instrument and its 25 signatories. — www.state.gov
 - T1-02 (16 Apr 2026): Media Note: US and Philippines launch plans for a 4,000-acre Economic Security Zone — US Department of State — Origin of the 4,000-acre figure and the "first AI-native industrial acceleration hub" designation. — www.state.gov
@@ -595,7 +597,8 @@ Official texts, published documents, statutes, statistical releases and FOI resp
 - T1-22 (21 Jul 2026; agreement signed 20 Jul 2026): SBMA and BCDA agree to use the Port of Subic Bay as Pax Silica maritime gateway — Subic Bay Metropolitan Authority — Primary account of the preferred-gateway designation; studies and capacity development remain prospective. — www.mysubicbay.com.ph
 - T1-23 (4 Aug 2026): BCDA and SBMA seal Port of Subic Bay role in Pax Silica supply chains — BCDA — Later official release describing the signed agreement and qualified gateway role. — bcda.gov.ph
 - T1-24 (7 Aug 2026): Secretary Marco Rubio at the American Mining Roundtable — US Department of State — Primary transcript. The roughly US$3bn discussed is aggregate US domestic mining investment, not Pax Silica funding or a Philippine commitment. — www.state.gov
-- T1-25 (18 Aug 2026): Executive Order No. 122, s. 2026 — National Policy Framework for Developing the Critical Minerals Industry — Official Gazette (certified copy) — Added v2.40. The certified text, seven pages, retrieved 28 Aug 2026 and read page by page — superseding this report’s earlier record that the operative text was not located. Executed 18 August, not the 21 August widely reported; the Department of Finance’s own release also gives 21 August and the discrepancy is recorded, not resolved. Image-only, so every reading rests on manual visual review. It does not name Pax Silica, the United States or New Clark City. — www.officialgazette.gov.ph — tier 2 · high-quality analytical — 6 entries — Named specialists and research institutions with disclosed method. Used for benchmarks and interpretation.
+- T1-25 (18 Aug 2026): Executive Order No. 122, s. 2026 — National Policy Framework for Developing the Critical Minerals Industry — Official Gazette (certified copy) — Added v2.40. The certified text, seven pages, retrieved 28 Aug 2026 and read page by page — superseding this report’s earlier record that the operative text was not located. Executed 18 August, not the 21 August widely reported; the Department of Finance’s own release also gives 21 August and the discrepancy is recorded, not resolved. Image-only, so every reading rests on manual visual review. It does not name Pax Silica, the United States or New Clark City. — www.officialgazette.gov.ph
+- T1-26 (12 Aug 2026 (forum 10–11 Sep 2026)): 2026 Luzon Economic Corridor Investment Forum — event notice and announcement of the inaugural forum — US Trade and Development Agency — Added v2.41. Establishes the dates, Manila venue, the three co-hosting governments (United States, Philippines, Japan), USTDA sponsorship, a stated 600 participants, programme themes including advanced manufacturing, the partner list, site visits at Subic Bay, Clark and Batangas, and restricted attendance. Neither USTDA page mentions Pax Silica, semiconductors, New Clark City or the proposed economic security zone — the timeline row records that on its face and the forum is not treated as evidence about the hub. — ustda.gov — tier 2 · high-quality analytical — 6 entries — Named specialists and research institutions with disclosed method. Used for benchmarks and interpretation.
 - T2-01 (12 Jun 2026): The Philippines has a golden chance to get Pax Silica right — Lowy Institute, Alvin Camba — www.lowyinstitute.org
 - T2-02 (2026): In this economy: risks of Pax Silica — JC Punongbayan, UP School of Economics, in Rappler — www.rappler.com
 - T2-03 (2025 to 2026): Philippine electronics export performance — SEIPI — Industry baseline for export and value-added comparisons. — seipi.org.ph

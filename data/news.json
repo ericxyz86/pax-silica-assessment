@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Critical minerals policy framework linked to Pax Silica?",
+      "source": "Bulatlat",
+      "date": "2026-08-28",
+      "url": "https://www.bulatlat.com/2026/08/28/critical-minerals-policy-framework-linked-to-pax-silica",
+      "image": "https://www.bulatlat.com/wp-content/uploads/2019/08/mount-dinkiday.jpg"
+    },
+    {
       "title": "BSP's Remolona points to boosting exports, Pax Silica to support PH peso",
       "source": "GMA News Online",
       "date": "2026-08-27",
@@ -63,13 +70,6 @@
       "date": "2026-08-21",
       "url": "https://asia.nikkei.com/economy/us-led-philippine-tech-hub-faces-opposition-from-indigenous-people",
       "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F9%2F1%2F12991919-1-eng-GB%2Fdb71c76825e6-Protester.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&width=1260&height=630"
-    },
-    {
-      "title": "Gatchalian backs Pax Silica as next big industry",
-      "source": "Context.ph",
-      "date": "2026-08-21",
-      "url": "https://context.ph/2026/08/21/gatchalian-backs-pax-silica-as-next-big-industry",
-      "image": "https://context.ph/wp-content/uploads/2026/08/IMG_8866.jpeg"
     }
   ]
 }
