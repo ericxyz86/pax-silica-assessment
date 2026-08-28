@@ -13,6 +13,55 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-08-28",
+      "type": "addition",
+      "site_version": "1.79",
+      "assessment_version": "2.40",
+      "title": "The critical-minerals executive order is no longer a report about an instrument — the certified text is in hand",
+      "commits": [],
+      "summary": "Since 24 August this report has carried Executive Order No. 122 as reporting rather than as an instrument, saying plainly that it had not located or authenticated the order's operative text. It has now been located. A certified copy — seven pages, stamped by the Malacañan Records Office on 19 August 2026 — was retrieved from the Official Gazette's own government domain on 28 August and read page by page. The reason four days of searching had failed is worth stating, because it is a trap anyone could fall into: the Gazette's website returns a security challenge on every ordinary article and section page, but serves the document itself directly from its downloads path. Reading the text confirms most of what had been reported and corrects three things this report had published. It also settles a narrower question: across all sixteen sections the order imposes no export prohibition, quota, levy or licensing requirement on mineral ore — so the comparison this report draws with Indonesia's nickel policy is no longer conditional on an unseen text, though it remains conditional on commodity coverage, on market position, and on the supplemental guidelines the order expressly leaves to be written. Two things we are not doing. We are not treating the order's silence as a record that the government considered and rejected an export restriction; silence in an instrument is not a decision. And we are not letting a mining order that never mentions Pax Silica, the United States or New Clark City move any judgment about the project — the adversarial gate called that analytical laundering, and it was right. No Key Judgment, confidence level, scenario weight, precondition or red line moves."
+    },
+    {
+      "date": "2026-08-28",
+      "type": "correction",
+      "site_version": "1.79",
+      "assessment_version": "2.40",
+      "title": "The executive order was signed on 18 August, not 21 August — and the discrepancy is recorded rather than explained away",
+      "commits": [],
+      "supersedes": "21 Aug 2026 (reported signing date)",
+      "summary": "The order's execution clause reads: DONE, in the City of Manila, this 18th day of August. The timeline row is re-dated accordingly, and labelled an execution date rather than a publication or effectivity date, because those are different things and the order takes effect from publication. But 21 August was not a press invention, and it would be wrong to present it as one: the Department of Finance's own release also gives 21 August, as do Philstar and the Inquirer, while the Philippine News Agency gives 18 August. Whether 21 August marks an approval, a release or an error that propagated between outlets and departments is not established. We record the conflict and do not guess at it."
+    },
+    {
+      "date": "2026-08-28",
+      "type": "correction",
+      "site_version": "1.79",
+      "assessment_version": "2.40",
+      "title": "The order's title was not what we published, and the word we quoted is the broadcaster's",
+      "commits": [],
+      "supersedes": "Unified National Policy Framework for Developing the Critical Minerals Industry",
+      "summary": "The order's own caption reads: Establishing a National Policy Framework for Developing the Critical Minerals Industry and Reorganizing the Mining Industry Coordinating Council for the Purpose. There is no word Unified in it — that came from the government broadcaster's summary, and it is now attributed there. The second half of the title, the reorganisation of the Mining Industry Coordinating Council, we had omitted altogether, and it matters: the reorganised council now seats the Chairperson of the National Commission on Indigenous Peoples among its members. That is institutional representation and nothing more. It establishes nothing about whether free, prior and informed consent is required, obtained or adequate for anything at New Clark City, and the report says so in terms."
+    },
+    {
+      "date": "2026-08-28",
+      "type": "correction",
+      "site_version": "1.79",
+      "assessment_version": "2.40",
+      "title": "There is no six-month cap on mining permit processing — the account we repeated was wrong",
+      "commits": [],
+      "supersedes": "a maximum six-month permit-processing period",
+      "summary": "This report carried a secondary account describing a six-month maximum for processing mining permits. The text sets no such limit. What Section 7 actually does is give the mines bureau six months from the order's effectivity to put streamlined procedures in place — replacing sequential processing with simultaneous processing, setting timelines, and standing up an inter-agency monitoring committee — and one year to build an integrated digital platform consolidating national and local permits. Neither is a ceiling on how long any individual application may take, and neither is a limit on public consultation. The distinction matters because a processing cap and a deadline to reform processing are very different assurances."
+    },
+    {
+      "date": "2026-08-28",
+      "type": "correction",
+      "site_version": "1.79",
+      "assessment_version": "2.40",
+      "title": "The verification date in the prefatory note had drifted a day behind the header and footer again",
+      "commits": [],
+      "supersedes": "verified to 26 August 2026 and move forward as material developments are verified.",
+      "summary": "The note on timing at the head of this report said project facts were verified to 26 August while the page header and footer said 27 August. The header and footer were right; the note was not advanced with them when yesterday's revision shipped. All three now read 28 August. This is the fourth time this particular drift has occurred, and it is recorded here rather than quietly fixed because a page that asserts two different currency dates gives the reader no way to know which one to trust."
+    },
+    {
       "date": "2026-08-27",
       "type": "correction",
       "site_version": "1.78",
