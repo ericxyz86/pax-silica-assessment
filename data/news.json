@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "US defends Trump’s tariffs on Asian allies",
+      "source": "The Manila Times",
+      "date": "2026-08-30",
+      "url": "https://www.manilatimes.net/2026/08/30/business/top-business/us-defends-trumps-tariffs-on-asian-allies/2414491",
+      "image": "https://manilatimes.net/manilatimes/uploads/images/2026/08/29/1194849.jpg"
+    },
+    {
+      "title": "Clark is economic investment anchor",
+      "source": "The Manila Times",
+      "date": "2026-08-30",
+      "url": "https://www.manilatimes.net/2026/08/30/regions/clark-is-economic-investment-anchor/2414515",
+      "image": "https://manilatimes.net/manilatimes/uploads/images/2026/08/29/1194975.jpg"
+    },
+    {
       "title": "Critical minerals policy framework linked to Pax Silica?",
       "source": "Bulatlat",
       "date": "2026-08-28",
@@ -56,20 +70,6 @@
       "date": "2026-08-23",
       "url": "https://politiko.com.ph/2026/08/23/marcos-eo-122-a-wholesale-surrender-of-ph-mineral-wealth-to-foreign-big-mining-firms-tinio/headlines/",
       "image": "https://politiko.com.ph/wp-content/uploads/2026/08/Antonio-Tinio.jpg"
-    },
-    {
-      "title": "NCIP counts Aeta households amid Pax Silica concerns",
-      "source": "Daily Tribune",
-      "date": "2026-08-21",
-      "url": "https://tribune.net.ph/2026/08/21/ncip-counts-aeta-households-amid-pax-silica-concerns",
-      "image": "https://images.assettype.com/tribune/2026-08-21/ir3anqy1/7829056769689901428998008818968856727693146n.png.jpeg?w=1200&auto=format"
-    },
-    {
-      "title": "US-led Philippine tech hub faces opposition from indigenous people",
-      "source": "Nikkei Asia",
-      "date": "2026-08-21",
-      "url": "https://asia.nikkei.com/economy/us-led-philippine-tech-hub-faces-opposition-from-indigenous-people",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F9%2F1%2F12991919-1-eng-GB%2Fdb71c76825e6-Protester.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&width=1260&height=630"
     }
   ]
 }
