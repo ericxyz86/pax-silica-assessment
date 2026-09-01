@@ -2,6 +2,27 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Aetas draw line on Pax Silica",
+      "source": "Daily Tribune",
+      "date": "2026-08-31",
+      "url": "https://tribune.net.ph/2026/08/31/aetas-draw-line-on-pax-silica",
+      "image": "https://images.assettype.com/tribune/2026-08-06/woszjyt6/NO-TO-PAX-SILICA-1.jpg?w=1200&auto=format"
+    },
+    {
+      "title": "Maynilad, K-water advance in ₱14.8-B New Clark project",
+      "source": "BusinessMirror",
+      "date": "2026-08-31",
+      "url": "https://businessmirror.com.ph/2026/08/31/maynilad-k-water-advance-in-%E2%82%B114-8-b-new-clark-project",
+      "image": "https://businessmirror.com.ph/wp-content/uploads/2025/05/bcda.jpg"
+    },
+    {
+      "title": "Anti-Pax Silica group launched",
+      "source": "ABS-CBN News",
+      "date": "2026-08-31",
+      "url": "https://www.abs-cbn.com/news/nation/2026/8/31/anti-pax-silica-group-launched-1751",
+      "image": "https://od2-image-api.abs-cbn.com/prod/20260831100848/784a7148b2a8aff9ae075cd451829965000c2009d91e2856fd79abe045f65951.jpg?w=1200&h=800"
+    },
+    {
       "title": "US defends Trump’s tariffs on Asian allies",
       "source": "The Manila Times",
       "date": "2026-08-30",
@@ -49,27 +70,6 @@
       "date": "2026-08-26",
       "url": "https://www.gmanetwork.com/news/money/economy/999955/denr-no-environmental-impact-assessment-yet-for-pax-silica-hub-in-tarlac/story/",
       "image": "https://images.gmanews.tv/webpics/2026/07/pax_silica_gma_image_2026_07_30_17_13_02.jpg"
-    },
-    {
-      "title": "DTI: Pax Silica tech hub won’t just be in New Clark City",
-      "source": "Manila Bulletin",
-      "date": "2026-08-24",
-      "url": "https://mb.com.ph/2026/08/24/dti-pax-silica-tech-hub-wont-just-be-in-new-clark-city",
-      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/08/24/126006.webp"
-    },
-    {
-      "title": "Marcos EO puts focus on PH critical minerals",
-      "source": "Philippine Daily Inquirer",
-      "date": "2026-08-23",
-      "url": "https://newsinfo.inquirer.net/2289994/marcos-eo-puts-focus-on-ph-critical-minerals",
-      "image": "https://newsinfo.inquirer.net/files/2026/08/News1280485-scaled.jpg"
-    },
-    {
-      "title": "Marcos’ EO 122 a ‘wholesale surrender’ of PH mineral wealth to foreign, big mining firms - Tinio",
-      "source": "Politiko",
-      "date": "2026-08-23",
-      "url": "https://politiko.com.ph/2026/08/23/marcos-eo-122-a-wholesale-surrender-of-ph-mineral-wealth-to-foreign-big-mining-firms-tinio/headlines/",
-      "image": "https://politiko.com.ph/wp-content/uploads/2026/08/Antonio-Tinio.jpg"
     }
   ]
 }
