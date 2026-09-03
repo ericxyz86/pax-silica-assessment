@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Malacañang says no AI data centers planned for Clark hub",
+      "source": "Malaya Business Insight",
+      "date": "2026-09-01",
+      "url": "https://malaya.com.ph/business/business-news/malacanang-says-no-ai-data-centers-planned-for-clark-hub",
+      "image": "https://malaya.com.ph/wp-content/uploads/2026/07/HumanImage1.jpg"
+    },
+    {
       "title": "DA still assessing Pax Silica's impact on agriculture",
       "source": "GMA News Online",
       "date": "2026-09-01",
@@ -63,13 +70,6 @@
       "date": "2026-08-26",
       "url": "https://www.abs-cbn.com/news/nation/2026/8/26/palace-promises-pax-silica-deals-won-t-disadvantage-philippines-1921",
       "image": "https://od2-image-api.abs-cbn.com/prod/2026082618088/70360230fec5563ec91d583ebe06cab5fa30bf90fe44096e7120261860f26b80.jpg?w=1200&h=800"
-    },
-    {
-      "title": "'Naka-jackpot ang Pinas': Alvarez says Pax Silica presents a 'once-in-a-lifetime' opportunity",
-      "source": "Manila Bulletin",
-      "date": "2026-08-26",
-      "url": "https://mb.com.ph/2026/08/26/naka-jackpot-ang-pinas-alvarez-says-pax-silica-presents-a-once-in-a-lifetime-opportunity",
-      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/08/26/126704.webp"
     }
   ]
 }

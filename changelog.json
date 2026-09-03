@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-09-03",
+      "type": "addition",
+      "site_version": "1.83",
+      "assessment_version": "2.44",
+      "title": "A second government’s foreign ministry says the Declaration would create no legal obligations — and a twenty-sixth signatory is one step away without the count moving",
+      "commits": [],
+      "summary": "On 2 September 2026 the Lithuanian government approved the country’s participation in the Pax Silica Declaration and in a separate US-proposed critical-minerals agreement. Lithuania’s Ministry of Foreign Affairs said in doing so that neither instrument is an international treaty and that neither would create legal obligations for Lithuania under international or national law — in the Lithuanian original, that they „nėra tarptautinės sutartys“ and „Lietuvai nesukurtų teisinių įsipareigojimų“. §8.2 carries that as corroboration of this assessment’s existing reading and expressly not as its foundation: the non-binding conclusion has always rested on the Declaration’s own operative language, and a foreign ministry’s characterisation of an instrument to its own cabinet is interested evidence, since it is also what allows an executive to join without parliamentary ratification. §8.3 records the accession step as an approval to join and not an accession. The Cabinet’s published meeting record establishes only that the matter was before it as agenda item 2; LRT/BNS establishes the outcome; the meeting protocol and the ministry’s submission were not retrievable, and neither an executed instrument, nor a Lithuanian signature announcement, nor a State Department media note welcoming Lithuania was located as at 3 September 2026. The standing signatory count therefore remains 25, and Lithuania remains among the eleven economies that signed the separate Joint Statement on AI Opportunity without acceding to the Declaration. Four adversarial gate passes ran (Codex CLI, gpt-5.6-sol); the first three each refused something. The first refused the claim that the Cabinet agenda record documented the decision, on the ground that an agenda establishes consideration and not the outcome, and struck an implication that Lithuanian accession is inevitable. The second refused the chronology row for converting the Lithuanian conditional into a categorical present tense; the original was then checked directly and the gate was right. The third required three further repairs, each turning a not-located search result back into a not-located result rather than proof of absence. The fourth found no defect. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker row moves — the gate was asked at every pass and agreed each time, adding that strengthening confidence on a single interested government’s characterisation would be disproportionate."
+    },
+    {
       "date": "2026-09-02",
       "type": "addition",
       "site_version": "1.82",
