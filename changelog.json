@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-09-04",
+      "type": "correction",
+      "site_version": "1.85",
+      "assessment_version": "2.45",
+      "title": "The preconditions panel's verification date had been frozen at 29 July since the site launched",
+      "commits": [],
+      "supersedes": "status at 29 july 2026, latest verification: 0 of 7",
+      "summary": "Exhibit 08's verdict panel carried “status at 29 july 2026” through every revision since launch. The status itself — 0 of 7 preconditions met — was current throughout: the daily editorial run asks the precondition question of every candidate and each day's record states expressly that no precondition moved, most recently on 4 September. Only the displayed date failed to advance, because no stamper or check owned that one line, so the page understated the currency of its own most decision-relevant panel: a reader was told the checklist was last verified five weeks ago when it had been re-verified every morning. The date now reads the project-facts verification date — the daily editorial run is the act that re-verifies the seven — is advanced by the same deterministic stamper that synchronizes the page's other currency stamps and their PDF and crawler echoes, and is enforced as a canonical-date peer by the surface-consistency gate, which fails publication closed if it is ever left behind again. This is the fifth occurrence of the currency-stamp drift class (the prefatory note, corrected at v2.11, v2.18, v2.36 and v2.40) and the first on an exhibit; the class was closed at the source on 2 September for the stamps the stamper knew about — this one it now knows about."
+    },
+    {
+      "date": "2026-09-04",
       "type": "addition",
       "site_version": "1.84",
       "assessment_version": "2.45",
