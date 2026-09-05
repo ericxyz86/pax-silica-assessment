@@ -2,6 +2,27 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Gov’t holding census in areas Pax Silica hub may affect",
+      "source": "Philippine Daily Inquirer",
+      "date": "2026-09-05",
+      "url": "https://newsinfo.inquirer.net/2299337/govt-holding-census-in-areas-pax-silica-hub-may-affect",
+      "image": "https://newsinfo.inquirer.net/files/2026/09/tarlac-pax-silica.jpg"
+    },
+    {
+      "title": "No conversion applications yet related to Pax Silica hub —DAR",
+      "source": "GMA News Online",
+      "date": "2026-09-03",
+      "url": "https://www.gmanetwork.com/news/money/economy/1001023/no-conversion-applications-yet-related-to-pax-silica-hub-dar/story/",
+      "image": "https://images.gmanews.tv/webpics/2026/09/dar_usec_napoleon_galit_2026_09_03_17_25_01.jpg"
+    },
+    {
+      "title": "Trump Administration Launches Foundry School to Build the Workforce Behind America’s Manufacturing Comeback",
+      "source": "U.S. Department of State",
+      "date": "2026-09-03",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/trump-administration-launches-foundry-school-to-build-the-workforcebehind-americas-manufacturing-comeback",
+      "image": "https://www.state.gov/wp-content/uploads/2025/01/Press_Release_Alabaster.png"
+    },
+    {
       "title": "Malacañang says no AI data centers planned for Clark hub",
       "source": "Malaya Business Insight",
       "date": "2026-09-01",
@@ -49,27 +70,6 @@
       "date": "2026-08-30",
       "url": "https://www.manilatimes.net/2026/08/30/regions/clark-is-economic-investment-anchor/2414515",
       "image": "https://manilatimes.net/manilatimes/uploads/images/2026/08/29/1194975.jpg"
-    },
-    {
-      "title": "Critical minerals policy framework linked to Pax Silica?",
-      "source": "Bulatlat",
-      "date": "2026-08-28",
-      "url": "https://www.bulatlat.com/2026/08/28/critical-minerals-policy-framework-linked-to-pax-silica",
-      "image": "https://www.bulatlat.com/wp-content/uploads/2019/08/mount-dinkiday.jpg"
-    },
-    {
-      "title": "BSP's Remolona points to boosting exports, Pax Silica to support PH peso",
-      "source": "GMA News Online",
-      "date": "2026-08-27",
-      "url": "https://www.gmanetwork.com/news/money/economy/1000116/bsp-s-remolona-points-to-boosting-exports-pax-silica-to-support-ph-peso/story/",
-      "image": "https://images.gmanews.tv/webpics/2026/04/bsp_gov_eli_remolona_jr_042326_2026_04_23_16_21_32.jpg"
-    },
-    {
-      "title": "Palace promises Pax Silica deals 'won't disadvantage' Philippines",
-      "source": "ABS-CBN News",
-      "date": "2026-08-26",
-      "url": "https://www.abs-cbn.com/news/nation/2026/8/26/palace-promises-pax-silica-deals-won-t-disadvantage-philippines-1921",
-      "image": "https://od2-image-api.abs-cbn.com/prod/2026082618088/70360230fec5563ec91d583ebe06cab5fa30bf90fe44096e7120261860f26b80.jpg?w=1200&h=800"
     }
   ]
 }
