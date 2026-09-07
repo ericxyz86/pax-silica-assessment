@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Makati Business Club backs Pax Silica project",
+      "source": "The Manila Times",
+      "date": "2026-09-07",
+      "url": "https://www.manilatimes.net/2026/09/07/business/top-business/makati-business-club-backs-pax-silica-project/2419484",
+      "image": "https://manilatimes.net/manilatimes/uploads/images/2026/09/07/1205219.png"
+    },
+    {
       "title": "Gov’t holding census in areas Pax Silica hub may affect",
       "source": "Philippine Daily Inquirer",
       "date": "2026-09-05",
@@ -63,13 +70,6 @@
       "date": "2026-08-30",
       "url": "https://www.manilatimes.net/2026/08/30/business/top-business/us-defends-trumps-tariffs-on-asian-allies/2414491",
       "image": "https://manilatimes.net/manilatimes/uploads/images/2026/08/29/1194849.jpg"
-    },
-    {
-      "title": "Clark is economic investment anchor",
-      "source": "The Manila Times",
-      "date": "2026-08-30",
-      "url": "https://www.manilatimes.net/2026/08/30/regions/clark-is-economic-investment-anchor/2414515",
-      "image": "https://manilatimes.net/manilatimes/uploads/images/2026/08/29/1194975.jpg"
     }
   ]
 }
