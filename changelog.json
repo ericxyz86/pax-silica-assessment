@@ -13,6 +13,36 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-09-08",
+      "type": "correction",
+      "site_version": "1.89",
+      "assessment_version": "2.49",
+      "title": "We said no project-specific consultation record had been published. The proponent had published one",
+      "commits": [],
+      "supersedes": "No project-specific consultation record, grievance mechanism, compensation framework, livelihood restoration plan or independent monitoring arrangement has been published.",
+      "summary": "The Bases Conversion and Development Authority has published a dated account of a project-specific consultation — the 19 August 2026 meeting with the Provincial Government of Tarlac at the Tarlac Convention Center, naming the venue, the participating sectors, the subjects presented and attributed remarks — and, on 4 September 2026, its own account of the Sitio Sapang Kawayan census update with the NCIP. A press release is not minutes, but it is a published record of a consultation, and our categorical wording could not survive it. The first limb of that sentence is withdrawn as overstated. What survives is narrower and still true: no minutes, attendance list, participant submissions, issues-and-responses register, grievance mechanism, compensation framework, livelihood restoration plan or independent monitoring arrangement has been published. The correction runs against us. Our adversarial gate refused the wording we first proposed and supplied the narrower formulation; we have adopted it."
+    },
+    {
+      "date": "2026-09-08",
+      "type": "correction",
+      "site_version": "1.89",
+      "assessment_version": "2.49",
+      "title": "We called the Tarlac local government record the largest gap in our evidence base. Three municipalities, the province and the diocese were already on it",
+      "commits": [],
+      "supersedes": "Capas entered the record procedurally on 31 July 2026 — an information request to BCDA, then a reported meeting BCDA called a step toward consultation — but no LGU has stated a position on the merits, and no independently verified Bamban or provincial position was found: still the largest gap in the evidence base",
+      "summary": "Three items from mid-August 2026 that we had not carried retire that description. On 11 August Capas Mayor Roseller Rodriguez wrote to President Marcos and to the BCDA invoking Sections 26 and 27 of the Local Government Code, saying the municipality would withhold support until the BCDA held “a meaningful” public consultation — “not supporting, not opposing until there is a public consultation” (BusinessMirror, 13 August). On 17 August Acting Bamban Vice Mayor Levy Tadeo sought a public consultation and named Aeta communities in five sitios of Barangay Anupul — Coop, Gayaman, Malasa, Mabilog and Mainang — as overlapping the project, a second affected-community locus alongside Sitio Sapang Kawayan in Capas; the same report has Tarlac Governor Christian Tell Yap welcoming the jobs and investment (Inquirer, 17 August). On 19 August the BCDA and the provincial government held their consultation. We have rewritten the stakeholder row and raised its influence rating. What is still absent is the formal layer: no Sanggunian resolution, no published minutes or issues-and-responses register, and no local government determination on the merits — Capas has expressly reserved its institutional position until consultation occurs. The sitio-level overlap is a local official’s assertion as reported; it cannot be checked against the parcel while Annex A remains unpublished."
+    },
+    {
+      "date": "2026-09-08",
+      "type": "addition",
+      "site_version": "1.89",
+      "assessment_version": "2.49",
+      "title": "Two published accounts of the same consultation, and they do not record the same meeting",
+      "commits": [],
+      "supersedes": "",
+      "summary": "The BCDA’s own account of the 19 August 2026 provincial consultation acknowledges generically that questions exist but names no speaker, no objection and no demand. Contemporaneous local reporting the following day records four: the Capas and Concepcion mayors, the acting Bamban vice mayor, and Roberto Calara Mallari, Roman Catholic Bishop of Tarlac, pressing unanswered questions on water, power, displacement and ancestral domain, with the BCDA’s president replying that the hub would bypass community groundwater through rainwater harvesting, river systems and wastewater recycling. We record the divergence as a feature of the published record and draw no inference of concealment from it: a press release is a statement, not minutes. Two things this addition does not establish. It is not a consent process — no account of the meeting identifies an indigenous representative, NCIP participation or any FPIC step, and a proponent-convened dialogue with provincial and municipal officials is not the proceeding IPRA requires. And we do not carry the Concepcion mayor’s quoted “6 Gigawatts”: it doubles the BCDA’s published estimate of about 3 GW, no other source carries it, and our gate could not determine whether it was the mayor’s own figure, a misunderstanding or a transcription error. The 90 million litres per day he cited is consistent with the BCDA’s published 65–90 MLD."
+    },
+    {
       "date": "2026-09-07",
       "type": "correction",
       "site_version": "1.88",

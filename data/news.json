@@ -2,11 +2,25 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "BCDA, Tarlac gov’t consult stakeholders on Clark Advanced Manufacturing Park",
+      "source": "PortCalls Asia",
+      "date": "2026-09-07",
+      "url": "https://portcalls.com/bcda-tarlac-govt-consult-stakeholders-on-clark-advanced-manufacturing-park",
+      "image": "https://portcalls.com/wp-content/uploads/2026/09/BCDA-Tarlac-Stakeholders-CAMP_1.jpg"
+    },
+    {
       "title": "Makati Business Club backs Pax Silica project",
       "source": "The Manila Times",
       "date": "2026-09-07",
       "url": "https://www.manilatimes.net/2026/09/07/business/top-business/makati-business-club-backs-pax-silica-project/2419484",
       "image": "https://manilatimes.net/manilatimes/uploads/images/2026/09/07/1205219.png"
+    },
+    {
+      "title": "Filipino artists turn gallery into protest site against proposed Pax Silica initiative",
+      "source": "ABS-CBN News",
+      "date": "2026-09-06",
+      "url": "https://www.abs-cbn.com/lifestyle/people-culture-events/2026/9/6/filipino-artists-turn-gallery-into-protest-site-against-proposed-pax-silica-initiative-2353",
+      "image": "https://od2-image-api.abs-cbn.com/prod/20260906160952/ea4fcf54242761358ff3863a546e6a195a772992332055b749757043050d14f2.jpg?w=1200&h=800"
     },
     {
       "title": "Gov’t holding census in areas Pax Silica hub may affect",
@@ -56,20 +70,6 @@
       "date": "2026-08-31",
       "url": "https://businessmirror.com.ph/2026/08/31/maynilad-k-water-advance-in-%E2%82%B114-8-b-new-clark-project",
       "image": "https://businessmirror.com.ph/wp-content/uploads/2025/05/bcda.jpg"
-    },
-    {
-      "title": "Anti-Pax Silica group launched",
-      "source": "ABS-CBN News",
-      "date": "2026-08-31",
-      "url": "https://www.abs-cbn.com/news/nation/2026/8/31/anti-pax-silica-group-launched-1751",
-      "image": "https://od2-image-api.abs-cbn.com/prod/20260831100848/784a7148b2a8aff9ae075cd451829965000c2009d91e2856fd79abe045f65951.jpg?w=1200&h=800"
-    },
-    {
-      "title": "US defends Trump’s tariffs on Asian allies",
-      "source": "The Manila Times",
-      "date": "2026-08-30",
-      "url": "https://www.manilatimes.net/2026/08/30/business/top-business/us-defends-trumps-tariffs-on-asian-allies/2414491",
-      "image": "https://manilatimes.net/manilatimes/uploads/images/2026/08/29/1194849.jpg"
     }
   ]
 }
