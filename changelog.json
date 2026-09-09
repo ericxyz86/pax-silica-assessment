@@ -13,6 +13,36 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-09-09",
+      "type": "correction",
+      "site_version": "1.90",
+      "assessment_version": "2.50",
+      "title": "The Senate has acted institutionally on procedure; it has not taken a position on Pax Silica's merits",
+      "commits": [],
+      "supersedes": "the chamber itself has not acted; No committee action or institutional position identified in the sources reviewed",
+      "summary": "On 8 September 2026 the Senate approved without objection Majority Leader Juan Miguel Zubiri's motion to constitute a Committee of the Whole for extensive discussion of Pax Silica. Senate President Sherwin Gatchalian chairs the committee, with the chairs of Environment, Cultural Communities, Economic Affairs, Trade and Foreign Relations serving as vice chairs. That is an institutional procedural action and it supersedes our statements that the chamber itself had not acted and that no committee action was identified. It is not a substantive disposition. As of 9 September, no source reviewed identified a date for a Committee-of-the-Whole hearing or established that one had already been held; no resulting report, substantive finding, recommendation, approval, rejection, concurrence demand, or institutional Senate position on the project's merits or terms was identified. The adversarial gate returned UNREFUTED_WITH_CAVEATS and required every one of those distinctions. The Senate's influence, stance and dashed encoding are unchanged; the dashed border is now defined expressly as no identified institutional position on the merits, not inactivity. No Key Judgment, scenario weight, claim-checker row or precondition moves."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "correction",
+      "site_version": "1.90",
+      "assessment_version": "2.50",
+      "title": "The Philippine Embassy is no longer accurately described as currently passive",
+      "commits": [],
+      "supersedes": "Holds the treaty channel but is currently passive; High but currently passive",
+      "summary": "The Philippine Embassy in Washington reported that it attended the 3 September Foundry School launch, and Ambassador Jose Manuel G. Romualdez publicly welcomed the programme as an opportunity for collaboration and workforce preparation. That first-party statement makes our unqualified 'currently passive' description materially misleading, and it is withdrawn. The correction is narrow. Neither the Embassy release nor the State Department fact sheet identifies a Philippine participant or reserved place, Philippine eligibility or selection arrangements, funding or appropriation, an implementing measure, a signed agreement, a Philippine workforce-development plan, or a binding Philippine commitment. The State Department only plans to support participation by Pax Silica economies while working with Congress; it does not promise Philippine participation specifically. The finding-level gate returned UNREFUTED_WITH_CAVEATS and required those limits. No stakeholder magnitude, Key Judgment, scenario weight, claim-checker row or precondition moves."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "correction",
+      "site_version": "1.90",
+      "assessment_version": "2.50",
+      "title": "A stale local-government sentence is removed from the site's stakeholder narrative",
+      "commits": [],
+      "supersedes": "Two sets of actors with decisive power remain conspicuously silent: NGCP and the ERC, who would bear the blame for reserve shortfalls and price effects, and local government, where no independently verified position from the Tarlac provincial government or the municipality of Bamban was located.",
+      "summary": "The comprehensive post-verification review found that the site's stakeholder narrative still opened with a pre-v2.49 description of local government as absent, then contradicted itself later in the same paragraph by carrying the v2.49 correction. The stale sentence is removed rather than left beside its correction. The current record is retained: Capas has conditionally withheld support pending meaningful consultation, Bamban has sought a public hearing, the province hosted the 19 August consultation, and Governor Yap has welcomed the project; what remains absent is a Sanggunian resolution, published minutes or issues-and-responses register, and a local-government determination on the merits. No magnitude or conclusion moves."
+    },
+    {
       "date": "2026-09-08",
       "type": "correction",
       "site_version": "1.89",
