@@ -15,6 +15,15 @@
     {
       "date": "2026-09-10",
       "type": "addition",
+      "site_version": "1.94",
+      "assessment_version": "2.51",
+      "title": "Three status figures on the signing-readiness page become mechanically synchronized",
+      "commits": [],
+      "summary": "The signing-readiness page published at v1.92 was a wholly dated snapshot. Three of its figures — the 'Status as verified on' date, the preconditions tally in its heading, and the gates count in its heading — now synchronize from the assessment's canonical surfaces (the master's project-facts date row, the live preconditions panel, and the gates checklist data) each time the site publishes, through the same mechanical stamper that synchronizes the site's currency dates. A new surface-consistency invariant refuses publication if any of the three is ever left behind, and the stamper fails closed if the page or its stamp patterns go missing. The page's provenance note is updated to say exactly which figures are mechanical; its narrative remains a dated 10 September 2026 snapshot, unchanged. No assessment content moves."
+    },
+    {
+      "date": "2026-09-10",
+      "type": "addition",
       "site_version": "1.93",
       "assessment_version": "2.51",
       "title": "The signing-readiness page joins the navigation",
