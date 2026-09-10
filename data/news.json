@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Pax Silica to boost Manila’s tech value chain, says DFA",
+      "source": "BusinessWorld",
+      "date": "2026-09-09",
+      "url": "https://bworldonline.com/the-nation/2026/09/09/775818/pax-silica-to-boost-manilas-tech-value-chain-says-dfa/",
+      "image": "https://bworldonline.com/wp-content/uploads/2026/09/Theresa-P.-Lazaro.jpg"
+    },
+    {
+      "title": "Singapore considering invitation to join China-led AI bloc",
+      "source": "The Straits Times",
+      "date": "2026-09-09",
+      "url": "https://www.straitstimes.com/singapore/politics/singapore-considering-invitation-to-join-china-led-ai-bloc",
+      "image": "https://cassette.sphdigital.com.sg/image/straitstimes/20cc068ccb224f56ebde4a3ad9c3ac98a729a0d3c36dd7f0d25ce4dc724ff2b4"
+    },
+    {
       "title": "PH sets $34-B plan to catch up in AI race",
       "source": "Philippine Daily Inquirer",
       "date": "2026-09-09",
@@ -56,20 +70,6 @@
       "date": "2026-09-03",
       "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/trump-administration-launches-foundry-school-to-build-the-workforcebehind-americas-manufacturing-comeback",
       "image": "https://www.state.gov/wp-content/uploads/2025/01/Press_Release_Alabaster.png"
-    },
-    {
-      "title": "Malacañang says no AI data centers planned for Clark hub",
-      "source": "Malaya Business Insight",
-      "date": "2026-09-01",
-      "url": "https://malaya.com.ph/business/business-news/malacanang-says-no-ai-data-centers-planned-for-clark-hub",
-      "image": "https://malaya.com.ph/wp-content/uploads/2026/07/HumanImage1.jpg"
-    },
-    {
-      "title": "DA still assessing Pax Silica's impact on agriculture",
-      "source": "GMA News Online",
-      "date": "2026-09-01",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1000726/da-still-assessing-pax-silica-s-impact-on-agriculture/story/",
-      "image": "https://images.gmanews.tv/webpics/2026/09/Screenshot_2026-09-01_174028_2026_09_01_17_43_39.jpg"
     }
   ]
 }
