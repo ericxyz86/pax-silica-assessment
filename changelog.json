@@ -15,6 +15,15 @@
     {
       "date": "2026-09-10",
       "type": "addition",
+      "site_version": "1.92",
+      "assessment_version": "2.51",
+      "title": "A dated signing-readiness page is published, and a daily countdown to the November target begins",
+      "commits": [],
+      "summary": "A new page, /signing-readiness.html, publishes a dated (10 September 2026) monitor-lane report: the countdown to BCDA's qualified November 2026 signing target (counted to both bounds of the target month, since no located source names a day), the verified status of the seven preconditions (0 of 7 met) and the sixteen-gate checklist (2 of 16 closed, both concerning events that predate this assessment's publication), the change-log record between v2.8 and v2.51, and a comparison of the verified record with the §23.3 decision rule. The page is an explicitly dated snapshot: the assessment and its daily-verified panels are canonical and prevail if the two ever differ, and only the day counts on the page update live. The draft was put through the adversarial gate (Codex CLI, gpt-5.6-sol) under refute-default and was refused eight times before clearing on the ninth pass; the published wording is substantially the gate's — among its strikes were every categorical absence claim (rewritten as 'not located as of 10 September 2026'), every prediction, an unearned 'signing window' framing, and a page-authored T-45 milestone now labelled as a page-defined arithmetic marker with no status under the assessment. No finding, Key Judgment, confidence level, scenario weight, precondition or red line moves with this publication."
+    },
+    {
+      "date": "2026-09-10",
+      "type": "addition",
       "site_version": "1.91",
       "assessment_version": "2.51",
       "title": "A Pax Silica signatory had already signed the competing framework's establishing agreement, a month before the warning letter was reported",
