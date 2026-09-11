@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Protestors, cops clash over Pax Silica outside Marcos event",
+      "source": "GMA News Online",
+      "date": "2026-09-10",
+      "url": "https://www.gmanetwork.com/news/topstories/metro/1001957/protestors-cops-clash-over-pax-silica-outside-marcos-event/story/",
+      "image": "https://images.gmanews.tv/webpics/2026/09/rally_2026_09_10_21_39_14.jpg"
+    },
+    {
       "title": "Pax Silica to boost Manila’s tech value chain, says DFA",
       "source": "BusinessWorld",
       "date": "2026-09-09",
@@ -63,13 +70,6 @@
       "date": "2026-09-03",
       "url": "https://www.gmanetwork.com/news/money/economy/1001023/no-conversion-applications-yet-related-to-pax-silica-hub-dar/story/",
       "image": "https://images.gmanews.tv/webpics/2026/09/dar_usec_napoleon_galit_2026_09_03_17_25_01.jpg"
-    },
-    {
-      "title": "Trump Administration Launches Foundry School to Build the Workforce Behind America’s Manufacturing Comeback",
-      "source": "U.S. Department of State",
-      "date": "2026-09-03",
-      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/trump-administration-launches-foundry-school-to-build-the-workforcebehind-americas-manufacturing-comeback",
-      "image": "https://www.state.gov/wp-content/uploads/2025/01/Press_Release_Alabaster.png"
     }
   ]
 }
