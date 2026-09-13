@@ -2,6 +2,34 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Police defend Pax Silica protest handling",
+      "source": "Daily Tribune",
+      "date": "2026-09-11",
+      "url": "https://tribune.net.ph/2026/09/11/police-defend-pax-silica-protest-handling",
+      "image": "https://images.assettype.com/tribune/2026-09-11/evpm85dk/ARTCARDS-NIGHT-SHIFT-9.png?w=1200&auto=format"
+    },
+    {
+      "title": "Palace to Pax Silica protesters: Dialogue, not violence",
+      "source": "Politiko",
+      "date": "2026-09-11",
+      "url": "https://politiko.com.ph/2026/09/11/palace-to-pax-silica-protesters-dialogue-not-violence/daily-feed",
+      "image": "https://politiko.com.ph/wp-content/uploads/2026/09/claire-pax.jpg"
+    },
+    {
+      "title": "Church group seeks national dialogue on Pax Silica project",
+      "source": "Daily Tribune",
+      "date": "2026-09-11",
+      "url": "https://tribune.net.ph/2026/09/11/church-group-seeks-national-dialogue-on-pax-silica-project",
+      "image": "https://images.assettype.com/tribune/2026-08-14/fojql6tv/bbmpax.png?w=1200&auto=format"
+    },
+    {
+      "title": "Groups hold anti-Pax Silica protest in Angeles City",
+      "source": "Philippine Daily Inquirer",
+      "date": "2026-09-11",
+      "url": "https://newsinfo.inquirer.net/2303644/groups-hold-anti-pax-silica-protest-in-angeles-city",
+      "image": "https://newsinfo.inquirer.net/files/2026/09/groups-hold-anti-Pax-Silica-protest-in-Angeles-City-11September2026.jpg"
+    },
+    {
       "title": "Protestors, cops clash over Pax Silica outside Marcos event",
       "source": "GMA News Online",
       "date": "2026-09-10",
@@ -42,34 +70,6 @@
       "date": "2026-09-07",
       "url": "https://portcalls.com/bcda-tarlac-govt-consult-stakeholders-on-clark-advanced-manufacturing-park",
       "image": "https://portcalls.com/wp-content/uploads/2026/09/BCDA-Tarlac-Stakeholders-CAMP_1.jpg"
-    },
-    {
-      "title": "Makati Business Club backs Pax Silica project",
-      "source": "The Manila Times",
-      "date": "2026-09-07",
-      "url": "https://www.manilatimes.net/2026/09/07/business/top-business/makati-business-club-backs-pax-silica-project/2419484",
-      "image": "https://manilatimes.net/manilatimes/uploads/images/2026/09/07/1205219.png"
-    },
-    {
-      "title": "Filipino artists turn gallery into protest site against proposed Pax Silica initiative",
-      "source": "ABS-CBN News",
-      "date": "2026-09-06",
-      "url": "https://www.abs-cbn.com/lifestyle/people-culture-events/2026/9/6/filipino-artists-turn-gallery-into-protest-site-against-proposed-pax-silica-initiative-2353",
-      "image": "https://od2-image-api.abs-cbn.com/prod/20260906160952/ea4fcf54242761358ff3863a546e6a195a772992332055b749757043050d14f2.jpg?w=1200&h=800"
-    },
-    {
-      "title": "Gov’t holding census in areas Pax Silica hub may affect",
-      "source": "Philippine Daily Inquirer",
-      "date": "2026-09-05",
-      "url": "https://newsinfo.inquirer.net/2299337/govt-holding-census-in-areas-pax-silica-hub-may-affect",
-      "image": "https://newsinfo.inquirer.net/files/2026/09/tarlac-pax-silica.jpg"
-    },
-    {
-      "title": "No conversion applications yet related to Pax Silica hub —DAR",
-      "source": "GMA News Online",
-      "date": "2026-09-03",
-      "url": "https://www.gmanetwork.com/news/money/economy/1001023/no-conversion-applications-yet-related-to-pax-silica-hub-dar/story/",
-      "image": "https://images.gmanews.tv/webpics/2026/09/dar_usec_napoleon_galit_2026_09_03_17_25_01.jpg"
     }
   ]
 }

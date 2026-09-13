@@ -1,7 +1,7 @@
 {
   "basis": {
     "kind": "sample10",
-    "note": "A stated 10% sample of global public mentions, reposts included, 6 December 2025 to 27 July 2026, relabelled by the same software that labels the current data. Volumes are sample counts and are not comparable with the near-complete collection that starts 7 August 2026; shares are."
+    "note": "Source corpus: 6 December 2025 to 27 July 2026; plotted subset: 1 January to 27 July 2026. The original export is documented as reshare-filtered, while a later exhibit note says repost-inclusive; that provenance discrepancy is unresolved here. Relabelling harmonises labels, not populations. Counts, shares and net sentiment are not like-for-like with the later collection."
   },
   "generatedAt": "2026-08-18T10:46:08.994Z",
   "schemaVersion": "pax-social-history-public-v1",
