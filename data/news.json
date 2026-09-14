@@ -2,6 +2,27 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Sinag to govt: Make sure Pax Silica doesn’t hurt agri",
+      "source": "BusinessMirror",
+      "date": "2026-09-14",
+      "url": "https://businessmirror.com.ph/2026/09/14/sinag-to-govt-make-sure-pax-silica-doesnt-hurt-agri/",
+      "image": ""
+    },
+    {
+      "title": "Iloilo youth groups reject Pax Silica, foreign-led initiatives",
+      "source": "Daily Guardian",
+      "date": "2026-09-14",
+      "url": "https://www.dailyguardian.com.ph/blog/iloilo-youth-groups-reject-pax-silica-foreign-led-initiatives",
+      "image": "https://old.dailyguardian.com.ph/wp-content/uploads/2026/09/Iloilo-youth-groups-reject-Pax-Silica-foreign-led-initiatives.jpg"
+    },
+    {
+      "title": "Pax Silica details remain ‘work in progress’",
+      "source": "Daily Tribune",
+      "date": "2026-09-13",
+      "url": "https://tribune.net.ph/2026/09/13/pax-silica-details-remain-work-in-progress",
+      "image": "https://images.assettype.com/tribune/2026-09-13/l90cof6l/0-02-06-c1d182ae3f4da3e22b7c13356336ea8b46697f2d2cd8ac66281316b572694bee224b271bbcc.jpg?w=1200&auto=format"
+    },
+    {
       "title": "Police defend Pax Silica protest handling",
       "source": "Daily Tribune",
       "date": "2026-09-11",
@@ -49,27 +70,6 @@
       "date": "2026-09-09",
       "url": "https://www.straitstimes.com/singapore/politics/singapore-considering-invitation-to-join-china-led-ai-bloc",
       "image": "https://cassette.sphdigital.com.sg/image/straitstimes/20cc068ccb224f56ebde4a3ad9c3ac98a729a0d3c36dd7f0d25ce4dc724ff2b4"
-    },
-    {
-      "title": "PH sets $34-B plan to catch up in AI race",
-      "source": "Philippine Daily Inquirer",
-      "date": "2026-09-09",
-      "url": "https://business.inquirer.net/609950/ph-sets-34-b-plan-to-catch-up-in-ai-race",
-      "image": "https://business.inquirer.net/files/2026/09/artificial-intelligence-AI-9september2026.jpg"
-    },
-    {
-      "title": "Senate Committee of the Whole to tackle Pax Silica issue",
-      "source": "GMA News Online",
-      "date": "2026-09-08",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1001669/senate-committee-of-the-whole-to-tackle-pax-silica-issue/story/",
-      "image": "https://images.gmanews.tv/webpics/2025/10/IMG_9232_2025_10_10_11_09_11.jpg"
-    },
-    {
-      "title": "BCDA, Tarlac gov’t consult stakeholders on Clark Advanced Manufacturing Park",
-      "source": "PortCalls Asia",
-      "date": "2026-09-07",
-      "url": "https://portcalls.com/bcda-tarlac-govt-consult-stakeholders-on-clark-advanced-manufacturing-park",
-      "image": "https://portcalls.com/wp-content/uploads/2026/09/BCDA-Tarlac-Stakeholders-CAMP_1.jpg"
     }
   ]
 }
