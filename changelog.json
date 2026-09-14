@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-09-14",
+      "type": "update",
+      "title": "A reported release on bail, two press-conference remarks that Pax Silica details were still under deliberation, an Iloilo City protest and an agriculture group’s conditions are added, each with the limits of its sourcing",
+      "site_version": "1.97",
+      "assessment_version": "2.54",
+      "commits": [],
+      "summary": "Philstar reported on 14 September, attributing its account to Karapatan, that the five people arrested at the 10 September protest each posted ₱60,000 bail on 12 September and were released. No court, judicial approval, bail receipt, release order or official confirmation was located, so this remains an advocacy organisation’s account carried by one outlet, and posting bail establishes neither an offence nor a court filing. The report’s 13 September statements that no second carrier had been found and that no retrieved record established that bail was posted are dated and recorded as superseded rather than silently replaced. Philstar’s roster agrees with TV5’s Karapatan-attributed list, which narrows but does not resolve the roster discrepancy. Daily Tribune reported Finance Undersecretary Angela Ignacio calling Pax Silica “a work in progress” and Ambassador Heather Variava calling it “an agreement that’s under deliberation” at the forum’s 10 September press conference; both quotations are single-carrier, neither identifies the unfinished instrument, and neither moves the November target. An 11 September Iloilo City mobilisation led by the League of Filipino Students–Panay is added; the withdrawn Oton data-centre proposal and the Iloilo governor’s August “Iloilo version” remark are not treated as Pax Silica projects. SINAG executive director Jayson Cainglet’s conditional safeguards are added as BusinessMirror reported them, and SINAG is not counted in the opposition coalition. Two adversarial finding-level gate passes: the first refused three of five amendments, the second cleared all five with no wording change required. Seven sources are registered (T3-76 to T3-82). No Key Judgment, confidence level, scenario weight, precondition, red line, stakeholder coordinate or claim-checker row moves. The “project facts verified to” date advances to 14 September 2026.",
+      "supersedes": "“The underlying certification, complaints, inquest resolution and any court information were not located, and no independent carrier was found.”; “no retrieved record establishes that a complaint was filed against Casiño, that an information was filed in court, that bail was posted, or that any offence occurred (§7).”; “the identity and spelling discrepancies are not resolved here”"
+    },
+    {
       "date": "2026-09-13",
       "type": "correction",
       "title": "Seventeen editorial questions left open by the whole-document corrections are decided; eight sources are verified and registered, and three published figures are corrected",
