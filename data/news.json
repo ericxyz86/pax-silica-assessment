@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "BCDA, DTI to pitch LEC prospects in Japan forum",
+      "source": "BusinessMirror",
+      "date": "2026-09-15",
+      "url": "https://businessmirror.com.ph/2026/09/15/bcda-dti-to-pitch-lec-prospects-in-japan-forum/",
+      "image": ""
+    },
+    {
       "title": "BCDA, U.S. counterpart craft master deal on Pax Silica developments",
       "source": "BusinessMirror",
       "date": "2026-09-14",
@@ -63,13 +70,6 @@
       "date": "2026-09-11",
       "url": "https://newsinfo.inquirer.net/2303644/groups-hold-anti-pax-silica-protest-in-angeles-city",
       "image": "https://newsinfo.inquirer.net/files/2026/09/groups-hold-anti-Pax-Silica-protest-in-Angeles-City-11September2026.jpg"
-    },
-    {
-      "title": "Protestors, cops clash over Pax Silica outside Marcos event",
-      "source": "GMA News Online",
-      "date": "2026-09-10",
-      "url": "https://www.gmanetwork.com/news/topstories/metro/1001957/protestors-cops-clash-over-pax-silica-outside-marcos-event/story/",
-      "image": "https://images.gmanews.tv/webpics/2026/09/rally_2026_09_10_21_39_14.jpg"
     }
   ]
 }
