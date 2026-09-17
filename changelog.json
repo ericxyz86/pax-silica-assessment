@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-09-17",
+      "type": "correction",
+      "title": "A quotation from the BCDA letter is corrected: a row of its lease table had been placed inside one pair of quotation marks, joined by punctuation the letter does not contain",
+      "site_version": "1.100",
+      "assessment_version": "2.57",
+      "commits": [],
+      "summary": "The claim checker’s entry on the two-year rent-free grace period quoted the BCDA proposal letter of 9 April 2026 as a single phrase. In the letter those words are two separate cells of a lease table — the Lease Period, “Years 1-2 (Grace Period)”, and the Annual Lease Rate, “In-kind Contribution of the Philippines” — and the comma joining them on this page was ours. The entry’s source line joined the same two cells with a colon, and the full report’s claim matrix has joined them with a dash since v2.1. All three are withdrawn as quotations. The entry now quotes the two cells separately, with their column names, and quotes whole the letter’s own sentence on the point. The finding does not change: the letter offers a two-year grace period on lease payments as the Philippines’ in-kind contribution, and the claim remains verified. The defect was found on 17 September 2026 by a deterministic check that every quoted span occurs in the document it is attributed to. The replacement wording was refused once by the adversarial gate — for describing the table loosely and for truncating the sentence — and cleared on the second round; the published wording is the gate’s. No Key Judgment, confidence level, scenario weight or precondition moves.",
+      "supersedes": "“Years 1–2 (Grace Period), In-kind Contribution of the Philippines.”; “Years 1–2 (Grace Period): In-kind Contribution of the Philippines”; “Years 1-2 (Grace Period) — In-kind Contribution of the Philippines”"
+    },
+    {
+      "date": "2026-09-17",
       "type": "addition",
       "title": "A Pampanga Catholic school’s 25 July 2026 call for transparency and a conditional moratorium is added, seven weeks late, as a correction of a coverage omission",
       "site_version": "1.99",
