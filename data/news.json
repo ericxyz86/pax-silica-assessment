@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "BCDA, Standard Chartered to study Clark Freeport, New Clark City projects",
+      "source": "GMA News Online",
+      "date": "2026-09-16",
+      "url": "https://www.gmanetwork.com/news/money/companies/1002550/bcda-standard-chartered-to-study-clark-freeport-new-clark-city-projects/story",
+      "image": "https://images.gmanews.tv/webpics/2026/09/bcda_sc_(2)_2026_09_16_11_21_00.jpg"
+    },
+    {
       "title": "BCDA, DTI to pitch LEC prospects in Japan forum",
       "source": "BusinessMirror",
       "date": "2026-09-15",
@@ -63,13 +70,6 @@
       "date": "2026-09-11",
       "url": "https://tribune.net.ph/2026/09/11/church-group-seeks-national-dialogue-on-pax-silica-project",
       "image": "https://images.assettype.com/tribune/2026-08-14/fojql6tv/bbmpax.png?w=1200&auto=format"
-    },
-    {
-      "title": "Groups hold anti-Pax Silica protest in Angeles City",
-      "source": "Philippine Daily Inquirer",
-      "date": "2026-09-11",
-      "url": "https://newsinfo.inquirer.net/2303644/groups-hold-anti-pax-silica-protest-in-angeles-city",
-      "image": "https://newsinfo.inquirer.net/files/2026/09/groups-hold-anti-Pax-Silica-protest-in-Angeles-City-11September2026.jpg"
     }
   ]
 }

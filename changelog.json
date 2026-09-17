@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-09-17",
+      "type": "addition",
+      "title": "A Pampanga Catholic school’s 25 July 2026 call for transparency and a conditional moratorium is added, seven weeks late, as a correction of a coverage omission",
+      "site_version": "1.99",
+      "assessment_version": "2.56",
+      "commits": [],
+      "summary": "The Philippine Daily Inquirer reported on 27 July 2026 that St Scholastica’s Academy in the City of San Fernando, Pampanga — a Catholic Benedictine school run by Missionary Benedictine Sisters — issued a statement on Saturday 25 July which, while recognising the project’s potential to spur economic growth, sought greater transparency and a temporary halt, appealing for a moratorium on implementation until environmental, social and governance concerns are adequately addressed, and for independent scientific assessments of projected water and energy consumption. Its stated ground was that no publicly available comprehensive Environmental Impact Assessment, no complete disclosure of long-term water and energy requirements and no full accounting of effects on host communities and neighbouring provinces including Pampanga had been published. This report did not carry it. The item reached the monitor on 16 September only through an aggregator’s republication, and its body was unreadable that day; it was retrieved in full on 17 September through the browser lane, gated, and applied. It is recorded as a correction of a coverage omission, not as a new development. The timeline, the environmental and social section and the stakeholder analysis record it with the limits of its sourcing: no primary copy of the statement and no independent carrier was located, so its date, contents and quotations rest on one Tier-3 report, and 25 July is the article’s “On Saturday” read against a Monday publication. It is a school’s institutional statement, not a diocesan or bishops’-conference position, and it is not counted in the opposition coalition. Pampanga is a neighbouring, not the host, province, and no claim is made that this was the first institutional position from Pampanga. One adversarial finding-level gate pass returned UNREFUTED-WITH-CAVEATS with ten caveats, every one honoured; asked directly, it held that nothing here justifies moving a Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict, and the plotted stakeholder coordinates do not move. One source is registered (T3-90). The “project facts verified to” date advances to 17 September 2026."
+    },
+    {
       "date": "2026-09-15",
       "type": "correction",
       "title": "A reported description of the November instrument as a BCDA master agreement with an unnamed US counterpart is added, and passages describing the signing as the two governments’ own, and the site as settled “state land”, are corrected",
