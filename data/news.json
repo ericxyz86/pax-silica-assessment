@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Lawmaker says Pax Silica is ‘advanced planning’ for chip sourcing",
+      "source": "ABS-CBN News",
+      "date": "2026-09-17",
+      "url": "https://news.abs-cbn.com/news/business/2026/9/17/lawmaker-says-pax-silica-is-advanced-planning-for-chip-sourcing-2202",
+      "image": "https://od2-image-api.abs-cbn.com/prod/20260917140952/55d7d7b7ac9353998efd53c9ac7e230560de18f0d85d16f0db8b81d506771191.jpg?w=1200&h=800"
+    },
+    {
+      "title": "Dhaka reviews US-led Pax Silica initiative",
+      "source": "New Age",
+      "date": "2026-09-17",
+      "url": "https://www.newagebd.net/post/foreign-affairs/314147/dhaka-reviews-us-led-pax-silica-initiative",
+      "image": "https://outspoken.newagebd.com/files/img/202609/3a058bf867e71a246099fe0da4397d8f_og.jpg"
+    },
+    {
       "title": "BCDA, Standard Chartered to study Clark Freeport, New Clark City projects",
       "source": "GMA News Online",
       "date": "2026-09-16",
@@ -56,20 +70,6 @@
       "date": "2026-09-11",
       "url": "https://tribune.net.ph/2026/09/11/police-defend-pax-silica-protest-handling",
       "image": "https://images.assettype.com/tribune/2026-09-11/evpm85dk/ARTCARDS-NIGHT-SHIFT-9.png?w=1200&auto=format"
-    },
-    {
-      "title": "Palace to Pax Silica protesters: Dialogue, not violence",
-      "source": "Politiko",
-      "date": "2026-09-11",
-      "url": "https://politiko.com.ph/2026/09/11/palace-to-pax-silica-protesters-dialogue-not-violence/daily-feed",
-      "image": "https://politiko.com.ph/wp-content/uploads/2026/09/claire-pax.jpg"
-    },
-    {
-      "title": "Church group seeks national dialogue on Pax Silica project",
-      "source": "Daily Tribune",
-      "date": "2026-09-11",
-      "url": "https://tribune.net.ph/2026/09/11/church-group-seeks-national-dialogue-on-pax-silica-project",
-      "image": "https://images.assettype.com/tribune/2026-08-14/fojql6tv/bbmpax.png?w=1200&auto=format"
     }
   ]
 }
