@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-09-18",
+      "type": "correction",
+      "title": "Automated remediation corrects 3 recorded findings",
+      "site_version": "1.11",
+      "assessment_version": "2.59",
+      "commits": [],
+      "summary": "The remediation lane corrected 3 recorded findings; each correction was agreed by an independent OpenAI review. Rdf2dad02-B04: Public-record limitation becomes an unsupported universal claim about government capability — Narrows a public-record limitation that had become a universal claim about government capability.. Rdf2dad02-B05: Current assessment still describes nine months of activity as seven months — Launch was December 2025 and the listed Foundry School deliverable launched September 2026.; Same elapsed-period correction on the site's SECTIONS data.. Rdf2dad02-B06: A reported summit-linked target is converted into a universal claim about motive — Narrows a universal claim about motive to what the record supports..",
+      "supersedes": "“unassessable by anyone, including the government.”; reason currently operating."
+    },
+    {
+      "date": "2026-09-18",
       "type": "addition",
       "title": "The legislature returns to the water question, and BCDA’s own documents put deep wells inside New Clark City’s supply history",
       "site_version": "1.101",
