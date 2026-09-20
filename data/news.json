@@ -2,6 +2,34 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Philippine tribe in limbo over US-led tech hub",
+      "source": "France 24 / AFP",
+      "date": "2026-09-20",
+      "url": "https://www.france24.com/en/live-news/20260920-philippine-tribe-in-limbo-over-us-led-tech-hub",
+      "image": "https://s.france24.com/media/display/99f8a93a-e6c1-11ee-9116-005056bf30b7/w:1280/p:16x9/img-default-F24.jpg"
+    },
+    {
+      "title": "House defers BCDA budget deliberation over Pax Silica, Clark IP concerns",
+      "source": "Manila Bulletin",
+      "date": "2026-09-19",
+      "url": "https://mb.com.ph/2026/09/19/house-defers-bcda-budget-deliberation-over-pax-silica-clark-ip-concerns",
+      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/09/19/132735.webp"
+    },
+    {
+      "title": "House panel scrutinizes BCDA’s P1.98-B budget for 2027, questions Pax Silica project",
+      "source": "ABS-CBN News",
+      "date": "2026-09-19",
+      "url": "https://www.abs-cbn.com/news/nation/2026/9/19/house-panel-scrutinizes-bcda-s-p1-98-b-budget-for-2027-questions-pax-silica-project-0940",
+      "image": "https://od2-image-api.abs-cbn.com/prod/2026091902090/1c074c462cb328f4da15c4daf469c884c38eb1b6f96cdda8a0dc0b3f72f7f152.jpg?w=1200&h=800"
+    },
+    {
+      "title": "UP students stage walkout over 2027 budget cuts, Pax Silica",
+      "source": "GMA News Online",
+      "date": "2026-09-19",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1002911/up-students-stage-walkout-over-2027-budget-cuts-pax-silica/story",
+      "image": "https://images.gmanews.tv/webpics/2026/09/Screenshot_(1379)_2026_09_19_05_10_41.jpg"
+    },
+    {
       "title": "UP Diliman body condemns ‘violent dispersal’ at rally vs Pax Silica",
       "source": "INQUIRER.net",
       "date": "2026-09-18",
@@ -42,34 +70,6 @@
       "date": "2026-09-15",
       "url": "https://businessmirror.com.ph/2026/09/15/bcda-dti-to-pitch-lec-prospects-in-japan-forum/",
       "image": ""
-    },
-    {
-      "title": "BCDA, U.S. counterpart craft master deal on Pax Silica developments",
-      "source": "BusinessMirror",
-      "date": "2026-09-14",
-      "url": "https://businessmirror.com.ph/2026/09/14/bcda-u-s-counterpart-craft-master-deal-on-pax-silica-developments/",
-      "image": ""
-    },
-    {
-      "title": "Pax Silica backers urged to tap alternative energy, water sources",
-      "source": "BusinessWorld",
-      "date": "2026-09-14",
-      "url": "https://bworldonline.com/economy/2026/09/14/777156/pax-silica-backers-urged-to-tap-alternative-energy-water-sources/",
-      "image": "https://bworldonline.com/wp-content/uploads/2026/05/New-Clark-City-philstar.jpg"
-    },
-    {
-      "title": "Sinag to govt: Make sure Pax Silica doesn’t hurt agri",
-      "source": "BusinessMirror",
-      "date": "2026-09-14",
-      "url": "https://businessmirror.com.ph/2026/09/14/sinag-to-govt-make-sure-pax-silica-doesnt-hurt-agri/",
-      "image": ""
-    },
-    {
-      "title": "Iloilo youth groups reject Pax Silica, foreign-led initiatives",
-      "source": "Daily Guardian",
-      "date": "2026-09-14",
-      "url": "https://www.dailyguardian.com.ph/blog/iloilo-youth-groups-reject-pax-silica-foreign-led-initiatives",
-      "image": "https://old.dailyguardian.com.ph/wp-content/uploads/2026/09/Iloilo-youth-groups-reject-Pax-Silica-foreign-led-initiatives.jpg"
     }
   ]
 }
