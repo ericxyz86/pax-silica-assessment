@@ -2,6 +2,34 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Residents say Philippines’ Pax Silica Hub will force them off their ancestral land",
+      "source": "Radio Free Asia",
+      "date": "2026-09-22",
+      "url": "https://www.rfa.org/english/southchinasea/2026/09/22/aeta-philippines-pax-silica-tech-hub/",
+      "image": "https://www.rfa.org/resizer/v2/UGQKVOJKQNGFRHLSYP7DHN67ZQ.jpg?smart=true&auth=13e894348600af0b8b693e02a30b86a4dffbe79d489c7fb0d0b849661f0c523c&width=1200&height=630"
+    },
+    {
+      "title": "Pax Silica faces calls for safeguards on water, Indigenous land rights in Philippines",
+      "source": "LiCAS.news",
+      "date": "2026-09-22",
+      "url": "https://www.licas.news/2026/09/22/pax-silica-faces-calls-for-safeguards-on-water-indigenous-land-rights-in-philippines/",
+      "image": "https://www.licas.news/wp-content/uploads/2026/09/20260922_CEED-Alminaza-jbmaulas-015822-scaled.jpg"
+    },
+    {
+      "title": "Cagayan de Oro multi-stakeholder dialogue tackles Pax Silica",
+      "source": "Philippine Daily Inquirer",
+      "date": "2026-09-22",
+      "url": "https://newsinfo.inquirer.net/2309823/cagayan-de-oro-multi-stakeholder-dialogue-tackles-pax-silica",
+      "image": "https://newsinfo.inquirer.net/files/2026/09/Cagayan-de-Oro-Pax-Silica-22September2026.jpg"
+    },
+    {
+      "title": "News in pictures | US-wide campaign against Pax Silica launched",
+      "source": "Bulatlat",
+      "date": "2026-09-22",
+      "url": "https://www.bulatlat.com/2026/09/22/news-in-pictures-us-wide-campaign-against-pax-silica-launched/",
+      "image": "https://www.bulatlat.com/wp-content/uploads/2026/09/84.jpg"
+    },
+    {
       "title": "Gov’t to woo Apple, Nvidia, many other tech titans for Pax Silica",
       "source": "Philippine Daily Inquirer",
       "date": "2026-09-22",
@@ -42,34 +70,6 @@
       "date": "2026-09-21",
       "url": "https://www.philstar.com/nation/2026/09/21/2557668/makabayanbloc-claims-victory-over-bcda-budget-deferment",
       "image": "https://media.philstar.com/images/filler/nation-logo-filler-thumbnail.jpg"
-    },
-    {
-      "title": "Philippine tribe in limbo over US-led tech hub",
-      "source": "France 24 / AFP",
-      "date": "2026-09-20",
-      "url": "https://www.france24.com/en/live-news/20260920-philippine-tribe-in-limbo-over-us-led-tech-hub",
-      "image": "https://s.france24.com/media/display/99f8a93a-e6c1-11ee-9116-005056bf30b7/w:1280/p:16x9/img-default-F24.jpg"
-    },
-    {
-      "title": "House defers BCDA budget deliberation over Pax Silica, Clark IP concerns",
-      "source": "Manila Bulletin",
-      "date": "2026-09-19",
-      "url": "https://mb.com.ph/2026/09/19/house-defers-bcda-budget-deliberation-over-pax-silica-clark-ip-concerns",
-      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/09/19/132735.webp"
-    },
-    {
-      "title": "House panel scrutinizes BCDA’s P1.98-B budget for 2027, questions Pax Silica project",
-      "source": "ABS-CBN News",
-      "date": "2026-09-19",
-      "url": "https://www.abs-cbn.com/news/nation/2026/9/19/house-panel-scrutinizes-bcda-s-p1-98-b-budget-for-2027-questions-pax-silica-project-0940",
-      "image": "https://od2-image-api.abs-cbn.com/prod/2026091902090/1c074c462cb328f4da15c4daf469c884c38eb1b6f96cdda8a0dc0b3f72f7f152.jpg?w=1200&h=800"
-    },
-    {
-      "title": "UP students stage walkout over 2027 budget cuts, Pax Silica",
-      "source": "GMA News Online",
-      "date": "2026-09-19",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1002911/up-students-stage-walkout-over-2027-budget-cuts-pax-silica/story",
-      "image": "https://images.gmanews.tv/webpics/2026/09/Screenshot_(1379)_2026_09_19_05_10_41.jpg"
     }
   ]
 }
