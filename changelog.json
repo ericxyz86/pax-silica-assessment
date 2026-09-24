@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-09-24",
+      "type": "correction",
+      "title": "Automated remediation corrects 2 recorded findings",
+      "site_version": "1.17",
+      "assessment_version": "2.65",
+      "commits": [],
+      "summary": "The remediation lane corrected 2 recorded findings; each correction was agreed by an independent OpenAI review. R73ee32e2-B04: The report contradicts itself on whether environmental assessment is confined to individual locators — Removes the categorical deferral claim that contradicted §14.6's own statement that the further-assessment question is EMB's to determine.. R73ee32e2-B07: A conditional electricity-consumer risk is stated as an outcome — States the consumer-cost risk as conditional, not as an outcome.; Same conditionality in the §26 summary of risks; KJ-14 is left unchanged as a structured risk hypothesis..",
+      "supersedes": "“project-level assessment is deferred to individual locators, which fragments a zone-scale question — cumulative water, power, waste and airshed load —”; “fails, the cost falls on all Luzon electricity consumers through higher spot prices, tighter reserve margins and more frequent alerts — not”"
+    },
+    {
+      "date": "2026-09-24",
       "type": "addition",
       "title": "A relocation distance was sitting unread inside a dispatch the report already carried",
       "site_version": "1.16",
