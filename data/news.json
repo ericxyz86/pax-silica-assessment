@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Planned US tech hub in Philippines hit over environmental and Indigenous land concerns",
+      "source": "Mongabay",
+      "date": "2026-09-23",
+      "url": "https://news.mongabay.com/2026/09/planned-us-tech-hub-in-philippines-hit-over-environmental-and-indigenous-land-concerns",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/23152143/Protest-at-grand-hyatt-and-clashes-with-police-21-of-25-1200x800.jpg"
+    },
+    {
+      "title": "Rep. Fuentebella: Pax Silica hindi kukuha ng kuryente sa Luzon Grid",
+      "source": "Abante",
+      "date": "2026-09-23",
+      "url": "https://tnt.abante.com.ph/2026/09/23/rep-fuentebella-pax-silica-hindi-kukuha-ng-kuryente-sa-luzon-grid/news",
+      "image": "https://tnt.abante.com.ph/wp-content/uploads/2026/09/Arnie-Buquid-Fuentebella.jpg"
+    },
+    {
       "title": "Residents say Philippines’ Pax Silica Hub will force them off their ancestral land",
       "source": "Radio Free Asia",
       "date": "2026-09-22",
@@ -56,20 +70,6 @@
       "date": "2026-09-21",
       "url": "https://malaya.com.ph/business/business-news/filipino-engineers-set-to-train-in-taiwan-pax-silica-gains-traction-as-november-pact-nears",
       "image": "https://malaya.com.ph/wp-content/uploads/2026/09/Page-1-photo-13.jpg"
-    },
-    {
-      "title": "BCDA turns to unsolicited proposals for ₱2.5-billion New Clark City ICT project",
-      "source": "Manila Bulletin",
-      "date": "2026-09-21",
-      "url": "https://mb.com.ph/2026/09/21/bcda-turns-to-unsolicited-proposals-for-25-billion-new-clark-city-ict-project",
-      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/09/20/132606.webp"
-    },
-    {
-      "title": "Makabayan bloc claims victory over BCDA budget deferment",
-      "source": "The Philippine Star",
-      "date": "2026-09-21",
-      "url": "https://www.philstar.com/nation/2026/09/21/2557668/makabayanbloc-claims-victory-over-bcda-budget-deferment",
-      "image": "https://media.philstar.com/images/filler/nation-logo-filler-thumbnail.jpg"
     }
   ]
 }
