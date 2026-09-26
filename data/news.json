@@ -2,6 +2,27 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "PH seeks economic strength, resilience",
+      "source": "The Manila Times",
+      "date": "2026-09-26",
+      "url": "https://www.manilatimes.net/2026/09/26/news/national/ph-seeks-economic-strength-resilience/2433186",
+      "image": "https://manilatimes.net/manilatimes/uploads/images/2026/09/25/1233981.jpg"
+    },
+    {
+      "title": "Misri’s talks in NYC focus on critical minerals, Pax Silica with Helberg, Russia Sanctions Bill, Energy Security with Hooker",
+      "source": "ANI",
+      "date": "2026-09-25",
+      "url": "https://www.aninews.in/news/world/us/misri8217s-talks-in-nyc-focus-on-critical-minerals-pax-silica-with-helberg-russia-sanctions-bill-energy-security-with-hooker20260925090853",
+      "image": "https://d3lzcn6mbbadaf.cloudfront.net/media/details/__sized__/ANI-20260925033839-thumbnail-320x180-70.jpg"
+    },
+    {
+      "title": "Pax Silica raises fears over displacement, water, power, and mining in Philippines",
+      "source": "LiCAS.news",
+      "date": "2026-09-25",
+      "url": "https://philippines.licas.news/2026/09/25/pax-silica-raises-fears-over-displacement-water-power-and-mining-in-philippines",
+      "image": "https://philippines.licas.news/wp-content/uploads/2026/08/AFP__20260813__C4JM89E__v1__HighRes__PhilippinesPoliticsProtest-scaled.jpg"
+    },
+    {
       "title": "Planned US tech hub in Philippines hit over environmental and Indigenous land concerns",
       "source": "Mongabay",
       "date": "2026-09-23",
@@ -49,27 +70,6 @@
       "date": "2026-09-22",
       "url": "https://business.inquirer.net/612179/govt-to-woo-apple-nvidia-many-other-tech-titans-for-pax-silica",
       "image": "https://business.inquirer.net/files/2026/09/Joshua-Bingcang-21September2026.jpg"
-    },
-    {
-      "title": "Pax Silica agreement to include clause affirming PH sovereignty",
-      "source": "GMA News Online",
-      "date": "2026-09-21",
-      "url": "https://www.gmanetwork.com/news/money/economy/1003144/pax-silica-agreement-to-include-clause-affirming-ph-sovereignty/story",
-      "image": "https://images.gmanews.tv/webpics/2026/09/e44dfd2c-cc84-4093-968c-dd7f0f87ddc0_2026_09_21_16_33_32.jpg"
-    },
-    {
-      "title": "DTI says some investors wary amid Pax Silica backlash but vows project will push through",
-      "source": "ABS-CBN News",
-      "date": "2026-09-21",
-      "url": "https://www.abs-cbn.com/news/business/2026/9/21/some-investors-wary-amid-pax-silica-backlash-but-project-will-push-through-dti-1825",
-      "image": "https://od2-image-api.abs-cbn.com/prod/20260921110924/1370977f9ceb68d7ec9dfa70e0ab7019c7b1224f7c0618d943daafe92efa4f8d.png?w=1200&h=800"
-    },
-    {
-      "title": "Filipino engineers set to train in Taiwan: Pax Silica gains traction as November pact nears",
-      "source": "Malaya Business Insight",
-      "date": "2026-09-21",
-      "url": "https://malaya.com.ph/business/business-news/filipino-engineers-set-to-train-in-taiwan-pax-silica-gains-traction-as-november-pact-nears",
-      "image": "https://malaya.com.ph/wp-content/uploads/2026/09/Page-1-photo-13.jpg"
     }
   ]
 }
