@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-09-27",
+      "type": "correction",
+      "title": "Automated remediation corrects 3 recorded findings",
+      "site_version": "1.18",
+      "assessment_version": "2.66",
+      "commits": [],
+      "summary": "The remediation lane corrected 3 recorded findings; each correction was agreed by an independent OpenAI review. Findings corrected: The v2.61 portal and ICT-procurement evidence is mis-tiered and omitted from the public section routes that rely on it; Power summaries turn phase-dependent timing and cost risks into settled outcomes; The public calculator says no energy plan of any kind exists despite two published generation concepts.",
+      "supersedes": "this means the power question cannot be resolved on the project's stated timeline unless firm capacity is; costs socialised to Luzon consumers; Set against BCDA’s Q1 2028 site-development target, none of these timelines fit.; “is a feasibility study, not a committed plan, and no energy plan of any kind has been published.”"
+    },
+    {
       "date": "2026-09-24",
       "type": "correction",
       "title": "Automated remediation corrects 2 recorded findings",
