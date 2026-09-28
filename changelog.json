@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-09-28",
+      "type": "correction",
+      "title": "Automated remediation corrects 1 recorded finding",
+      "site_version": "1.19",
+      "assessment_version": "2.67",
+      "commits": [],
+      "summary": "The remediation lane corrected 1 recorded finding; each correction was agreed by an independent OpenAI review. Findings corrected: The public claim checker falsely says every hectare figure is a rounding despite the documented 1,610-hectare exception.",
+      "supersedes": "1,618 / 1,619 / 1,620 ha', by: 'Various', s: 'partial', cat: 'scope', n: 'All are roundings of one US-stated acreage, not an independent Philippine survey.'; “— 1,600; 1,618; 1,619; 1,620; 1,621 — is a rounding of this single conversion.”"
+    },
+    {
       "date": "2026-09-27",
       "type": "correction",
       "title": "Automated remediation corrects 3 recorded findings",
