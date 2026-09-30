@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-09-29",
+      "type": "correction",
+      "title": "The Pax Silica Fund: a primary document corrects this report's classification of the United States' US$250m",
+      "site_version": "1.21",
+      "assessment_version": "2.69",
+      "commits": [],
+      "summary": "A §7 timeline row overstated the legal character of the United States' US$250m, and the primary document that settles it had never been read here. The State Department's Media Note of 26 March 2026 was retrieved and read in full: the Department “intends, working with Congress, to allocate $250 million in foreign assistance funding for a new Pax Silica Fund initiative”. That is an intention to allocate, to be pursued working with Congress — not a budgeted commitment — and the instrument is the Pax Silica Fund, not a “supply-chain consortium investment”. The row is corrected and now cites the primary document; the investor-consortium context the old row drew on is retained, and no separate second US$250m announcement exists. The note neither allocates funds nor names the Philippines, and identifies no Philippine project as a recipient, so it does not narrow the KJ-3 gap between the published BCDA instrument and the industrial project publicly marketed. The finding-level gate (Codex gpt-5.6-sol) returned UNREFUTED-WITH-CAVEATS: it searched for and found no appropriation, obligation or award record for the US$250m as at 26 September 2026; it required “contingent on Congress” be softened to the source's own “working with Congress”; and it established that the Pax Silica AI Assistance Project notice of funding opportunity of 12 August 2026 describes itself as “leveraging foreign assistance from the Pax Fund” while establishing no drawdown relationship, which the row now records and no more. No Key Judgment, confidence level, scenario weight, precondition, red line or count moves. The State Department's signatory roster was re-fetched the same day and independently re-verified as 24 listed entries still omitting the United States, leaving the standing count of 25 unchanged.",
+      "supersedes": "“Mar 2026 | US announces a US$250m supply-chain consortium investment (reported; not independently verified here) | Budgeted commitment (unverified)”"
+    },
+    {
+      "date": "2026-09-29",
       "type": "update",
       "title": "The New Clark City water challenge opens, and BCDA’s own timetable puts the award in February 2027",
       "site_version": "1.20",
@@ -30,16 +40,6 @@
       "commits": [],
       "summary": "The remediation lane corrected 1 recorded finding; each correction was agreed by an independent OpenAI review. Findings corrected: The public claim checker falsely says every hectare figure is a rounding despite the documented 1,610-hectare exception.",
       "supersedes": "1,618 / 1,619 / 1,620 ha', by: 'Various', s: 'partial', cat: 'scope', n: 'All are roundings of one US-stated acreage, not an independent Philippine survey.'; “— 1,600; 1,618; 1,619; 1,620; 1,621 — is a rounding of this single conversion.”"
-    },
-    {
-      "date": "2026-09-27",
-      "type": "correction",
-      "title": "Automated remediation corrects 3 recorded findings",
-      "site_version": "1.18",
-      "assessment_version": "2.66",
-      "commits": [],
-      "summary": "The remediation lane corrected 3 recorded findings; each correction was agreed by an independent OpenAI review. Findings corrected: The v2.61 portal and ICT-procurement evidence is mis-tiered and omitted from the public section routes that rely on it; Power summaries turn phase-dependent timing and cost risks into settled outcomes; The public calculator says no energy plan of any kind exists despite two published generation concepts.",
-      "supersedes": "this means the power question cannot be resolved on the project's stated timeline unless firm capacity is; costs socialised to Luzon consumers; Set against BCDA’s Q1 2028 site-development target, none of these timelines fit.; “is a feasibility study, not a committed plan, and no energy plan of any kind has been published.”"
     },
     {
       "date": "2026-09-24",
