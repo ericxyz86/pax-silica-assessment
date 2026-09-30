@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-01",
+      "type": "update",
+      "title": "The Agriculture Secretary gives a count of affected farmers, and no assessment behind it was located",
+      "site_version": "1.22",
+      "assessment_version": "2.70",
+      "commits": [],
+      "summary": "BusinessMirror reported on 30 September 2026 that Agriculture Secretary Francisco P. Tiu Laurel Jr. “confirmed” that “some 266 farmers tilling 410 hectares will feel the adverse impact of the project’s planned development”, attributing the figures to the DA’s “official assessment” — the assessment he told the House on 1 September was “not yet finished”. §15.2.2 gains it, §7 gains a row, and the site’s section text the §4.1 farmer-count row and the claim-checker notes on the farmer-count and no-displacement claims gain the matching sentence. As of 1 October 2026 no copy of the assessment, no DA release, scope, methodology, reference date or mapped boundary, and no second carrier of the 266 and 410 figures was located. The number is identical to the 266 farmers the Capas mayor attributed to municipal records at the 14 August Senate hearing for a first phase of about 580 hectares; the match does not establish whether the figures share records, are independent counts or cover differently bounded areas, and the 410 hectares is unreconciled with the phase and parcel figures. The account is in direct tension with the Palace’s categorical 3 August assurance that the project “will not affect our farmers”. It counts farmers, not households, and says nothing about the Aeta community. The finding-level gate (Codex gpt-5.6-sol) returned UNREFUTED_WITH_CAVEATS with ten required edits, all applied, including replacing “not published” with a dated non-location, keeping “official assessment” as the newspaper’s framing, replacing an evaluative “low end of the dispute” with a bounded numerical comparison, and disclosing the Palace tension. Asked directly, it found nothing that moves a Key Judgment, confidence level, scenario weight, precondition or red line. The finding that the number of affected households is unknown stands. On the rail, one item published (BusinessMirror)."
+    },
+    {
       "date": "2026-09-29",
       "type": "correction",
       "title": "The Pax Silica Fund: a primary document corrects this report's classification of the United States' US$250m",

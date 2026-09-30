@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "DA: Pax Silica will affect 266 farmers in Tarlac",
+      "source": "BusinessMirror",
+      "date": "2026-09-30",
+      "url": "https://businessmirror.com.ph/2026/09/30/da-pax-silica-will-affect-266-farmers-in-tarlac",
+      "image": "https://businessmirror.com.ph/wp-content/uploads/2024/07/BusinessMirror-KnowMore-2.jpg"
+    },
+    {
       "title": "BCDA opens ₱15-billion New Clark City water deal to Swiss challenge",
       "source": "Manila Bulletin",
       "date": "2026-09-28",
@@ -63,13 +70,6 @@
       "date": "2026-09-22",
       "url": "https://newsinfo.inquirer.net/2309823/cagayan-de-oro-multi-stakeholder-dialogue-tackles-pax-silica",
       "image": "https://newsinfo.inquirer.net/files/2026/09/Cagayan-de-Oro-Pax-Silica-22September2026.jpg"
-    },
-    {
-      "title": "News in pictures | US-wide campaign against Pax Silica launched",
-      "source": "Bulatlat",
-      "date": "2026-09-22",
-      "url": "https://www.bulatlat.com/2026/09/22/news-in-pictures-us-wide-campaign-against-pax-silica-launched/",
-      "image": "https://www.bulatlat.com/wp-content/uploads/2026/09/84.jpg"
     }
   ]
 }
