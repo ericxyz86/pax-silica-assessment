@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-02",
+      "type": "correction",
+      "title": "Automated remediation corrects 4 recorded findings",
+      "site_version": "1.23",
+      "assessment_version": "2.71",
+      "commits": [],
+      "summary": "The remediation lane corrected 4 recorded findings; each correction was agreed by an independent OpenAI review. Findings corrected: The master denies that any Pax Silica financing facility was announced after documenting the announced Pax Silica Fund; The assessment turns missing project inputs into unsupported universal claims about governments and financial institutions; Water and power requirements are presented as Philippine concessions already offered or requested; The no-node scenario incorrectly promises elimination of geopolitical targeting exposure.",
+      "supersedes": "“no Pax Silica financing facility, common fund, or investment vehicle has been announced.”; “no Pax Silica financing facility, common fund or investment vehicle has been announced.”; “No responsible government signs a framework of this magnitude without it, and no international financial institution would appraise a project on this basis.”; land, water, power, rent forgone —; “water, power, rent forgone, geopolitical alignment —”; land, its water and its power,; land, water, power, rent forgone,; land, water, power and rent forgone; geopolitical targeting risk;; geopolitical targeting risk,; no geopolitical targeting exposure."
+    },
+    {
       "date": "2026-10-01",
       "type": "update",
       "title": "The Agriculture Secretary gives a count of affected farmers, and no assessment behind it was located",
