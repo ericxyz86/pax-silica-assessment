@@ -27,24 +27,38 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "@id": "https://pax-silica.aiailabs.net/explainer#video",
-  "name": "Pax Silica — ang simpleng paliwanag",
-  "description": "Dalawang minutong paliwanag: ano ang Pax Silica, gaano kalaking tubig at kuryente ang kailangan nito, at aling mga tanong ang wala pang sagot. Batay sa independent assessment.",
-  "thumbnailUrl": "https://pax-silica.aiailabs.net/assets/explainer-preview.png",
-  "contentUrl": "https://pax-silica.aiailabs.net/assets/pax-silica-explainer.mp4",
-  "embedUrl": "https://pax-silica.aiailabs.net/explainer",
-  "uploadDate": "2026-08-14T13:55:00+08:00",
-  "duration": "PT2M5S",
-  "inLanguage": "fil",
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://www.agileintelligence.ph/#organization",
-    "name": "Agile Intelligence",
-    "url": "https://www.agileintelligence.ph"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.agileintelligence.ph/#organization",
+      "name": "Agile Intelligence",
+      "url": "https://www.agileintelligence.ph",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://pax-silica.aiailabs.net/assets/mark.png",
+        "width": 150,
+        "height": 150
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://pax-silica.aiailabs.net/explainer#video",
+      "name": "Pax Silica — ang simpleng paliwanag",
+      "description": "Dalawang minutong paliwanag: ano ang Pax Silica, gaano kalaking tubig at kuryente ang kailangan nito, at aling mga tanong ang wala pang sagot. Batay sa independent assessment.",
+      "thumbnailUrl": "https://pax-silica.aiailabs.net/assets/explainer-preview.png",
+      "contentUrl": "https://pax-silica.aiailabs.net/assets/pax-silica-explainer.mp4",
+      "embedUrl": "https://pax-silica.aiailabs.net/explainer",
+      "uploadDate": "2026-08-14T13:55:00+08:00",
+      "dateCreated": "2026-08-14",
+      "duration": "PT2M5S",
+      "inLanguage": "fil",
+      "author": { "@id": "https://www.agileintelligence.ph/#organization" },
+      "publisher": { "@id": "https://www.agileintelligence.ph/#organization" }
+    }
+  ]
 }
 </script>
+<script>if (window.self !== window.top) document.documentElement.classList.add("embedded");</script>
 <style>
   :root {
     /* Agile Intelligence — DESIGN.md §3 */
@@ -54,17 +68,37 @@
     --ease:cubic-bezier(.2,.7,.2,1);
   }
   * { box-sizing:border-box; margin:0; padding:0; }
-  html,body { height:100%; }
-  body { background:var(--navy);
-    display:flex; align-items:center; justify-content:center;
-    padding:clamp(12px,3vw,24px); }
-  /* capped by height as well as width so the 16:9 stage always fits the
-     1100x660 modal frame the parent page opens it in */
-  #frame { width:min(1120px, 100%, calc((100vh - clamp(24px,6vw,48px)) * 16 / 9)); }
+  html,body { min-height:100%; }
+  body { background:var(--navy); color:var(--ink);
+    padding:clamp(18px,4vw,40px); font-family:Inter,Arial,sans-serif; }
+  main { width:100%; }
+  #context { width:min(920px,100%); margin:0 auto clamp(24px,4vw,40px); }
+  #context .eyebrow { font-family:'JetBrains Mono',monospace; font-size:11px;
+    letter-spacing:.14em; text-transform:uppercase; color:var(--cyan); margin-bottom:12px; }
+  #context h1 { font-size:clamp(30px,5vw,58px); line-height:1; letter-spacing:-.045em;
+    margin:0 0 12px; }
+  #context .byline { font-size:14px; color:rgba(255,255,255,.72); margin-bottom:18px; }
+  #context a { color:#7DDBF4; text-underline-offset:3px; }
+  #context .summary { max-width:74ch; font-size:clamp(16px,2vw,18px); line-height:1.65;
+    color:rgba(255,255,255,.86); margin-bottom:20px; }
+  #context dl { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+  #context dl > div { padding:14px 16px; border:1px solid var(--line); border-radius:12px;
+    background:rgba(255,255,255,.035); }
+  #context dt { font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--cyan); margin-bottom:7px; }
+  #context dd { font-size:13px; line-height:1.55; color:rgba(255,255,255,.76); }
+  #context .record-note { margin-top:16px; font-size:12px; line-height:1.55;
+    color:rgba(255,255,255,.58); }
+  #context .links { margin-top:12px; font-size:13px; line-height:1.7; }
+  /* The standalone player follows the reading column; embedded mode below lets the
+     parent's fixed 16:9 modal provide the exact frame dimensions. */
+  #frame { width:min(1120px, 100%); margin:0 auto; }
   /* Embedded in the site's modal the page chrome is the modal's job, so the document
      becomes exactly the 16:9 stage. That lets the parent size the iframe by aspect-ratio
      alone and hug the video, instead of leaving dead navy above and below it. */
-  html.embedded body { padding:0; }
+  html.embedded body { height:100%; padding:0; display:flex; align-items:center; justify-content:center; }
+  html.embedded main { width:100%; }
+  html.embedded #context { display:none; }
   html.embedded #frame { width:100%; }
   html.embedded #stage { border-radius:0; border:0; }
   #stage { position:relative; width:100%; aspect-ratio:16/9;
@@ -82,26 +116,52 @@
     backdrop-filter:blur(4px); transition:background .25s var(--ease), color .25s var(--ease); }
   #poster:hover span { background:var(--cyan); color:var(--navy); }
   #poster svg { width:38%; height:38%; fill:currentColor; margin-left:6%; }
+  @media (max-width:760px) {
+    #context dl { grid-template-columns:1fr; }
+  }
 </style>
 </head>
 <body>
-<div id="frame">
-  <div id="stage">
-    <!-- preload="none" so nothing is fetched before the variant is chosen in the script
-         below; the 1080p src stays in the markup so the video still works without it. -->
-    <video id="vid" controls playsinline preload="none"
-      poster="assets/explainer-preview.png"
-      src="assets/pax-silica-explainer.mp4?v=1.50"></video>
-    <button id="poster" aria-label="Panoorin ang explainer">
-      <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"></path></svg></span>
-    </button>
+<main>
+  <section id="context" aria-labelledby="explainer-title">
+    <p class="eyebrow">Pax Silica · independent assessment</p>
+    <h1 id="explainer-title">Pax Silica: ang simpleng paliwanag</h1>
+    <p class="byline">Inilathala ng <a href="https://www.agileintelligence.ph" rel="author">Agile Intelligence</a></p>
+    <p class="summary">Ano ang Pax Silica, ano ang iminungkahing Economic Security Zone sa New Clark City, at ano ang kailangan pang patunayan bago lumikha ng substantive rights? Ipinapaliwanag ng dalawang minutong video ang panukala, ang mga opisyal na bilang na sinusuri, at ang mahahalagang tanong sa tubig, kuryente, lupa at kasunduan.</p>
+    <dl aria-label="Mahahalagang konteksto">
+      <div>
+        <dt>Ano ito</dt>
+        <dd>Ang Pax Silica ay isang US State Department-led initiative para sa tinatawag nitong trusted supply chains sa semiconductors, AI infrastructure, critical minerals at energy. Non-binding ang founding Declaration nito.</dd>
+      </div>
+      <div>
+        <dt>Panukala sa Tarlac</dt>
+        <dd>Inialok ng Pilipinas ang humigit-kumulang 1,618.74 ektarya ng lupang pag-aari ng BCDA sa Capas at Bamban para sa isang iminungkahing Economic Security Zone. Panukala ito; hindi inilalarawan dito bilang natapos o operational na proyekto.</dd>
+      </div>
+      <div>
+        <dt>Mga bilang na sinusuri</dt>
+        <dd>Ang 65–90 MLD na tubig, 3 GW na kuryente, US$40–70 bilyong investment at 130,000–190,000 direct jobs ay proposed o claimed metrics sa public record—hindi mga nasukat na resulta o independently validated forecasts.</dd>
+      </div>
+    </dl>
+    <p class="record-note"><strong>Paalaala sa petsa:</strong> na-record ang video noong 14 Agosto 2026. Living document ang assessment; para sa kasalukuyang findings, sources at project status, ang live assessment ang masusunod.</p>
+    <p class="links"><a href="/">Basahin ang buong live assessment</a> · <a href="/#sources">Tingnan ang sources register</a> · <a href="https://www.state.gov/pax-silica/">US Department of State: Pax Silica</a> · <a href="/signing-readiness.html">Suriin ang signing readiness</a></p>
+  </section>
+  <div id="frame">
+    <div id="stage">
+      <!-- preload="none" so nothing is fetched before the variant is chosen in the script
+           below; the 1080p src stays in the markup so the video still works without it. -->
+      <video id="vid" controls playsinline preload="none"
+        poster="assets/explainer-preview.png"
+        src="assets/pax-silica-explainer.mp4?v=1.50"></video>
+      <button id="poster" aria-label="Panoorin ang explainer">
+        <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"></path></svg></span>
+      </button>
+    </div>
   </div>
-</div>
+</main>
 <script>
 (function(){
 "use strict";
 var v = document.getElementById("vid");
-if (window.self !== window.top) document.documentElement.classList.add("embedded");
 var poster = document.getElementById("poster");
 
 /* Variant choice: 5 MB 720p or 15 MB 1080p. On a phone the two are indistinguishable --
