@@ -13,6 +13,25 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-03",
+      "type": "process",
+      "title": "Search and AI access: readable initial HTML, page context and smaller images",
+      "site_version": "1.24",
+      "assessment_version": "2.71",
+      "commits": [],
+      "summary": "The assessment digest is now ordinary initial HTML and remains available if the interactive runtime fails. Primary-content landmarks and visible publisher bylines identify the assessment and signing-readiness pages; the standalone explainer gains dated context and links to the living assessment. Responsive WebP images reduce image transfers, image dimensions reserve layout space, and the existing React version is served locally. The runtime’s existing table encoding preserves all appendix cells on the first render, avoiding a duplicate page fetch and render. The explainer opens on request rather than automatically on arrival. The news heading hierarchy is corrected. Existing search-access and training exclusions are preserved. Assessment findings, preconditions and decision rules are unchanged."
+    },
+    {
+      "date": "2026-10-03",
+      "type": "correction",
+      "title": "Remove a stale project-facts date from the compact footer",
+      "site_version": "1.24",
+      "assessment_version": "2.71",
+      "commits": [],
+      "supersedes": "project facts 22 sep 2026",
+      "summary": "The compact footer still carried an older cutoff alongside the canonical project-facts dates. It now says “live assessment prevails”, avoiding a second independently maintained cutoff. The canonical verification date, findings and assessment version are unchanged."
+    },
+    {
       "date": "2026-10-02",
       "type": "correction",
       "title": "Automated remediation corrects 4 recorded findings",
