@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Legarda urges caution on Pax Silica project, demands protection for Aeta communities",
+      "source": "Politiko",
+      "date": "2026-10-05",
+      "url": "https://politiko.com.ph/legarda-urges-caution-on-pax-silica-project-demands-protection-for-aeta-communities",
+      "image": "https://politiko.com.ph/wp-content/uploads/2026/06/LEGARDA-JUN8.jpg"
+    },
+    {
       "title": "DA: Pax Silica will affect 266 farmers in Tarlac",
       "source": "BusinessMirror",
       "date": "2026-09-30",
@@ -63,13 +70,6 @@
       "date": "2026-09-22",
       "url": "https://www.licas.news/2026/09/22/pax-silica-faces-calls-for-safeguards-on-water-indigenous-land-rights-in-philippines/",
       "image": "https://www.licas.news/wp-content/uploads/2026/09/20260922_CEED-Alminaza-jbmaulas-015822-scaled.jpg"
-    },
-    {
-      "title": "Cagayan de Oro multi-stakeholder dialogue tackles Pax Silica",
-      "source": "Philippine Daily Inquirer",
-      "date": "2026-09-22",
-      "url": "https://newsinfo.inquirer.net/2309823/cagayan-de-oro-multi-stakeholder-dialogue-tackles-pax-silica",
-      "image": "https://newsinfo.inquirer.net/files/2026/09/Cagayan-de-Oro-Pax-Silica-22September2026.jpg"
     }
   ]
 }
