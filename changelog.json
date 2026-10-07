@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-07",
+      "type": "update",
+      "title": "The separate Joint Statement on AI Opportunity grows to 54 endorsers; the Pax Silica Declaration count remains 25",
+      "site_version": "1.26",
+      "assessment_version": "2.73",
+      "commits": [],
+      "summary": "The State Department’s AI Opportunity Statement page, read on 7 October 2026, records 19 additional signatories welcomed during the UN General Assembly High-Level Week in September 2026 and states that “as of September 2026, 54 countries have endorsed the Joint Statement”. The nineteen are Albania, Austria, Croatia, Cyprus, Czechia, the Dominican Republic, Georgia, Iceland, Malaysia, Malta, Mauritius, Morocco, Palau, Peru, Romania, Serbia, Slovenia, Tonga and Vietnam. None of them is listed on the Declaration roster on the State Department’s Pax Silica page, checked the same day, which still lists 24 signatories and omits the United States; including the United States, the documented Declaration count remains 25 as of 7 October 2026. Section 8.3 gains a paragraph, and the site’s section 8 summary and the Appendix C membership row now give the June figure (35) and the September one (54). The prior text was accurate when written. The finding-level gate (Codex gpt-6.1-sol) returned UNREFUTED_WITH_CAVEATS; its edits are applied, including date-binding the Declaration count, replacing a sentence that said the wider gap enlarged the room for conflation with a plain numerical comparison, and describing Malaysia and Vietnam factually as economies seeking electronics and semiconductor investment whose endorsement establishes no specific investment commitment. Asked directly, it found nothing that moves a Key Judgment, confidence level, scenario weight, precondition or red line. The Joint Statement remains context, not a project instrument. Nothing was added to the news rail."
+    },
+    {
       "date": "2026-10-05",
       "type": "correction",
       "title": "Two readings of this report’s own sentiment data are withdrawn, and Finding 05 returns to the listening provider’s labels",
