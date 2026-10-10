@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Gatchalian: Prepare workers for Pax Silica",
+      "source": "The Manila Times",
+      "date": "2026-10-10",
+      "url": "https://www.manilatimes.net/2026/10/10/news/national/gatchalian-prepare-workers-for-pax-silica/2442786",
+      "image": "https://manilatimes.net/manilatimes/uploads/images/2026/10/09/1253620.jpg"
+    },
+    {
       "title": "Marcos: Philippines ‘terribly excited’ about Pax Silica",
       "source": "The Philippine Star",
       "date": "2026-10-09",
@@ -63,13 +70,6 @@
       "date": "2026-09-23",
       "url": "https://tnt.abante.com.ph/2026/09/23/rep-fuentebella-pax-silica-hindi-kukuha-ng-kuryente-sa-luzon-grid/news",
       "image": "https://tnt.abante.com.ph/wp-content/uploads/2026/09/Arnie-Buquid-Fuentebella.jpg"
-    },
-    {
-      "title": "Residents say Philippines’ Pax Silica Hub will force them off their ancestral land",
-      "source": "Radio Free Asia",
-      "date": "2026-09-22",
-      "url": "https://www.rfa.org/english/southchinasea/2026/09/22/aeta-philippines-pax-silica-tech-hub/",
-      "image": "https://www.rfa.org/resizer/v2/UGQKVOJKQNGFRHLSYP7DHN67ZQ.jpg?smart=true&auth=13e894348600af0b8b693e02a30b86a4dffbe79d489c7fb0d0b849661f0c523c&width=1200&height=630"
     }
   ]
 }
