@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Marcos: PH serious on nuclear energy amid future power demands of AI, data centers",
+      "source": "GMA News Online",
+      "date": "2026-10-12",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1005693/marcos-ph-serious-on-nuclear-energy-amid-future-power-demands-of-ai-data-centers/story/",
+      "image": "https://images.gmanews.tv/webpics/2026/10/pbbm_in_singapore_2026_10_10_18_59_05.jpg"
+    },
+    {
       "title": "Gatchalian: Prepare workers for Pax Silica",
       "source": "The Manila Times",
       "date": "2026-10-10",
@@ -63,13 +70,6 @@
       "date": "2026-09-23",
       "url": "https://news.mongabay.com/2026/09/planned-us-tech-hub-in-philippines-hit-over-environmental-and-indigenous-land-concerns",
       "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/23152143/Protest-at-grand-hyatt-and-clashes-with-police-21-of-25-1200x800.jpg"
-    },
-    {
-      "title": "Rep. Fuentebella: Pax Silica hindi kukuha ng kuryente sa Luzon Grid",
-      "source": "Abante",
-      "date": "2026-09-23",
-      "url": "https://tnt.abante.com.ph/2026/09/23/rep-fuentebella-pax-silica-hindi-kukuha-ng-kuryente-sa-luzon-grid/news",
-      "image": "https://tnt.abante.com.ph/wp-content/uploads/2026/09/Arnie-Buquid-Fuentebella.jpg"
     }
   ]
 }
