@@ -15,6 +15,16 @@
     {
       "date": "2026-10-14",
       "type": "update",
+      "title": "The homepage countdown now counts to the end of 2026, BCDA’s expected signing window",
+      "site_version": "1.29",
+      "assessment_version": "2.75",
+      "commits": [],
+      "summary": "The countdown band beneath the hero now counts to 31 December 2026, the end of the window in which BCDA said on 13 October that it expects signing, rather than to 1 November 2026, the previously reported target. Its label now reads “bcda’s expected window, before the end of 2026”, and its note records that BCDA neither reaffirmed nor expressly withdrew November. No assessment text changes, and November remains recorded in the report as the previously reported target. The separate signing-readiness page publishes only as a review-cleared weekly edition; its counters are re-anchored in the template its next edition is rendered from.",
+      "supersedes": "“days · previously reported target, november 2026”; “BCDA said on 13 October that it expects signing before the end of 2026, without reaffirming November.”"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "update",
       "title": "Key Judgment 16 no longer ties its leverage test to a November signature",
       "site_version": "1.28",
       "assessment_version": "2.75",
