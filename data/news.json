@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Pax Silica won’t put local livelihood, burial sites at risk—PBBM",
+      "source": "Manila Bulletin",
+      "date": "2026-10-13",
+      "url": "https://mb.com.ph/2026/10/13/pax-silica-wont-put-local-livelihood-burial-sites-at-riskpbbm",
+      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/10/13/138614.webp"
+    },
+    {
+      "title": "BCDA submits Pax Silica legal framework to Marcos",
+      "source": "GMA News Online",
+      "date": "2026-10-13",
+      "url": "https://www.gmanetwork.com/news/topstories/regions/1005759/bcda-submits-pax-silica-legal-framework-to-marcos/story/",
+      "image": "https://images.gmanews.tv/webpics/2026/09/capastarlac_2026_09_20_13_36_29.jpg"
+    },
+    {
       "title": "Marcos: PH serious on nuclear energy amid future power demands of AI, data centers",
       "source": "GMA News Online",
       "date": "2026-10-12",
@@ -56,20 +70,6 @@
       "date": "2026-09-25",
       "url": "https://www.aninews.in/news/world/us/misri8217s-talks-in-nyc-focus-on-critical-minerals-pax-silica-with-helberg-russia-sanctions-bill-energy-security-with-hooker20260925090853",
       "image": "https://d3lzcn6mbbadaf.cloudfront.net/media/details/__sized__/ANI-20260925033839-thumbnail-320x180-70.jpg"
-    },
-    {
-      "title": "Pax Silica raises fears over displacement, water, power, and mining in Philippines",
-      "source": "LiCAS.news",
-      "date": "2026-09-25",
-      "url": "https://philippines.licas.news/2026/09/25/pax-silica-raises-fears-over-displacement-water-power-and-mining-in-philippines",
-      "image": "https://philippines.licas.news/wp-content/uploads/2026/08/AFP__20260813__C4JM89E__v1__HighRes__PhilippinesPoliticsProtest-scaled.jpg"
-    },
-    {
-      "title": "Planned US tech hub in Philippines hit over environmental and Indigenous land concerns",
-      "source": "Mongabay",
-      "date": "2026-09-23",
-      "url": "https://news.mongabay.com/2026/09/planned-us-tech-hub-in-philippines-hit-over-environmental-and-indigenous-land-concerns",
-      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/23152143/Protest-at-grand-hyatt-and-clashes-with-police-21-of-25-1200x800.jpg"
     }
   ]
 }
