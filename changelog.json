@@ -15,6 +15,16 @@
     {
       "date": "2026-10-14",
       "type": "update",
+      "title": "Key Judgment 16 no longer ties its leverage test to a November signature",
+      "site_version": "1.28",
+      "assessment_version": "2.75",
+      "commits": [],
+      "summary": "Key Judgment 16 now reads “The effect of any signature on Philippine leverage depends on what the instrument is”, where it read “the November signature”. In the update earlier today (v1.27), both finding-level gate rounds recommended this rewording after BCDA’s reply of 13 October 2026 expected signing before the end of 2026 without reaffirming November. The automated process held it for human review, because this report does not change a Key Judgment’s text on a single source, and placed a dated timing qualification beside the judgment instead. On review the rewording was adopted: it asserts nothing new about the timing and removes a date the judgment’s test never depended on, since that test turns on what an instrument confers rather than on when it is signed. The timing qualification is removed with it, and the site’s key-judgments section now says leverage “depends on what the instrument actually creates”. The judgment’s substance, its conditional test, its red line and its High confidence are unchanged. No scenario weight, precondition or red line moves, and November remains recorded elsewhere in the report as the previously reported BCDA target.",
+      "supersedes": "“The effect of the November signature on Philippine leverage depends on what the instrument is”; “depends on what the November instrument actually creates”; “Timing qualification, 14 October 2026: this judgment keeps its earlier wording pending human review.”"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "update",
       "title": "BCDA says it has submitted the legal framework to the President and expects signing before the end of 2026, without reaffirming November",
       "site_version": "1.27",
       "assessment_version": "2.74",
