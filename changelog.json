@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-14",
+      "type": "update",
+      "title": "BCDA says it has submitted the legal framework to the President and expects signing before the end of 2026, without reaffirming November",
+      "site_version": "1.27",
+      "assessment_version": "2.74",
+      "commits": [],
+      "summary": "At the Malacañang briefing of 13 October 2026, asked about a framework agreement the questioner described as expected to be signed “next month”, Palace Press Officer Claire Castro read a reply from BCDA, recorded in the PCO transcript: “BCDA has submitted to the President through proper channels the legal framework governing the use of the 1,620 hectare advanced manufacturing park in New Clark City. As BCDA and its US Development partner continue to discuss the details of the partnership agreement, the expected signing of the agreement is before the end of 2026.” Castro said she would check whether the President himself had received the draft. The reply gives a broader signing window than the previously reported November target: it does not reaffirm November or the ASEAN Summit, but does not expressly withdraw that target or announce a postponement. The claim checker, timeline and legal summaries gain the reply; the legal summary records that BCDA refers both to a partnership agreement with an unnamed US development partner and to a legal framework governing the park’s use, without establishing whether these are one document or two, and that no public text of either was located in the material reviewed. The executive summary, the FAQ, the countdown band, a hero tile and the share-image description now call November a previously reported target and carry the October reply; an older sentence saying the framework’s text “does not exist publicly” is bounded to what was located. The same day President Marcos said he could not see how the project would endanger local livelihood and that cultural concerns would not be allowed “to be put at risk”; that is an assurance, not a demonstrated safeguard, and displacement remains Disputed. Two finding-level gate rounds (Codex gpt-6.1-sol) returned UNREFUTED_WITH_CAVEATS and their edits are applied, with one held for human review: the gates recommended rewording Key Judgment 16’s reference to “the November signature”. Its wording is kept, because this report does not change a Key Judgment’s text on a single source, and a dated timing qualification now sits beside it. Asked directly, the gates found nothing that moves a Key Judgment’s substance, confidence level, scenario weight, precondition, red line or the displacement status. Two items were added to the news rail."
+    },
+    {
       "date": "2026-10-07",
       "type": "update",
       "title": "The separate Joint Statement on AI Opportunity grows to 54 endorsers; the Pax Silica Declaration count remains 25",
