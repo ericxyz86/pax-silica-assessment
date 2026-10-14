@@ -15,6 +15,16 @@
     {
       "date": "2026-10-14",
       "type": "update",
+      "title": "The at-a-glance timing tile now leads with BCDA’s end-of-2026 window",
+      "site_version": "1.30",
+      "assessment_version": "2.75",
+      "commits": [],
+      "summary": "The timing tile in the homepage’s at-a-glance row now reads “before end-2026”, where it read “november 2026”, matching the countdown band re-anchored in v1.29. Its caption gives BCDA’s expected signing window from its 13 October 2026 reply and records that November, the previously reported target, was neither reaffirmed nor expressly withdrawn; the seven preconditions remain set and none is met. No assessment text changes.",
+      "supersedes": "“previously reported signature target; bcda now expects signing before the end of 2026 — seven preconditions set, none met”"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "update",
       "title": "The homepage countdown now counts to the end of 2026, BCDA’s expected signing window",
       "site_version": "1.29",
       "assessment_version": "2.75",
