@@ -136,7 +136,7 @@ Desktop-first, verified to 390px. No media-query breakpoint soup — the layout 
 
 **Data table.** Mono uppercase header on `#F8FAFB`, 1px row hairlines, tabular figures, right-aligned numerics, horizontal scroll on narrow.
 
-**Countdown.** Mono tabular digits, unit labels beneath, navy field. Counts to the November decision point.
+**Countdown.** Mono tabular digits, unit labels beneath, navy field. Counts to the end of BCDA's expected signing window, 31 December 2026 (re-anchored from November on 14 October 2026).
 
 **Explainer popup.** Navy frame, radial cyan/blue glows, 3px radial-dot grain at `mix-blend-mode:overlay` / `0.45`. Rounded 20px in popup mode, full-bleed when expanded. Transport bar: play/pause, restart, scrubber, elapsed/total mono, chapter rail (hidden in popup mode), subtitle track.
 
