@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Trump visiting Manila for ASEAN Summit in November",
+      "source": "The Philippine Star",
+      "date": "2026-10-15",
+      "url": "https://www.philstar.com/headlines/2026/10/15/2563326/trump-visiting-manila-asean-summit-november",
+      "image": "https://media.philstar.com/photos/2026/10/14/donald_2026-10-14_23-23-55.jpg"
+    },
+    {
+      "title": "Filipino United Methodists question AI hub",
+      "source": "UM News",
+      "date": "2026-10-14",
+      "url": "https://www.umnews.org/en/news/filipino-united-methodists-question-ai-hub",
+      "image": "https://www.umnews.org/-/media/umc-media/2026/10/08/15/47/254-en-filipino-ai-concerns-speaker-1200x800px.jpg?mw=1200&hash=67EDAED06AFC9E7CE80B81B18CFBEA23"
+    },
+    {
       "title": "Pax Silica won’t put local livelihood, burial sites at risk—PBBM",
       "source": "Manila Bulletin",
       "date": "2026-10-13",
@@ -56,20 +70,6 @@
       "date": "2026-09-28",
       "url": "https://mb.com.ph/2026/09/28/bcda-opens-15-billion-new-clark-city-water-deal-to-swiss-challenge",
       "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/09/27/134521.webp"
-    },
-    {
-      "title": "PH seeks economic strength, resilience",
-      "source": "The Manila Times",
-      "date": "2026-09-26",
-      "url": "https://www.manilatimes.net/2026/09/26/news/national/ph-seeks-economic-strength-resilience/2433186",
-      "image": "https://manilatimes.net/manilatimes/uploads/images/2026/09/25/1233981.jpg"
-    },
-    {
-      "title": "Misri’s talks in NYC focus on critical minerals, Pax Silica with Helberg, Russia Sanctions Bill, Energy Security with Hooker",
-      "source": "ANI",
-      "date": "2026-09-25",
-      "url": "https://www.aninews.in/news/world/us/misri8217s-talks-in-nyc-focus-on-critical-minerals-pax-silica-with-helberg-russia-sanctions-bill-energy-security-with-hooker20260925090853",
-      "image": "https://d3lzcn6mbbadaf.cloudfront.net/media/details/__sized__/ANI-20260925033839-thumbnail-320x180-70.jpg"
     }
   ]
 }
