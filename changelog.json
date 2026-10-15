@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-15",
+      "type": "correction",
+      "title": "Automated remediation corrects 1 recorded finding",
+      "site_version": "1.31",
+      "assessment_version": "2.76",
+      "commits": [],
+      "summary": "The remediation lane corrected 1 recorded finding; each correction was agreed by an independent OpenAI review. Findings corrected: Public registers present November as the current signing target without the October qualification.",
+      "supersedes": "Target is November 2026, which; instrument, target signature November 2026.'; “Target is November 2026, which the BCDA president described on 19 Aug 2026 as not set in stone.”"
+    },
+    {
       "date": "2026-10-14",
       "type": "update",
       "title": "The at-a-glance timing tile now leads with BCDA’s end-of-2026 window",
