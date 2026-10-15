@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-10-15",
+      "type": "update",
+      "title": "The social share card now shows the end-of-2026 signing window",
+      "site_version": "1.32",
+      "assessment_version": "2.76",
+      "commits": [],
+      "summary": "The image shown when the homepage is shared on social media now gives “End-2026 · expected signing” in its fourth figure, where it gave “Nov 2026 · signature window”, matching the countdown band (v1.29) and the at-a-glance tile (v1.30). The image is otherwise unchanged, and its description now says signing is expected by BCDA before the end of 2026. The image address carries a version marker so that platforms fetch the new card. No assessment text changes, and November remains recorded in the report as the previously reported target.",
+      "supersedes": "“previously reported November 2026 signing target.”"
+    },
+    {
+      "date": "2026-10-15",
       "type": "correction",
       "title": "Automated remediation corrects 1 recorded finding",
       "site_version": "1.31",
