@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-16",
+      "type": "update",
+      "title": "The explainer video now gives BCDA’s end-of-2026 signing window instead of November",
+      "site_version": "1.33",
+      "assessment_version": "2.76",
+      "commits": [],
+      "summary": "Near the end of the Taglish explainer video, the narrated line “Nasa November ang target na pirmahan.” is replaced by “Bago matapos ang 2026 ang inaasahang pirmahan.”, recorded in the same voice, followed unchanged by “Hanggang doon, may lakas pa tayong makipag-usap.” The subtitle changes with it, and the on-screen calendar, which showed November 2026 with one day highlighted, is replaced by a 2026 month card marking October to December as BCDA’s expected window, with no day singled out. This follows BCDA’s reply of 13 October 2026, which expects signing before the end of 2026 without reaffirming November. The new line is longer, so the video runs about 2:07 instead of 2:05; the rest of the video is unchanged, and no other narration was re-recorded.",
+      "supersedes": "“Nasa November ang target na pirmahan.”"
+    },
+    {
       "date": "2026-10-15",
       "type": "update",
       "title": "The social share card now shows the end-of-2026 signing window",
