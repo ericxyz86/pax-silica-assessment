@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-10-16",
+      "type": "correction",
+      "title": "The explainer’s re-recorded signing line is corrected: a clipped word, a repeated word and a stutter are removed",
+      "site_version": "1.34",
+      "assessment_version": "2.76",
+      "commits": [],
+      "summary": "The re-recorded explainer line published earlier today (v1.33) had three faults in its audio. The splice began too early and cut the last word, “rin”, from the preceding sentence (“‘To be discussed’ pa rin”). It ended too early, so the final words of the old line, “makipag-usap”, were heard a second time after the new line. And the new recording itself stumbled on “makipag-usap”. The splice points were taken from the separate narration file rather than from the video’s own soundtrack, which runs about half a second later, and the stumble was missed because a machine transcript of the recording smoothed it over. The line is now a fresh recording in the same voice, placed in the pauses on either side of the original line and matched in loudness and tone to the lines around it; a word-by-word transcript of the whole video now differs from the 14 August cut only in this line. Because the new recording is shorter, the video runs about 2:06. The wording, subtitle and on-screen calendar are unchanged from v1.33.",
+      "supersedes": "“so the video runs about 2:07 instead of 2:05”"
+    },
+    {
+      "date": "2026-10-16",
       "type": "update",
       "title": "The explainer video now gives BCDA’s end-of-2026 signing window instead of November",
       "site_version": "1.33",
