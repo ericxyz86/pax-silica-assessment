@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Philippines eyes billions in investment from Pax Silica tech hub, but farmers fear for their livelihoods",
+      "source": "CNA",
+      "date": "2026-10-16",
+      "url": "https://www.channelnewsasia.com/asia/philippines-pax-silica-tech-hub-investment-farmers-fear-livelihoods-6465486",
+      "image": "https://dam.mediacorp.sg/image/upload/s--cXcA98k3--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/10/16/screenshot_2026-10-15_204159.png?itok=f6RdhfgT"
+    },
+    {
+      "title": "All Pax Silica issues to be ‘properly addressed’, says envoy",
+      "source": "GMA News Online",
+      "date": "2026-10-16",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1006138/all-pax-silica-issues-to-be-properly-addressed-says-envoy/story/",
+      "image": "https://images.gmanews.tv/webpics/2025/05/Screenshot_2025-05-28_at_3_2025_05_28_16_05_37.png"
+    },
+    {
       "title": "Trump visiting Manila for ASEAN Summit in November",
       "source": "The Philippine Star",
       "date": "2026-10-15",
@@ -56,20 +70,6 @@
       "date": "2026-10-05",
       "url": "https://politiko.com.ph/legarda-urges-caution-on-pax-silica-project-demands-protection-for-aeta-communities",
       "image": "https://politiko.com.ph/wp-content/uploads/2026/06/LEGARDA-JUN8.jpg"
-    },
-    {
-      "title": "DA: Pax Silica will affect 266 farmers in Tarlac",
-      "source": "BusinessMirror",
-      "date": "2026-09-30",
-      "url": "https://businessmirror.com.ph/2026/09/30/da-pax-silica-will-affect-266-farmers-in-tarlac",
-      "image": "https://businessmirror.com.ph/wp-content/uploads/2024/07/BusinessMirror-KnowMore-2.jpg"
-    },
-    {
-      "title": "BCDA opens ₱15-billion New Clark City water deal to Swiss challenge",
-      "source": "Manila Bulletin",
-      "date": "2026-09-28",
-      "url": "https://mb.com.ph/2026/09/28/bcda-opens-15-billion-new-clark-city-water-deal-to-swiss-challenge",
-      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/09/27/134521.webp"
     }
   ]
 }
