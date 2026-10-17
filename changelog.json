@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-17",
+      "type": "correction",
+      "title": "Automated remediation corrects 3 recorded findings",
+      "site_version": "1.35",
+      "assessment_version": "2.77",
+      "commits": [],
+      "summary": "The remediation lane corrected 3 recorded findings; each correction was agreed by an independent OpenAI review. Findings corrected: A data-centre benchmark becomes an established project water footprint; SEIPI's growth rate is attached to the narrower PSA export series; The current water-procurement findings lack their primary public source routes.",
+      "supersedes": "“Both are real; only one is being disclosed.”; “benchmark rates including indirect use, a 3 GW load implies a total water footprint of the order of 327 MLD — roughly 3.6× the disclosed figure.”; “Benchmark ~1.2 gal/kWh incl. indirect implies ~327 MLD for a”; “at a benchmark of about 1.2 gallons per kWh including indirect use, a 3 GW load implies roughly 327 MLD, some 3.6 times the disclosed figure.”; billion of a US$84.48 billion export book in 2025 (PSA final figures; SEIPI's broader electronics measure grew 16.11%)."
+    },
+    {
       "date": "2026-10-16",
       "type": "correction",
       "title": "The explainer’s re-recorded signing line is corrected: a clipped word, a repeated word and a stutter are removed",
