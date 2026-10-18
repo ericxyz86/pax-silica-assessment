@@ -14,6 +14,15 @@
   "entries": [
     {
       "date": "2026-10-18",
+      "type": "update",
+      "title": "The Anti-Red Tape Authority joins the stakeholder map",
+      "site_version": "1.41",
+      "assessment_version": "2.80",
+      "commits": [],
+      "summary": "The assessment has listed the Anti-Red Tape Authority as a stakeholder since 26 August 2026 (v2.38), but the site’s stakeholder map never carried it. It now does, as a supportive actor of moderate influence: in a statement reported on 25–26 August by four outlets that appear to carry one press statement, ARTA said it is working with regulators to reduce processing times and inter-agency bottlenecks for the project, while stating that streamlining does not authorise disregarding statutory mandates. The map records that as an official assurance, not evidence that any safeguard has been met, and describes ARTA as a process accelerant rather than a gatekeeper. The map now places thirty-three actors. No finding, confidence level, scenario weight, precondition or red line changes."
+    },
+    {
+      "date": "2026-10-18",
       "type": "correction",
       "title": "The report and the site stop treating November as the signing date",
       "site_version": "1.40",
