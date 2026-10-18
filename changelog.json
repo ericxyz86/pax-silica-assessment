@@ -15,6 +15,16 @@
     {
       "date": "2026-10-18",
       "type": "correction",
+      "title": "Four site passages no longer treat November as the decision point, and “state land offered” becomes “BCDA-owned land offered”",
+      "site_version": "1.37",
+      "assessment_version": "2.78",
+      "commits": [],
+      "summary": "The weekly consistency check of 18 October 2026 found site wording that the assessment does not carry. Since BCDA’s reply of 13 October, which expects signing before the end of 2026, the report treats November only as the previously reported target, but four site passages still made it the moment of decision. The frequently asked question on the preconditions now says “if any one is unmet at signature”; the homepage’s comparison of the two paths now asks whether the terms on the table at signature beat the alternative; Finding 04’s key figure and its copy text no longer count four months to a signature; and the legal summary refers to the contemplated instrument without calling it November’s. The link to the signing-readiness report now describes its countdown to the end-of-2026 window. Separately, the at-a-glance figure, the share card and its description called the 1,618.74 hectares “state land”; the assessment describes the parcel as BCDA-owned land, and all three now say so. No finding, confidence level, scenario weight, precondition or red line changes.",
+      "supersedes": "“If any one is unmet in November,”; “whether the terms on the table in November beat the alternative”; “net tariff increment, four months before the philippines is asked to sign”; “four months before the Philippines is expected to sign a framework with the same government.”; “the contemplated November instrument”; “qualified November target”; “state land offered”"
+    },
+    {
+      "date": "2026-10-18",
+      "type": "correction",
       "title": "Automated remediation corrects 1 recorded finding",
       "site_version": "1.36",
       "assessment_version": "2.78",
