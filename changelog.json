@@ -15,6 +15,16 @@
     {
       "date": "2026-10-18",
       "type": "correction",
+      "title": "Scenario E loses two triggers the assessment never had, and two stale sentences in the social-listening summary are corrected",
+      "site_version": "1.38",
+      "assessment_version": "2.78",
+      "commits": [],
+      "summary": "The weekly consistency check of 18 October 2026 found three passages where the site said more than the assessment. Scenario E, the no-project counterfactual, listed three triggers on the site; the assessment has only one, that either government formally states negotiations have ended or names another country as the first Zone host. The other two, “preconditions unmet and the executive declining to sign” and “a successful constitutional challenge”, had been on the site since publication and appear nowhere in the report. The first also misstated the report’s logic: an unmet precondition means not signing an instrument that creates substantive rights, not abandoning the project. Both are removed, and the scenario’s “some reputational cost with Washington” becomes the report’s “possible”. In the social-listening summary, a sentence calling the repost basis of the historical export unresolved is replaced by the report’s resolved finding: the export is consistent with the provider’s description that reposts were excluded. A clause saying the local labels “do not reproduce the May recovery” used a reading the report withdrew on 5 October; it now states that withdrawal. Scenario weights are unchanged at A 10, B 35, C 30, D 15 and E 10, and no finding, confidence level, precondition or red line changes.",
+      "supersedes": "“Preconditions unmet and the executive declining to sign”; “A successful constitutional challenge”; “some reputational cost with Washington”; “Whether the export excluded reposts is itself unresolved”; “and the local labels do not reproduce the May recovery”"
+    },
+    {
+      "date": "2026-10-18",
+      "type": "correction",
       "title": "Four site passages no longer treat November as the decision point, and “state land offered” becomes “BCDA-owned land offered”",
       "site_version": "1.37",
       "assessment_version": "2.78",
