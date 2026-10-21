@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pax Silica — ang simpleng paliwanag</title>
-<meta name="description" content="Dalawang minutong paliwanag: ano ang Pax Silica, gaano kalaking tubig at kuryente ang kailangan nito, at aling mga tanong ang wala pang sagot. Batay sa independent assessment.">
+<meta name="description" content="Dalawang minutong paliwanag: ano ang Pax Silica, gaano kalaking tubig at kuryente ang kailangan nito, at aling mga tanong ang wala pang sagot.">
 <link rel="canonical" href="https://pax-silica.aiailabs.net/explainer">
 <meta property="og:type" content="video.other">
 <meta property="og:site_name" content="Pax Silica — independent assessment">
@@ -52,6 +52,7 @@
       "dateCreated": "2026-08-14",
       "duration": "PT2M6S",
       "inLanguage": "fil",
+      "transcript": "Pinag-uusapan ngayon ang Pax Silica. Ganito kasimple 'yon. Twenty-five na bansa at grupo, pinangungunahan ng US, para sa AI at computer chips. Ang role ng Pilipinas: tayo ang unang mag-ho-host ng actual na facility. Nasa New Clark City 'yan, sa Capas, Tarlac. Hindi sa Pampanga. Ang laki: mahigit sixteen hundred hectares. Mga two thousand football fields. Hindi 'yan building. Isang buong industrial city 'yan. Dalawang bagay ang kailangan niyan. Una, tubig. Ang sabi mismo ng BCDA: ninety million liters kada araw. Para ma-visualize mo: kasing dami ng gamit ng six hundred to nine hundred thousand na tao. Ang plano nila, rainwater daw ang kukunan. Pero para ma-achieve 'yon, kulang ang buong lupa ng project. Ibig sabihin, sa labas kukunin — sa parehong water supply ng Tarlac. Pangalawa, kuryente. Three gigawatts. Almost one-fifth 'yan ng buong power consumption ng Luzon kapag peak. Ang Energy Secretary mismo ang nagsabi: masyadong delikado kung isasaksak 'yan nang buo sa grid. Sa ngayon, five hundred megawatts pa lang ang sigurado. Sa kailangang three thousand. Ang trabaho naman. Eto ang nakakalito. Sabi ng BCDA, one hundred ninety thousand. Sabi ng ambassador, three hundred thousand. Sabi ng Labor Secretary, almost one million. Pero ang tanging galing sa actual na company, ayon sa Finance Secretary: thousands lang. Four officials. Four different answers. Walang ipinakitang computation. Ngayon, may totoong maganda rin dito. Mahigit half ng exports natin ay electronics na. Alam natin 'to. Kaya natin 'to. Ang BPO natin, seven percent ng economy, banta ang AI. Kailangan ng bagong aasahan. Kaya ang tanong hindi kung good or bad. Kung tama ba ang deal. Pero sa ngayon, walang pumirma ng binding. Ang rent sa third year? 'To be discussed' pa rin. Bago matapos ang 2026 ang inaasahang pirmahan. Hanggang doon, may lakas pa tayong makipag-usap. At habang may lumalabas na bagong impormasyon, ina-update namin ang site na 'to. Balikan mo para sa latest.",
       "author": { "@id": "https://www.agileintelligence.ph/#organization" },
       "publisher": { "@id": "https://www.agileintelligence.ph/#organization" }
     }
@@ -78,7 +79,7 @@
   #context h1 { font-size:clamp(30px,5vw,58px); line-height:1; letter-spacing:-.045em;
     margin:0 0 12px; }
   #context .byline { font-size:14px; color:rgba(255,255,255,.72); margin-bottom:18px; }
-  #context a { color:#7DDBF4; text-underline-offset:3px; }
+  #context a, #transcript a { color:#7DDBF4; text-underline-offset:3px; }
   #context .summary { max-width:74ch; font-size:clamp(16px,2vw,18px); line-height:1.65;
     color:rgba(255,255,255,.86); margin-bottom:20px; }
   #context dl { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
@@ -98,7 +99,7 @@
      alone and hug the video, instead of leaving dead navy above and below it. */
   html.embedded body { height:100%; padding:0; display:flex; align-items:center; justify-content:center; }
   html.embedded main { width:100%; }
-  html.embedded #context { display:none; }
+  html.embedded #context, html.embedded #transcript { display:none; }
   html.embedded #frame { width:100%; }
   html.embedded #stage { border-radius:0; border:0; }
   #stage { position:relative; width:100%; aspect-ratio:16/9;
@@ -116,6 +117,11 @@
     backdrop-filter:blur(4px); transition:background .25s var(--ease), color .25s var(--ease); }
   #poster:hover span { background:var(--cyan); color:var(--navy); }
   #poster svg { width:38%; height:38%; fill:currentColor; margin-left:6%; }
+  #transcript { width:min(920px,100%); margin:clamp(28px,5vw,48px) auto 0; }
+  #transcript h2 { font-size:clamp(22px,3vw,28px); letter-spacing:-.02em; margin:0 0 10px; }
+  #transcript .note { font-size:13px; line-height:1.6; color:rgba(255,255,255,.62); max-width:74ch; margin-bottom:8px; }
+  #transcript h3 { font-size:16px; color:var(--cyan); margin:22px 0 6px; }
+  #transcript p.line { max-width:74ch; font-size:16px; line-height:1.7; color:rgba(255,255,255,.86); }
   @media (max-width:760px) {
     #context dl { grid-template-columns:1fr; }
   }
@@ -126,8 +132,8 @@
   <section id="context" aria-labelledby="explainer-title">
     <p class="eyebrow">Pax Silica · independent assessment</p>
     <h1 id="explainer-title">Pax Silica: ang simpleng paliwanag</h1>
-    <p class="byline">Inilathala ng <a href="https://www.agileintelligence.ph" rel="author">Agile Intelligence</a></p>
     <p class="summary">Ano ang Pax Silica, ano ang iminungkahing Economic Security Zone sa New Clark City, at ano ang kailangan pang patunayan bago lumikha ng substantive rights? Ipinapaliwanag ng dalawang minutong video ang panukala, ang mga opisyal na bilang na sinusuri, at ang mahahalagang tanong sa tubig, kuryente, lupa at kasunduan.</p>
+    <p class="byline">Inilathala ng <a href="https://www.agileintelligence.ph" rel="author">Agile Intelligence</a></p>
     <dl aria-label="Mahahalagang konteksto">
       <div>
         <dt>Ano ito</dt>
@@ -157,6 +163,24 @@
       </button>
     </div>
   </div>
+  <section id="transcript" aria-labelledby="transcript-title">
+    <h2 id="transcript-title">Ang sinasabi sa video</h2>
+    <p class="note">Buong transcript ng narration, ayon sa captions ng video. Na-record ito noong 14 Agosto 2026; noong 16 Oktubre 2026, pinalitan ang isang linya tungkol sa inaasahang pirmahan. Para sa kasalukuyang datos at mga pinagkunan, ang <a href="/">live assessment</a> ang masusunod.</p>
+    <h3>Ano ang Pax Silica?</h3>
+    <p class="line">Pinag-uusapan ngayon ang Pax Silica. Ganito kasimple 'yon. Twenty-five na bansa at grupo, pinangungunahan ng US, para sa AI at computer chips. Ang role ng Pilipinas: tayo ang unang mag-ho-host ng actual na facility.</p>
+    <h3>Saan ito itatayo, at gaano kalaki?</h3>
+    <p class="line">Nasa New Clark City 'yan, sa Capas, Tarlac. Hindi sa Pampanga. Ang laki: mahigit sixteen hundred hectares. Mga two thousand football fields. Hindi 'yan building. Isang buong industrial city 'yan.</p>
+    <h3>Gaano karaming tubig ang kailangan nito?</h3>
+    <p class="line">Dalawang bagay ang kailangan niyan. Una, tubig. Ang sabi mismo ng BCDA: ninety million liters kada araw. Para ma-visualize mo: kasing dami ng gamit ng six hundred to nine hundred thousand na tao. Ang plano nila, rainwater daw ang kukunan. Pero para ma-achieve 'yon, kulang ang buong lupa ng project. Ibig sabihin, sa labas kukunin — sa parehong water supply ng Tarlac.</p>
+    <h3>Gaano karaming kuryente ang kailangan nito?</h3>
+    <p class="line">Pangalawa, kuryente. Three gigawatts. Almost one-fifth 'yan ng buong power consumption ng Luzon kapag peak. Ang Energy Secretary mismo ang nagsabi: masyadong delikado kung isasaksak 'yan nang buo sa grid. Sa ngayon, five hundred megawatts pa lang ang sigurado. Sa kailangang three thousand.</p>
+    <h3>Ilang trabaho raw ang malilikha?</h3>
+    <p class="line">Ang trabaho naman. Eto ang nakakalito. Sabi ng BCDA, one hundred ninety thousand. Sabi ng ambassador, three hundred thousand. Sabi ng Labor Secretary, almost one million. Pero ang tanging galing sa actual na company, ayon sa Finance Secretary: thousands lang. Four officials. Four different answers. Walang ipinakitang computation.</p>
+    <h3>May maganda bang maidudulot ito sa Pilipinas?</h3>
+    <p class="line">Ngayon, may totoong maganda rin dito. Mahigit half ng exports natin ay electronics na. Alam natin 'to. Kaya natin 'to. Ang BPO natin, seven percent ng economy, banta ang AI. Kailangan ng bagong aasahan.</p>
+    <h3>Napirmahan na ba ang kasunduan?</h3>
+    <p class="line">Kaya ang tanong hindi kung good or bad. Kung tama ba ang deal. Pero sa ngayon, walang pumirma ng binding. Ang rent sa third year? 'To be discussed' pa rin. Bago matapos ang 2026 ang inaasahang pirmahan. Hanggang doon, may lakas pa tayong makipag-usap. At habang may lumalabas na bagong impormasyon, ina-update namin ang site na 'to. Balikan mo para sa latest.</p>
+  </section>
 </main>
 <script>
 (function(){

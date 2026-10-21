@@ -13,6 +13,33 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-21",
+      "type": "process",
+      "title": "Search and AI access: an archived-edition notice, one page heading and a findings table",
+      "site_version": "1.42",
+      "assessment_version": "2.80",
+      "commits": [],
+      "summary": "The archived first edition of 26 July 2026 now says on its face that the living assessment supersedes it. It has a title and description and asks search engines not to index it, so search and AI answers do not present its figures as current; it remains available for the record. The homepage’s script-free digest gains a table of the six findings and their key figures, and its title no longer duplicates the page’s main heading. From its next weekly edition, the signing-readiness report marks its edition and record dates in machine-readable form. Assessment findings, preconditions and decision rules are unchanged."
+    },
+    {
+      "date": "2026-10-21",
+      "type": "process",
+      "title": "The explainer page carries its own transcript",
+      "site_version": "1.42",
+      "assessment_version": "2.80",
+      "commits": [],
+      "summary": "The two-minute Filipino explainer now shows its full narration as text, taken from the video’s captions and arranged under the questions each scene answers. It is readable without playing the video, by screen readers and by search and AI tools. It notes that one line, on the expected signing, was re-recorded on 16 October 2026. Nothing new is claimed."
+    },
+    {
+      "date": "2026-10-21",
+      "type": "process",
+      "title": "A steadier, faster first load, and section links that land",
+      "site_version": "1.42",
+      "assessment_version": "2.80",
+      "commits": [],
+      "summary": "On large screens the assessment no longer jumps while it loads. Sections far down the page are drawn when the reader approaches them rather than all at once, which roughly halves the work of a first load on phones. Analytics loads after the page does. Links to a section now open at that section; before, they opened at the top. The page’s structured data now carries its last-updated date. Findings, figures and conclusions are unchanged."
+    },
+    {
       "date": "2026-10-18",
       "type": "update",
       "title": "The Anti-Red Tape Authority joins the stakeholder map",
