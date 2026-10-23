@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-23",
+      "type": "update",
+      "title": "BCDA describes a proposed on-site relocation, and a newspaper reports its president saying November remains the signing target",
+      "site_version": "1.43",
+      "assessment_version": "2.81",
+      "commits": [],
+      "summary": "Four reports published on 19 October 2026 (BusinessWorld, GMA News, Manila Bulletin, BusinessMirror) carry BCDA president Joshua Bingcang describing a proposed on-site relocation agreed in principle at a 29 September negotiation: about 50 house-and-lot units on a 10-hectare site outside the hub parcel but within New Clark City, and a reported ₱25–30 million housing estimate that BCDA says it would shoulder. The reviewed sources do not establish an approved budget or the full relocation cost; BusinessMirror reports that the number of affected households, the budget and eligibility rules are undetermined, that the housing does not necessarily grant land ownership, and that the 100 hectares of farmland the other outlets describe is a community request still under consideration. A final agreement with the community, the Capas local government and NCIP is still required. The assessment records it with its limits: no published plan, map or agreement was among the materials reviewed; about 50 units is an allocation, not a count; a reported general understanding does not establish consent by every affected community or FPIC compliance; displacement remains disputed. Manila Bulletin also reports Bingcang saying the agreement remains targeted for November — a paraphrase; GMA reports a November expectation without attributing it to him. BCDA’s written end-of-2026 expectation is retained, the countdown still counts to it, and November is now described as an attributed target, not a confirmed date. Three adversarial gate rounds (REFUTED, REFUTED, UNREFUTED); no Key Judgment, confidence level, scenario weight, precondition or red line moves.",
+      "supersedes": "“bcda’s expected signing window (13 oct reply); november, the previously reported target, neither reaffirmed nor withdrawn — seven preconditions set, none met”"
+    },
+    {
       "date": "2026-10-21",
       "type": "process",
       "title": "Search and AI access: an archived-edition notice, one page heading and a findings table",
