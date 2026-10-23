@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-24",
+      "type": "update",
+      "title": "Paraguay becomes the 26th signatory of the Pax Silica Declaration",
+      "site_version": "1.45",
+      "assessment_version": "2.82",
+      "commits": [],
+      "summary": "A State Department media note of 23 October 2026 records that Paraguay's Foreign Minister signed the Pax Silica Declaration at the Department in Washington and calls Paraguay the 26th signatory. The documented count, which includes the United States and the European Union, moves from 25 to 26 as of 23 October 2026 everywhere the assessment states it in the present tense: the claim checker, the frequently asked questions, the backgrounder, the definitions, the membership section and the figure discrepancy register. Counts tied to earlier dates are kept and dated. The State Department's own Pax Silica page, as served on 24 October 2026, lists 25 signatories and still omits the United States; a dated capture is retained. Paraguay had previously endorsed only the separate Joint Statement on AI Opportunity, and it is not on Indonesia's list of WAICO founding states, so Kazakhstan remains the only state on both. The accession supplies no new Philippine-specific evidence. One adversarial gate round (UNREFUTED_WITH_CAVEATS); its wording is applied. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves.",
+      "supersedes": "“Pax Silica has 25 signatories”"
+    },
+    {
       "date": "2026-10-23",
       "type": "process",
       "title": "The key facts on one page",
