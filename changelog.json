@@ -14,6 +14,15 @@
   "entries": [
     {
       "date": "2026-10-23",
+      "type": "process",
+      "title": "The key facts on one page",
+      "site_version": "1.44",
+      "assessment_version": "2.81",
+      "commits": [],
+      "summary": "A new page at /facts gathers the questions people most often search for in one place: what Pax Silica is, what is proposed at New Clark City, the key figures behind the six findings, what is signed, and the seven preconditions, with the full report (PDF) linked at the top. It restates, word for word, the answers and figures the assessment already publishes on its homepage, and it is regenerated from them whenever the site publishes, so it adds nothing of its own; if the two ever differ, the live assessment prevails. The frequently asked questions section links to it, and the sitemap and the llms.txt guide list it. Assessment findings, figures, preconditions and decision rules are unchanged."
+    },
+    {
+      "date": "2026-10-23",
       "type": "update",
       "title": "BCDA describes a proposed on-site relocation, and a newspaper reports its president saying November remains the signing target",
       "site_version": "1.43",

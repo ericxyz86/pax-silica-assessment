@@ -12,6 +12,7 @@
 ## Core
 
 - [The assessment](https://pax-silica.aiailabs.net/): six findings, ten interactive exhibits, a claim checker, and the full 29-section report
+- [Key facts](https://pax-silica.aiailabs.net/facts): what Pax Silica is, what is proposed at New Clark City, the key figures and what is signed, on one page
 - [Full text (plain text)](https://pax-silica.aiailabs.net/llms-full.txt): the findings, all 29 sections, the claim checker and the sources register in one file
 - [Full report (PDF)](https://pax-silica.aiailabs.net/Pax-Silica-Full-Report.pdf)
 - [Two-minute explainer (video, Filipino)](https://pax-silica.aiailabs.net/explainer)
