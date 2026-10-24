@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "UP forum flags risks in proposed Pax Silica hub",
+      "source": "The Manila Times",
+      "date": "2026-10-25",
+      "url": "https://www.manilatimes.net/2026/10/25/business/sunday-business-it/up-forum-flags-risks-in-proposed-pax-silica-hub/2453203",
+      "image": "https://www.manilatimes.net/manilatimes/uploads/images/2026/10/24/1274952.jpeg"
+    },
+    {
       "title": "United States Welcomes Paraguay as Newest Pax Silica Signatory",
       "source": "US Department of State",
       "date": "2026-10-23",
@@ -63,13 +70,6 @@
       "date": "2026-10-13",
       "url": "https://mb.com.ph/2026/10/13/pax-silica-wont-put-local-livelihood-burial-sites-at-riskpbbm",
       "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/10/13/138614.webp"
-    },
-    {
-      "title": "BCDA submits Pax Silica legal framework to Marcos",
-      "source": "GMA News Online",
-      "date": "2026-10-13",
-      "url": "https://www.gmanetwork.com/news/topstories/regions/1005759/bcda-submits-pax-silica-legal-framework-to-marcos/story/",
-      "image": "https://images.gmanews.tv/webpics/2026/09/capastarlac_2026_09_20_13_36_29.jpg"
     }
   ]
 }
