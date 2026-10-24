@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-10-24",
+      "type": "correction",
+      "title": "Automated remediation corrects 2 recorded findings",
+      "site_version": "1.46",
+      "assessment_version": "2.83",
+      "commits": [],
+      "summary": "The remediation lane corrected 2 recorded findings; each correction was agreed by an independent OpenAI review. Findings corrected: The topic-share methodology contradicts the table's denominator; The listening exhibit denies human review despite its documented human audit.",
+      "supersedes": "every post was labelled by software and <span style=\"color:#475063\">none of it was reviewed by a person</span>"
+    },
+    {
+      "date": "2026-10-24",
       "type": "update",
       "title": "Paraguay becomes the 26th signatory of the Pax Silica Declaration",
       "site_version": "1.45",
