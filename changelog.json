@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-25",
+      "type": "correction",
+      "title": "Automated remediation corrects 1 recorded finding",
+      "site_version": "1.47",
+      "assessment_version": "2.84",
+      "commits": [],
+      "summary": "The remediation lane corrected 1 recorded finding; each correction was agreed by an independent OpenAI review. Findings corrected: Two different primary sources share identifier T1-45.",
+      "supersedes": "T1-45); State’s roster as served on 24 Oct 2026 lists 25 and still omits the US. The EU is a participant, not a country', 'Tier 1: primary'],"
+    },
+    {
       "date": "2026-10-24",
       "type": "correction",
       "title": "Automated remediation corrects 2 recorded findings",
