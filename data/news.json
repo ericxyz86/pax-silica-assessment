@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "$70-billion Pax Silica investment projection faces questions over lack of firm commitments",
+      "source": "Manila Bulletin",
+      "date": "2026-10-26",
+      "url": "https://mb.com.ph/2026/10/26/70-billion-pax-silica-investment-projection-faces-questions-over-lack-of-firm-commitments",
+      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/10/25/141306.webp"
+    },
+    {
+      "title": "Eco concerns raised over land conversion in Tarlac Aeta communities",
+      "source": "Philippine Daily Inquirer",
+      "date": "2026-10-26",
+      "url": "https://newsinfo.inquirer.net/2330012/eco-concerns-raised-over-land-conversion-in-tarlac-aeta-communities",
+      "image": ""
+    },
+    {
       "title": "UP forum flags risks in proposed Pax Silica hub",
       "source": "The Manila Times",
       "date": "2026-10-25",
@@ -56,20 +70,6 @@
       "date": "2026-10-15",
       "url": "https://www.philstar.com/headlines/2026/10/15/2563326/trump-visiting-manila-asean-summit-november",
       "image": "https://media.philstar.com/photos/2026/10/14/donald_2026-10-14_23-23-55.jpg"
-    },
-    {
-      "title": "Filipino United Methodists question AI hub",
-      "source": "UM News",
-      "date": "2026-10-14",
-      "url": "https://www.umnews.org/en/news/filipino-united-methodists-question-ai-hub",
-      "image": "https://www.umnews.org/-/media/umc-media/2026/10/08/15/47/254-en-filipino-ai-concerns-speaker-1200x800px.jpg?mw=1200&hash=67EDAED06AFC9E7CE80B81B18CFBEA23"
-    },
-    {
-      "title": "Pax Silica won’t put local livelihood, burial sites at risk—PBBM",
-      "source": "Manila Bulletin",
-      "date": "2026-10-13",
-      "url": "https://mb.com.ph/2026/10/13/pax-silica-wont-put-local-livelihood-burial-sites-at-riskpbbm",
-      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/10/13/138614.webp"
     }
   ]
 }
