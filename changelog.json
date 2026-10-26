@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-26",
+      "type": "update",
+      "title": "AP attributes a trusted-partner statement on Pax Silica to the State Department",
+      "site_version": "1.48",
+      "assessment_version": "2.85",
+      "commits": [],
+      "summary": "An Associated Press report of 25 October 2026 quotes the State Department: \"Countries can’t be trusted partners in Pax Silica while substantively engaging in initiatives that advance a competing vision for super intelligence.\" The geopolitical section now records it beside Reuters’ August report of a draft exclusivity letter. AP gives no date, recipient or form for the statement, no State Department publication carrying it was located, and the quotation names no country, although AP places it in the context of competition with China. It supports attributing a stated incompatibility with trusted-partner status to the Department in AP’s account; it does not establish a formal membership rule, that the draft letter was sent, or that any signatory has been excluded or warned, and nothing in it concerns the Philippines specifically. Project facts are now verified to 26 October 2026. One adversarial gate round (UNREFUTED_WITH_CAVEATS); its wording is applied. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves."
+    },
+    {
       "date": "2026-10-25",
       "type": "correction",
       "title": "Automated remediation corrects 1 recorded finding",
