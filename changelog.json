@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-27",
+      "type": "update",
+      "title": "A supportive House bill naming Pax Silica is reported filed",
+      "site_version": "1.49",
+      "assessment_version": "2.86",
+      "commits": [],
+      "summary": "GMA News, Politiko and others report that National Unity Party members led by Deputy Speaker Ronaldo Puno filed House Bill 11758, the proposed Advanced Industries Development Act, on 26 October 2026, to establish an Advanced Industries Zone in New Clark City under a dedicated authority with a ₱15-billion minimum investment per locator. The stakeholder section now records it beside the four House inquiry resolutions. As of 27 October it is the first supportive House bill referring to Pax Silica located in this assessment; filing commits no investor, no subsequent action on it has been located, and the bill text could not be retrieved, so its provisions rest on the reporting. The authors’ remarks at the filing on displaced residents and patrimonial land are recorded as theirs, not BCDA’s, and establish neither the zone’s boundary nor the households affected. Project facts are now verified to 27 October 2026. One adversarial gate round (UNREFUTED_WITH_CAVEATS); its wording is applied. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves."
+    },
+    {
       "date": "2026-10-26",
       "type": "update",
       "title": "AP attributes a trusted-partner statement on Pax Silica to the State Department",
