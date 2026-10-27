@@ -14,6 +14,35 @@
   "entries": [
     {
       "date": "2026-10-27",
+      "type": "correction",
+      "title": "The water summary no longer implies that BCDA’s 2018 water invitation produced the PrimeWater joint venture",
+      "site_version": "1.50",
+      "assessment_version": "2.86",
+      "commits": [],
+      "summary": "The site’s water summary said BCDA’s 2019 annual report “dates the resulting joint venture” with a PrimeWater-led consortium to 17 December 2018. “Resulting” implies that the joint venture came out of BCDA’s 2018 invitation for the New Clark City water concession, a procedural link the retrieved record does not independently establish; section 12.1.8 of the assessment already says so. The summary now says the annual report records a joint-venture agreement dated 17 December 2018, and that the retrieved record does not establish the link. The same implication appears in the assessment’s v2.58 version note and in the change-log entry of 18 September 2026; both are kept unchanged as the record of what was then published. The automated remediation lane recorded this finding on 17 October, and its independent review twice held the lane’s fix as incomplete because this sentence was left unchanged; it was then handed to a person. No figure, finding, Key Judgment, confidence level, scenario weight, precondition or red line moves.",
+      "supersedes": "Its 2019 annual report dates the resulting joint venture with a PrimeWater-led consortium to 17 December 2018"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "correction",
+      "title": "The site’s summary for AI tools no longer names November as the signing date",
+      "site_version": "1.50",
+      "assessment_version": "2.86",
+      "commits": [],
+      "summary": "The short summary served to AI tools at /llms.txt still described the decision rule as treating a strictly non-binding framework “at the November 2026 ASEAN Summit” as acceptable with its safeguards. The assessment stopped treating November as the signing date on 18 October 2026 (v2.80): BCDA’s written expectation is signing before the end of 2026, and November is a previously reported, attributed target. That correction missed llms.txt. It now states the rule without a date, as the rest of the site does. The rule itself is unchanged.",
+      "supersedes": "treats a strictly non-binding framework at the November 2026 ASEAN Summit as acceptable only with every express safeguard in its two-branch rule"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "process",
+      "title": "Wide appendix tables fit the printed page",
+      "site_version": "1.50",
+      "assessment_version": "2.86",
+      "commits": [],
+      "summary": "Appendix table B.7, the five-column Foxconn Wisconsin comparator, was wider than the printable page in the PDF, so its right-hand columns were cut off. A print-only style now fits five-column appendix tables to the page width and wraps their cells. No cell, figure or on-screen layout changes."
+    },
+    {
+      "date": "2026-10-27",
       "type": "update",
       "title": "A supportive House bill naming Pax Silica is reported filed",
       "site_version": "1.49",
