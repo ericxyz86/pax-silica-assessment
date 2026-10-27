@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Bill filed establishing ecozone for Pax Silica ops, other critical industries",
+      "source": "GMA News",
+      "date": "2026-10-26",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1007221/bill-filed-establishing-ecozone-for-pax-silica-ops-other-critical-industries/story",
+      "image": "https://images.gmanews.tv/webpics/2020/02/ncc_2020_02_10_23_03_59.jpg"
+    },
+    {
       "title": "$70-billion Pax Silica investment projection faces questions over lack of firm commitments",
       "source": "Manila Bulletin",
       "date": "2026-10-26",
@@ -63,13 +70,6 @@
       "date": "2026-10-16",
       "url": "https://newsinfo.inquirer.net/2325287/dost-chief-no-talk-of-data-center-in-clark-under-pax-silica-initiative",
       "image": ""
-    },
-    {
-      "title": "Trump visiting Manila for ASEAN Summit in November",
-      "source": "The Philippine Star",
-      "date": "2026-10-15",
-      "url": "https://www.philstar.com/headlines/2026/10/15/2563326/trump-visiting-manila-asean-summit-november",
-      "image": "https://media.philstar.com/photos/2026/10/14/donald_2026-10-14_23-23-55.jpg"
     }
   ]
 }
