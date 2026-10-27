@@ -14,6 +14,15 @@
   "entries": [
     {
       "date": "2026-10-27",
+      "type": "update",
+      "title": "The State Department’s Joint Statement list shows 55 names, Bulgaria among them; its text still gives 54 endorsers as of September",
+      "site_version": "1.51",
+      "assessment_version": "2.87",
+      "commits": [],
+      "summary": "The State Department’s AI Opportunity Statement page, as rendered on 24 October 2026, lists 55 country names in its signatory table, while its text still reads “as of September 2026, 54 countries have endorsed the Joint Statement”. All nineteen September additions are on the list; Bulgaria is on it and is not one of them. Bulgaria’s government announced approval to join the Joint Statement in its official record dated 7 October 2026 (Council of Ministers, gov.bg; source T1-77); that does not establish the effective endorsement date or when State added Bulgaria to its list. No full capture of State’s 7 October list is retained, so this reading cannot show whether any other entry changed. Bulgaria is not on the Declaration roster on the State Department’s Pax Silica page as served the same day; its listing records an endorsement of the Joint Statement, not an accession to the Declaration, whose documented count remains 26 as of 23 October 2026. Section 8.3 gains a paragraph, and the site’s section 8 summary and the Appendix C membership row add the dated 24 October reading beside June’s 35 and September’s 54; the Appendix C row now dates the documented Declaration count as of 23 October. The earlier text accurately reported the State Department’s stated September total. The finding-level gate refuted the first two drafts while confirming the 55-name finding each time, and its required corrections are applied. A third round returned UNREFUTED_WITH_CAVEATS with no required edits. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves, and the listing supplies no Philippine-specific evidence. The Joint Statement remains context, not a project instrument."
+    },
+    {
+      "date": "2026-10-27",
       "type": "correction",
       "title": "The water summary no longer implies that BCDA’s 2018 water invitation produced the PrimeWater joint venture",
       "site_version": "1.50",
