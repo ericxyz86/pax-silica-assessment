@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-28",
+      "type": "correction",
+      "title": "Automated remediation corrects 3 recorded findings",
+      "site_version": "1.52",
+      "assessment_version": "2.88",
+      "commits": [],
+      "summary": "The remediation lane corrected 3 recorded findings; each correction was agreed by an independent OpenAI review. Findings corrected: FORGE's proposed tariff and price-floor mechanism becomes an established regime; Scenario C assumes the entire parcel is committed and idle without stating that assumption; The claimed matched-precision GPU comparison uses different precisions.",
+      "supersedes": "“documented exclusion risks — the capital chokepoint, the FORGE tariff wall, the sourcing rules”; “floors, enforced through adjustable tariffs.”; “opportunity cost of 1,618.74 hectares held idle under commitment.”; “The opportunity cost is 1,618.74 hectares held idle under commitment,”; At matched precision the frontier gap is roughly **2–3× per chip** against the best Chinese silicon (B200 ≈ 4.5 PFLOPS dense FP8 vs Ascend 910C ≈ 0.8 PFLOPS BF16) — not the 5–6× a naive reading of the deck's chart implies, and"
+    },
+    {
       "date": "2026-10-27",
       "type": "update",
       "title": "The State Department’s Joint Statement list shows 55 names, Bulgaria among them; its text still gives 54 endorsers as of September",
