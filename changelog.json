@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-29",
+      "type": "correction",
+      "title": "Automated remediation corrects 2 recorded findings",
+      "site_version": "1.53",
+      "assessment_version": "2.89",
+      "commits": [],
+      "summary": "The remediation lane corrected 2 recorded findings; each correction was agreed by an independent OpenAI review. Findings corrected: An unexecuted Philippine offer becomes a resource already committed; Undefined joint governance is declared to require legislation.",
+      "supersedes": "“committed a concrete, quantified, near-term resource to the Pax Silica Zone is the Philippines.”; “state, and the creation of one would be a constitutional innovation requiring legislation rather than an executive arrangement.”"
+    },
+    {
       "date": "2026-10-28",
       "type": "correction",
       "title": "Automated remediation corrects 3 recorded findings",
