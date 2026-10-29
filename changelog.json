@@ -15,6 +15,16 @@
     {
       "date": "2026-10-29",
       "type": "correction",
+      "title": "Employment figures of different scope are no longer treated as one direct-jobs series, and a spliced quotation is corrected",
+      "site_version": "1.55",
+      "assessment_version": "2.91",
+      "commits": [],
+      "summary": "The site and assessment incorrectly treated employment figures of unspecified scope as direct jobs and inferred a comparable escalating series. BCDA distinguishes 130,000–190,000 direct from 500,000–800,000 indirect and induced jobs. The Labor Secretary’s approximately million-job estimate and the Ambassador’s 300,000 estimate do not specify those categories or a dated delivery horizon. Possible numerical compatibility with BCDA’s combined range does not establish reconciliation. KJ-5 now concerns unreconciled claims in the reviewed record and the absence of a located published reconciling study, with High confidence limited to that documentary proposition. The aggregate employment claim assessment changes from Disputed to official projections with unreconciled scopes and horizons; individual projection labels remain. The Ambassador’s conditional 2027 employment expectation is separated from his undated 300,000 estimate. The earlier assertion that it contradicts Q1 2028 initial site development is withdrawn because the documents do not establish the same milestone. The newspaper attributes the Labor Secretary’s estimate to information presented to Helberg, not to a Taiwan-based calculation. Remaining direct/total labels are corrected and the exact syndicated source is linked. The remediation finding was recorded on 28 October and handed to a person on 29 October after one failed attempt. No other Key Judgment, confidence level, scenario weight, precondition or negotiating red line changes. R2’s rationale changes without a rating change; R21’s early-warning indicator and §26.3 broaden to further unsupported figures. This finding-level gate returned REFUTED on the staged draft; no edits were applied by the gate. A second round refuted the revised draft for one unbounded sentence, now replaced. A third round returned UNREFUTED_WITH_CAVEATS with no required edits.",
+      "supersedes": "“Official job claims have escalated to five mutually inconsistent figures issued by four arms of government within a fortnight”; “Official employment claims are inflating without new evidence”; “Basis given as a comparison to \"Taiwan’s industrial growth model\"”; “Manila Times, 22 Jul 2026, Labor Sec. Tolentino, citing \"Taiwan’s industrial growth model\"”; “Up to 300,000 jobs \"as early as 2027\"”; “Escalating without new studies”; “Job claims escalated across four agencies between 22 and 26 July”; “The Labor Secretary’s figure would exceed the combined workforce of Subic and Clark roughly three times over”; “2027 jobs inconsistent with 2028 construction”"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "correction",
       "title": "Five entries in the assessment’s change log had given news reports the tier reserved for analytical work",
       "site_version": "1.54",
       "assessment_version": "2.90",
