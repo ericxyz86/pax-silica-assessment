@@ -15,6 +15,16 @@
     {
       "date": "2026-10-29",
       "type": "correction",
+      "title": "Five entries in the assessment’s change log had given news reports the tier reserved for analytical work",
+      "site_version": "1.54",
+      "assessment_version": "2.90",
+      "commits": [],
+      "summary": "Five entries in the assessment’s change log labelled news reports “Tier 2”, the tier its Appendix E reserves for high-quality analytical work; under Appendix E, news reporting is Tier 3, credible journalism. The reports are AP’s of 25 October 2026, the four relocation reports of 19 October (BusinessWorld, GMA News, Manila Bulletin and BusinessMirror), the coverage of House Bill No. 11758, a Reuters report of a draft exclusivity letter and an AFP dispatch of 20 September. Each label is kept as written, as the record of what was published, and gains an editorial clarification. The AP and relocation labels were already recorded in the remediation lane's 27 October digest; its 28 October digest carried the unresolved finding forward and recorded the handoff to a person because the fixer's rules protect change-log entries from automated edits. Each entry already treated its reports as attributed reporting, with the limits it states; the correction changes the label, not how the reports are used. The finding-level gate confirmed all five reclassifications and refuted the first draft only for its account of when the finding was recorded; that is corrected, and a second round returned UNREFUTED with no further edits. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves.",
+      "supersedes": "“Tier 2: a wire service attributing a statement to the Department”; “All Tier 2, attributed reporting of an official's oral remarks”; “Tier 2–3: national and regional reporting of a legislative filing and of remarks at the filing briefing”; “Tier 2, and deliberately held there”; “Tier 2, attributed testimony”"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "correction",
       "title": "Automated remediation corrects 2 recorded findings",
       "site_version": "1.53",
       "assessment_version": "2.89",
