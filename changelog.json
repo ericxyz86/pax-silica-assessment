@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-10-30",
+      "type": "correction",
+      "title": "Automated remediation corrects 1 recorded finding",
+      "site_version": "1.56",
+      "assessment_version": "2.92",
+      "commits": [],
+      "summary": "The remediation lane corrected 1 recorded finding; each correction was agreed by an independent OpenAI review. Findings corrected: The Wisconsin case becomes universal proof that clawbacks are the only effective protection.",
+      "supersedes": "“jobs — and the only thing that protected its taxpayers was the performance-linked, annually verified clawback structure in the contract.**”; “annually verified, performance-linked clawbacks are the only protection that works”; “This is the single protection that worked in Wisconsin and the only one with a demonstrated track record.”; “, and the only thing that protected its taxpayers was the performance-linked clawback in the contract.”"
+    },
+    {
       "date": "2026-10-29",
       "type": "correction",
       "title": "Employment figures of different scope are no longer treated as one direct-jobs series, and a spliced quotation is corrected",
