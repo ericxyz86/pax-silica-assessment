@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Aeta residents fear losing water, ancestral lands to Pax Silica hub in Tarlac",
+      "source": "Bilyonaryo News Channel",
+      "date": "2026-10-30",
+      "url": "https://bnc.bilyonaryo.com/aeta-residents-fear-losing-water-ancestral-lands-to-pax-silica-hub-in-tarlac/news",
+      "image": "https://bnc.bilyonaryo.com/wp-content/uploads/2026/10/a-598.jpg"
+    },
+    {
       "title": "Bill filed establishing ecozone for Pax Silica ops, other critical industries",
       "source": "GMA News",
       "date": "2026-10-26",
@@ -63,13 +70,6 @@
       "date": "2026-10-16",
       "url": "https://www.gmanetwork.com/news/topstories/nation/1006138/all-pax-silica-issues-to-be-properly-addressed-says-envoy/story/",
       "image": "https://images.gmanews.tv/webpics/2025/05/Screenshot_2025-05-28_at_3_2025_05_28_16_05_37.png"
-    },
-    {
-      "title": "DOST chief: No talk of data center in Clark under Pax Silica initiative",
-      "source": "Philippine Daily Inquirer",
-      "date": "2026-10-16",
-      "url": "https://newsinfo.inquirer.net/2325287/dost-chief-no-talk-of-data-center-in-clark-under-pax-silica-initiative",
-      "image": ""
     }
   ]
 }
