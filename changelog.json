@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-01",
+      "type": "correction",
+      "title": "Automated remediation corrects 3 recorded findings",
+      "site_version": "1.57",
+      "assessment_version": "2.93",
+      "commits": [],
+      "summary": "The remediation lane corrected 3 recorded findings; each correction was agreed by an independent OpenAI review. Findings corrected: An unconfirmed parcel open-space restriction becomes a binding analytical input; Grid approval above an interview benchmark is treated as proof of a political constraint; The lease-income projection receives an unsupported primary-source tier and no source route.",
+      "supersedes": "the 40% reserved as open space; “is incompatible with the stated 40% green and open space,”; (net of 40% open space); “contradicts the promise to keep 40% of it open space.”; the 40% reserved as open space.; “is incompatible with the stated 40% green and open space”; (net of 40% open space)\"; the 40% reserved as open space,; “materially above that ceiling without commissioned dedicated generation would signal the constraint was political rather than technical”; projection, Jul 2026; PV computed at 8% real over 25 years = ~PHP 25.6bn', 'Tier 1: derived from primary']"
+    },
+    {
       "date": "2026-10-30",
       "type": "correction",
       "title": "Automated remediation corrects 1 recorded finding",
