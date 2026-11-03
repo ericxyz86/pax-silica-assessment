@@ -14,6 +14,15 @@
   "entries": [
     {
       "date": "2026-11-03",
+      "type": "update",
+      "title": "What “bottom-up” means in the employment figures, and BCDA’s bars labelled as direct jobs",
+      "site_version": "1.60",
+      "assessment_version": "2.96",
+      "commits": [],
+      "summary": "The site and the assessment call the Finance Secretary’s “thousands of jobs” from the named anchor the only bottom-up employment figure on the record. Bottom-up here means anchor-specific: an expectation about one named investor, not a published employment model. The employment exhibit’s caption, the economics section and the figure discrepancy register now say so. The exhibit also labels BCDA’s two bars “130,000 direct” and “190,000 direct”; until now only its caption stated their basis, and the plotted values are unchanged. These were optional suggestions of the finding-level gate on the v1.55 correction. Its third suggestion, linking an archived copy of the Manila Times report of 22 July 2026, is not taken because whether a capture exists could not be established. The finding-level gate returned UNREFUTED_WITH_CAVEATS with no required edits. No figure, Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves."
+    },
+    {
+      "date": "2026-11-03",
       "type": "correction",
       "title": "Automated remediation corrects 1 recorded finding",
       "site_version": "1.59",
