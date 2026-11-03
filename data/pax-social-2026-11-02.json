@@ -1,0 +1,1624 @@
+{
+  "asOfDate": "2026-11-02",
+  "basis": {
+    "cutoverDate": "2026-08-07",
+    "note": "Counted from a near-complete collection with reposts excluded; earlier figures use a different collection basis. Neither counts nor shares are like-for-like measures across that change."
+  },
+  "frames": {
+    "economic": {
+      "count": 22405,
+      "share": 0.36367
+    },
+    "environmental": {
+      "count": 9973,
+      "share": 0.161878
+    },
+    "ethical": {
+      "count": 904,
+      "share": 0.014673
+    },
+    "geopolitical": {
+      "count": 19964,
+      "share": 0.324049
+    },
+    "moral": {
+      "count": 3446,
+      "share": 0.055934
+    },
+    "other": {
+      "count": 25386,
+      "share": 0.412057
+    },
+    "religious": {
+      "count": 51,
+      "share": 0.000828
+    },
+    "rights_based": {
+      "count": 6500,
+      "share": 0.105506
+    },
+    "security": {
+      "count": 4123,
+      "share": 0.066923
+    }
+  },
+  "generatedAt": "2026-11-03T00:20:26.009Z",
+  "methodology": {
+    "languages": [
+      "en",
+      "tl"
+    ],
+    "location": "worldwide",
+    "note": "Every post in the window was labelled by software; none was reviewed by a person. Topic shares are multi-label and can sum past 100%.",
+    "query": "(\"pax silica\" OR hashtags:paxsilica) NOT engagementType:RETWEET",
+    "repostsExcluded": true
+  },
+  "platformMix": {
+    "blog": {
+      "count": 162,
+      "share": 0.002474
+    },
+    "blogs": {
+      "count": 67,
+      "share": 0.001023
+    },
+    "bluesky": {
+      "count": 654,
+      "share": 0.009989
+    },
+    "facebook": {
+      "count": 39360,
+      "share": 0.601191
+    },
+    "forum": {
+      "count": 247,
+      "share": 0.003773
+    },
+    "instagram": {
+      "count": 365,
+      "share": 0.005575
+    },
+    "news": {
+      "count": 9391,
+      "share": 0.14344
+    },
+    "reddit": {
+      "count": 5310,
+      "share": 0.081106
+    },
+    "review": {
+      "count": 15,
+      "share": 0.000229
+    },
+    "tumblr": {
+      "count": 66,
+      "share": 0.001008
+    },
+    "x": {
+      "count": 6756,
+      "share": 0.103192
+    },
+    "youtube": {
+      "count": 3077,
+      "share": 0.046999
+    }
+  },
+  "schemaVersion": "pax-social-public-v2",
+  "segmentTotals": {
+    "platformMix": {
+      "blog": {
+        "count": 158,
+        "share": 0.002634
+      },
+      "blogs": {
+        "count": 67,
+        "share": 0.001117
+      },
+      "bluesky": {
+        "count": 634,
+        "share": 0.01057
+      },
+      "facebook": {
+        "count": 35140,
+        "share": 0.585862
+      },
+      "forum": {
+        "count": 226,
+        "share": 0.003768
+      },
+      "instagram": {
+        "count": 328,
+        "share": 0.005468
+      },
+      "news": {
+        "count": 9139,
+        "share": 0.152367
+      },
+      "reddit": {
+        "count": 5161,
+        "share": 0.086045
+      },
+      "review": {
+        "count": 14,
+        "share": 0.000233
+      },
+      "tumblr": {
+        "count": 64,
+        "share": 0.001067
+      },
+      "x": {
+        "count": 6302,
+        "share": 0.105068
+      },
+      "youtube": {
+        "count": 2747,
+        "share": 0.045799
+      }
+    },
+    "sentiment": {
+      "mixed": {
+        "count": 744,
+        "share": 0.013175
+      },
+      "negative": {
+        "count": 22695,
+        "share": 0.401895
+      },
+      "neutral": {
+        "count": 16540,
+        "share": 0.292899
+      },
+      "positive": {
+        "count": 15920,
+        "share": 0.28192
+      },
+      "unclear": {
+        "count": 571,
+        "share": 0.010112
+      }
+    },
+    "stakeholderTypes": {
+      "business": {
+        "count": 828,
+        "share": 0.014663
+      },
+      "civil_society": {
+        "count": 2894,
+        "share": 0.051248
+      },
+      "faith_based_org": {
+        "count": 89,
+        "share": 0.001576
+      },
+      "government": {
+        "count": 3348,
+        "share": 0.059288
+      },
+      "individual": {
+        "count": 40328,
+        "share": 0.714149
+      },
+      "media": {
+        "count": 8965,
+        "share": 0.158757
+      },
+      "unknown": {
+        "count": 18,
+        "share": 0.000319
+      }
+    },
+    "topicSentiment": {
+      "ai_infrastructure": {
+        "mixed": 112,
+        "negative": 1649,
+        "neutral": 4532,
+        "positive": 2500,
+        "unclear": 20
+      },
+      "energy": {
+        "mixed": 79,
+        "negative": 1017,
+        "neutral": 831,
+        "positive": 686,
+        "unclear": 3
+      },
+      "environment": {
+        "mixed": 325,
+        "negative": 8062,
+        "neutral": 1232,
+        "positive": 1081,
+        "unclear": 23
+      },
+      "foreign_policy": {
+        "mixed": 43,
+        "negative": 1510,
+        "neutral": 4429,
+        "positive": 1728,
+        "unclear": 32
+      },
+      "governance": {
+        "mixed": 315,
+        "negative": 8567,
+        "neutral": 5279,
+        "positive": 2806,
+        "unclear": 125
+      },
+      "implementation": {
+        "mixed": 43,
+        "negative": 123,
+        "neutral": 676,
+        "positive": 172,
+        "unclear": 6
+      },
+      "indigenous_rights": {
+        "mixed": 159,
+        "negative": 4260,
+        "neutral": 627,
+        "positive": 368,
+        "unclear": 10
+      },
+      "investment": {
+        "mixed": 217,
+        "negative": 1025,
+        "neutral": 2937,
+        "positive": 6851,
+        "unclear": 52
+      },
+      "jobs": {
+        "mixed": 205,
+        "negative": 911,
+        "neutral": 593,
+        "positive": 2661,
+        "unclear": 13
+      },
+      "other": {
+        "mixed": 111,
+        "negative": 7015,
+        "neutral": 4347,
+        "positive": 3585,
+        "unclear": 371
+      },
+      "security": {
+        "mixed": 60,
+        "negative": 2069,
+        "neutral": 3134,
+        "positive": 2161,
+        "unclear": 19
+      },
+      "semiconductors": {
+        "mixed": 137,
+        "negative": 638,
+        "neutral": 4334,
+        "positive": 5360,
+        "unclear": 16
+      },
+      "sovereignty": {
+        "mixed": 85,
+        "negative": 4441,
+        "neutral": 780,
+        "positive": 1410,
+        "unclear": 14
+      },
+      "trade": {
+        "mixed": 47,
+        "negative": 618,
+        "neutral": 2491,
+        "positive": 2687,
+        "unclear": 11
+      },
+      "water": {
+        "mixed": 126,
+        "negative": 3442,
+        "neutral": 993,
+        "positive": 856,
+        "unclear": 9
+      }
+    },
+    "topicShares": {
+      "ai_infrastructure": {
+        "count": 8813,
+        "share": 0.156065
+      },
+      "energy": {
+        "count": 2616,
+        "share": 0.046325
+      },
+      "environment": {
+        "count": 10723,
+        "share": 0.189888
+      },
+      "foreign_policy": {
+        "count": 7742,
+        "share": 0.137099
+      },
+      "governance": {
+        "count": 17092,
+        "share": 0.302674
+      },
+      "implementation": {
+        "count": 1020,
+        "share": 0.018063
+      },
+      "indigenous_rights": {
+        "count": 5424,
+        "share": 0.096051
+      },
+      "investment": {
+        "count": 11082,
+        "share": 0.196246
+      },
+      "jobs": {
+        "count": 4383,
+        "share": 0.077616
+      },
+      "other": {
+        "count": 15429,
+        "share": 0.273225
+      },
+      "security": {
+        "count": 7443,
+        "share": 0.131804
+      },
+      "semiconductors": {
+        "count": 10485,
+        "share": 0.185674
+      },
+      "sovereignty": {
+        "count": 6730,
+        "share": 0.119178
+      },
+      "trade": {
+        "count": 5854,
+        "share": 0.103666
+      },
+      "water": {
+        "count": 5426,
+        "share": 0.096086
+      }
+    },
+    "window": {
+      "end": "2026-11-02",
+      "start": "2026-08-07"
+    }
+  },
+  "sentiment": {
+    "mixed": {
+      "count": 823,
+      "share": 0.013359
+    },
+    "negative": {
+      "count": 25521,
+      "share": 0.414248
+    },
+    "neutral": {
+      "count": 17626,
+      "share": 0.286099
+    },
+    "positive": {
+      "count": 17019,
+      "share": 0.276247
+    },
+    "unclear": {
+      "count": 619,
+      "share": 0.010047
+    }
+  },
+  "series": {
+    "daily": [
+      [
+        "2026-08-07",
+        2706,
+        1389,
+        487,
+        587,
+        51,
+        29
+      ],
+      [
+        "2026-08-08",
+        1249,
+        511,
+        222,
+        421,
+        9,
+        6
+      ],
+      [
+        "2026-08-09",
+        916,
+        401,
+        229,
+        191,
+        14,
+        2
+      ],
+      [
+        "2026-08-10",
+        2086,
+        825,
+        523,
+        660,
+        27,
+        9
+      ],
+      [
+        "2026-08-11",
+        1642,
+        641,
+        311,
+        433,
+        32,
+        16
+      ],
+      [
+        "2026-08-12",
+        808,
+        318,
+        239,
+        181,
+        11,
+        12
+      ],
+      [
+        "2026-08-13",
+        1525,
+        684,
+        238,
+        522,
+        28,
+        10
+      ],
+      [
+        "2026-08-14",
+        2232,
+        973,
+        537,
+        615,
+        64,
+        8
+      ],
+      [
+        "2026-08-15",
+        1214,
+        485,
+        327,
+        319,
+        23,
+        9
+      ],
+      [
+        "2026-08-16",
+        1079,
+        480,
+        311,
+        238,
+        33,
+        1
+      ],
+      [
+        "2026-08-17",
+        1077,
+        522,
+        295,
+        203,
+        20,
+        8
+      ],
+      [
+        "2026-08-18",
+        449,
+        179,
+        152,
+        90,
+        4,
+        6
+      ],
+      [
+        "2026-08-19",
+        677,
+        302,
+        130,
+        177,
+        11,
+        4
+      ],
+      [
+        "2026-08-20",
+        272,
+        120,
+        64,
+        70,
+        4,
+        0
+      ],
+      [
+        "2026-08-21",
+        342,
+        140,
+        76,
+        95,
+        13,
+        3
+      ],
+      [
+        "2026-08-22",
+        155,
+        60,
+        54,
+        27,
+        2,
+        1
+      ],
+      [
+        "2026-08-23",
+        807,
+        298,
+        175,
+        239,
+        35,
+        44
+      ],
+      [
+        "2026-08-24",
+        363,
+        110,
+        121,
+        104,
+        7,
+        9
+      ],
+      [
+        "2026-08-25",
+        451,
+        149,
+        101,
+        174,
+        9,
+        0
+      ],
+      [
+        "2026-08-26",
+        295,
+        111,
+        93,
+        67,
+        2,
+        4
+      ],
+      [
+        "2026-08-27",
+        401,
+        168,
+        97,
+        111,
+        3,
+        11
+      ],
+      [
+        "2026-08-28",
+        162,
+        58,
+        54,
+        38,
+        4,
+        2
+      ],
+      [
+        "2026-08-29",
+        195,
+        64,
+        53,
+        57,
+        7,
+        1
+      ],
+      [
+        "2026-08-30",
+        182,
+        82,
+        57,
+        29,
+        5,
+        0
+      ],
+      [
+        "2026-08-31",
+        1222,
+        469,
+        165,
+        521,
+        19,
+        11
+      ],
+      [
+        "2026-09-01",
+        475,
+        170,
+        138,
+        131,
+        22,
+        3
+      ],
+      [
+        "2026-09-02",
+        587,
+        145,
+        329,
+        78,
+        1,
+        20
+      ],
+      [
+        "2026-09-03",
+        540,
+        115,
+        235,
+        154,
+        3,
+        9
+      ],
+      [
+        "2026-09-04",
+        301,
+        56,
+        107,
+        118,
+        3,
+        3
+      ],
+      [
+        "2026-09-05",
+        511,
+        173,
+        61,
+        230,
+        3,
+        2
+      ],
+      [
+        "2026-09-06",
+        196,
+        67,
+        69,
+        47,
+        2,
+        1
+      ],
+      [
+        "2026-09-07",
+        1028,
+        285,
+        171,
+        484,
+        6,
+        4
+      ],
+      [
+        "2026-09-08",
+        461,
+        138,
+        189,
+        95,
+        1,
+        8
+      ],
+      [
+        "2026-09-09",
+        508,
+        156,
+        218,
+        78,
+        4,
+        2
+      ],
+      [
+        "2026-09-10",
+        2531,
+        1057,
+        340,
+        1020,
+        25,
+        21
+      ],
+      [
+        "2026-09-11",
+        1316,
+        551,
+        314,
+        332,
+        9,
+        16
+      ],
+      [
+        "2026-09-12",
+        1050,
+        374,
+        312,
+        270,
+        2,
+        18
+      ],
+      [
+        "2026-09-13",
+        866,
+        233,
+        279,
+        303,
+        7,
+        4
+      ],
+      [
+        "2026-09-14",
+        636,
+        210,
+        237,
+        147,
+        5,
+        5
+      ],
+      [
+        "2026-09-15",
+        936,
+        290,
+        277,
+        255,
+        9,
+        7
+      ],
+      [
+        "2026-09-16",
+        951,
+        342,
+        239,
+        247,
+        18,
+        14
+      ],
+      [
+        "2026-09-17",
+        1144,
+        356,
+        519,
+        224,
+        14,
+        5
+      ],
+      [
+        "2026-09-18",
+        1451,
+        409,
+        308,
+        636,
+        11,
+        9
+      ],
+      [
+        "2026-09-19",
+        875,
+        234,
+        171,
+        420,
+        7,
+        4
+      ],
+      [
+        "2026-09-20",
+        464,
+        128,
+        195,
+        109,
+        10,
+        3
+      ],
+      [
+        "2026-09-21",
+        1050,
+        472,
+        299,
+        207,
+        8,
+        4
+      ],
+      [
+        "2026-09-22",
+        722,
+        211,
+        277,
+        198,
+        5,
+        11
+      ],
+      [
+        "2026-09-23",
+        919,
+        309,
+        277,
+        249,
+        6,
+        9
+      ],
+      [
+        "2026-09-24",
+        525,
+        221,
+        159,
+        94,
+        2,
+        2
+      ],
+      [
+        "2026-09-25",
+        566,
+        165,
+        261,
+        91,
+        0,
+        4
+      ],
+      [
+        "2026-09-26",
+        326,
+        110,
+        109,
+        82,
+        1,
+        3
+      ],
+      [
+        "2026-09-27",
+        369,
+        102,
+        180,
+        68,
+        8,
+        2
+      ],
+      [
+        "2026-09-28",
+        310,
+        101,
+        126,
+        63,
+        2,
+        4
+      ],
+      [
+        "2026-09-29",
+        470,
+        142,
+        225,
+        72,
+        3,
+        1
+      ],
+      [
+        "2026-09-30",
+        304,
+        142,
+        85,
+        50,
+        2,
+        6
+      ],
+      [
+        "2026-10-01",
+        585,
+        298,
+        141,
+        101,
+        3,
+        4
+      ],
+      [
+        "2026-10-02",
+        597,
+        244,
+        105,
+        204,
+        10,
+        4
+      ],
+      [
+        "2026-10-03",
+        242,
+        89,
+        70,
+        63,
+        0,
+        2
+      ],
+      [
+        "2026-10-04",
+        278,
+        118,
+        85,
+        59,
+        1,
+        7
+      ],
+      [
+        "2026-10-05",
+        425,
+        137,
+        146,
+        84,
+        1,
+        5
+      ],
+      [
+        "2026-10-06",
+        330,
+        106,
+        109,
+        54,
+        3,
+        9
+      ],
+      [
+        "2026-10-07",
+        259,
+        116,
+        77,
+        45,
+        5,
+        3
+      ],
+      [
+        "2026-10-08",
+        566,
+        191,
+        183,
+        149,
+        14,
+        6
+      ],
+      [
+        "2026-10-09",
+        622,
+        225,
+        190,
+        147,
+        0,
+        7
+      ],
+      [
+        "2026-10-10",
+        251,
+        90,
+        86,
+        48,
+        4,
+        1
+      ],
+      [
+        "2026-10-11",
+        285,
+        135,
+        75,
+        59,
+        2,
+        0
+      ],
+      [
+        "2026-10-12",
+        875,
+        492,
+        199,
+        90,
+        4,
+        8
+      ],
+      [
+        "2026-10-13",
+        756,
+        299,
+        218,
+        164,
+        4,
+        9
+      ],
+      [
+        "2026-10-14",
+        1016,
+        417,
+        335,
+        151,
+        18,
+        27
+      ],
+      [
+        "2026-10-15",
+        691,
+        209,
+        316,
+        88,
+        8,
+        14
+      ],
+      [
+        "2026-10-16",
+        492,
+        169,
+        179,
+        63,
+        11,
+        11
+      ],
+      [
+        "2026-10-17",
+        249,
+        74,
+        110,
+        36,
+        0,
+        1
+      ],
+      [
+        "2026-10-18",
+        210,
+        64,
+        63,
+        36,
+        0,
+        3
+      ],
+      [
+        "2026-10-19",
+        284,
+        100,
+        133,
+        34,
+        2,
+        3
+      ],
+      [
+        "2026-10-20",
+        443,
+        113,
+        169,
+        125,
+        0,
+        8
+      ],
+      [
+        "2026-10-21",
+        453,
+        210,
+        126,
+        93,
+        2,
+        2
+      ],
+      [
+        "2026-10-22",
+        467,
+        135,
+        162,
+        152,
+        3,
+        2
+      ],
+      [
+        "2026-10-23",
+        265,
+        88,
+        77,
+        89,
+        0,
+        3
+      ],
+      [
+        "2026-10-24",
+        172,
+        65,
+        57,
+        44,
+        0,
+        1
+      ],
+      [
+        "2026-10-25",
+        389,
+        60,
+        274,
+        40,
+        3,
+        0
+      ],
+      [
+        "2026-10-26",
+        523,
+        132,
+        281,
+        85,
+        5,
+        1
+      ],
+      [
+        "2026-10-27",
+        491,
+        160,
+        161,
+        150,
+        0,
+        5
+      ],
+      [
+        "2026-10-28",
+        344,
+        148,
+        108,
+        71,
+        1,
+        5
+      ],
+      [
+        "2026-10-29",
+        245,
+        79,
+        98,
+        50,
+        1,
+        3
+      ],
+      [
+        "2026-10-30",
+        318,
+        110,
+        104,
+        82,
+        0,
+        0
+      ],
+      [
+        "2026-10-31",
+        370,
+        107,
+        86,
+        163,
+        1,
+        2
+      ],
+      [
+        "2026-11-01",
+        638,
+        365,
+        74,
+        166,
+        2,
+        3
+      ],
+      [
+        "2026-11-02",
+        954,
+        347,
+        126,
+        214,
+        0,
+        2
+      ]
+    ],
+    "dailyColumns": [
+      "date",
+      "volume",
+      "negative",
+      "neutral",
+      "positive",
+      "mixed",
+      "unclear"
+    ],
+    "monthly": [
+      [
+        "2026-08",
+        {
+          "platforms": {
+            "blog": 63,
+            "bluesky": 194,
+            "facebook": 16987,
+            "forum": 81,
+            "instagram": 114,
+            "news": 2169,
+            "reddit": 940,
+            "review": 1,
+            "tumblr": 22,
+            "x": 637,
+            "youtube": 1299
+          },
+          "sentiment": {
+            "mixed": 437,
+            "negative": 9539,
+            "neutral": 5111,
+            "positive": 6169,
+            "unclear": 206
+          },
+          "stakeholders": {
+            "business": 206,
+            "civil_society": 1016,
+            "faith_based_org": 15,
+            "government": 1320,
+            "individual": 16406,
+            "media": 2496,
+            "unknown": 3
+          },
+          "topics": {
+            "ai_infrastructure": 2606,
+            "energy": 1244,
+            "environment": 5630,
+            "foreign_policy": 2162,
+            "governance": 6906,
+            "implementation": 425,
+            "indigenous_rights": 2456,
+            "investment": 4741,
+            "jobs": 2113,
+            "other": 5196,
+            "security": 2381,
+            "semiconductors": 3675,
+            "sovereignty": 2554,
+            "trade": 1926,
+            "water": 2488
+          },
+          "volume": 22507
+        }
+      ],
+      [
+        "2026-09",
+        {
+          "platforms": {
+            "blog": 55,
+            "blogs": 24,
+            "bluesky": 299,
+            "facebook": 11829,
+            "forum": 79,
+            "instagram": 118,
+            "news": 4041,
+            "reddit": 2552,
+            "review": 11,
+            "tumblr": 24,
+            "x": 2446,
+            "youtube": 910
+          },
+          "sentiment": {
+            "mixed": 199,
+            "negative": 7464,
+            "neutral": 6706,
+            "positive": 6552,
+            "unclear": 204
+          },
+          "stakeholders": {
+            "business": 444,
+            "civil_society": 1241,
+            "faith_based_org": 51,
+            "government": 1194,
+            "individual": 14692,
+            "media": 3497,
+            "unknown": 6
+          },
+          "topics": {
+            "ai_infrastructure": 3685,
+            "energy": 874,
+            "environment": 2869,
+            "foreign_policy": 3048,
+            "governance": 6048,
+            "implementation": 306,
+            "indigenous_rights": 1712,
+            "investment": 4250,
+            "jobs": 1586,
+            "other": 6197,
+            "security": 3340,
+            "semiconductors": 4511,
+            "sovereignty": 2535,
+            "trade": 2393,
+            "water": 1034
+          },
+          "volume": 22388
+        }
+      ],
+      [
+        "2026-10",
+        {
+          "platforms": {
+            "blog": 40,
+            "blogs": 42,
+            "bluesky": 133,
+            "facebook": 5815,
+            "forum": 57,
+            "instagram": 94,
+            "news": 2653,
+            "reddit": 1623,
+            "review": 2,
+            "tumblr": 12,
+            "x": 2495,
+            "youtube": 527
+          },
+          "sentiment": {
+            "mixed": 106,
+            "negative": 4980,
+            "neutral": 4523,
+            "positive": 2819,
+            "unclear": 156
+          },
+          "stakeholders": {
+            "business": 164,
+            "civil_society": 621,
+            "faith_based_org": 23,
+            "government": 734,
+            "individual": 8259,
+            "media": 2775,
+            "unknown": 8
+          },
+          "topics": {
+            "ai_infrastructure": 2248,
+            "energy": 491,
+            "environment": 2113,
+            "foreign_policy": 2327,
+            "governance": 3940,
+            "implementation": 285,
+            "indigenous_rights": 931,
+            "investment": 1980,
+            "jobs": 660,
+            "other": 3548,
+            "security": 1606,
+            "semiconductors": 2084,
+            "sovereignty": 1291,
+            "trade": 1419,
+            "water": 1880
+          },
+          "volume": 13493
+        }
+      ],
+      [
+        "2026-11",
+        {
+          "platforms": {
+            "blogs": 1,
+            "bluesky": 8,
+            "facebook": 509,
+            "forum": 9,
+            "instagram": 2,
+            "news": 276,
+            "reddit": 46,
+            "tumblr": 6,
+            "x": 724,
+            "youtube": 11
+          },
+          "sentiment": {
+            "mixed": 2,
+            "negative": 712,
+            "neutral": 200,
+            "positive": 380,
+            "unclear": 5
+          },
+          "stakeholders": {
+            "business": 14,
+            "civil_society": 16,
+            "government": 100,
+            "individual": 971,
+            "media": 197,
+            "unknown": 1
+          },
+          "topics": {
+            "ai_infrastructure": 274,
+            "energy": 7,
+            "environment": 111,
+            "foreign_policy": 205,
+            "governance": 198,
+            "implementation": 4,
+            "indigenous_rights": 325,
+            "investment": 111,
+            "jobs": 24,
+            "other": 488,
+            "security": 116,
+            "semiconductors": 215,
+            "sovereignty": 350,
+            "trade": 116,
+            "water": 24
+          },
+          "volume": 1592
+        }
+      ]
+    ]
+  },
+  "stakeholderTypes": {
+    "business": {
+      "count": 901,
+      "share": 0.014625
+    },
+    "civil_society": {
+      "count": 3284,
+      "share": 0.053305
+    },
+    "faith_based_org": {
+      "count": 108,
+      "share": 0.001753
+    },
+    "government": {
+      "count": 3667,
+      "share": 0.059521
+    },
+    "individual": {
+      "count": 44220,
+      "share": 0.717764
+    },
+    "media": {
+      "count": 9408,
+      "share": 0.152707
+    },
+    "unknown": {
+      "count": 20,
+      "share": 0.000325
+    }
+  },
+  "topicSentiment": {
+    "ai_infrastructure": {
+      "mixed": 124,
+      "negative": 1835,
+      "neutral": 4717,
+      "positive": 2713,
+      "unclear": 20
+    },
+    "energy": {
+      "mixed": 92,
+      "negative": 1199,
+      "neutral": 893,
+      "positive": 739,
+      "unclear": 3
+    },
+    "environment": {
+      "mixed": 355,
+      "negative": 9259,
+      "neutral": 1326,
+      "positive": 1128,
+      "unclear": 23
+    },
+    "foreign_policy": {
+      "mixed": 47,
+      "negative": 1649,
+      "neutral": 4568,
+      "positive": 1820,
+      "unclear": 34
+    },
+    "governance": {
+      "mixed": 356,
+      "negative": 9848,
+      "neutral": 5767,
+      "positive": 3041,
+      "unclear": 131
+    },
+    "implementation": {
+      "mixed": 47,
+      "negative": 167,
+      "neutral": 737,
+      "positive": 184,
+      "unclear": 6
+    },
+    "indigenous_rights": {
+      "mixed": 177,
+      "negative": 5148,
+      "neutral": 703,
+      "positive": 419,
+      "unclear": 11
+    },
+    "investment": {
+      "mixed": 237,
+      "negative": 1107,
+      "neutral": 3080,
+      "positive": 7360,
+      "unclear": 52
+    },
+    "jobs": {
+      "mixed": 237,
+      "negative": 1075,
+      "neutral": 625,
+      "positive": 2899,
+      "unclear": 13
+    },
+    "other": {
+      "mixed": 126,
+      "negative": 7804,
+      "neutral": 4740,
+      "positive": 3855,
+      "unclear": 412
+    },
+    "security": {
+      "mixed": 64,
+      "negative": 2243,
+      "neutral": 3228,
+      "positive": 2274,
+      "unclear": 21
+    },
+    "semiconductors": {
+      "mixed": 150,
+      "negative": 711,
+      "neutral": 4496,
+      "positive": 5735,
+      "unclear": 17
+    },
+    "sovereignty": {
+      "mixed": 89,
+      "negative": 4984,
+      "neutral": 838,
+      "positive": 1486,
+      "unclear": 16
+    },
+    "trade": {
+      "mixed": 55,
+      "negative": 659,
+      "neutral": 2569,
+      "positive": 2838,
+      "unclear": 12
+    },
+    "water": {
+      "mixed": 137,
+      "negative": 3786,
+      "neutral": 1051,
+      "positive": 891,
+      "unclear": 10
+    }
+  },
+  "topicShares": {
+    "ai_infrastructure": {
+      "count": 9409,
+      "share": 0.152724
+    },
+    "energy": {
+      "count": 2926,
+      "share": 0.047494
+    },
+    "environment": {
+      "count": 12091,
+      "share": 0.196257
+    },
+    "foreign_policy": {
+      "count": 8118,
+      "share": 0.131769
+    },
+    "governance": {
+      "count": 19143,
+      "share": 0.310723
+    },
+    "implementation": {
+      "count": 1141,
+      "share": 0.01852
+    },
+    "indigenous_rights": {
+      "count": 6458,
+      "share": 0.104824
+    },
+    "investment": {
+      "count": 11836,
+      "share": 0.192118
+    },
+    "jobs": {
+      "count": 4849,
+      "share": 0.078707
+    },
+    "other": {
+      "count": 16937,
+      "share": 0.274916
+    },
+    "security": {
+      "count": 7830,
+      "share": 0.127094
+    },
+    "semiconductors": {
+      "count": 11109,
+      "share": 0.180317
+    },
+    "sovereignty": {
+      "count": 7413,
+      "share": 0.120325
+    },
+    "trade": {
+      "count": 6133,
+      "share": 0.099549
+    },
+    "water": {
+      "count": 5875,
+      "share": 0.095361
+    }
+  },
+  "window": {
+    "end": "2026-11-02",
+    "start": "2025-12-12"
+  }
+}
