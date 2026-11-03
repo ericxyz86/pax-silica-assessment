@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-03",
+      "type": "correction",
+      "title": "Official accounts of where mineral processing would happen have changed; the report’s “on-site” wording is corrected",
+      "site_version": "1.58",
+      "assessment_version": "2.94",
+      "commits": [],
+      "summary": "BOI said on 20 April 2026 that the hub “will host industrial facilities for critical minerals processing”. A BusinessWorld feature published on 30 September under the byline of DTI Undersecretary and BOI Managing Head Ceferino Rodolfo, identified as adapted from his 4 September SEIPI speech, says: “CAMP is not a mining project. It is not a mineral-processing project. It is not a data-center project.” On 2 November SEIPI president Danilo Lachica said the minerals “will be processed next to the mines”; his account is not counted as independent corroboration. This report had gone on saying that refining was an on-site activity. That overstated an unresolved plan, and it is corrected. The later exclusion statements are recorded as attributed positions: no adopted parcel-specific instrument was located, neither exclusion nor relocation is established, and no risk rating falls. The monitor had recorded relevant September reporting but failed to carry the changed official descriptions into the assessment. The “AI Industrial Hub” rebranding Lachica hedged with “I guess” is not adopted. Key Judgment 12’s supporting clause is amended from a categorical assertion of on-site refining to a dated account of differing official descriptions; its conclusion and confidence remain unchanged, and no scenario weight, precondition or claim verdict changes.",
+      "supersedes": "“refining is a listed on-site activity”; “mineral refining is a listed on-site activity”; “refining is an on-site activity, and any resulting extraction will occur in Palawan, Zambales, Surigao and Eastern Samar”; “On-site refining generates acidic residues and tailings-like streams.”; “Critical-mineral processing is a listed on-site activity”; “away from exporting raw mineral ore toward domestic processing.”; “that would feed the Zone’s refining activity”"
+    },
+    {
       "date": "2026-11-01",
       "type": "correction",
       "title": "Automated remediation corrects 3 recorded findings",
