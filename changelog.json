@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-04",
+      "type": "update",
+      "title": "BCDA’s president did not reaffirm November when asked about signing, and a photographed subpoena and two outlets indicate a police complaint over the 10 September protest",
+      "site_version": "1.61",
+      "assessment_version": "2.97",
+      "commits": [],
+      "summary": "Asked on 3 November about the framework’s signing this month, BCDA’s president said “Nothing concrete, nothing is finalized”, according to GMA News and the Daily Tribune, which carry the same remarks; no transcript or recording was located. The remarks announce neither a signing date nor an express withdrawal of November or of BCDA’s 13 October expectation of signing before the end of 2026, and neither window is confirmed. The report’s surfaces now call November the previously reported target. An ASEAN organiser, asked about a signing, placed Pax Silica within DTI’s remit; that establishes neither that DTI decides the date nor that it replaces BCDA as a contracting party. A photographed first page of a subpoena from the Taguig City Prosecutor’s Office, carried by Manila Standard and credited to BAYAN, names eight respondents including Teddy Casiño in a complaint by eleven police officers, for Articles 148, 151, 153 and 155 of the Revised Penal Code and Batas Pambansa 880; ABOGADO also reports a filed complaint. The page does not mention the protest, a link that rests on the two outlets. It is one photographed page, credited by Manila Standard to BAYAN, a party to the dispute; its authenticity was not independently confirmed; the complaint itself was not retrieved; and nothing establishes an offence, probable cause or a court case. The September record gains an independent report of the police announcement, on the public record since 11 September and located by this monitor only on 4 November. Finding-level gate, three rounds: UNREFUTED_WITH_CAVEATS, with its required edits applied. No Key Judgment, confidence level, scenario weight, precondition, red line, stakeholder coordinate or claim-checker verdict moves."
+    },
+    {
       "date": "2026-11-03",
       "type": "update",
       "title": "What “bottom-up” means in the employment figures, and BCDA’s bars labelled as direct jobs",
