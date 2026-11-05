@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Philippines awaits US response on Pax Silica deal, Palace says",
+      "source": "Daily Tribune",
+      "date": "2026-11-04",
+      "url": "https://tribune.net.ph/2026/11/04/philippines-awaits-us-response-on-pax-silica-deal-palace-says",
+      "image": "https://images.assettype.com/tribune/2026-11-04/6ow05jsu/audience.jpg?w=1200&auto=format&q=70&rect=0%2C150%2C1600%2C900&h=675&fit=crop"
+    },
+    {
       "title": "Groups pushback vs Pax Silica initiative ahead of Trump visit",
       "source": "BusinessWorld",
       "date": "2026-11-03",
@@ -63,13 +70,6 @@
       "date": "2026-10-19",
       "url": "https://www.gmanetwork.com/news/money/economy/1006438/bcda-estimates-p30m-cost-to-relocate-new-clark-city-settlers-for-pax-silica/story/",
       "image": "https://images.gmanews.tv/webpics/2026/09/capastarlac_2026_09_20_13_36_29.jpg"
-    },
-    {
-      "title": "Philippines eyes billions in investment from Pax Silica tech hub, but farmers fear for their livelihoods",
-      "source": "CNA",
-      "date": "2026-10-16",
-      "url": "https://www.channelnewsasia.com/asia/philippines-pax-silica-tech-hub-investment-farmers-fear-livelihoods-6465486",
-      "image": "https://dam.mediacorp.sg/image/upload/s--cXcA98k3--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/10/16/screenshot_2026-10-15_204159.png?itok=f6RdhfgT"
     }
   ]
 }

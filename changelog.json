@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-05",
+      "type": "update",
+      "title": "The Palace relayed BCDA’s message that a US response to the draft was awaited, and repeated its displacement assurance with qualified wording",
+      "site_version": "1.62",
+      "assessment_version": "2.98",
+      "commits": [],
+      "summary": "At the Malacañang briefing of 4 November, Palace Press Officer Claire Castro said she was relaying BCDA’s message: guidance had been given for BCDA to follow in negotiating and finalising the framework arrangement with the “US counterpart party”, and a US response to the draft was awaited. She called the text a memorandum and not final and, asked about a signing at the ASEAN Summit, said “Let us see”. The wording rests on auto-captions of a UNTV upload, not checked against the audio; no PCO transcript and no US statement were located. The answers announce no date and neither confirm nor rule out a summit signing, and they do not establish presidential review, the draft’s contents or the US counterpart. On displacement she repeated the assurance with qualified wording and promised financial assistance if anyone is in fact displaced; the exchange establishes no withdrawal of earlier assurances or change of policy, and she named no plan, amount or map. Her “6,000 plus” and “3,000 plus” hectares describe an area she did not define and cannot be reconciled with the estate and parcel records from this exchange alone; on 3 August she gave 3,500 and 6,000. Ambassador Romualdez is quoted by Abante TNT as saying the administration would not accept a one-sided agreement; that is his view, and Abante’s paraphrase of a “legislative review” is not adopted as a requirement. Finding-level gate: the first two rounds rejected draft wording and required edits, all applied; round 3, on the applied text, returned UNREFUTED_WITH_CAVEATS with no required edits, its caveats concerning verification scope and access to the gate record. No Key Judgment, confidence level, scenario weight, precondition, red line, stakeholder coordinate or claim-checker verdict moves."
+    },
+    {
       "date": "2026-11-04",
       "type": "update",
       "title": "BCDA’s president did not reaffirm November when asked about signing, and a photographed subpoena and two outlets indicate a police complaint over the 10 September protest",
