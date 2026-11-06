@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "New corridor eyed for ‘super intelligence’ projects",
+      "source": "Philippine Daily Inquirer",
+      "date": "2026-11-06",
+      "url": "https://business.inquirer.net/619740/new-corridor-eyed-for-super-intelligence-projects",
+      "image": "https://business.inquirer.net/files/2024/03/Trade-Undersecretary-Ceferino-S.-Rodolfo.png"
+    },
+    {
       "title": "Philippines awaits US response on Pax Silica deal, Palace says",
       "source": "Daily Tribune",
       "date": "2026-11-04",
@@ -63,13 +70,6 @@
       "date": "2026-10-21",
       "url": "https://mb.com.ph/2026/10/21/1000-protesters-join-lakbayan-rally-in-mendiola-for-peasant-month",
       "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/10/21/140657.webp"
-    },
-    {
-      "title": "BCDA estimates P30M cost to relocate New Clark City settlers for Pax Silica",
-      "source": "GMA News Online",
-      "date": "2026-10-19",
-      "url": "https://www.gmanetwork.com/news/money/economy/1006438/bcda-estimates-p30m-cost-to-relocate-new-clark-city-settlers-for-pax-silica/story/",
-      "image": "https://images.gmanews.tv/webpics/2026/09/capastarlac_2026_09_20_13_36_29.jpg"
     }
   ]
 }
