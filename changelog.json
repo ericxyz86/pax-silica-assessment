@@ -14,6 +14,15 @@
   "entries": [
     {
       "date": "2026-11-07",
+      "type": "process",
+      "title": "The fact sheet now carries the six findings in full",
+      "site_version": "1.64",
+      "assessment_version": "2.99",
+      "commits": [],
+      "summary": "The fact sheet at /facts now restates, word for word, what each of the six findings says, as the homepage publishes it, after the table of key figures. It also links to the assessment’s schematic of the parcel inside New Clark City, and the Filipino explainer now links to the fact sheet. Like the rest of the fact sheet, the new section is regenerated from the homepage whenever the site publishes, and the live assessment prevails if the two ever differ. Assessment findings, figures, preconditions and decision rules are unchanged."
+    },
+    {
+      "date": "2026-11-07",
       "type": "update",
       "title": "The ambassador to the US said he did not think the framework would be ready for President Trump’s visit, and that finalisation was most likely early next year",
       "site_version": "1.63",
