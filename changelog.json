@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-07",
+      "type": "update",
+      "title": "The ambassador to the US said he did not think the framework would be ready for President Trump’s visit, and that finalisation was most likely early next year",
+      "site_version": "1.63",
+      "assessment_version": "2.99",
+      "commits": [],
+      "summary": "In an interview published by One News PH on 6 November, Ambassador Jose Manuel Romualdez said: “I don’t think it will be ready by the time President Trump comes to the Philippines”, and “We’re hoping before the end of the year, but most likely maybe early next year”. The wording rests on English auto-captions, not checked against the audio. Bloomberg, in a separate interview carried by The Star, quotes him: “There will be nothing on the Pax Silica… That’s being sorted, but not really sorted yet.” These are one official’s expectations, not a BCDA, Palace or US statement, and they fix no date. No US Embassy announcement of the kind he anticipated, and no express withdrawal by BCDA of its 13 October year-end expectation, was located through 7 November. A slip beyond 2026 is not established. His “There will be no data centers. That is what I’m told” is recorded as his account, not a parcel-specific exclusion. A PCO transcript of the 4 November briefing was located but could not be opened by this monitor; the verification gate reports that it supports the account already given. Finding-level gate: round 1 returned UNREFUTED_WITH_CAVEATS with four required edits, all applied; round 2, on the applied text, returned UNREFUTED_WITH_CAVEATS with no required edits. No Key Judgment, confidence level, scenario weight, precondition, red line, stakeholder coordinate or claim-checker verdict moves."
+    },
+    {
       "date": "2026-11-05",
       "type": "update",
       "title": "The Palace relayed BCDA’s message that a US response to the draft was awaited, and repeated its displacement assurance with qualified wording",
