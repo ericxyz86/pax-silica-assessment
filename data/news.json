@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "A nuclear reactor inside Pax Silica? DOE says it’s an option",
+      "source": "Rappler",
+      "date": "2026-11-06",
+      "url": "https://www.rappler.com/newsbreak/inside-track/nuclear-energy-pax-silica/",
+      "image": "https://www.rappler.com/tachyon/2026/08/beyond-bataan-building-philippines-energy-future-August-6-2026.jpg"
+    },
+    {
       "title": "New corridor eyed for ‘super intelligence’ projects",
       "source": "Philippine Daily Inquirer",
       "date": "2026-11-06",
@@ -63,13 +70,6 @@
       "date": "2026-10-23",
       "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/united-states-welcomes-paraguay-as-newest-pax-silica-signatory",
       "image": "https://www.state.gov/wp-content/uploads/2025/01/Press_Release_Alabaster.png"
-    },
-    {
-      "title": "‘Lakbayan’ protest: 1,000 farmers, groups march to Mendiola vs Pax Silica, land grabs",
-      "source": "Manila Bulletin",
-      "date": "2026-10-21",
-      "url": "https://mb.com.ph/2026/10/21/1000-protesters-join-lakbayan-rally-in-mendiola-for-peasant-month",
-      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/10/21/140657.webp"
     }
   ]
 }
