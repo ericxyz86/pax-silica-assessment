@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-08",
+      "type": "update",
+      "title": "The US Ambassador said no announcement on the Pax Silica zone during or after the ASEAN Summit “was ever planned”, and set no date",
+      "site_version": "1.65",
+      "assessment_version": "3.00",
+      "commits": [],
+      "summary": "In a statement published by the US Embassy on 7 November, addressing media comments about an announcement during or after the ASEAN Leaders’ Summit, Ambassador Lee Lipton said: “No such announcement on the Pax Silica Economic Security Zone was ever planned. Decisions will be made in full consultation with the government of the Philippines at the appropriate time.” The statement speaks of an announcement, not a signing; reports that it rules out a signing make an inference it does not state. It sets no decision or signing date and does not explicitly address BCDA’s 13 October expectation of signing before the end of 2026. It is recorded beside Ambassador Romualdez’s 6 November expectation that the framework would not be ready for President Trump’s visit. Neither establishes a slip beyond 2026, and this update judges the added evidence insufficient to change the scenario weights. The detailed timeline’s note that no US Embassy announcement had been located through 7 November, accurate when written, now points to the statement. Finding-level gate: round 1 returned UNREFUTED_WITH_CAVEATS with two required edits, both applied; round 2, on the applied text, returned UNREFUTED_WITH_CAVEATS with no required edits. No Key Judgment, confidence level, scenario weight, precondition, red line, stakeholder coordinate or claim-checker verdict moves."
+    },
+    {
       "date": "2026-11-07",
       "type": "process",
       "title": "The fact sheet now carries the six findings in full",
