@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "No Pax Silica announcement during ASEAN – US envoy",
+      "source": "The Philippine Star",
+      "date": "2026-11-08",
+      "url": "https://www.philstar.com/headlines/2026/11/08/2568688/no-pax-silica-announcement-during-asean-us-envoy",
+      "image": "https://media.philstar.com/photos/2026/11/07/3_2026-11-07_22-35-58.jpg"
+    },
+    {
       "title": "A nuclear reactor inside Pax Silica? DOE says it’s an option",
       "source": "Rappler",
       "date": "2026-11-06",
@@ -63,13 +70,6 @@
       "date": "2026-10-25",
       "url": "https://www.manilatimes.net/2026/10/25/business/sunday-business-it/up-forum-flags-risks-in-proposed-pax-silica-hub/2453203",
       "image": "https://www.manilatimes.net/manilatimes/uploads/images/2026/10/24/1274952.jpeg"
-    },
-    {
-      "title": "United States Welcomes Paraguay as Newest Pax Silica Signatory",
-      "source": "US Department of State",
-      "date": "2026-10-23",
-      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/united-states-welcomes-paraguay-as-newest-pax-silica-signatory",
-      "image": "https://www.state.gov/wp-content/uploads/2025/01/Press_Release_Alabaster.png"
     }
   ]
 }
