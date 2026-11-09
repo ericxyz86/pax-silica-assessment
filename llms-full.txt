@@ -9,7 +9,7 @@
 
 ### 01 — the instrument does not describe the project
 The published BCDA offer proposes a bilateral coordination office and states that the property "shall be used exclusively" for five coordination functions. It contains no reference to semiconductor packaging, data centres, mineral processing, or private locators. The public prospectus has no published legal basis.
-Key figure: 0 (references to industry in the operative instrument)
+Key figure: 0 (references to semiconductor packaging, data centres, mineral processing or private locators)
 
 ### 02 — the headline figures do not reconcile
 Pairing US$40–70bn with 130,000–190,000 direct jobs is unreconciled and jointly implausible: constructible on paper, but the one illustrative mix this report constructed needs more back-end employment in this one site than the whole national industry supports today, and no published mix reconciles them. The claimed PHP 68–75bn of annual withholding tax, which BCDA has confirmed is payroll withholding, implies average pay of PHP 2.13m at an assumed 20% effective rate and 160,000 jobs, about 8.2 times the annualised PSA average wage for time-rated full-time workers in formal establishments with 10 or more workers, a general formal-sector benchmark, not semiconductor pay. The named anchor is expected to generate "thousands."

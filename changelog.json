@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-09",
+      "type": "correction",
+      "title": "Automated remediation corrects 1 recorded finding",
+      "site_version": "1.66",
+      "assessment_version": "3.01",
+      "commits": [],
+      "summary": "The remediation lane corrected 1 recorded finding; each correction was agreed by an independent OpenAI review. Findings corrected: The zero-industry-reference metric contradicts the proposal’s industrial-planning function.",
+      "supersedes": "“industry in the operative instrument</td>”; industry in the operative instrument'"
+    },
+    {
       "date": "2026-11-08",
       "type": "update",
       "title": "The US Ambassador said no announcement on the Pax Silica zone during or after the ASEAN Summit “was ever planned”, and set no date",
