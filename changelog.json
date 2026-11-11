@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-11",
+      "type": "update",
+      "title": "The Trade Undersecretary said there will be no announcement during the Trump–Marcos meeting and that an agreement is still on track by year-end; no date was set",
+      "site_version": "1.67",
+      "assessment_version": "3.02",
+      "commits": [],
+      "summary": "Speaking to reporters at the Fourth ASEAN Investment Forum on 10 November, Trade Undersecretary and BOI Managing Head Ceferino Rodolfo said: “While there will be no announcement during the upcoming meeting between President Trump and President Marcos, this is simply a matter of timing” (BusinessWorld), and “I think we’re still on track towards having an agreement by the end of this year” (Rappler; GMA News). Asked what remained to be finalised, he answered, according to BusinessMirror, “The master agreement itself, the whole thing”. The reports identify no signing date or venue. Several outlets carried one press encounter and are not independent corroboration; no DTI or BOI release or official transcript was located. His year-end expectation is consistent with BCDA’s 13 October reply and differs from Ambassador Romualdez’s “most likely maybe early next year”; it neither establishes a slip beyond 2026 nor makes a signing before it more than an official’s expectation. The update covers these remarks and the candidates triaged on 11 November; it is not a fresh verification of every project fact. Finding-level gate: round 1 returned UNREFUTED_WITH_CAVEATS with four required edits, all applied; round 2, on the applied text, returned UNREFUTED_WITH_CAVEATS, its one required edit concerning the last-updated stamp, which is set at publication. No Key Judgment, confidence level, scenario weight, precondition, red line, stakeholder coordinate or claim-checker verdict moves."
+    },
+    {
       "date": "2026-11-09",
       "type": "correction",
       "title": "Automated remediation corrects 1 recorded finding",
