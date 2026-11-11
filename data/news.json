@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Pax Silica signing eyed by year-end, not during ASEAN Summit – DTI",
+      "source": "Rappler",
+      "date": "2026-11-10",
+      "url": "https://www.rappler.com/business/pax-silica-signing-year-end-not-asean-summit-2026",
+      "image": "https://www.rappler.com/tachyon/2026/07/PAX-SILICA-LUZON.jpg"
+    },
+    {
       "title": "No Pax Silica announcement during ASEAN – US envoy",
       "source": "The Philippine Star",
       "date": "2026-11-08",
@@ -63,13 +70,6 @@
       "date": "2026-10-26",
       "url": "https://newsinfo.inquirer.net/2330012/eco-concerns-raised-over-land-conversion-in-tarlac-aeta-communities",
       "image": ""
-    },
-    {
-      "title": "UP forum flags risks in proposed Pax Silica hub",
-      "source": "The Manila Times",
-      "date": "2026-10-25",
-      "url": "https://www.manilatimes.net/2026/10/25/business/sunday-business-it/up-forum-flags-risks-in-proposed-pax-silica-hub/2453203",
-      "image": "https://www.manilatimes.net/manilatimes/uploads/images/2026/10/24/1274952.jpeg"
     }
   ]
 }
