@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-12",
+      "type": "update",
+      "title": "Two House committees held a joint briefing on the initiative; BCDA said Philippine laws will govern, and a lease or joint venture is reported still under discussion",
+      "site_version": "1.68",
+      "assessment_version": "3.03",
+      "commits": [],
+      "summary": "On 11 November the House Committees on Economic Affairs and on Trade and Industry held a joint briefing on the initiative with BCDA and DTI-BOI. House Resolutions 1128, 1227 and 1247 are pending with the Committee on Economic Affairs. Five named outlets report the briefing (BusinessWorld, GMA News, Abante, Radyo Pilipinas, and UNTV through automatic captions not checked against the audio), and the committee’s page, seen only through a search index, lists it. Asked about “joint governance”, BCDA President Joshua Bingcang said, as GMA News reports, “Sovereignty rests with the Philippines”, naming the Investor’s Lease Act and the BCDA law, and said there was no definite signing date. According to BusinessWorld, Trade Undersecretary Ceferino Rodolfo said the 9 April proposal states that Philippine laws govern and that the US accepted it as the basis for negotiations, and BusinessWorld alone reports that whether the site is developed through a lease or a joint venture is still being discussed. Radyo Pilipinas reports BCDA preparing a power development plan for an embedded supply and in talks with an unnamed Saudi company on a possible 500 MW solar facility. These are reports of the same proceeding, not independent confirmations of the underlying negotiating positions, and the reported oral statements do not supply the negotiated instruments: they do not establish US acceptance of exclusive Philippine jurisdiction, a settled land instrument, added generation capacity, or consideration of any numbered resolution. No House transcript, minutes or substantive committee report, and no BCDA or DTI release, was retrieved; the official scheduling evidence was available only through the indexed House Economic Affairs committee page. The update covers this briefing and the candidates triaged on 12 November; it is not a fresh verification of every project fact. Finding-level gate: round 1 returned UNREFUTED_WITH_CAVEATS with eight required edits, all applied; round 2, on the applied text, returned UNREFUTED_WITH_CAVEATS with three consistency edits, all applied; a round-3 confirmation returned UNREFUTED with no required edits. No Key Judgment, confidence level, scenario weight, precondition, red line, stakeholder coordinate or claim-checker verdict moves."
+    },
+    {
       "date": "2026-11-11",
       "type": "update",
       "title": "The Trade Undersecretary said there will be no announcement during the Trump–Marcos meeting and that an agreement is still on track by year-end; no date was set",
