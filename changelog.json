@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-13",
+      "type": "update",
+      "title": "The Finance Secretary announced that BCDA’s president will move to head PEZA and the Customs Commissioner said he will replace him; appointment documents are reported but were not inspected",
+      "site_version": "1.69",
+      "assessment_version": "3.04",
+      "commits": [],
+      "summary": "On 12 November Finance Secretary Frederick Go announced at a Department of Finance press conference that BCDA President and CEO Joshua Bingcang will be transferred to head the Philippine Economic Zone Authority, as GMA News reports; seven other named outlets report the announced or expected move with differing qualifications, and a DOF release acknowledges his “new role at the country’s second-largest investment promotion agency” without naming the post. Customs Commissioner Ariel Nepomuceno confirmed to The Manila Times that he will replace Bingcang at BCDA. On formal status the reports address different steps: PortCalls reports a signed, immediately effective acting appointment for Nepomuceno and Context.ph reports Bingcang’s appointment transmitted to the Trade Secretary on 11 November, while the Daily Tribune reports no formal Palace announcement, a cancelled PCO briefing, no papers at PEZA, and Bingcang saying he did not know his next assignment; a DOF release of 13 November still styles him BCDA president. These accounts are not necessarily contradictory, and no appointment instrument, oath or assumption-of-office record was inspected. The Manila Times paraphrases Bingcang as saying that Trade Undersecretary Ceferino Rodolfo would take the lead for the initiative; it is one originating report located in this review, and no DTI, BCDA or Palace confirmation of a new leadership assignment was located. The personnel reports do not establish any change in BCDA’s landownership, proponent status or statutory responsibilities, the negotiating positions or the signing timetable, and do not identify the eventual framework signatory or the institution responsible for leading negotiations. Finding-level gate: round 1 returned REFUTED, chiefly because the draft called the transfers “not formalised” while PortCalls and Context.ph had reported appointment documents; its seven required edits were applied. Round 2 found them satisfied and returned REFUTED on four narrower points of interpretation, all applied. Round 3, on the applied text, found those satisfied except one register note, whose wording was then aligned verbatim; round 4 returned UNREFUTED with no required edits. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves."
+    },
+    {
       "date": "2026-11-12",
       "type": "update",
       "title": "Two House committees held a joint briefing on the initiative; BCDA said Philippine laws will govern, and a lease or joint venture is reported still under discussion",
