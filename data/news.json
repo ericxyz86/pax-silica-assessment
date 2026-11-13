@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "BCDA president Joshua Bingcang to lead PEZA, says DOF chief",
+      "source": "GMA News",
+      "date": "2026-11-12",
+      "url": "https://www.gmanetwork.com/news/money/economy/1009302/bcda-president-joshua-bingcang-to-lead-peza-says-dof-chief/story",
+      "image": "https://images.gmanews.tv/webpics/2026/08/joshua_bingcang_bcda_2026_08_06_15_54_09.jpg"
+    },
+    {
       "title": "Pax Silica to operate under Philippine laws —BCDA",
       "source": "GMA News",
       "date": "2026-11-11",
@@ -63,13 +70,6 @@
       "date": "2026-10-26",
       "url": "https://www.gmanetwork.com/news/topstories/nation/1007221/bill-filed-establishing-ecozone-for-pax-silica-ops-other-critical-industries/story",
       "image": "https://images.gmanews.tv/webpics/2020/02/ncc_2020_02_10_23_03_59.jpg"
-    },
-    {
-      "title": "$70-billion Pax Silica investment projection faces questions over lack of firm commitments",
-      "source": "Manila Bulletin",
-      "date": "2026-10-26",
-      "url": "https://mb.com.ph/2026/10/26/70-billion-pax-silica-investment-projection-faces-questions-over-lack-of-firm-commitments",
-      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/10/25/141306.webp"
     }
   ]
 }
