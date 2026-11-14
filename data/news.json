@@ -2,6 +2,27 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Trump to press Southeast Asia nations to join Pax Silica at Asean summit in Manila",
+      "source": "South China Morning Post",
+      "date": "2026-11-13",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374393/trump-press-southeast-asia-nations-join-pax-silica-asean-summit-manila",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/11/13/cd8a1138-d23b-4370-a92e-a95be0da4ab8_bcbbd593.jpg?itok=eGREjpCZ&v=1794576888"
+    },
+    {
+      "title": "Students stage walkout vs. Trump visit, Pax Silica: 'We fight for our future'",
+      "source": "GMA News",
+      "date": "2026-11-13",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1009384/students-stage-walkout-vs-trump-visit-pax-silica-we-fight-for-our-future/story",
+      "image": "https://images.gmanews.tv/webpics/2026/11/Students_stage_walkout_vs_Trump_visit,_Pax_Silica_We_fight_for_our_future_Courtesy_Philippine_Collegian_20261113_2026_11_13_13_50_59.jpg"
+    },
+    {
+      "title": "Cabinet revamp: PBBM orders reshuffle in BOC, BIR, BCDA, PEZA",
+      "source": "Philippine News Agency",
+      "date": "2026-11-13",
+      "url": "https://www.pna.gov.ph/article/cabinet-revamp-pbbm-orders-reshuffle-in-boc-bir-bcda-peza",
+      "image": "https://www.pna.gov.ph/_assets/storage/seo-contents/vDlz5G7w2wex2an22CIZiRs4QfRq9hYhrZzu5IY8.webp"
+    },
+    {
       "title": "BCDA president Joshua Bingcang to lead PEZA, says DOF chief",
       "source": "GMA News",
       "date": "2026-11-12",
@@ -49,27 +70,6 @@
       "date": "2026-11-04",
       "url": "https://tribune.net.ph/2026/11/04/philippines-awaits-us-response-on-pax-silica-deal-palace-says",
       "image": "https://images.assettype.com/tribune/2026-11-04/6ow05jsu/audience.jpg?w=1200&auto=format&q=70&rect=0%2C150%2C1600%2C900&h=675&fit=crop"
-    },
-    {
-      "title": "Groups pushback vs Pax Silica initiative ahead of Trump visit",
-      "source": "BusinessWorld",
-      "date": "2026-11-03",
-      "url": "https://bworldonline.com/the-nation/2026/11/03/791202/groups-pushback-vs-pax-silica-initiative-ahead-of-trump-visit",
-      "image": "https://bworldonline.com/wp-content/uploads/2024/10/Donald-J.-Trump.jpg"
-    },
-    {
-      "title": "Aeta residents fear losing water, ancestral lands to Pax Silica hub in Tarlac",
-      "source": "Bilyonaryo News Channel",
-      "date": "2026-10-30",
-      "url": "https://bnc.bilyonaryo.com/aeta-residents-fear-losing-water-ancestral-lands-to-pax-silica-hub-in-tarlac/news",
-      "image": "https://bnc.bilyonaryo.com/wp-content/uploads/2026/10/a-598.jpg"
-    },
-    {
-      "title": "Bill filed establishing ecozone for Pax Silica ops, other critical industries",
-      "source": "GMA News",
-      "date": "2026-10-26",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1007221/bill-filed-establishing-ecozone-for-pax-silica-ops-other-critical-industries/story",
-      "image": "https://images.gmanews.tv/webpics/2020/02/ncc_2020_02_10_23_03_59.jpg"
     }
   ]
 }
