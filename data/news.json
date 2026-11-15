@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "PBBM orders maximum tolerance during Pax Silica protests",
+      "source": "Philippine News Agency",
+      "date": "2026-11-14",
+      "url": "https://www.pna.gov.ph/article/pbbm-orders-maximum-tolerance-during-pax-silica-protests",
+      "image": "https://www.pna.gov.ph/_assets/storage/photo-assets/baWhwMygigsmM7rst322lfQb3PlIgpZVJW0uhYe4.webp"
+    },
+    {
+      "title": "Ayta groups join UP protest camp against Pax Silica",
+      "source": "Manila Bulletin",
+      "date": "2026-11-14",
+      "url": "https://mb.com.ph/2026/11/14/ayta-groups-join-up-protest-camp-against-pax-silica",
+      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/11/14/146642.webp"
+    },
+    {
       "title": "Trump to press Southeast Asia nations to join Pax Silica at Asean summit in Manila",
       "source": "South China Morning Post",
       "date": "2026-11-13",
@@ -56,20 +70,6 @@
       "date": "2026-11-06",
       "url": "https://www.rappler.com/newsbreak/inside-track/nuclear-energy-pax-silica/",
       "image": "https://www.rappler.com/tachyon/2026/08/beyond-bataan-building-philippines-energy-future-August-6-2026.jpg"
-    },
-    {
-      "title": "New corridor eyed for ‘super intelligence’ projects",
-      "source": "Philippine Daily Inquirer",
-      "date": "2026-11-06",
-      "url": "https://business.inquirer.net/619740/new-corridor-eyed-for-super-intelligence-projects",
-      "image": "https://business.inquirer.net/files/2024/03/Trade-Undersecretary-Ceferino-S.-Rodolfo.png"
-    },
-    {
-      "title": "Philippines awaits US response on Pax Silica deal, Palace says",
-      "source": "Daily Tribune",
-      "date": "2026-11-04",
-      "url": "https://tribune.net.ph/2026/11/04/philippines-awaits-us-response-on-pax-silica-deal-palace-says",
-      "image": "https://images.assettype.com/tribune/2026-11-04/6ow05jsu/audience.jpg?w=1200&auto=format&q=70&rect=0%2C150%2C1600%2C900&h=675&fit=crop"
     }
   ]
 }
