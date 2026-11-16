@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Report: US, Allies Sign Accord to Protect AI Supply Lines From China",
+      "source": "Newsmax",
+      "date": "2026-11-15",
+      "url": "https://www.yahoo.com/news/politics/articles/report-us-allies-sign-accord-181215730.html",
+      "image": "https://s.yimg.com/lo/mysterio/api/4fb3e5297557bfdfc5a47e6f41659f923f60d44e96bc5bfdca7d6ed1a2c29878/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnewsmax_809%2F918aabed2e376c2bd9718bf2b9b493f9.jpg"
+    },
+    {
+      "title": "Police arrest anti-Pax Silica protesters as ASEAN Summit opens in Manila",
+      "source": "Rappler",
+      "date": "2026-11-15",
+      "url": "https://www.rappler.com/philippines/pax-silica-protest-arrest-asean-opening-manila/",
+      "image": "https://www.rappler.com/tachyon/2026/11/asean-summit-protest-pax-silica-trump-november-15-2026-002-scaled.jpg"
+    },
+    {
       "title": "PBBM orders maximum tolerance during Pax Silica protests",
       "source": "Philippine News Agency",
       "date": "2026-11-14",
@@ -56,20 +70,6 @@
       "date": "2026-11-10",
       "url": "https://www.rappler.com/business/pax-silica-signing-year-end-not-asean-summit-2026",
       "image": "https://www.rappler.com/tachyon/2026/07/PAX-SILICA-LUZON.jpg"
-    },
-    {
-      "title": "No Pax Silica announcement during ASEAN – US envoy",
-      "source": "The Philippine Star",
-      "date": "2026-11-08",
-      "url": "https://www.philstar.com/headlines/2026/11/08/2568688/no-pax-silica-announcement-during-asean-us-envoy",
-      "image": "https://media.philstar.com/photos/2026/11/07/3_2026-11-07_22-35-58.jpg"
-    },
-    {
-      "title": "A nuclear reactor inside Pax Silica? DOE says it’s an option",
-      "source": "Rappler",
-      "date": "2026-11-06",
-      "url": "https://www.rappler.com/newsbreak/inside-track/nuclear-energy-pax-silica/",
-      "image": "https://www.rappler.com/tachyon/2026/08/beyond-bataan-building-philippines-energy-future-August-6-2026.jpg"
     }
   ]
 }
