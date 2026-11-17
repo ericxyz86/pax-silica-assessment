@@ -2,6 +2,34 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Philippines: US Tech Hub to Displace Hundreds",
+      "source": "Human Rights Watch",
+      "date": "2026-11-16",
+      "url": "https://www.hrw.org/news/2026/11/16/philippines-us-tech-hub-to-displace-hundreds",
+      "image": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/11/202611asia_philippines_tarlac_farmer.jpg?h=19f14c2c&itok=01Js8BA-"
+    },
+    {
+      "title": "DFA chief mum on Pax Silica deal signing during Trump's PH visit",
+      "source": "GMA News",
+      "date": "2026-11-16",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1009698/dfa-chief-mum-on-pax-silica-deal-signing-during-trump-s-ph-visit/story/",
+      "image": "https://images.gmanews.tv/webpics/2026/11/Screenshot_2026-11-16_184521_2026_11_16_18_45_55.jpg"
+    },
+    {
+      "title": "Trump’s Plan for A.I. Supremacy Fuels Resistance in the Philippines",
+      "source": "The New York Times",
+      "date": "2026-11-16",
+      "url": "https://www.nytimes.com/2026/11/16/business/trump-paxsilica-philippines-ai.html",
+      "image": "https://static01.nyt.com/images/2026/11/12/multimedia/00biz-paxsilica-philippines-01-cflz/00biz-paxsilica-philippines-01-cflz-facebookJumbo.jpg"
+    },
+    {
+      "title": "The San Francisco Declaration on the Secure Foundations of Enduring Prosperity",
+      "source": "U.S. Department of State",
+      "date": "2026-11-15",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/the-san-francisco-declaration-on-the-secure-foundations-of-enduring-prosperity/",
+      "image": ""
+    },
+    {
       "title": "Report: US, Allies Sign Accord to Protect AI Supply Lines From China",
       "source": "Newsmax",
       "date": "2026-11-15",
@@ -42,34 +70,6 @@
       "date": "2026-11-13",
       "url": "https://www.gmanetwork.com/news/topstories/nation/1009384/students-stage-walkout-vs-trump-visit-pax-silica-we-fight-for-our-future/story",
       "image": "https://images.gmanews.tv/webpics/2026/11/Students_stage_walkout_vs_Trump_visit,_Pax_Silica_We_fight_for_our_future_Courtesy_Philippine_Collegian_20261113_2026_11_13_13_50_59.jpg"
-    },
-    {
-      "title": "Cabinet revamp: PBBM orders reshuffle in BOC, BIR, BCDA, PEZA",
-      "source": "Philippine News Agency",
-      "date": "2026-11-13",
-      "url": "https://www.pna.gov.ph/article/cabinet-revamp-pbbm-orders-reshuffle-in-boc-bir-bcda-peza",
-      "image": "https://www.pna.gov.ph/_assets/storage/seo-contents/vDlz5G7w2wex2an22CIZiRs4QfRq9hYhrZzu5IY8.webp"
-    },
-    {
-      "title": "BCDA president Joshua Bingcang to lead PEZA, says DOF chief",
-      "source": "GMA News",
-      "date": "2026-11-12",
-      "url": "https://www.gmanetwork.com/news/money/economy/1009302/bcda-president-joshua-bingcang-to-lead-peza-says-dof-chief/story",
-      "image": "https://images.gmanews.tv/webpics/2026/08/joshua_bingcang_bcda_2026_08_06_15_54_09.jpg"
-    },
-    {
-      "title": "Pax Silica to operate under Philippine laws —BCDA",
-      "source": "GMA News",
-      "date": "2026-11-11",
-      "url": "https://www.gmanetwork.com/news/money/economy/1009135/pax-silica-to-operate-under-philippine-laws-bcda/story",
-      "image": "https://images.gmanews.tv/webpics/2026/11/pax_silica_flags_2026_11_11_17_26_00.jpg"
-    },
-    {
-      "title": "Pax Silica signing eyed by year-end, not during ASEAN Summit – DTI",
-      "source": "Rappler",
-      "date": "2026-11-10",
-      "url": "https://www.rappler.com/business/pax-silica-signing-year-end-not-asean-summit-2026",
-      "image": "https://www.rappler.com/tachyon/2026/07/PAX-SILICA-LUZON.jpg"
     }
   ]
 }
