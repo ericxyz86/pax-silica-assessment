@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-11-18",
+      "type": "correction",
+      "title": "Automated remediation corrects 1 recorded finding",
+      "site_version": "1.75",
+      "assessment_version": "3.10",
+      "commits": [],
+      "summary": "The remediation lane corrected 1 recorded finding; each correction was agreed by an independent OpenAI review. Findings corrected: An assumed headcount becomes an established Foxconn locator scale.",
+      "supersedes": "Extrapolating, roughly 30 to 60 Foxconn-scale locators would be needed to reach 130,000–190,000 direct jobs — which is broadly consistent with the \"30 letters of interest\" only if every single interested party proceeds at anchor scale, an assumption for which no supporting evidence has been published.; “Foxconn-scale locators needed for 160,000 jobs (at 3,000–5,000 jobs each) | 160,000 ÷ 3,000–5,000 | **32 – 53 anchor-scale”; [\"Foxconn-scale locators needed for 160,000 jobs (at 3,000–5,000 jobs each)\",\"160,000 ÷ 3,000–5,000\",\"32 – 53 anchor-scale"
+    },
+    {
+      "date": "2026-11-18",
       "type": "update",
       "title": "Ambassador Romualdez says the United States told the Philippines that Pax Silica would not be discussed yet, pending clarification of the proposed agreement",
       "site_version": "1.74",
