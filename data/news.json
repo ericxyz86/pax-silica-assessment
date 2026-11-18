@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "80+ Groups Urge Congress to Halt Trump’s ‘Pax Silica’ Mineral Project as Thousands of Filipinos Protest",
+      "source": "Common Dreams",
+      "date": "2026-11-17",
+      "url": "https://www.commondreams.org/news/pax-silica",
+      "image": "https://www.commondreams.org/media-library/image.jpg?id=68704311&width=1200&height=600&coordinates=0%2C417%2C0%2C417"
+    },
+    {
+      "title": "PH envoy Romualdez: US won't initiate Pax Silica talks during ASEAN meetings",
+      "source": "GMA News",
+      "date": "2026-11-17",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1009774/ph-envoy-romualdez-us-won-t-initiate-pax-silica-talks-during-asean-meetings/story/",
+      "image": "https://images.gmanews.tv/webpics/2025/01/josemanuelromualdez_2025_01_20_09_57_55.jpg"
+    },
+    {
       "title": "Philippines: US Tech Hub to Displace Hundreds",
       "source": "Human Rights Watch",
       "date": "2026-11-16",
@@ -56,20 +70,6 @@
       "date": "2026-11-14",
       "url": "https://mb.com.ph/2026/11/14/ayta-groups-join-up-protest-camp-against-pax-silica",
       "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/11/14/146642.webp"
-    },
-    {
-      "title": "Trump to press Southeast Asia nations to join Pax Silica at Asean summit in Manila",
-      "source": "South China Morning Post",
-      "date": "2026-11-13",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3374393/trump-press-southeast-asia-nations-join-pax-silica-asean-summit-manila",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/11/13/cd8a1138-d23b-4370-a92e-a95be0da4ab8_bcbbd593.jpg?itok=eGREjpCZ&v=1794576888"
-    },
-    {
-      "title": "Students stage walkout vs. Trump visit, Pax Silica: 'We fight for our future'",
-      "source": "GMA News",
-      "date": "2026-11-13",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1009384/students-stage-walkout-vs-trump-visit-pax-silica-we-fight-for-our-future/story",
-      "image": "https://images.gmanews.tv/webpics/2026/11/Students_stage_walkout_vs_Trump_visit,_Pax_Silica_We_fight_for_our_future_Courtesy_Philippine_Collegian_20261113_2026_11_13_13_50_59.jpg"
     }
   ]
 }
