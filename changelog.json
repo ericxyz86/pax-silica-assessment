@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-18",
+      "type": "update",
+      "title": "Ambassador Romualdez says the United States told the Philippines that Pax Silica would not be discussed yet, pending clarification of the proposed agreement",
+      "site_version": "1.74",
+      "assessment_version": "3.09",
+      "commits": [],
+      "summary": "On 17 November Ambassador Jose Manuel Romualdez said in a Super Radyo dzBB interview, as GMA News reports and translates his Filipino, that the United States had told the Philippines the initiative would not be discussed yet, because the agreement, what the United States asks and what is acceptable to the Philippines must first be clarified. The Daily Tribune, describing a radio interview, quotes him: “Before we sign anything, we want to ensure that every detail is thoroughly vetted and laid out clearly.” It is one official’s account of the US position, reported by two outlets whose reports may derive from the same interview; no recording or transcript, and no US statement of that position, was located, and it sets no date. President Trump arrived in Manila on 17 November; his meeting with President Marcos was scheduled for 18 November, after this update’s candidate feed closed at 07:41 Philippine time on 18 November. Searches through 08:23 Philippine time on 18 November located no report or official readout establishing a Pax Silica discussion, framework signature or signing announcement at it or at the 17 November ASEAN–US Special Summit; that is a retrieval finding, not proof of absence. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves."
+    },
+    {
       "date": "2026-11-17",
       "type": "update",
       "title": "The State Department releases the San Francisco Declaration and names nine signatories with the United States, the Philippines not among them; the Foreign Secretary declines to say whether a framework will be signed during President Trump’s visit; Human Rights Watch publishes residents’ accounts from two affected sites",
