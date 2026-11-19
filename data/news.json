@@ -2,6 +2,27 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Trump touts ‘biggest’ PH trade deal, but nothing signed yet",
+      "source": "Daily Guardian",
+      "date": "2026-11-19",
+      "url": "https://www.dailyguardian.com.ph/blog/trump-touts-biggest-ph-trade-deal-but-nothing-signed-yet",
+      "image": "https://old.dailyguardian.com.ph/wp-content/uploads/2026/11/Donald-Trump.jpg"
+    },
+    {
+      "title": "Marcos, Lipton: No signing of Pax Silica during Trump's state visit",
+      "source": "GMA News",
+      "date": "2026-11-18",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1009914/marcos-lipton-no-signing-of-pax-silica-during-trump-s-state-visit/story/",
+      "image": "https://images.gmanews.tv/webpics/2026/11/Screenshot_2026-11-18_121232_2026_11_18_12_12_46.png"
+    },
+    {
+      "title": "Prosecutors order release of 200 arrested amid anti-Trump protests",
+      "source": "News5",
+      "date": "2026-11-18",
+      "url": "https://news.tv5.com.ph/breaking/read/prosecutors-order-release-of-200-arrested-amid-anti-trump-protests",
+      "image": "https://n5ecms.tv5.com.ph/wp-content/uploads/2026/11/HXX5HlLagAAfzr_-768x576.jpg"
+    },
+    {
       "title": "80+ Groups Urge Congress to Halt Trump’s ‘Pax Silica’ Mineral Project as Thousands of Filipinos Protest",
       "source": "Common Dreams",
       "date": "2026-11-17",
@@ -49,27 +70,6 @@
       "date": "2026-11-15",
       "url": "https://www.yahoo.com/news/politics/articles/report-us-allies-sign-accord-181215730.html",
       "image": "https://s.yimg.com/lo/mysterio/api/4fb3e5297557bfdfc5a47e6f41659f923f60d44e96bc5bfdca7d6ed1a2c29878/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnewsmax_809%2F918aabed2e376c2bd9718bf2b9b493f9.jpg"
-    },
-    {
-      "title": "Police arrest anti-Pax Silica protesters as ASEAN Summit opens in Manila",
-      "source": "Rappler",
-      "date": "2026-11-15",
-      "url": "https://www.rappler.com/philippines/pax-silica-protest-arrest-asean-opening-manila/",
-      "image": "https://www.rappler.com/tachyon/2026/11/asean-summit-protest-pax-silica-trump-november-15-2026-002-scaled.jpg"
-    },
-    {
-      "title": "PBBM orders maximum tolerance during Pax Silica protests",
-      "source": "Philippine News Agency",
-      "date": "2026-11-14",
-      "url": "https://www.pna.gov.ph/article/pbbm-orders-maximum-tolerance-during-pax-silica-protests",
-      "image": "https://www.pna.gov.ph/_assets/storage/photo-assets/baWhwMygigsmM7rst322lfQb3PlIgpZVJW0uhYe4.webp"
-    },
-    {
-      "title": "Ayta groups join UP protest camp against Pax Silica",
-      "source": "Manila Bulletin",
-      "date": "2026-11-14",
-      "url": "https://mb.com.ph/2026/11/14/ayta-groups-join-up-protest-camp-against-pax-silica",
-      "image": "https://mb.com.ph/manilabulletin/uploads/images/2026/11/14/146642.webp"
     }
   ]
 }
