@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-19",
+      "type": "update",
+      "title": "President Marcos and US Ambassador Lee Lipton said no Pax Silica framework would be signed during President Trump’s visit, and set no new date",
+      "site_version": "1.76",
+      "assessment_version": "3.11",
+      "commits": [],
+      "summary": "At Malacañang on 18 November, before their closed-door meeting, President Marcos and US Ambassador Lee Lipton said there would be no signing during President Trump’s visit. The Philippine Daily Inquirer, as carried by The Star, reports Lipton saying “There will be no signing. There is no signing” and Marcos saying “No, not on this trip. We are not covering that on this trip.” The accounts differ on exact wording, no official transcript or recording was retrieved, and what was said in the closed-door meeting is not established. Neither official set a date, and no cancellation, withdrawal from the coalition or slip beyond 2026 is established. President Trump announced what he called a “very big trade deal”. The Palace described an understanding on economic cooperation, particularly energy and food security; Ambassador Romualdez, asked about that announcement whether anything was signed, replied “None”; and the White House fact sheet on the visit does not mention Pax Silica, New Clark City, the Luzon Economic Corridor or the proposed zone. According to the Daily Tribune’s account of a resolution dated 18 November, Muntinlupa prosecutors ordered the conditional release of 236 people arrested at Sucat on 15 November, dismissed complaints of malicious mischief and alarms and scandals, and set complaints under the Public Assembly Act and for resistance and disobedience for further preliminary investigation. The resolution itself was not retrieved, and neither the lawfulness of the arrests nor the allegations of force is established. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves."
+    },
+    {
       "date": "2026-11-18",
       "type": "correction",
       "title": "Automated remediation corrects 1 recorded finding",
