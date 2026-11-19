@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-11-19",
+      "type": "correction",
+      "title": "Automated remediation corrects 1 recorded finding",
+      "site_version": "1.77",
+      "assessment_version": "3.12",
+      "commits": [],
+      "summary": "The remediation lane corrected 1 recorded finding; each correction was agreed by an independent OpenAI review. Findings corrected: The 17 November findings omit their evidence from section source routes.",
+      "supersedes": "\"T3-90\",\"T3-99\",\"T3-98\"],"
+    },
+    {
+      "date": "2026-11-19",
       "type": "update",
       "title": "President Marcos and US Ambassador Lee Lipton said no Pax Silica framework would be signed during President Trump’s visit, and set no new date",
       "site_version": "1.76",
