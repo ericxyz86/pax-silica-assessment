@@ -14,6 +14,15 @@
   "entries": [
     {
       "date": "2026-11-20",
+      "type": "update",
+      "title": "Philippine News Agency links that no longer open are marked as unavailable",
+      "site_version": "1.80",
+      "assessment_version": "3.14",
+      "commits": [],
+      "summary": "The Philippine News Agency has relaunched its website, and the former article addresses (pna.gov.ph/articles/ followed by a number) now return “Page not found”. Ten PNA reports this assessment cites use those addresses, and none was found on the new site when checked on 20 November 2026. The links are kept as the record of what was cited, not replaced with other outlets’ reports. On this site, the source register’s entries T3-49, T3-61, T3-62 and T3-63 now say that the address no longer opens and that no archived copy was located. In the assessment, Appendix E says the same of PNA links in the former format, and the 27 July 2023 and 11 June 2024 reports, the only two for which an archived copy was located, gain links to those copies. No finding, figure, verdict, confidence level, scenario weight or precondition changes."
+    },
+    {
+      "date": "2026-11-20",
       "type": "process",
       "title": "The sources register shows every tier, in numeric order, and search opens what it finds",
       "site_version": "1.79",
