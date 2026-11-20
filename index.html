@@ -400,7 +400,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     <div style="max-width:900px;margin:0 auto">
       <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#7B8597;margin-bottom:18px">{{ resultCount }}</div>
       <sc-for list="{{ results }}" as="r" hint-placeholder-count="4">
-        <a href="{{ r.href }}" onClick="{{ closeSearch }}" style="display:block;border:1px solid #E6E9EE;border-radius:12px;padding:clamp(14px,4.2vw,18px) clamp(13px,3.8vw,20px);margin-bottom:10px;background:#FFFFFF" style-hover="border-color:#0096D6;box-shadow:0 6px 16px rgba(14,23,38,.06)">
+        <a href="{{ r.href }}" onClick="{{ r.go }}" style="display:block;border:1px solid #E6E9EE;border-radius:12px;padding:clamp(14px,4.2vw,18px) clamp(13px,3.8vw,20px);margin-bottom:10px;background:#FFFFFF" style-hover="border-color:#0096D6;box-shadow:0 6px 16px rgba(14,23,38,.06)">
           <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#00B8CC;margin-bottom:6px">{{ r.kind }}</div>
           <div style="font-size:15px;font-weight:600;color:#0E1726;margin-bottom:5px;line-height:1.35">{{ r.title }}</div>
           <div style="font-size:13.5px;color:#475063;line-height:1.55">{{ r.snip }}</div>
@@ -423,7 +423,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
       <svg width="34" height="30" viewBox="5 15 139 121" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agile Intelligence"><polygon fill="#00A1E4" points="51,15 28,55 74.5,55"/><polygon fill="#00B7C3" points="51,15 98,15 74.5,55"/><polygon fill="#074BA0" points="98,15 74.5,55 121,55"/><polygon fill="#1ABBDC" points="28,55 74.5,55 51,95"/><polygon fill="#00B7C3" points="28,55 51,95 5,95"/><polygon fill="#1ABBDC" points="5,95 51,95 28,136"/><polygon fill="#0069B5" points="74.5,55 121,55 98,95"/><polygon fill="#008FB5" points="121,55 98,95 144,95"/><polygon fill="#00B7C3" points="98,95 144,95 121,136"/></svg>
       <span style="font-family:Georgia,'Times New Roman',serif;font-size:17px;letter-spacing:0.3em;color:#FFFFFF">agile<span style="color:rgba(255,255,255,0.5)">intelligence</span></span>
     </a>
-    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">agile intelligence research report · site v1.78 · assessment v3.13 · project facts verified to 20 november 2026 · last updated 20 november 2026</div>
+    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#00B8CC;margin-bottom:26px">agile intelligence research report · site v1.79 · assessment v3.13 · project facts verified to 20 november 2026 · last updated 20 november 2026</div>
     <h1 id="assessment-title" style="font-size:clamp(40px,7.4vw,104px);line-height:0.94;letter-spacing:-0.045em;font-weight:800;color:#FFFFFF;margin:0 0 26px"><span style="display:block;white-space:nowrap">pax silica and</span><span style="display:block;white-space:nowrap">the philippines</span></h1>
     <p style="font-size:clamp(16px,1.9vw,22px);line-height:1.5;color:rgba(255,255,255,0.72);max-width:60ch;margin:0 0 40px;font-weight:300">An independent review of the Economic Security Zone proposed at New Clark City in Tarlac, on 1,618.74 hectares. What has actually been signed, what is only being claimed, what the land and the grid can really support, and what the Philippines gains or loses either way.</p>
     <p style="font-size:14px;color:rgba(255,255,255,0.78);margin:-20px 0 32px">Published by <a rel="author" href="https://www.agileintelligence.ph" style="color:#FFFFFF;text-decoration:underline">Agile Intelligence</a> · under human editorial direction.</p>
@@ -1687,6 +1687,14 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     <div style="display:flex;flex-direction:column;gap:14px">
       <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
         <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
+          <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;background:#F1F3F6;border-radius:999px;padding:4px 11px">process</span>
+          <h3 style="font-size:17px;font-weight:700;letter-spacing:-0.02em;color:#0E1726;margin:0;line-height:1.3">The sources register shows every tier, in numeric order, and search opens what it finds</h3>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.06em;color:#7B8597;margin-left:auto">20 November 2026 &middot; v1.79 &middot; assessment v3.13</span>
+        </div>
+        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0;max-width:88ch">Presentation only: three defects in how the page displayed the record are fixed, and no source entry, finding, figure, verdict or precondition changes. First, the page showed each block once 6% of it was on screen, so a block longer than about fifteen screen heights never appeared. With v1.78 the tier 3 register reached 200 entries and passed that length on typical desktop screens, so it did not display; on phones, where the register lists run longer, the limit applied sooner. Since 20:27 on 20 November a block appears as soon as any part of it is on screen. Second, the register now lists each tier in numeric order; entries had been shown in the order they were added, so T1-42 and T3-35 came first. Third, choosing a report section in search now opens that section, choosing a claim opens its source panel, and a search with more than 24 matches states how many it found.</p>
+      </div>
+      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
+        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
           <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#0B4F9C;background:#E6F4FA;border-radius:999px;padding:4px 11px">update</span>
           <h3 style="font-size:17px;font-weight:700;letter-spacing:-0.02em;color:#0E1726;margin:0;line-height:1.3">WR Numero Research published a national survey with questions on Pax Silica, and Ambassador Romualdez said no data centres are under discussion for the hub</h3>
           <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.06em;color:#7B8597;margin-left:auto">20 November 2026 &middot; v1.78 &middot; assessment v3.13</span>
@@ -1725,7 +1733,10 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
             <div style="font-size:13.5px;line-height:1.6;color:#475063">&ldquo;Extrapolating, roughly 30 to 60 Foxconn-scale locators would be needed to reach 130,000–190,000 direct jobs — which is broadly consistent with the &quot;30 letters of interest&quot; only if every single interested party proceeds at anchor scale, an assumption for which no supporting evidence has been published.; “Foxconn-scale locators needed for 160,000 jobs (at 3,000–5,000 jobs each) | 160,000 ÷ 3,000–5,000 | **32 – 53 anchor-scale”; [&quot;Foxconn-scale locators needed for 160,000 jobs (at 3,000–5,000 jobs each)&quot;,&quot;160,000 ÷ 3,000–5,000&quot;,&quot;32 – 53 anchor-scale&rdquo;</div>
           </div>
       </div>
-      <div data-reveal="1" style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
+      <details style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF">
+        <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:15px clamp(15px,4.4vw,26px);font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6 L8 11 L13 6"/></svg>earlier entries &middot; 30 &middot; back to 25 october 2026</summary>
+        <div style="display:flex;flex-direction:column;gap:14px;padding:2px clamp(10px,2.6vw,14px) clamp(10px,2.6vw,14px)">
+      <div style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
         <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
           <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#0B4F9C;background:#E6F4FA;border-radius:999px;padding:4px 11px">update</span>
           <h3 style="font-size:17px;font-weight:700;letter-spacing:-0.02em;color:#0E1726;margin:0;line-height:1.3">Ambassador Romualdez says the United States told the Philippines that Pax Silica would not be discussed yet, pending clarification of the proposed agreement</h3>
@@ -1733,9 +1744,6 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
         </div>
         <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0;max-width:88ch">On 17 November Ambassador Jose Manuel Romualdez said in a Super Radyo dzBB interview, as GMA News reports and translates his Filipino, that the United States had told the Philippines the initiative would not be discussed yet, because the agreement, what the United States asks and what is acceptable to the Philippines must first be clarified. The Daily Tribune, describing a radio interview, quotes him: “Before we sign anything, we want to ensure that every detail is thoroughly vetted and laid out clearly.” It is one official’s account of the US position, reported by two outlets whose reports may derive from the same interview; no recording or transcript, and no US statement of that position, was located, and it sets no date. President Trump arrived in Manila on 17 November; his meeting with President Marcos was scheduled for 18 November, after this update’s candidate feed closed at 07:41 Philippine time on 18 November. Searches through 08:23 Philippine time on 18 November located no report or official readout establishing a Pax Silica discussion, framework signature or signing announcement at it or at the 17 November ASEAN–US Special Summit; that is a retrieval finding, not proof of absence. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves.</p>
       </div>
-      <details style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF">
-        <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:15px clamp(15px,4.4vw,26px);font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6 L8 11 L13 6"/></svg>earlier entries &middot; 30 &middot; back to 24 october 2026</summary>
-        <div style="display:flex;flex-direction:column;gap:14px;padding:2px clamp(10px,2.6vw,14px) clamp(10px,2.6vw,14px)">
       <div style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
         <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
           <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#0B4F9C;background:#E6F4FA;border-radius:999px;padding:4px 11px">update</span>
@@ -2020,18 +2028,6 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
             <div style="font-size:13.5px;line-height:1.6;color:#475063">&ldquo;T1-45); State’s roster as served on 24 Oct 2026 lists 25 and still omits the US. The EU is a participant, not a country&#x27;, &#x27;Tier 1: primary&#x27;],&rdquo;</div>
           </div>
       </div>
-      <div style="border:1px solid #E6E9EE;border-radius:12px;background:#FFFFFF;padding:clamp(16px,4.2vw,22px) clamp(15px,4.4vw,26px)">
-        <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:8px">
-          <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#9A6B10;background:#FDF3E0;border-radius:999px;padding:4px 11px">correction</span>
-          <h3 style="font-size:17px;font-weight:700;letter-spacing:-0.02em;color:#0E1726;margin:0;line-height:1.3">Automated remediation corrects 2 recorded findings</h3>
-          <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.06em;color:#7B8597;margin-left:auto">24 October 2026 &middot; v1.46 &middot; assessment v2.83</span>
-        </div>
-        <p style="font-size:14.5px;line-height:1.65;color:#475063;margin:0;max-width:88ch">The remediation lane corrected 2 recorded findings; each correction was agreed by an independent OpenAI review. Findings corrected: The topic-share methodology contradicts the table&#x27;s denominator; The listening exhibit denies human review despite its documented human audit.</p>
-          <div style="margin-top:12px;border-left:2px solid #9A6B10;padding:2px 0 2px 14px">
-            <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#7B8597;margin-bottom:4px">superseded text &middot; verbatim</div>
-            <div style="font-size:13.5px;line-height:1.6;color:#475063">&ldquo;every post was labelled by software and &lt;span style=&quot;color:#475063&quot;&gt;none of it was reviewed by a person&lt;/span&gt;&rdquo;</div>
-          </div>
-      </div>
         </div>
         <p style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.05em;color:#7B8597;margin:4px 6px 6px">the page shows the 35 most recent entries &middot; the complete record is the JSON and Appendix H</p>
       </details>
@@ -2097,7 +2093,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.12)">
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">about this assessment</div>
-        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign the contemplated framework, and on what conditions. It is not engineering-grade or transaction due-diligence grade. Site v1.78, reflecting assessment v3.13. Maintained as a living document: project facts verified to 20 November 2026, last updated 20 November 2026, reviewed daily, with immediate review on trigger events. Comparator, legal and technical sources verified through 27 July 2026; these move only when re-verified. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned, logged and, where it corrects something previously published, stated as a correction rather than edited away. The version current when the framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork. Maintenance disclosure: this site is operated by AI systems under human editorial direction. Institutional sources and Philippine media are swept every morning; social-media data is collected and classified daily. New news and finding claims must pass a second independent AI model attempting to refute them; data classifications and mechanical updates instead pass deterministic validation gates. No Key Judgment moves on a single source. Every change is versioned and logged; corrections are stated as corrections. Final editorial authority, and the decision to publish, rest with the human publisher.</p>
+        <p style="font-size:13.5px;line-height:1.65;color:rgba(255,255,255,0.55);margin:0">Independent and Philippines-centred. Decision-grade means it supports one decision: whether to sign the contemplated framework, and on what conditions. It is not engineering-grade or transaction due-diligence grade. Site v1.79, reflecting assessment v3.13. Maintained as a living document: project facts verified to 20 November 2026, last updated 20 November 2026, reviewed daily, with immediate review on trigger events. Comparator, legal and technical sources verified through 27 July 2026; these move only when re-verified. The fifth State of the Nation Address of 27 July is incorporated from the Official Gazette transcript. Nothing is silently revised: every substantive change is versioned, logged and, where it corrects something previously published, stated as a correction rather than edited away. The version current when the framework is signed will be frozen as the permanent pre-signature record. Structured scoping review, not PRISMA-compliant and not described as such. A single integrated research synthesis. No human expert peer review has been obtained. No fieldwork. Maintenance disclosure: this site is operated by AI systems under human editorial direction. Institutional sources and Philippine media are swept every morning; social-media data is collected and classified daily. New news and finding claims must pass a second independent AI model attempting to refute them; data classifications and mechanical updates instead pass deterministic validation gates. No Key Judgment moves on a single source. Every change is versioned and logged; corrections are stated as corrections. Final editorial authority, and the decision to publish, rest with the human publisher.</p>
       </div>
       <div>
         <div style="font-size:15px;font-weight:700;color:#FFFFFF;margin-bottom:12px;letter-spacing:-0.02em">evidence tiers</div>
@@ -2122,7 +2118,7 @@ button[aria-label="previous stories"]:hover,button[aria-label="next stories"]:ho
     </div>
     <div style="padding-top:16px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.04em;line-height:1.7;color:rgba(255,255,255,0.35);max-width:88ch">Usage analytics: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.45);text-decoration:underline">Google Analytics</a> measures aggregate site use&mdash;including page views, report downloads, outbound links and explainer playback. Advertising signals and ad personalization are disabled; no form content is sent.</div>
       <div style="padding-top:18px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center">
-      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · agile intelligence research report · site v1.78 · assessment v3.13</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">pax silica · philippines · agile intelligence research report · site v1.79 · assessment v3.13</span>
       <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.35)">live assessment prevails</span>
     </div>
   </div>
@@ -3348,6 +3344,7 @@ class Component extends DCLogic {
       const m = this.CLAIM_META[i] || [['no claimant'], '', 'source'];
       return Object.assign({}, c, { w: m[0], src: c.src || m[1], tier: c.tier || m[2], reg: m[3] });
     });
+    const noteFor = (c) => ({ title: c.c, body: c.n || '', src: c.src, tier: c.tier || 'source', by: c.by ? c.by : 'No claimant, assessed finding', reg: c.reg || this.regFor(c.src || ''), regLine: (c.reg || this.regFor(c.src || '')).join('   ·   ') });
     const vis = ALL.filter((c) =>
       (s.cs === 'all' || c.s === s.cs) &&
       (s.cc === 'all' || c.cat === s.cc) &&
@@ -3361,18 +3358,23 @@ class Component extends DCLogic {
     // ---- search
     const q = s.q.trim().toLowerCase();
     let results = [];
+    let resultTotal = 0;
     if (q.length > 1) {
+      const close = () => this.setState({ q: '' });
+      // a section result opens its accordion, and a claim result opens that claim's
+      // source panel, so the reader lands on the matched text rather than a heading
       this.SECTIONS.forEach((sec, i) => {
         const hay = (sec[0] + ' ' + sec[1] + ' ' + sec[2].join(' ')).toLowerCase();
-        if (hay.indexOf(q) > -1) results.push({ kind: 'section ' + String(i + 1).padStart(2, '0'), title: sec[0], snip: sec[1], href: '#sec' + i });
+        if (hay.indexOf(q) > -1) results.push({ kind: 'section ' + String(i + 1).padStart(2, '0'), title: sec[0], snip: sec[1], href: '#sec' + i, go: () => this.setState({ q: '', open: Object.assign({}, s.open, { [i]: true }) }) });
       });
-      this.CLAIMS.forEach((c) => {
-        const m = this.CLAIM_META[this.CLAIMS.indexOf(c)] || [[], '', ''];
-        if ((c.c + ' ' + c.by + ' ' + (c.n || '') + ' ' + m[0].join(' ') + ' ' + m[1]).toLowerCase().indexOf(q) > -1) results.push({ kind: 'claim · ' + c.s, title: c.c, snip: (c.n || '').slice(0, 190), href: '#claims' });
+      this.CLAIMS.forEach((c, i) => {
+        const m = this.CLAIM_META[i] || [[], '', ''];
+        if ((c.c + ' ' + c.by + ' ' + (c.n || '') + ' ' + m[0].join(' ') + ' ' + m[1]).toLowerCase().indexOf(q) > -1) results.push({ kind: 'claim · ' + c.s, title: c.c, snip: (c.n || '').slice(0, 190), href: '#claims', go: () => this.setState({ q: '', note: noteFor(ALL[i]) }) });
       });
       this.QGROUPS.forEach((g) => g.qs.forEach((qq) => {
-        if (qq.toLowerCase().indexOf(q) > -1) results.push({ kind: 'question · ' + g.to, title: qq, snip: '', href: '#questions' });
+        if (qq.toLowerCase().indexOf(q) > -1) results.push({ kind: 'question · ' + g.to, title: qq, snip: '', href: '#questions', go: close });
       }));
+      resultTotal = results.length;
       results = results.slice(0, 24);
     }
 
@@ -3436,10 +3438,9 @@ class Component extends DCLogic {
       colsLayers: narrow ? 'minmax(0,1fr)' : 'minmax(94px,190px) minmax(0,1fr) minmax(0,auto)',
       q: s.q,
       onSearch: (e) => this.setState({ q: e.target.value }),
-      closeSearch: () => this.setState({ q: '' }),
       searching: q.length > 1,
       results,
-      resultCount: results.length + (results.length === 1 ? ' result' : ' results') + ' for “' + s.q.trim() + '”',
+      resultCount: (resultTotal > results.length ? 'first ' + results.length + ' of ' + resultTotal + ' results' : results.length + (results.length === 1 ? ' result' : ' results')) + ' for “' + s.q.trim() + '”',
       daysLeft: s.days,
       toast: !!s.toast,
       toastMsg: s.toast,
@@ -3595,7 +3596,7 @@ class Component extends DCLogic {
           c: c.c, cat: c.cat, status: c.s, note: c.n, hasNote: !!c.n, hasSrc: !!c.src,
           byLine: c.by ? c.by : 'no claimant, assessed finding',
           sBg: col[0], sFg: col[1], sBd: col[2],
-          openNote: () => this.setState({ note: { title: c.c, body: c.n || '', src: c.src, tier: c.tier || 'source', by: c.by ? c.by : 'No claimant, assessed finding', reg: c.reg || this.regFor(c.src || ''), regLine: (c.reg || this.regFor(c.src || '')).join('   ·   ') } })
+          openNote: () => this.setState({ note: noteFor(c) })
         };
       }),
       claimCount: vis.length + ' of ' + this.CLAIMS.length + ' claims shown',
@@ -3625,7 +3626,8 @@ class Component extends DCLogic {
       sourceTiers: this.TIERS.map((t) => ({
         code: t[0], label: t[1], blurb: t[2],
         count: this.SOURCES.filter((x) => x.id.indexOf(t[0]) === 0).length + ' entries',
-        items: this.SOURCES.filter((x) => x.id.indexOf(t[0]) === 0).map((x) => ({
+        // numeric order: entries were not always added to SOURCES in sequence
+        items: this.SOURCES.filter((x) => x.id.indexOf(t[0]) === 0).sort((a, b) => Number(a.id.split('-')[1]) - Number(b.id.split('-')[1])).map((x) => ({
           id: x.id, t: x.t, by: x.by, d: x.d, n: x.n, hasNote: !!x.n,
           hasUrl: !!x.u, url: x.u,
           host: x.u ? x.u.replace(/^https?:\/\//, '').split('/')[0] : 'no public URL at cutoff'
