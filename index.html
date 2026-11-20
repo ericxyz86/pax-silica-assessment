@@ -2986,6 +2986,8 @@ class Component extends DCLogic {
       this.SECTIONS.forEach((_, i) => { allOpen[i] = true; });
       this.setState({ jobsAnim: true, open: allOpen });
     }
+    // threshold 0, not a ratio: a block taller than ~15 viewports (the 200-entry tier 3
+    // register) can never have 6% of itself on screen, so it would stay hidden for good.
     this._io = new IntersectionObserver((es) => {
       es.forEach((e) => {
         if (!e.isIntersecting) return;
@@ -2996,7 +2998,7 @@ class Component extends DCLogic {
         }
         this._io.unobserve(e.target);
       });
-    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.06 });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0 });
     setTimeout(() => {
       document.querySelectorAll('[data-reveal]').forEach((el, i) => {
         if (!reduce) {
