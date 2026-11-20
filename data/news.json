@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "72% of Filipinos unfamiliar with Pax Silica, poll finds",
+      "source": "Daily Guardian",
+      "date": "2026-11-20",
+      "url": "https://www.dailyguardian.com.ph/blog/72-of-filipinos-unfamiliar-with-pax-silica-poll-finds",
+      "image": ""
+    },
+    {
+      "title": "PH envoy Babe Romualdez stresses no data centers eyed in New Clark City",
+      "source": "GMA News",
+      "date": "2026-11-19",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1010082/ph-envoy-babe-romualdez-stresses-no-data-centers-eyed-in-new-clark-city/story/",
+      "image": "https://images.gmanews.tv/webpics/2025/05/Screenshot_2025-05-28_at_3_2025_05_28_16_05_37.png"
+    },
+    {
       "title": "Trump touts ‘biggest’ PH trade deal, but nothing signed yet",
       "source": "Daily Guardian",
       "date": "2026-11-19",
@@ -56,20 +70,6 @@
       "date": "2026-11-16",
       "url": "https://www.nytimes.com/2026/11/16/business/trump-paxsilica-philippines-ai.html",
       "image": "https://static01.nyt.com/images/2026/11/12/multimedia/00biz-paxsilica-philippines-01-cflz/00biz-paxsilica-philippines-01-cflz-facebookJumbo.jpg"
-    },
-    {
-      "title": "The San Francisco Declaration on the Secure Foundations of Enduring Prosperity",
-      "source": "U.S. Department of State",
-      "date": "2026-11-15",
-      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/the-san-francisco-declaration-on-the-secure-foundations-of-enduring-prosperity/",
-      "image": ""
-    },
-    {
-      "title": "Report: US, Allies Sign Accord to Protect AI Supply Lines From China",
-      "source": "Newsmax",
-      "date": "2026-11-15",
-      "url": "https://www.yahoo.com/news/politics/articles/report-us-allies-sign-accord-181215730.html",
-      "image": "https://s.yimg.com/lo/mysterio/api/4fb3e5297557bfdfc5a47e6f41659f923f60d44e96bc5bfdca7d6ed1a2c29878/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnewsmax_809%2F918aabed2e376c2bd9718bf2b9b493f9.jpg"
     }
   ]
 }
