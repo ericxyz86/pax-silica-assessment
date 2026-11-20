@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-20",
+      "type": "update",
+      "title": "WR Numero Research published a national survey with questions on Pax Silica, and Ambassador Romualdez said no data centres are under discussion for the hub",
+      "site_version": "1.78",
+      "assessment_version": "3.13",
+      "commits": [],
+      "summary": "In WR Numero Research’s October 2026 survey, released on 19 November from fieldwork of 7–13 October with 1,225 adults, 72% said they were not familiar with Pax Silica. On its support question 77% said no and 7% yes; after a two-sentence description of intended benefits, 71% and 13%; 67% expected a negative or very negative impact. The deck does not say whether the support and impact questions went to all respondents or only to those familiar with the initiative, gives the margin of error as ±2.8 and ±2.6 points, and does not say who funded the issue, so this page does not read the support figures as the share of all Filipino adults who oppose the project. An earlier Momentum Research survey that reportedly asked about the hub remains held. On 19 November Ambassador Romualdez said “There was never any conversation about data centers” (ABS-CBN) and “Actually we’re not even calling it Pax Silica” (GMA News), and that there was “no real immediate rush” to an agreement; his data-centre statement is an assurance in tension with BCDA’s earlier statements. The Justice Department said all 20 minors arrested at Sucat had been released; the detainees’ lawyers said seven remained in custody that morning. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves."
+    },
+    {
       "date": "2026-11-19",
       "type": "correction",
       "title": "Automated remediation corrects 1 recorded finding",
