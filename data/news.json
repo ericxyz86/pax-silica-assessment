@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Marcos: No data centers in planned Pax Silica dev't site",
+      "source": "Philippine News Agency",
+      "date": "2026-11-20",
+      "url": "https://pna.gov.ph/article/marcos-no-data-centers-in-planned-pax-silica-devt-site",
+      "image": ""
+    },
+    {
+      "title": "Pax Silica hub to go through Congress — Amb. Romualdez",
+      "source": "Daily Tribune",
+      "date": "2026-11-20",
+      "url": "https://tribune.net.ph/2026/11/20/pax-silica-hub-to-go-through-congress-amb-romualdez",
+      "image": ""
+    },
+    {
       "title": "72% of Filipinos unfamiliar with Pax Silica, poll finds",
       "source": "Daily Guardian",
       "date": "2026-11-20",
@@ -56,20 +70,6 @@
       "date": "2026-11-16",
       "url": "https://www.hrw.org/news/2026/11/16/philippines-us-tech-hub-to-displace-hundreds",
       "image": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/11/202611asia_philippines_tarlac_farmer.jpg?h=19f14c2c&itok=01Js8BA-"
-    },
-    {
-      "title": "DFA chief mum on Pax Silica deal signing during Trump's PH visit",
-      "source": "GMA News",
-      "date": "2026-11-16",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1009698/dfa-chief-mum-on-pax-silica-deal-signing-during-trump-s-ph-visit/story/",
-      "image": "https://images.gmanews.tv/webpics/2026/11/Screenshot_2026-11-16_184521_2026_11_16_18_45_55.jpg"
-    },
-    {
-      "title": "Trump’s Plan for A.I. Supremacy Fuels Resistance in the Philippines",
-      "source": "The New York Times",
-      "date": "2026-11-16",
-      "url": "https://www.nytimes.com/2026/11/16/business/trump-paxsilica-philippines-ai.html",
-      "image": "https://static01.nyt.com/images/2026/11/12/multimedia/00biz-paxsilica-philippines-01-cflz/00biz-paxsilica-philippines-01-cflz-facebookJumbo.jpg"
     }
   ]
 }
