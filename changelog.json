@@ -13,6 +13,25 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-21",
+      "type": "update",
+      "title": "The filed text of House Bill No. 11758 is retrieved, and President Marcos said there will be no data centres at the site of the planned development",
+      "site_version": "1.81",
+      "assessment_version": "3.15",
+      "commits": [],
+      "summary": "The House document server returned the 27-page filed text of House Bill No. 11758, the proposed Advanced Industries Development Act, on 21 November 2026; in October it had refused this review. The text confirms the reported title, authors and incentives. It corrects the reported ₱15-billion minimum “per locator” (see the correction entry). The ₱15-billion minimum investment capital, exclusive of land, applies to a registered project qualifying a locator for Qualified Enterprise certification; ordinary locator registration has no such minimum. Sec. 26 separately permits qualifying expansions involving at least ₱5 billion to register for specified incentives. As filed, the bill would give a new zone authority the right of eminent domain, “exclusive control and jurisdiction” over environmental compliance certificates, tree-cutting permits and water permits for sources within the zone, a franchise to distribute electricity and supply water there, and the specified BCDA-administered State land in the zone, classified as patrimonial except land covered by ancestral-domain or ancestral-land titles or reserved by law or proclamation for public use, while preserving the rights protected by Sec. 12. It lists data centres for AI and high-performance computing among qualifying activities. It defines the zone by sixteen corner points and states no area; by this review’s computation they enclose roughly 1,640 hectares, and the 1,350 hectares reported in October does not appear. Its explanatory note invokes Pax Silica; its operative sections do not mention it. It is a filed bill, not law: the House’s indexed record, as the verification gate retrieved it, lists it as pending with the Committee on Economic Affairs since 10 November. On 20 November President Marcos said “There will be no data centers in the place that we are going to put this development on AI” and “there’s no deal yet”; his data-centre statement is the most senior assurance in the record and still not a legally operative exclusion. Ambassador Romualdez said legislation was being proposed and would be heard in Congress, naming no bill, and US Ambassador Lipton said the United States is “excited to do this deal”. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves."
+    },
+    {
+      "date": "2026-11-21",
+      "type": "correction",
+      "title": "The ₱15-billion threshold in House Bill No. 11758 is a certification threshold for registered projects, not a minimum per locator",
+      "site_version": "1.81",
+      "assessment_version": "3.15",
+      "commits": [],
+      "summary": "Since v2.86 this page and the assessment described House Bill No. 11758 as setting a ₱15-billion minimum investment per locator, following GMA News, Politiko and others. The filed text, retrieved on 21 November 2026, corrects it (Secs. 23, 26). The ₱15-billion minimum investment capital, exclusive of land, applies to a registered project qualifying a locator for Qualified Enterprise certification; ordinary locator registration has no such minimum. Sec. 26 separately permits qualifying expansions involving at least ₱5 billion to register for specified incentives. The stakeholder section and the assessment’s §7 and §15.2.4 now state the correction.",
+      "supersedes": "under a dedicated authority with a ₱15-billion minimum investment per locator, according to GMA News, Politiko and others."
+    },
+    {
       "date": "2026-11-20",
       "type": "update",
       "title": "Philippine News Agency links that no longer open are marked as unavailable",
