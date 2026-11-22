@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-22",
+      "type": "correction",
+      "title": "Automated remediation corrects 3 recorded findings",
+      "site_version": "1.82",
+      "assessment_version": "3.16",
+      "commits": [],
+      "summary": "The remediation lane corrected 3 recorded findings; each correction was agreed by an independent OpenAI review; corrections that change a confidence level, scenario weight, claim verdict, precondition or risk rating were also agreed by a separate Claude review. Findings corrected: The water conclusion rules out a favourable case that its own arithmetic permits; November primary instruments are displayed as credible journalism; New data-centre and displacement claims retain source routes that omit their supporting reports.",
+      "supersedes": "narrower and sufficient: BCDA's on-parcel-rainwater framing fails at the upper end of its own demand estimate, and its; (insufficiency of on-parcel harvesting); line-height:1.15\">the catchment does not fit on; MLD this is watershed water rather than site water. Stated precisely: the on-parcel framing fails at the upper end of BCDA’s own demand estimate; what; “On-site harvesting at this level is not a plan; it is an arithmetic coincidence.”"
+    },
+    {
       "date": "2026-11-21",
       "type": "update",
       "title": "The filed text of House Bill No. 11758 is retrieved, and President Marcos said there will be no data centres at the site of the planned development",
