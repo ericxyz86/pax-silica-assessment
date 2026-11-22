@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Groups condemn alleged harassment of Ayta leader over anti-Pax Silica protest",
+      "source": "The Philippine Star",
+      "date": "2026-11-21",
+      "url": "https://www.philstar.com/nation/2026/11/21/2571697/groups-condemn-alleged-harassment-ayta-leader-over-anti-pax-silica-protest",
+      "image": "https://media.philstar.com/photos/2026/11/21/tiyong-nilo_2026-11-21_17-47-43.jpg"
+    },
+    {
       "title": "Marcos: No data centers in planned Pax Silica dev't site",
       "source": "Philippine News Agency",
       "date": "2026-11-20",
@@ -63,13 +70,6 @@
       "date": "2026-11-17",
       "url": "https://www.gmanetwork.com/news/topstories/nation/1009774/ph-envoy-romualdez-us-won-t-initiate-pax-silica-talks-during-asean-meetings/story/",
       "image": "https://images.gmanews.tv/webpics/2025/01/josemanuelromualdez_2025_01_20_09_57_55.jpg"
-    },
-    {
-      "title": "Philippines: US Tech Hub to Displace Hundreds",
-      "source": "Human Rights Watch",
-      "date": "2026-11-16",
-      "url": "https://www.hrw.org/news/2026/11/16/philippines-us-tech-hub-to-displace-hundreds",
-      "image": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/11/202611asia_philippines_tarlac_farmer.jpg?h=19f14c2c&itok=01Js8BA-"
     }
   ]
 }
