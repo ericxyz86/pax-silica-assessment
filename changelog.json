@@ -15,6 +15,16 @@
     {
       "date": "2026-11-23",
       "type": "correction",
+      "title": "BCDA’s “over 130,000 jobs” is dated 23 July, not 22 July",
+      "site_version": "1.85",
+      "assessment_version": "3.19",
+      "commits": [],
+      "summary": "The employment exhibit and the claim checker dated BCDA’s “over 130,000 high-quality jobs” to 22 July 2026. The Presidential Communications Office’s account, carried by PIA, reports it from the Palace briefing of Thursday 23 July 2026, and all three places now read 23 July. The Labor Secretary’s “nearly one million” is dated 22 July, so the larger figure came first; the record still shows no rising sequence, and the v1.55 correction stands. The assessment’s change log also narrows an earlier statement that no archived copy of a Manila Times report exists: that was not established. The finding-level gate supported the 23 July date, retrieving the PIA record directly, and refuted the first draft only for its entry date and release record, which are corrected. A second round refuted the revised draft only for retrieval wording, now corrected. A third round returned UNREFUTED_WITH_CAVEATS with no required edits. No figure, Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves.",
+      "supersedes": "“Official projection, 22 Jul 2026”; “BCDA statement, 22 Jul 2026”"
+    },
+    {
+      "date": "2026-11-23",
+      "type": "correction",
       "title": "Automated remediation corrects 6 recorded findings",
       "site_version": "1.84",
       "assessment_version": "3.18",
