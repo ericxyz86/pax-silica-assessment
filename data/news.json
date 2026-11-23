@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Palace seeks verification of Aeta thumbprints on Pax Silica documents",
+      "source": "GMA News",
+      "date": "2026-11-22",
+      "url": "https://www.gmanetwork.com/news/topstories/regions/1010426/palace-seeks-verification-of-aeta-thumbprints-on-pax-silica-documents/story/",
+      "image": "https://images.gmanews.tv/webpics/2026/11/Screenshot_2026-11-22_195353_2026_11_22_19_54_43.jpg"
+    },
+    {
+      "title": "Pax Silica deal far from done, Gatchalian says",
+      "source": "The Manila Times",
+      "date": "2026-11-22",
+      "url": "https://www.manilatimes.net/2026/11/22/news/pax-silica-deal-far-from-done-gatchalian-says/2475583",
+      "image": ""
+    },
+    {
       "title": "Groups condemn alleged harassment of Ayta leader over anti-Pax Silica protest",
       "source": "The Philippine Star",
       "date": "2026-11-21",
@@ -56,20 +70,6 @@
       "date": "2026-11-18",
       "url": "https://news.tv5.com.ph/breaking/read/prosecutors-order-release-of-200-arrested-amid-anti-trump-protests",
       "image": "https://n5ecms.tv5.com.ph/wp-content/uploads/2026/11/HXX5HlLagAAfzr_-768x576.jpg"
-    },
-    {
-      "title": "80+ Groups Urge Congress to Halt Trump’s ‘Pax Silica’ Mineral Project as Thousands of Filipinos Protest",
-      "source": "Common Dreams",
-      "date": "2026-11-17",
-      "url": "https://www.commondreams.org/news/pax-silica",
-      "image": "https://www.commondreams.org/media-library/image.jpg?id=68704311&width=1200&height=600&coordinates=0%2C417%2C0%2C417"
-    },
-    {
-      "title": "PH envoy Romualdez: US won't initiate Pax Silica talks during ASEAN meetings",
-      "source": "GMA News",
-      "date": "2026-11-17",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1009774/ph-envoy-romualdez-us-won-t-initiate-pax-silica-talks-during-asean-meetings/story/",
-      "image": "https://images.gmanews.tv/webpics/2025/01/josemanuelromualdez_2025_01_20_09_57_55.jpg"
     }
   ]
 }
