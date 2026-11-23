@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-11-23",
+      "type": "correction",
+      "title": "Automated remediation corrects 6 recorded findings",
+      "site_version": "1.84",
+      "assessment_version": "3.18",
+      "commits": [],
+      "summary": "The remediation lane corrected 6 recorded findings; each correction was agreed by an independent OpenAI review. Findings corrected: November data-centre evidence is cited in prose but omitted from the claim's source route; China rare-earth export controls 'suspended for a year' (china-rare-earth-truce); 'Three months before this report' for the 373 MW deficit (grid-deficit-relative); Parcel gate cites only the 10 June FOI refusal (parcel-gate-foi); Monitor's hashtag ratio labelled 'currently' (monitor-hashtag-ratio); 'Mobilisation is scheduled for 16 November' (mobilisation-16-november).",
+      "supersedes": "three months before this report.; “issued red alerts three months before this report,”; request refused 10 Jun 2026'; currently 50 against 105'; is scheduled for 16 November; the International League of Peoples’ Struggle has called a global day of action for that date, premised on its own expectation that President Trump will sign, which no official source located confirms.; is scheduled for 16 November. The International League of Peoples' Struggle has called a global day of action for that date, premised on its own expectation that President Trump will sign, which no official source located confirms"
+    },
+    {
+      "date": "2026-11-23",
       "type": "update",
       "title": "Senate President Gatchalian says Secretary Rubio told him the United States was not rushing the initiative, and the Palace calls for a reported Aeta quitclaim form to be authenticated",
       "site_version": "1.83",
