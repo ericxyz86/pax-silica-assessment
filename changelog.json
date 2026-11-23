@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-23",
+      "type": "update",
+      "title": "Senate President Gatchalian says Secretary Rubio told him the United States was not rushing the initiative, and the Palace calls for a reported Aeta quitclaim form to be authenticated",
+      "site_version": "1.83",
+      "assessment_version": "3.17",
+      "commits": [],
+      "summary": "In separately reported radio interviews on 21 and 22 November 2026, Senate President Sherwin Gatchalian said Secretary of State Marco Rubio had told him, at the 18 November state luncheon at Malacañang, that the United States understood there were many concerns, did not want to rush and wanted the Philippine government to resolve them first (The Manila Times; GMA News; Manila Standard). The Manila Times quotes him describing an agreement as “still very far”. It is his second-hand account; no US readout was located, it sets no date, and it does not establish that negotiations have stopped. On 22 November Palace Press Officer Claire Castro called for the authentication of a form headed “Kasunduan at Pagbibitiw Habol”, which the Daily Tribune reports bears the thumbprint of an Aeta farmer in Barangay O’Donnell, Capas, states that the land he farms belongs to the government and BCDA, supports the New Clark City project and records ₱30,000 in financial aid; Malaya, citing unspecified reports, says farmers were allegedly told they would receive ₱30 per square metre in financial assistance. BCDA President Ariel Nepomuceno told the Tribune that “a thumbprint alone does not guarantee informed consent” and that BCDA would look at the documents’ authenticity and the circumstances surrounding them. The form’s authenticity, origin and legal effect are not established; as quoted it does not name Pax Silica, and whether its land lies inside the proposed parcel is not established. The timeline, the environmental and social section, the stakeholder map’s notes for BCDA, Malacañang, the United States and the Senate, the scenario section’s timing watch and the source register are updated. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves, and displacement remains Disputed."
+    },
+    {
       "date": "2026-11-22",
       "type": "correction",
       "title": "Automated remediation corrects 3 recorded findings",
