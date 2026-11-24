@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-24",
+      "type": "correction",
+      "title": "The Energy Secretary’s position is narrowed, and two source records are corrected",
+      "site_version": "1.86",
+      "assessment_version": "3.20",
+      "commits": [],
+      "summary": "The recommendations summary said that making land handover conditional on financed firm generation and financed water storage is “now the Energy Secretary’s stated position”. Her documented statement supports the generation limb only: 100–200 MW on-grid, then the project’s own power plant. The water-storage limb and the handover link are this report’s recommendation, and the summary now says so. A Presidential Communications Office release of 16 September 2026 was registered as Tier 3 journalism (T3-101); it is re-registered as T1-89, Tier 1 for what PCO published, and its note says it establishes the published official position, not an enforceable exclusion of mineral processing. The claim-checker card “There will be no mining inside the project area” quotes DTI-BOI’s Rodolfo but listed only sources that predate his statement; his 30 September BusinessWorld feature (T3-94) is added. The finding-level gate supported all four corrections and refuted the first draft only for release completeness, section references and a date, which are corrected; a second round returned UNREFUTED_WITH_CAVEATS with no required edits. No figure, Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves.",
+      "supersedes": "“financed water storage, which is now the Energy Secretary’s stated position and not only this report’s recommendation”"
+    },
+    {
       "date": "2026-11-23",
       "type": "correction",
       "title": "BCDA’s “over 130,000 jobs” is dated 23 July, not 22 July",
