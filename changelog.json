@@ -15,6 +15,16 @@
     {
       "date": "2026-11-24",
       "type": "correction",
+      "title": "The conversion rate is rebased to PHP 63.78, and President Trump’s November visit is described as past",
+      "site_version": "1.87",
+      "assessment_version": "3.21",
+      "commits": [],
+      "summary": "Every peso–dollar conversion used PHP 61.85, the peso’s record-low close of 24 July 2026. On 20 November 2026 the European Central Bank’s euro reference rates gave US$1 = PHP 63.777, a move of 3.1%, beyond the 2% at which the daily freshness check calls for a rebase. Conversions now use PHP 63.78, and the convention sentences name the ECB (registered as T1-90). The present value of BCDA’s PHP 60 billion lease income is about US$402 million, not US$414 million, and 0.57%–1.00% of the projected investment, not 0.59%–1.03%; the two-year rent grace is worth about US$75.3 million, not US$77.6 million; investment per hectare is PHP 1.58bn–2.76bn. Source-given peso inputs and dollar amounts are unchanged; their converted equivalents are rebased. The decision panel said the counterparty “wants a deliverable for a presidential visit tied to the 80th anniversary of bilateral relations”. That visit passed without a signing: on 18 November President Marcos and US Ambassador Lipton said no framework would be signed during it. The panel is restated in the past tense, and it now says that in the record reviewed it was BCDA that tied a signing to the anniversary, as the Inquirer reported on 4 November (T3-219). The unsupported attribution of a presidential-visit deliverable preference to the US counterparty is withdrawn; the legal-leverage conclusion is unchanged. These were deferred freshness decisions the remediation lane could not correct. The finding-level gate supported both corrections and refuted the first draft only for a disclosure error and release completeness, which are corrected; a second round returned UNREFUTED_WITH_CAVEATS with no required edits. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves.",
+      "supersedes": "“the counterparty wants a deliverable for a presidential visit tied to the 80th anniversary of bilateral relations”; “Exchange rate throughout: PHP 61.85 = US$1, 24 July 2026.”; “PHP 61.85 = US$1 throughout”; “All conversions use PHP 61.85 per US$1”; “at PHP 61.85 per US$1”; “0.59%–1.03% of the projected investment”; “0.59% to 1.03% of the capital it is meant to host”; “PHP 1.53bn – 2.67bn/ha”; “PHP 2.4bn/yr = US$38.8m/yr”; “PHP 25.62bn ≈ US$414m”; “0.59% – 1.03%”; “≈PHP 4.8bn (US$77.6m)”; “PHP 2,125,000 (US$34,357)”; “The exchange rate used throughout this report.”"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "correction",
       "title": "The Energy Secretary’s position is narrowed, and two source records are corrected",
       "site_version": "1.86",
       "assessment_version": "3.20",
