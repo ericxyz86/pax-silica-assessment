@@ -14,6 +14,16 @@
   "entries": [
     {
       "date": "2026-11-25",
+      "type": "correction",
+      "title": "Automated remediation corrects 2 recorded findings",
+      "site_version": "1.89",
+      "assessment_version": "3.23",
+      "commits": [],
+      "summary": "The remediation lane corrected 2 recorded findings; each correction was agreed by an independent OpenAI review. Findings corrected: The new Gatchalian and quitclaim findings lack their supporting section source routes; The sixteen gates and their evidence notes (gates-sixteen).",
+      "supersedes": "[\"T3-06\",\"T3-05\",\"T3-20\"]"
+    },
+    {
+      "date": "2026-11-25",
       "type": "update",
       "title": "The Palace says that, for the President and the executive, Pax Silica will not be made into a data centre, in answer to a question about House Bill No. 11758",
       "site_version": "1.88",

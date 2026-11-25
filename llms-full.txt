@@ -201,7 +201,7 @@ New in v3.17: in separately reported radio interviews on 21 and 22 November Sena
 
 New in v3.22: on 24 November, asked at a Malacañang press briefing about the data-centre provision of House Bill 11758 (Sec. 24(c)), Palace Press Officer Claire Castro said that, “For the President, the executive, and the administration, Pax Silica will not be made into a data center” (the Philippine News Agency’s translation), and that lawmakers knew what the President wanted (PNA; The Manila Times; DZRH). Palawan News reports that she did not explicitly commit the Palace to seeking the provision’s removal. It restates the President’s 20 November assurance and is a statement, not an instrument; it does not amend the bill and sets no date. No PCO transcript or RTVM recording was retrieved. The House’s 10 November reference of business refers the bill to the Committee on Economic Affairs and the Committee on Trade and Industry (see the definitions section).
 
-[sources drawn on: T1-10 · T1-11 · T1-02 · T1-05 · T1-07 · T1-06 · T3-06 · T3-03 · T1-26 · T1-35 · T1-36 · T1-37 · T1-38 · T1-39 · T1-40 · T1-43 · T1-44 · T3-35 · T3-36 · T3-37 · T3-38 · T3-39 · T3-40 · T3-41 · T3-42 · T3-43 · T1-41 · T3-44 · T3-45 · T3-46 · T3-47 · T3-48 · T3-49 · T3-50 · T3-51 · T3-52 · T3-53 · T3-54 · T3-55 · T3-56 · T3-76 · T3-77 · T3-78 · T3-79 · T3-80 · T3-81 · T3-83 · T3-84 · T3-85 · T3-86 · T3-87 · T3-88 · T1-57 · T3-90 · T3-91 · T3-94 · T3-99 · T3-102 · T3-103 · T3-104 · T3-105 · T3-106 · T3-107 · T3-108 · T3-109 · T3-110 · T3-111 · T3-112 · T3-113 · T3-114 · T3-115 · T3-116 · T3-117 · T3-118 · T3-119 · T3-120 · T1-79 · T4-09 · T3-176 · T3-177 · T3-178 · T3-179 · T3-180]
+[sources drawn on: T1-10 · T1-11 · T1-02 · T1-05 · T1-07 · T1-06 · T3-06 · T3-03 · T1-26 · T1-35 · T1-36 · T1-37 · T1-38 · T1-39 · T1-40 · T1-43 · T1-44 · T3-35 · T3-36 · T3-37 · T3-38 · T3-39 · T3-40 · T3-41 · T3-42 · T3-43 · T1-41 · T3-44 · T3-45 · T3-46 · T3-47 · T3-48 · T3-49 · T3-50 · T3-51 · T3-52 · T3-53 · T3-54 · T3-55 · T3-56 · T3-76 · T3-77 · T3-78 · T3-79 · T3-80 · T3-81 · T3-83 · T3-84 · T3-85 · T3-86 · T3-87 · T3-88 · T1-57 · T3-90 · T3-91 · T3-94 · T3-99 · T3-102 · T3-103 · T3-104 · T3-105 · T3-106 · T3-107 · T3-108 · T3-109 · T3-110 · T3-111 · T3-112 · T3-113 · T3-114 · T3-115 · T3-116 · T3-117 · T3-118 · T3-119 · T3-120 · T1-79 · T4-09 · T3-176 · T3-177 · T3-178 · T3-179 · T3-180 · T3-210 · T3-211 · T3-212 · T3-213]
 
 ### 09. Global Pax Silica structure and objectives
 A State Department programme, not an international organisation.
@@ -347,7 +347,7 @@ The local government record was never as thin as this report said, and one of it
 
 On hazardous materials, semiconductor and refining chemistry generates acids, solvents, fluorinated gases, tailings and residues. No treatment, storage and disposal plan has been published, and the former base lands at Subic and Clark have a documented contamination history. Financial assurance bonds and environmental liability insurance sized to remediation cost are the standard response and are absent.
 
-[sources drawn on: T3-16 · T3-17 · T2-06 · T4-05 · T1-20 · A-11 · A-12 · T3-35 · T3-36 · T3-37 · T3-38 · T3-42 · T3-43 · T3-46 · T3-50 · T3-51 · T3-52 · T3-76 · T3-79 · T3-80 · T3-81 · T3-82 · T3-89 · T3-90 · T3-91 · T3-94 · T3-98 · T3-106 · T3-107 · T3-108 · T3-109 · T3-110 · T3-111 · T3-112 · T3-113 · T3-114 · T3-115 · T3-116 · T3-117 · T3-118 · T3-119 · T3-120 · T1-79 · T4-09 · T3-172]
+[sources drawn on: T3-16 · T3-17 · T2-06 · T4-05 · T1-20 · A-11 · A-12 · T3-35 · T3-36 · T3-37 · T3-38 · T3-42 · T3-43 · T3-46 · T3-50 · T3-51 · T3-52 · T3-76 · T3-79 · T3-80 · T3-81 · T3-82 · T3-89 · T3-90 · T3-91 · T3-94 · T3-98 · T3-106 · T3-107 · T3-108 · T3-109 · T3-110 · T3-111 · T3-112 · T3-113 · T3-114 · T3-115 · T3-116 · T3-117 · T3-118 · T3-119 · T3-120 · T1-79 · T4-09 · T3-172 · T3-213 · T3-214 · T3-215 · T3-216]
 
 ### 17. Geopolitical, sovereignty and national-security implications
 A strategy of displacement, stated by its author, hosted physically by the Philippines.
@@ -426,7 +426,7 @@ Scenario B deserves particular attention because it is both the most likely and 
 
 The outcome is most sensitive, in order, to: whether a named anchor reaches financial close with disclosed capital; whether firm power is delivered, when, and at what price; whether water storage is built and abstraction capped; whether the framework survives legal challenge; the global AI capex cycle; and US trade policy toward the Philippines. Three of the six turn on Philippine decisions by the executive, regulators and courts, and all three are currently unresolved. That is where policy effort should concentrate, because it is where effort changes outcomes.
 
-[sources drawn on: T3-06 · T3-05 · T3-20]
+[sources drawn on: T3-06 · T3-05 · T3-20 · T3-210 · T3-211 · T3-212]
 
 ### 22. Risk register
 Twenty-one risks, with likelihood, impact, exposed parties and early-warning indicators.
