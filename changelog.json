@@ -13,6 +13,25 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-25",
+      "type": "update",
+      "title": "The Palace says that, for the President and the executive, Pax Silica will not be made into a data centre, in answer to a question about House Bill No. 11758",
+      "site_version": "1.88",
+      "assessment_version": "3.22",
+      "commits": [],
+      "summary": "At a Malacañang press briefing on 24 November 2026, asked about Sec. 24(c) of House Bill No. 11758, which lists data centres for artificial intelligence among the activities qualifying for incentives in its proposed New Clark City zone, Palace Press Officer Claire Castro said, as the Philippine News Agency reports, “Muli para sa Pangulo, para sa Ehekutibo, sa administration, hindi po gagawing data center ang Pax Silica” (in PNA’s translation, “For the President, the executive, and the administration, Pax Silica will not be made into a data center”). The Manila Times and DZRH report the same position, and Palawan News reports that, asked whether the Palace would ask its allies in Congress to remove the provision, she did not explicitly commit it to seeking removal. It is the executive’s first located response to Sec. 24(c). It restates the President’s 20 November assurance and is a statement, not an instrument: it does not amend the bill, and Sec. 24(c) makes data-centre activities eligible for incentives without requiring any to be built. Rappler reported the same day that the bill is not yet a Palace priority measure and has no Senate counterpart. Updated: the definitions section, the detailed timeline, the stakeholder section and the Malacañang note on the stakeholder map; the claim-checker note on data centres, its verdict unchanged; register entries T1-91 and T3-220 to T3-224. No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves."
+    },
+    {
+      "date": "2026-11-25",
+      "type": "correction",
+      "title": "House Bill No. 11758 was referred to two House committees, not one",
+      "site_version": "1.88",
+      "assessment_version": "3.22",
+      "commits": [],
+      "summary": "This page said the indexed House record reported House Bill No. 11758’s referral to the Committee on Economic Affairs on 10 November. The House’s Additional Reference of Business for Session No. 12, Tuesday 10 November 2026 (registered as T1-91), refers it “to the Committee on Economic Affairs and the Committee on Trade and Industry”, the two committees that held the 11 November joint briefing on the initiative, for which no consideration of HB 11758 was established in the sources reviewed. The stakeholder section is corrected, and the definitions section gains the second committee. The assessment’s §7 and §15.2.4 are corrected likewise, and its §5.1, which still said the bill’s text had not been retrieved, now points to the filed text read at v3.15.",
+      "supersedes": "the indexed House record reports reading and referral to the Committee on Economic Affairs on 10 November, superseding those earlier limitations for current status."
+    },
+    {
       "date": "2026-11-24",
       "type": "correction",
       "title": "The conversion rate is rebased to PHP 63.78, and President Trump’s November visit is described as past",
