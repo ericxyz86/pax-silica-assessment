@@ -2,6 +2,13 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Palace: Pax Silica won't host data centers despite House bill provision",
+      "source": "The Manila Times",
+      "date": "2026-11-24",
+      "url": "https://www.manilatimes.net/2026/11/24/news/palace-pax-silica-wont-host-data-centers-despite-house-bill-provision/2476834",
+      "image": "https://manilatimes.net/manilatimes/uploads/images/2026/11/24/1322502.jpg"
+    },
+    {
       "title": "Palace seeks verification of Aeta thumbprints on Pax Silica documents",
       "source": "GMA News",
       "date": "2026-11-22",
@@ -63,13 +70,6 @@
       "date": "2026-11-18",
       "url": "https://www.gmanetwork.com/news/topstories/nation/1009914/marcos-lipton-no-signing-of-pax-silica-during-trump-s-state-visit/story/",
       "image": "https://images.gmanews.tv/webpics/2026/11/Screenshot_2026-11-18_121232_2026_11_18_12_12_46.png"
-    },
-    {
-      "title": "Prosecutors order release of 200 arrested amid anti-Trump protests",
-      "source": "News5",
-      "date": "2026-11-18",
-      "url": "https://news.tv5.com.ph/breaking/read/prosecutors-order-release-of-200-arrested-amid-anti-trump-protests",
-      "image": "https://n5ecms.tv5.com.ph/wp-content/uploads/2026/11/HXX5HlLagAAfzr_-768x576.jpg"
     }
   ]
 }
