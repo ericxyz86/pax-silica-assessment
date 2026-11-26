@@ -14,6 +14,15 @@
   "entries": [
     {
       "date": "2026-11-26",
+      "type": "process",
+      "title": "Gemini may now read the site to answer questions",
+      "site_version": "1.92",
+      "assessment_version": "3.25",
+      "commits": [],
+      "summary": "Crawl policy only: no text, figure, finding or precondition changes. The site's robots.txt no longer blocks Google-Extended. Since v1.27 the policy has been to welcome search engines and AI agents that answer questions, and to exclude crawlers that collect training data. Google-Extended was blocked as a training crawler, but Google uses that one token for two things: training Gemini models and grounding Gemini's answers in current web pages. Blocking it therefore kept the assessment out of Gemini's answers as well, which the policy did not intend. Google offers no way to allow one without the other, so the publisher has chosen to allow both. Google Search and its AI Overviews were never affected, because they use Googlebot. The other training crawlers (GPTBot, ClaudeBot, CCBot, Applebot-Extended, meta-externalagent and Bytespider) stay blocked, and OpenAI's, Anthropic's and Perplexity's search and user-fetch agents stay allowed, as before."
+    },
+    {
+      "date": "2026-11-26",
       "type": "correction",
       "title": "Automated remediation corrects 2 recorded findings",
       "site_version": "1.91",

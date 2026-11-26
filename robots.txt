@@ -7,6 +7,9 @@ Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /archive/
 
 # Training-only crawlers. The Cloudflare edge enforces the same policy.
+# Google-Extended is deliberately not listed (since site v1.92): Google uses that one
+# token for both Gemini training and Gemini grounding, so allowing Gemini answers to
+# cite the site also allows Gemini training.
 User-agent: GPTBot
 Disallow: /
 
@@ -20,9 +23,6 @@ User-agent: Applebot-Extended
 Disallow: /
 
 User-agent: meta-externalagent
-Disallow: /
-
-User-agent: Google-Extended
 Disallow: /
 
 User-agent: Bytespider
