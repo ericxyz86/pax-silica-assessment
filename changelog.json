@@ -13,6 +13,15 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-26",
+      "type": "update",
+      "title": "In the Senate’s plenary deliberations on BCDA’s 2027 budget, BCDA’s sponsor says there is no specific Pax Silica allocation, gives a count of 198 potentially affected families, and relays a denial on quitclaims and a conditional commitment not to displace residents; BCDA’s vice president puts full development at about 20 to 25 years",
+      "site_version": "1.90",
+      "assessment_version": "3.24",
+      "commits": [],
+      "summary": "In the Senate’s plenary deliberations on BCDA’s proposed 2027 budget, reported on 24–25 November 2026 (outlets differ on the calendar day of the exchange), Sen. Bam Aquino, sponsoring the budget, answered Sen. Imee Marcos on BCDA’s behalf, as GMA News, Philstar, Manila Bulletin, ABS-CBN, BusinessWorld, the Daily Tribune and TV5 report. He said there is no specific Pax Silica allocation in BCDA’s proposed 2027 budget or its internally generated funds; BCDA’s general ₱322-million corporate financial-assistance fund could nevertheless assist affected families, and private locators would fund relocation and the site’s development. He gave BCDA’s count of 198 potentially affected families, relayed BCDA’s denial of asking anyone to sign a quitclaim, and, asked whether BCDA commits that no resident will be displaced, no agricultural land cleared and no community relocated until funds are secured and rights respected, answered “Yes, there’s a commitment, Mr. President, from BCDA.” He said BCDA plans to generate the zone’s power on site, so investors would likely not locate for about five years, and that the Maynilad/K-water water venture predates the initiative. The commitment is a relayed, conditional assurance, not an instrument; no underlying enumeration, methodology or boundary for the 198 count was located, comparability with earlier counts has not been established, and the reported change is not a verified population reduction; the relayed denial is not the verification result BCDA’s president undertook on 22–23 November. On 21 November BCDA Vice President Erwin Kenneth Peralta told Taiwan’s Central News Agency that full development of the roughly 1,620-hectare park would take about 20 to 25 years, the first five on land preparation, utility lines and roads. Added to the detailed timeline, the environmental and social section, the claim-checker note on displacement and the stakeholder-map notes for BCDA and the Senate, with ten register entries (T3-225 to T3-234). No Key Judgment, confidence level, scenario weight, precondition, red line or claim-checker verdict moves; displacement remains Disputed."
+    },
+    {
       "date": "2026-11-25",
       "type": "correction",
       "title": "Automated remediation corrects 2 recorded findings",
