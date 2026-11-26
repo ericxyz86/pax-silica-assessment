@@ -2,6 +2,20 @@
   "note": "Items appear here only after verification against primary sources (the adversarial gate). Newest first. The generator renders at most 10 in a carousel.",
   "items": [
     {
+      "title": "Taiwanese firms waiting to see US commitment before betting on Pax Silica",
+      "source": "The Philippine Star",
+      "date": "2026-11-26",
+      "url": "https://www.philstar.com/headlines/2026/11/26/2572593/taiwanese-firms-waiting-see-us-commitment-betting-pax-silica",
+      "image": ""
+    },
+    {
+      "title": "BCDA commits to no Pax Silica evictions until funds, rights secured",
+      "source": "The Philippine Star",
+      "date": "2026-11-25",
+      "url": "https://www.philstar.com/headlines/2026/11/25/2572561/bcda-commits-no-pax-silica-evictions-until-funds-rights-secured",
+      "image": ""
+    },
+    {
       "title": "Palace: Pax Silica won't host data centers despite House bill provision",
       "source": "The Manila Times",
       "date": "2026-11-24",
@@ -56,20 +70,6 @@
       "date": "2026-11-19",
       "url": "https://www.gmanetwork.com/news/topstories/nation/1010082/ph-envoy-babe-romualdez-stresses-no-data-centers-eyed-in-new-clark-city/story/",
       "image": "https://images.gmanews.tv/webpics/2025/05/Screenshot_2025-05-28_at_3_2025_05_28_16_05_37.png"
-    },
-    {
-      "title": "Trump touts ‘biggest’ PH trade deal, but nothing signed yet",
-      "source": "Daily Guardian",
-      "date": "2026-11-19",
-      "url": "https://www.dailyguardian.com.ph/blog/trump-touts-biggest-ph-trade-deal-but-nothing-signed-yet",
-      "image": "https://old.dailyguardian.com.ph/wp-content/uploads/2026/11/Donald-Trump.jpg"
-    },
-    {
-      "title": "Marcos, Lipton: No signing of Pax Silica during Trump's state visit",
-      "source": "GMA News",
-      "date": "2026-11-18",
-      "url": "https://www.gmanetwork.com/news/topstories/nation/1009914/marcos-lipton-no-signing-of-pax-silica-during-trump-s-state-visit/story/",
-      "image": "https://images.gmanews.tv/webpics/2026/11/Screenshot_2026-11-18_121232_2026_11_18_12_12_46.png"
     }
   ]
 }
