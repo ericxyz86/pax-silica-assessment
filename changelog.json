@@ -13,6 +13,16 @@
   "history_before_this_log": "Changes before 7 August 2026 are recorded in Appendix H of the assessment (change logs v2.1 through v2.14, in the full report and the PDF) and in the public repository history.",
   "entries": [
     {
+      "date": "2026-11-27",
+      "type": "correction",
+      "title": "Automated remediation corrects 1 recorded finding",
+      "site_version": "1.93",
+      "assessment_version": "3.26",
+      "commits": [],
+      "summary": "The remediation lane corrected 1 recorded finding; each correction was agreed by an independent OpenAI review; corrections that change a confidence level, scenario weight, claim verdict, precondition or risk rating were also agreed by a separate Claude review. Findings corrected: The no-mining assurance is labelled a verified future land-use fact.",
+      "supersedes": "**Verified as to extraction on site;; 'verified', cat: 'environment', n: 'Verified as to extraction on site; is accurate and, on this point,"
+    },
+    {
       "date": "2026-11-26",
       "type": "process",
       "title": "Gemini may now read the site to answer questions",
